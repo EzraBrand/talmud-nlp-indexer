@@ -38,7 +38,7 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 
 0b. **Expand input range:** Test on a longer range of Talmud berakhot; expand to the first 20 pages.
 
-0c. **Test having the output be more naturally readable:** In addition to JSON format, test parallel markdown format, especially of sentences, with recognized named entities highlighted / tagged. For QA and initial implementation.
+0c. **Test having the output be more human readable:** In addition to JSON format, test parallel addition human-readable format (markdown?), especially of sentences, with recognized named entities highlighted / tagged. For QA and initial implementation.
 
 0d. **Identify and output words in italics (=transliterations)**: in separate section in output (JSON), list words in italics in ed. steinsaltz English.
 
