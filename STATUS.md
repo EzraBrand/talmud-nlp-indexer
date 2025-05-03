@@ -13,15 +13,17 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
         *   Processes English text by **first extracting only bolded text** (using regex `<b>.*?</b>`) and then using spaCy for NER and noun chunks. This focuses analysis on the direct translation, excluding commentary.
     *   `tagging.py`: 
         *   Generates tags based on entities (PERSON, GPE) and keyword matching in noun phrases from the processed (bolded) English text.
-        *   **Integrated a custom name gazetteer** (`data/talmud_names_gazetteer.txt`) to augment PERSON entity tagging.
-        *   **Integrated a custom toponym gazetteer** (`data/talmud_toponyms_gazetteer.txt`) to augment GPE/place tagging.
-        *   **Integrated a custom concept gazetteer** (`data/talmud_concepts_gazetteer.txt`) to augment concept tagging (generating `concept:` tags).
+        *   Integrated a custom name gazetteer (`data/talmud_names_gazetteer.txt`) to augment PERSON entity tagging.
+        *   **Integrated a custom Bible name gazetteer** (`data/bible_names_gazetteer.txt`) to identify biblical figures (`person:bible:<name>`), prioritizing these tags.
+        *   Integrated a custom toponym gazetteer (`data/talmud_toponyms_gazetteer.txt`) to augment GPE/place tagging.
+        *   Integrated a custom concept gazetteer (`data/talmud_concepts_gazetteer.txt`) to augment concept tagging (generating `concept:` tags).
         *   Includes basic topic modeling (`extract_topics`) using scikit-learn LDA (not yet integrated into tags).
     *   `main.py`: Orchestrates fetching, processing, and saving results for a specified range (currently Berakhot 2a-7a). Saves output to `data/` directory as JSON.
 2.  **Gazetteers**:
     *   Created and populated `data/talmud_names_gazetteer.txt` with ~3k known names.
     *   Created and populated `data/talmud_toponyms_gazetteer.txt` with ~285 known place names.
-    *   **Created and populated `data/talmud_concepts_gazetteer.txt` with ~60 known concepts.**
+    *   Created and populated `data/talmud_concepts_gazetteer.txt` with ~60 known concepts.
+    *   **Created and populated `data/bible_names_gazetteer.txt` with ~1.5k known Bible names.**
 3.  **Dependency Management**: `requirements.txt` is up-to-date.
 4.  **Testing Framework**:
     *   Added `pytest` and `pytest-mock` to dependencies.
@@ -29,17 +31,17 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
     *   Implemented unit tests with mocks for:
         *   `api.py` (`tests/test_api.py`)
         *   `processor.py` (`tests/test_processor.py`)
-        *   `tagging.py` (`tests/test_tagging.py`) - Updated to mock and test loading and usage of **all three gazetteers (names, toponyms, concepts)**.
+        *   `tagging.py` (`tests/test_tagging.py`) - Updated to mock and test loading and usage of **all four gazetteers (names, toponyms, concepts, Bible names)**.
     *   Implemented integration test for `main.py` (`tests/test_main.py`) using mocks.
-    *   **All 14 tests are currently passing.**
-5.  **Documentation**: Updated `README.md` and `STATUS.md` with current features (including all three gazetteers), setup, running, and testing instructions.
-6.  **Execution**: Successfully ran `main.py` to fetch, process (using bold-only English text and all three gazetteers), and save data for Berakhot 2a-7a using the live Sefaria API. Verified improved `person:`, `place:`, and new `concept:` tagging in output JSONs.
+    *   **All 15 tests (across all test files) are currently passing.**
+5.  **Documentation**: Updated `README.md` and `STATUS.md` with current features (including all four gazetteers), setup, running, and testing instructions.
+6.  **Execution**: Successfully ran `main.py` to fetch, process (using bold-only English text and all four gazetteers), and save data for Berakhot 2a-7a using the live Sefaria API. Verified improved `person:`, `place:`, `concept:`, and new `person:bible:` tagging in output JSONs.
 
 ## Current Status
 
-*   The pipeline (fetch -> process bolded EN / clean HE -> tag (NER + Name/Toponym/Concept Gazetteers) -> save) is functional and tested (unit & integration) for the specified range.
+*   The pipeline (fetch -> process bolded EN / clean HE -> tag (NER + Name/Toponym/Concept/Bible Gazetteers) -> save) is functional and tested (unit & integration) for the specified range.
 *   English analysis is targeted at the bolded translation text.
-*   Person, Place, and Concept tagging are significantly improved by the gazetteers.
+*   Person (including biblical), Place, and Concept tagging are significantly improved by the gazetteers.
 *   The tagging logic for topics is still basic (keyword matching). Topic modeling results from `extract_topics` are not currently integrated into `generate_tags`.
 *   Error handling in `main.py` is present but could be more robust.
 *   Serialization in `main.py` handles basic data but explicitly excludes complex objects like spaCy docs or full embeddings (only embedding shape is saved).
@@ -54,3 +56,4 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 3.  **Configuration**: Move settings like the target tractate/pages from `main.py` into a configuration file or command-line arguments.
 4.  **Error Handling & Logging**: Implement more robust error handling and add proper logging throughout the application.
 5.  **Data Storage**: Consider alternative storage solutions if JSON files become unwieldy (e.g., a database, document store). Decide how to store/use the large Hebrew embeddings if needed beyond just their shape.
+6.  **Live API Testing**: Add a mechanism (perhaps a separate script or test suite) to run tests against the live Sefaria API for specific pages to verify end-to-end functionality, as manual testing in `main.py` is not sustainable.

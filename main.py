@@ -108,5 +108,57 @@ def main():
     print("Processing complete!")
 
 
+def test_tagging_on_sefaria_page(tractate="Berakhot", daf="2a"):
+    """Fetches a page from Sefaria, processes it, and generates tags."""
+    print(f"--- Testing Tagging on {tractate} {daf} ---")
+    try:
+        api = SefariaAPI()
+        processor = TextProcessor()
+        tagger = TalmudTagger() # Uses default gazetteer paths
+
+        # 1. Fetch data
+        print(f"Fetching {tractate} {daf}...")
+        page_data = api.fetch_talmud_page(tractate, daf)
+
+        if 'en' not in page_data or not page_data['en']:
+            print("Error: English text not found in fetched data.")
+            return
+
+        # 2. Clean English text (extract bold)
+        raw_en_text = " ".join(page_data['en']) # Join list of strings if necessary
+        print("Cleaning English text (extracting bold)...")
+        cleaned_en_text = processor.clean_text(raw_en_text, 'en')
+        print(f"Cleaned Text (Bold): {cleaned_en_text[:500]}...") # Print snippet
+
+        if not cleaned_en_text:
+            print("Warning: No bolded English text found to process.")
+            return # Stop if no bold text found as per current logic
+
+        # 3. Process English text
+        print("Processing English text with spaCy...")
+        processed_en = processor.process_english(cleaned_en_text)
+        print(f"Found Entities: {processed_en.get('entities', [])}")
+        print(f"Found Noun Phrases: {processed_en.get('noun_phrases', [])}")
+
+        # 4. Generate Tags
+        print("Generating tags...")
+        # Currently, topics are not used in generate_tags, pass empty list
+        tags = tagger.generate_tags(processed_en, topics=[])
+
+        # 5. Print Tags
+        print("--- Generated Tags ---")
+        if tags:
+            for tag in tags:
+                print(f"- {tag}")
+        else:
+            print("No tags generated.")
+        print("-----------------------")
+
+    except Exception as e:
+        print(f"An error occurred during testing: {e}")
+
+
 if __name__ == "__main__":
     main()
+
+    # Run the Sefaria API test

@@ -38,10 +38,11 @@ def tagger(mocker): # Add mocker to the fixture
     mocker.patch('tagging.CountVectorizer', return_value=MockVectorizer())
     mocker.patch('tagging.LatentDirichletAllocation', side_effect=lambda n_components, random_state: MockLDA(n_components, random_state))
 
-    # Mock gazetteer file reading for all three files
-    name_gazetteer_content = "Rabbi Akiva\nRav Ashi\nShimon ben Lakish\nZutra bar Toviyya"
+    # Mock gazetteer file reading for all four files
+    name_gazetteer_content = "Rabbi Akiva\nRav Ashi\nShimon ben Lakish\nZutra bar Toviyya\nDavid" # Add David to test overlap
     toponym_gazetteer_content = "Babylonia\nJerusalem\nAkko\nPumbedita"
     concept_gazetteer_content = "Shekhina\nbat kol\ntefillin\nGehenna\nShabbat"
+    bible_name_gazetteer_content = "Moses\nAaron\nDavid\nSarah" # Add David here too
 
     # Mock os.path.exists to always return True for simplicity in this fixture
     mocker.patch('tagging.os.path.exists', return_value=True)
@@ -51,6 +52,7 @@ def tagger(mocker): # Add mocker to the fixture
         "data/talmud_names_gazetteer.txt": mock_open(read_data=name_gazetteer_content).return_value,
         "data/talmud_toponyms_gazetteer.txt": mock_open(read_data=toponym_gazetteer_content).return_value,
         "data/talmud_concepts_gazetteer.txt": mock_open(read_data=concept_gazetteer_content).return_value,
+        "data/bible_names_gazetteer.txt": mock_open(read_data=bible_name_gazetteer_content).return_value, # Add bible names mock
     }
     # Use a side_effect function to return the correct mock file handle based on the path
     def open_side_effect(path, *args, **kwargs):
@@ -58,20 +60,24 @@ def tagger(mocker): # Add mocker to the fixture
             # Return the file handle itself
             return mock_file_map[path]
         # Fallback for any other file path if needed, though not expected in this test
-        return mock_open().return_value 
-        
+        return mock_open().return_value
+
     mocker.patch('builtins.open', side_effect=open_side_effect)
 
     # Instantiate the tagger - this will now use the mocked open
     tagger_instance = TalmudTagger()
 
     # Verify the mocks worked (optional check)
-    assert len(tagger_instance.name_gazetteer) == 4
+    assert len(tagger_instance.name_gazetteer) == 5 # Updated count
     assert "Rabbi Akiva" in tagger_instance.name_gazetteer
+    assert "David" in tagger_instance.name_gazetteer
     assert len(tagger_instance.toponym_gazetteer) == 4
     assert "Jerusalem" in tagger_instance.toponym_gazetteer
     assert len(tagger_instance.concept_gazetteer) == 5
     assert "Shekhina" in tagger_instance.concept_gazetteer
+    assert len(tagger_instance.bible_name_gazetteer) == 4 # Check bible gazetteer
+    assert "Moses" in tagger_instance.bible_name_gazetteer
+    assert "David" in tagger_instance.bible_name_gazetteer
 
     return tagger_instance
 
@@ -81,19 +87,20 @@ def test_generate_tags_from_entities(tagger):
         'entities': [
             ("Rabbi Akiva", "PERSON"), # In name gazetteer
             ("Babylonia", "GPE"),      # In toponym gazetteer
+            ("Moses", "PERSON"),       # In bible name gazetteer
             ("a book", "WORK_OF_ART") # Should be ignored
         ],
         'noun_phrases': [],
         'sentences': [],
-        'doc': MockProcessedDoc("Text mentioning Rabbi Akiva and Babylonia.") # Add mock doc
+        'doc': MockProcessedDoc("Text mentioning Rabbi Akiva, Babylonia, and Moses.") # Add mock doc
     }
     topics = []
     tags = tagger.generate_tags(processed_en, topics)
-    # NER finds Rabbi Akiva (PERSON), Gazetteer finds Rabbi Akiva.
-    # NER finds Babylonia (GPE), Gazetteer finds Babylonia.
-    # Set handles deduplication.
-    assert set(tags) == {"person:rabbi akiva", "place:babylonia"}
-    assert len(tags) == 2
+    # NER finds Rabbi Akiva (PERSON) -> person:rabbi akiva
+    # NER finds Babylonia (GPE) -> place:babylonia
+    # NER finds Moses (PERSON), which is in bible gazetteer -> person:bible:moses
+    assert set(tags) == {"person:rabbi akiva", "place:babylonia", "person:bible:moses"}
+    assert len(tags) == 3
 
 def test_generate_tags_from_noun_phrases(tagger):
     """Test tag generation based on keywords in noun phrases."""
@@ -112,22 +119,29 @@ def test_generate_tags_from_noun_phrases(tagger):
     assert set(tags) == {"topic:prayer", "topic:blessings"}
     assert len(tags) == 2
 
-def test_generate_tags_from_name_gazetteer(tagger): # Renamed for clarity
-    """Test tag generation specifically from name gazetteer matches."""
+def test_generate_tags_from_name_gazetteer(tagger):
+    """Test tag generation specifically from name gazetteer matches, handling bible name overlap."""
     processed_en = {
         'entities': [("Some Other Person", "PERSON")], # NER finds someone else
         'noun_phrases': [],
         'sentences': [],
-        'doc': MockProcessedDoc("This text mentions Rav Ashi. It also mentions zutra bar toviyya (lowercase). But not Rabbi Meir.") # Add mock doc with gazetteer names
+        # David is in both name and bible gazetteers in the mock setup
+        'doc': MockProcessedDoc("This text mentions Rav Ashi and David. It also mentions zutra bar toviyya (lowercase). But not Rabbi Meir.")
     }
     topics = []
     tags = tagger.generate_tags(processed_en, topics)
+    # Expected:
+    # - person:some other person (from NER)
+    # - person:rav ashi (from Name Gazetteer)
+    # - person:zutra bar toviyya (from Name Gazetteer, case-insensitive)
+    # - person:bible:david (from Bible Gazetteer, takes precedence over Name Gazetteer match)
     assert set(tags) == {
-        "person:some other person", # From NER
-        "person:rav ashi",          # From Gazetteer (exact case)
-        "person:zutra bar toviyya"  # From Gazetteer (lowercase match)
+        "person:some other person",
+        "person:rav ashi",
+        "person:zutra bar toviyya",
+        "person:bible:david"
     }
-    assert len(tags) == 3
+    assert len(tags) == 4
 
 def test_generate_tags_from_toponym_gazetteer(tagger):
     """Test tag generation specifically from toponym gazetteer matches."""
@@ -167,29 +181,54 @@ def test_generate_tags_from_concept_gazetteer(tagger):
     }
     assert len(tags) == 4
 
-def test_generate_tags_deduplication(tagger):
-    """Test that generated tags are deduplicated (NER + Gazetteers + Keywords)."""
+def test_generate_tags_from_bible_name_gazetteer(tagger):
+    """Test tag generation specifically from bible name gazetteer matches."""
     processed_en = {
-        'entities': [
-            ("Rabbi Akiva", "PERSON"), # NER + Name Gazetteer
-            ("Babylonia", "GPE")       # NER + Toponym Gazetteer
-        ],
-        'noun_phrases': ["the prayer of Rabbi Akiva", "another prayer about Shabbat"], # Keyword 'prayer', 'Shabbat' (also in concept gazetteer)
+        'entities': [],
+        'noun_phrases': [],
         'sentences': [],
-        'doc': MockProcessedDoc("Text about the prayer of Rabbi Akiva in Babylonia concerning Shabbat.") # Gazetteers find Akiva, Babylonia, Shabbat
+        'doc': MockProcessedDoc("This text mentions Moses and Aaron. Also Sarah (lowercase). Not Abraham.")
     }
     topics = []
     tags = tagger.generate_tags(processed_en, topics)
-    # NER finds Rabbi Akiva, Name Gazetteer finds Rabbi Akiva. -> person:rabbi akiva (1)
-    # NER finds Babylonia, Toponym Gazetteer finds Babylonia. -> place:babylonia (1)
-    # Noun phrase rule finds prayer twice. -> topic:prayer (1)
-    # Noun phrase rule finds Shabbat, Concept Gazetteer finds Shabbat. -> concept:shabbat (1)
+    # Expected: Bible gazetteer matches (case-insensitive)
+    assert set(tags) == {
+        "person:bible:moses",
+        "person:bible:aaron",
+        "person:bible:sarah"
+    }
+    assert len(tags) == 3
+
+def test_generate_tags_deduplication(tagger):
+    """Test that generated tags are deduplicated (NER + Gazetteers + Keywords + Bible Names)."""
+    processed_en = {
+        'entities': [
+            ("Rabbi Akiva", "PERSON"), # NER + Name Gazetteer
+            ("Babylonia", "GPE"),       # NER + Toponym Gazetteer
+            ("David", "PERSON")        # NER + Bible Gazetteer (also in Name Gazetteer mock)
+        ],
+        'noun_phrases': ["the prayer of Rabbi Akiva", "another prayer about Shabbat", "King David's prayer"], # Keywords: prayer, Shabbat; Names: Rabbi Akiva, David
+        'sentences': [],
+        'doc': MockProcessedDoc("Text about the prayer of Rabbi Akiva in Babylonia concerning Shabbat, mentioning David.") # Gazetteers find Akiva, Babylonia, Shabbat, David (Bible)
+    }
+    topics = []
+    tags = tagger.generate_tags(processed_en, topics)
+    # NER finds Rabbi Akiva -> person:rabbi akiva (1)
+    # NER finds Babylonia -> place:babylonia (1)
+    # NER finds David (Bible) -> person:bible:david (1)
+    # Noun phrase rule finds prayer twice -> topic:prayer (1)
+    # Noun phrase rule finds Shabbat, Concept Gazetteer finds Shabbat -> concept:shabbat (1)
+    # Gazetteer finds Rabbi Akiva -> already tagged
+    # Gazetteer finds Babylonia -> already tagged
+    # Gazetteer finds Shabbat -> already tagged
+    # Gazetteer finds David (Bible) -> already tagged
     assert tags.count("person:rabbi akiva") == 1
     assert tags.count("place:babylonia") == 1
+    assert tags.count("person:bible:david") == 1
     assert tags.count("topic:prayer") == 1
     assert tags.count("concept:shabbat") == 1
-    assert set(tags) == {"person:rabbi akiva", "place:babylonia", "topic:prayer", "concept:shabbat"}
-    assert len(tags) == 4
+    assert set(tags) == {"person:rabbi akiva", "place:babylonia", "person:bible:david", "topic:prayer", "concept:shabbat"}
+    assert len(tags) == 5
 
 def test_extract_topics(tagger):
     """Test topic extraction with mocked scikit-learn components."""

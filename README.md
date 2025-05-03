@@ -24,9 +24,10 @@ It leverages both the original Hebrew/Aramaic text and English translations avai
 - Text analysis including named entity recognition (NER), noun phrase extraction (English), and embeddings (Hebrew)
 - Tag generation:
   - Uses spaCy NER results (PERSON, GPE) from bolded English text.
-  - **Augments person identification using a custom name gazetteer** (`data/talmud_names_gazetteer.txt`) for improved accuracy and coverage.
-  - **Augments place identification using a custom toponym gazetteer** (`data/talmud_toponyms_gazetteer.txt`).
-  - **Augments concept identification using a custom concept gazetteer** (`data/talmud_concepts_gazetteer.txt`).
+  - Augments person identification using a custom name gazetteer (`data/talmud_names_gazetteer.txt`).
+  - **Augments biblical person identification using a custom Bible name gazetteer** (`data/bible_names_gazetteer.txt`), generating `person:bible:<name>` tags and prioritizing these over regular names.
+  - Augments place identification using a custom toponym gazetteer (`data/talmud_toponyms_gazetteer.txt`).
+  - Augments concept identification using a custom concept gazetteer (`data/talmud_concepts_gazetteer.txt`).
   - Basic topic modeling (using `scikit-learn`) and keyword-based topic tag generation (e.g., `topic:prayer`).
 - Storage of processed results as JSON files (`data/` directory)
 
@@ -61,6 +62,6 @@ This project uses `pytest` for unit and integration testing.
     python -m pytest
     ```
 
-Unit tests for API interaction, text processing, and tagging logic are located in the `tests/` directory. Mocks are used to isolate components and avoid external dependencies (like network calls or loading large models) during unit testing.
+Unit tests for API interaction, text processing, and tagging logic are located in the `tests/` directory. Mocks are used to isolate components and avoid external dependencies (like network calls or loading large models) during unit testing. **Tests cover loading and usage of all four gazetteers (names, toponyms, concepts, Bible names).**
 
 Integration tests (`tests/test_main.py`) verify the orchestration logic in `main.py`, ensuring the components work together correctly, also using mocks for external services and file operations.
