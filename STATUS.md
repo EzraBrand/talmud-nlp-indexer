@@ -36,7 +36,11 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 
 1a. **Add initial processing of text**: Input and incorporate my mapping table / dictionary ('Lord' to 'YHWH'; 'gentile' to 'non-Jew'; etc)
 
-1b. **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
+1b. **Expand input range:** Test on a longer range of Talmud berakhot; expand to the first 20 pages.
+
+1c. **Test having the output be more naturally readable:** In addition to JSON format, test parallel markdown format, especially of sentences, with recognized named entities highlighted / tagged. For QA and initial implementation.
+
+1c. **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
     *   Consider using Hebrew entities/analysis for tagging if possible (requires a Hebrew NER model or different approach).
     *   Refine how topic modeling results are used (e.g., use more than just the top word, filter irrelevant topic words).
