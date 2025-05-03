@@ -540,6 +540,9 @@
     ]
   },
   "tags": [
+    "concept:divine presence",
+    "concept:mercy",
+    "concept:prayer",
     "concept:torah",
     "person:a certain",
     "person:a certain elder",
@@ -553,8 +556,9 @@
     "person:bar yitzḥak",
     "person:bar yoḥai",
     "person:ben levi",
-    "person:hezekiah",
-    "person:levi",
+    "person:bible:ben",
+    "person:bible:hezekiah",
+    "person:bible:levi",
     "person:master",
     "person:rabbi",
     "person:rabbi elazar",
@@ -585,7 +589,7 @@
     "person:yoḥai",
     "person:yoḥanan",
     "person:ḥanina",
-    "place:israel",
+    "place:bible:israel",
     "topic:prayer"
   ]
 }

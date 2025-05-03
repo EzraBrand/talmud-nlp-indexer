@@ -449,10 +449,12 @@
     ]
   },
   "tags": [
+    "concept:prayer",
     "concept:shema",
     "concept:temple",
-    "person:eliezer",
-    "person:elijah",
+    "person:bible:eliezer",
+    "person:bible:elijah",
+    "person:bible:on",
     "person:meir",
     "person:meir two",
     "person:rabbi",
@@ -465,8 +467,8 @@
     "person:shaog yishag",
     "person:shema",
     "person:shmuel",
-    "place:israel",
-    "place:jerusalem",
+    "place:bible:israel",
+    "place:bible:jerusalem",
     "topic:prayer"
   ]
 }

@@ -789,6 +789,7 @@
     ]
   },
   "tags": [
+    "concept:prayer",
     "concept:shabbat",
     "concept:shofar",
     "concept:torah",
@@ -796,18 +797,19 @@
     "person:a certain individual",
     "person:abaye",
     "person:abba",
-    "person:abraham",
     "person:adda",
-    "person:ami",
     "person:and some",
     "person:bar yitzḥak",
     "person:ben azzai",
     "person:ben levi",
     "person:ben zoma",
-    "person:elijah",
-    "person:elijah the prophet",
+    "person:bible:abraham",
+    "person:bible:ami",
+    "person:bible:ben",
+    "person:bible:elijah",
+    "person:bible:levi",
+    "person:bible:on",
     "person:kahana",
-    "person:levi",
     "person:mar zutra",
     "person:master",
     "person:one of the sages",
@@ -852,7 +854,8 @@
     "person:yitzḥak",
     "person:yoḥanan",
     "person:zeira",
-    "place:jerusalem",
+    "place:bible:jerusalem",
+    "topic:halacha",
     "topic:prayer"
   ]
 }

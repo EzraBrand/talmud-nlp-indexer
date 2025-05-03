@@ -550,20 +550,22 @@
     ]
   },
   "tags": [
+    "concept:prayer",
     "concept:shema",
     "concept:world-to-come",
     "person:angel of death",
     "person:bar yitzḥak",
     "person:ben levi",
-    "person:david",
+    "person:bible:ben",
+    "person:bible:david",
+    "person:bible:elijah",
+    "person:bible:levi",
+    "person:bible:michael",
     "person:elazar",
-    "person:elijah",
     "person:gabriel",
     "person:in the west",
-    "person:levi",
     "person:mar, son of ravina",
     "person:master",
-    "person:michael",
     "person:naḥman",
     "person:rabban gamliel",
     "person:rabbi",
@@ -584,9 +586,9 @@
     "person:yehoshua ben levi",
     "person:yitzḥak",
     "person:yoḥanan",
-    "place:israel",
+    "place:bible:israel",
     "place:the west",
-    "topic:blessings",
+    "place:west",
     "topic:prayer"
   ]
 }

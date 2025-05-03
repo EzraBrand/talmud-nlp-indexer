@@ -442,7 +442,9 @@
   "tags": [
     "concept:shabbat",
     "person:and some",
-    "person:eliezer",
+    "person:bible:eliezer",
+    "person:bible:eve",
+    "person:bible:on",
     "person:in the west",
     "person:master",
     "person:meir",
@@ -463,6 +465,7 @@
     "person:yehoshua",
     "person:yehuda",
     "person:ḥanina",
-    "place:the west"
+    "place:the west",
+    "place:west"
   ]
 }

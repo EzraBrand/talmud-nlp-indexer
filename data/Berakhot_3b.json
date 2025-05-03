@@ -653,12 +653,15 @@
     "person:abba",
     "person:ben levi",
     "person:benayahu",
-    "person:david",
-    "person:gideon",
+    "person:bible:ami",
+    "person:bible:ben",
+    "person:bible:david",
+    "person:bible:gideon",
+    "person:bible:levi",
+    "person:bible:moses",
+    "person:bible:on",
     "person:kahana",
-    "person:levi",
     "person:master",
-    "person:moses",
     "person:natan",
     "person:oshaya",
     "person:rabbi",
@@ -686,8 +689,10 @@
     "person:yehoshua ben levi",
     "person:yoav” ahitophel",
     "person:zeira",
-    "place:egypt",
-    "place:israel",
-    "place:yehoyada"
+    "place:bible:egypt",
+    "place:bible:israel",
+    "place:evyatar",
+    "place:yehoyada",
+    "topic:halacha"
   ]
 }

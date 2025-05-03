@@ -9,33 +9,39 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 1.  **Core Modules**:
     *   `api.py`: Fetches text from Sefaria API.
     *   `processor.py`: Processes English text (spaCy for NER, noun chunks) and Hebrew text (AlephBERT via transformers for embeddings). Includes text cleaning logic (extracting bold for English, removing HTML for Hebrew).
-    *   `tagging.py`: Generates tags based on entities (PERSON, GPE/LOC), keyword matching in noun phrases, and comprehensive matching against gazetteers (Talmudic names, toponyms, concepts; Biblical names, places, nations). Includes basic topic modeling (`extract_topics`) using scikit-learn LDA (currently not integrated into tag generation).
+    *   `tagging.py`: Generates tags based on entities (PERSON, GPE/LOC), keyword matching in noun phrases, comprehensive matching against gazetteers (Talmudic names, toponyms, concepts; Biblical names, places, nations), and integration of topic modeling results (top word per topic). **Logic updated to check name gazetteers before assigning place tags to GPE/LOC entities.** Includes `extract_topics` function using scikit-learn LDA.
     *   `main.py`: Orchestrates fetching, processing, and saving results for a specified range (currently Berakhot 2a-7a). Saves output to `data/` directory as JSON. Correctly imports and utilizes `SefariaAPI`, `TextProcessor`, and `TalmudTagger`.
 2.  **Dependency Management**: `requirements.txt` is up-to-date.
 3.  **Testing Framework**:
     *   Added `pytest` and `pytest-mock`.
     *   Implemented unit tests with mocks for `api.py`, `processor.py`, and `tagging.py` in the `tests/` directory.
+    *   Added integration tests for `main.py` (`tests/test_main.py`).
+    *   Added specific test case for topic tag generation in `tests/test_tagging.py`.
     *   All existing tests are passing.
 4.  **Documentation**: Updated `README.md` with current features, setup, running, and testing instructions.
-5.  **Gazetteers**: Added gazetteers for biblical names, places, and nations.
+5.  **Gazetteers**:
+    *   Added gazetteers for biblical names, places, and nations.
+    *   Expanded `talmud_concepts_gazetteer.txt` with key terms (Mercy, Anger, Prayer, Divine Presence).
+    *   Significantly expanded `bible_names_gazetteer.txt`.
 
 ## Current Status
 
 *   The basic pipeline (fetch -> process -> tag -> save) is functional for the specified range in `main.py`.
-*   Core components (`api`, `processor`, `tagging`) have unit tests with reasonable coverage of their current logic.
-*   The tagging logic uses NER, keyword checks, and gazetteer matching. Biblical tags are prioritized over general Talmudic tags where applicable. Topic modeling results from `extract_topics` are not currently integrated into `generate_tags`.
+*   Core components (`api`, `processor`, `tagging`) have unit tests with reasonable coverage of their current logic, including the integration of topic tags and the refined place tagging logic.
+*   The tagging logic uses NER, keyword checks, gazetteer matching (including expanded biblical lists), and topic modeling results. Biblical tags are prioritized over general Talmudic tags where applicable.
+*   **Known Issue**: Some names (e.g., "Tovia", "Reḥaviya" in Berakhot 7a) are still incorrectly tagged as `place:`. This is likely because they are identified as GPE/LOC by spaCy but are not present in the current name gazetteers.
 *   Error handling in `main.py` is present but could be more robust.
 *   Serialization in `main.py` handles basic data, excluding complex objects like spaCy docs or full embeddings (only embedding shape is saved).
 
 ## Suggested Next Steps
 
-1.  **Integration Testing (`main.py`)**: Create tests for `main.py` to ensure the components work together correctly. This will likely involve mocking the `SefariaAPI`, `TextProcessor`, `TalmudTagger`, file system operations (`open`, `os.makedirs`), and `json.dump`.
-2.  **Refine Tagging Logic (`tagging.py`)**:
-    *   Integrate the results from `extract_topics` into `generate_tags` (e.g., add `topic:<top_word>` tags).
+1.  **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
+    *   **Address Place Tag Issue**: Add known misclassified names like "Tovia" and "Reḥaviya" to `talmud_names_gazetteer.txt`.
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
     *   Consider using Hebrew entities/analysis for tagging if possible (requires a Hebrew NER model or different approach).
-3.  **Enhance Hebrew Processing (`processor.py`)**: Explore more advanced Hebrew NLP tasks beyond embeddings if needed (e.g., morphological analysis, NER if a suitable model exists).
-4.  **Configuration**: Move settings like the target tractate/pages from `main.py` into a configuration file or command-line arguments.
-5.  **Error Handling & Logging**: Implement more robust error handling and add proper logging throughout the application.
-6.  **Data Storage**: Consider alternative storage solutions if JSON files become unwieldy (e.g., a database, document store). Decide how to store/use the large Hebrew embeddings if needed beyond just their shape.
-7.  **Expand Test Coverage**: Add more tests, particularly for edge cases and the interactions refined in `tagging.py` (e.g., tag prioritization).
+    *   Refine how topic modeling results are used (e.g., use more than just the top word, filter irrelevant topic words).
+2.  **Enhance Hebrew Processing (`processor.py`)**: Explore more advanced Hebrew NLP tasks beyond embeddings if needed (e.g., morphological analysis, NER if a suitable model exists).
+3.  **Configuration**: Move settings like the target tractate/pages from `main.py` into a configuration file or command-line arguments.
+4.  **Error Handling & Logging**: Implement more robust error handling and add proper logging throughout the application.
+5.  **Data Storage**: Consider alternative storage solutions if JSON files become unwieldy (e.g., a database, document store). Decide how to store/use the large Hebrew embeddings if needed beyond just their shape.
+6.  **Expand Test Coverage**: Add more tests, particularly for edge cases and the interactions refined in `tagging.py` (e.g., tag prioritization, topic tag relevance, place tag exceptions).

@@ -565,7 +565,10 @@
     ]
   },
   "tags": [
+    "concept:divine presence",
+    "concept:mercy",
     "concept:mitzvot",
+    "concept:prayer",
     "concept:torah",
     "person:abaye",
     "person:abba",
@@ -574,6 +577,8 @@
     "person:avin",
     "person:bar avin",
     "person:bar yitzḥak",
+    "person:bible:eliezer",
+    "person:bible:on",
     "person:master",
     "person:rabbi",
     "person:rabbi avin",
@@ -604,8 +609,9 @@
     "person:torah",
     "person:yitzḥak",
     "person:ḥanina",
-    "place:israel",
+    "place:bible:israel",
     "topic:blessings",
+    "topic:halacha",
     "topic:prayer"
   ]
 }

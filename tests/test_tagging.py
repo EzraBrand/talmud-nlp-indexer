@@ -253,3 +253,30 @@ def test_extract_topics(tagger):
     # Check number of words returned (should be up to 10, or fewer if fewer features)
     assert len(topics[0]) == 3 # Mock has 3 features
     assert len(topics[1]) == 3
+
+def test_generate_tags_with_topics(tagger):
+    """Test tag generation including topic tags from extract_topics."""
+    processed_en = {
+        'entities': [("Rabbi Akiva", "PERSON")],
+        'noun_phrases': ["the morning prayer"],
+        'sentences': [],
+        'doc': MockProcessedDoc("Text about Rabbi Akiva and prayer.")
+    }
+    # Simulate topics returned by extract_topics (using the mock structure)
+    # Mock returns [["word2", "word3", "word1"], ["word1", "word3", "word2"]]
+    mock_topics = [["word2", "word3", "word1"], ["word1", "word3", "word2"]]
+
+    tags = tagger.generate_tags(processed_en, mock_topics)
+
+    # Expected tags:
+    # - person:rabbi akiva (from NER/Gazetteer)
+    # - topic:prayer (from noun phrase keyword)
+    # - topic:word2 (from mock_topics[0][0])
+    # - topic:word1 (from mock_topics[1][0])
+    assert set(tags) == {
+        "person:rabbi akiva",
+        "topic:prayer",
+        "topic:word2",
+        "topic:word1"
+    }
+    assert len(tags) == 4
