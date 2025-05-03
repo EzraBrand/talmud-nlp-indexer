@@ -29,7 +29,6 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 *   The basic pipeline (fetch -> process -> tag -> save) is functional for the specified range in `main.py`.
 *   Core components (`api`, `processor`, `tagging`) have unit tests with reasonable coverage of their current logic, including the integration of topic tags and the refined place tagging logic.
 *   The tagging logic uses NER, keyword checks, gazetteer matching (including expanded biblical lists), and topic modeling results. Biblical tags are prioritized over general Talmudic tags where applicable.
-*   **Known Issue**: Some names (e.g., "Tovia", "Reḥaviya" in Berakhot 7a) are still incorrectly tagged as `place:`. This is likely because they are identified as GPE/LOC by spaCy but are not present in the current name gazetteers.
 *   Error handling in `main.py` is present but could be more robust.
 *   Serialization in `main.py` handles basic data, excluding complex objects like spaCy docs or full embeddings (only embedding shape is saved).
 
