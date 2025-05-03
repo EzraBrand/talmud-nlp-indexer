@@ -35,7 +35,6 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 ## Suggested Next Steps
 
 1.  **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
-    *   **Address Place Tag Issue**: Add known misclassified names like "Tovia" and "Reḥaviya" to `talmud_names_gazetteer.txt`.
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
     *   Consider using Hebrew entities/analysis for tagging if possible (requires a Hebrew NER model or different approach).
     *   Refine how topic modeling results are used (e.g., use more than just the top word, filter irrelevant topic words).
