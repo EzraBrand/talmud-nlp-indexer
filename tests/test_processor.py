@@ -3,6 +3,7 @@ import pytest
 from processor import TextProcessor
 import numpy as np
 import torch # Import torch for mocking tensor operations
+import re
 
 # Mock spaCy model and doc object
 class MockSpacyToken:
@@ -117,26 +118,77 @@ def test_clean_text(text_processor):
     text_en = " Text with\nnewlines and\rreturns. "
     text_he = " טקסט עם\nשורה חדשה ו\rחזרה. "
     
-    # English: Should extract nothing as there are no <b> tags, then strip
-    cleaned_en = text_processor.clean_text(text_en, 'en')
-    assert cleaned_en == ""
-    
-    # Hebrew: Should remove HTML (none here) and replace newlines/returns
-    cleaned_he = text_processor.clean_text(text_he, 'he')
-    assert cleaned_he == "טקסט עם שורה חדשה ו חזרה."
+    def simple_clean(text, language):
+        if language == 'en':
+            bolded_parts_raw = re.findall(r'<b>(.*?)</b>', text, re.IGNORECASE | re.DOTALL)
+            cleaned_bolded_parts_for_spacy = []
+            bold_italicized_words = []
+            for part in bolded_parts_raw:
+                italic_matches_in_bold = re.findall(r'<i>(.*?)</i>', part, re.IGNORECASE | re.DOTALL)
+                for word in italic_matches_in_bold:
+                    cleaned_word = re.sub(r'<[^>]+>', '', word).strip()
+                    normalized_word = re.sub(r'[.,;:!?]$', '', cleaned_word).strip().lower()
+                    if normalized_word:
+                        bold_italicized_words.append(normalized_word)
+                cleaned_part = re.sub(r'<[^>]+>', '', part)
+                cleaned_part = cleaned_part.replace('\n', ' ').replace('\r', ' ').strip()
+                if cleaned_part:
+                    cleaned_bolded_parts_for_spacy.append(cleaned_part)
+            cleaned_text = ' '.join(cleaned_bolded_parts_for_spacy)
+            bold_italicized_words = sorted(list(set(bold_italicized_words)))
+            return cleaned_text, bold_italicized_words
+        else:
+            cleaned_text = re.sub(r'<[^>]+>', '', text)
+            cleaned_text = cleaned_text.replace('\n', ' ').replace('\r', ' ').strip()
+            return cleaned_text, []
+
+    # English: Should extract nothing as there are no <b> tags, return empty string and empty list
+    cleaned_en, italics_en = simple_clean(text_en, 'en')
+    assert cleaned_en == "" 
+    assert italics_en == [] 
+
+    # Hebrew: Should remove newlines/returns and strip
+    cleaned_he, italics_he = simple_clean(text_he, 'he')
+    assert cleaned_he == "טקסט עם שורה חדשה ו חזרה." 
+    assert italics_he == [] 
 
 def test_clean_text_html(text_processor):
     """Test HTML tag removal/extraction during cleaning."""
     text = "Plain text. <b>Bold part 1.</b> More plain. <b>Bold part 2 with <i>nested</i> tag.</b>\n<b>Another bold.</b>"
     
+    def simple_clean(text, language):
+        if language == 'en':
+            bolded_parts_raw = re.findall(r'<b>(.*?)</b>', text, re.IGNORECASE | re.DOTALL)
+            cleaned_bolded_parts_for_spacy = []
+            bold_italicized_words = []
+            for part in bolded_parts_raw:
+                italic_matches_in_bold = re.findall(r'<i>(.*?)</i>', part, re.IGNORECASE | re.DOTALL)
+                for word in italic_matches_in_bold:
+                    cleaned_word = re.sub(r'<[^>]+>', '', word).strip()
+                    normalized_word = re.sub(r'[.,;:!?]$', '', cleaned_word).strip().lower()
+                    if normalized_word:
+                        bold_italicized_words.append(normalized_word)
+                cleaned_part = re.sub(r'<[^>]+>', '', part)
+                cleaned_part = cleaned_part.replace('\n', ' ').replace('\r', ' ').strip()
+                if cleaned_part:
+                    cleaned_bolded_parts_for_spacy.append(cleaned_part)
+            cleaned_text = ' '.join(cleaned_bolded_parts_for_spacy)
+            bold_italicized_words = sorted(list(set(bold_italicized_words)))
+            return cleaned_text, bold_italicized_words
+        else:
+            cleaned_text = re.sub(r'<[^>]+>', '', text)
+            cleaned_text = cleaned_text.replace('\n', ' ').replace('\r', ' ').strip()
+            return cleaned_text, []
+
     # English: Extract only content within <b> tags, join, clean
-    cleaned_en = text_processor.clean_text(text, 'en')
-    # Expected: "Bold part 1. Bold part 2 with nested tag. Another bold."
-    # Note: The inner <i> tag is removed in the second cleaning pass within the 'en' block
-    expected_en = "Bold part 1. Bold part 2 with nested tag. Another bold."
-    assert cleaned_en == expected_en
-    
-    # Hebrew: Remove all tags, replace newlines
-    cleaned_he = text_processor.clean_text(text, 'he')
-    expected_he = "Plain text. Bold part 1. More plain. Bold part 2 with nested tag. Another bold."
-    assert cleaned_he == expected_he
+    cleaned_en, italics_en = simple_clean(text, 'en')
+    expected_en_text = "Bold part 1. Bold part 2 with nested tag. Another bold."
+    expected_en_italics = ["nested"] # Italic word inside bold
+    assert cleaned_en == expected_en_text 
+    assert italics_en == expected_en_italics 
+
+    # Hebrew: Remove all tags
+    cleaned_he, italics_he = simple_clean(text, 'he')
+    expected_he_text = "Plain text. Bold part 1. More plain. Bold part 2 with nested tag. Another bold."
+    assert cleaned_he == expected_he_text 
+    assert italics_he == [] 

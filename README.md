@@ -22,6 +22,7 @@ It leverages both the original Hebrew/Aramaic text and English translations avai
 - Text analysis including named entity recognition, noun phrase extraction (English), and embeddings (Hebrew)
 - Basic topic modeling (using `scikit-learn`) and keyword/entity-based tag generation, including matching against expanded Talmudic and Biblical gazetteers (names, places, concepts) and integration of topic modeling results. Logic improved to check name gazetteers before assigning place tags to reduce misclassification.
 - Storage of processed results as JSON files (`data/` directory)
+- Generation of human-readable Markdown summaries (`data/` directory) including tags, italicized words, and annotated text with prioritized gazetteer tags and exclusion of less relevant spaCy labels (e.g., ORG, WORK_OF_ART).
 
 ## Setup
 
@@ -39,7 +40,7 @@ Execute the main script to process the default range (Berakhot 2a-7a):
 python main.py
 ```
 
-Results will be saved as JSON files in the `data/` directory.
+Results will be saved as JSON and Markdown files in the `data/` directory.
 
 ## Testing
 
