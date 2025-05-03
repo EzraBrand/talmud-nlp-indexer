@@ -45,9 +45,11 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 
 0b. **Add original Hebrew to the markdown files**.
 
-0c. **Refine the tagging, especially default spacy tagging:** exclude 'cardinal' tag from 'one'. full names should be tagged as a single name. E.g. 'Rabbi X ben Y' .
+0c. **Entity Linking to Wikipedia / wiki ID**.
 
-0d. **Expand input range:** Test on a longer range of Talmud berakhot; expand to the first 20 pages.
+0d. **Refine the tagging, especially default spacy tagging:** exclude 'cardinal' tag from 'one'. full names should be tagged as a single name. E.g. 'Rabbi X ben Y' .
+
+0e. **Expand input range:** Test on a longer range of Talmud berakhot; expand to the first 20 pages.
 
 1. **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
