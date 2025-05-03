@@ -43,7 +43,7 @@ Results will be saved as JSON files in the `data/` directory.
 
 ## Testing
 
-This project uses `pytest` for unit testing.
+This project uses `pytest` for unit and integration testing.
 
 1.  Ensure development dependencies are installed (included in `requirements.txt`):
     ```bash
@@ -54,4 +54,6 @@ This project uses `pytest` for unit testing.
     python -m pytest
     ```
 
-Tests for API interaction, text processing, and tagging logic are located in the `tests/` directory. Mocks are used to isolate components and avoid external dependencies (like network calls or loading large models) during testing.
+Unit tests for API interaction, text processing, and tagging logic are located in the `tests/` directory. Mocks are used to isolate components and avoid external dependencies (like network calls or loading large models) during unit testing.
+
+Integration tests (`tests/test_main.py`) verify the orchestration logic in `main.py`, ensuring the components work together correctly, also using mocks for external services and file operations.
