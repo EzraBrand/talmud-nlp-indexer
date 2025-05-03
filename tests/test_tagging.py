@@ -2,6 +2,7 @@
 import pytest
 from tagging import TalmudTagger
 import numpy as np # Needed for mock LDA components
+from unittest.mock import mock_open, MagicMock # Import mock_open and MagicMock
 
 # Mock scikit-learn components
 class MockVectorizer:
@@ -25,62 +26,101 @@ class MockLDA:
         # Mock fit method, doesn't need to do anything
         pass
 
+# Mock spaCy Doc object needed for gazetteer matching
+class MockProcessedDoc:
+    def __init__(self, text):
+        self.text = text
+
 @pytest.fixture
 def tagger(mocker): # Add mocker to the fixture
-    """Fixture to create a TalmudTagger instance with mocked sklearn."""
-    # Mock CountVectorizer
+    """Fixture to create a TalmudTagger instance with mocked sklearn and gazetteer."""
+    # Mock scikit-learn components
     mocker.patch('tagging.CountVectorizer', return_value=MockVectorizer())
-    # Mock LatentDirichletAllocation
     mocker.patch('tagging.LatentDirichletAllocation', side_effect=lambda n_components, random_state: MockLDA(n_components, random_state))
-    return TalmudTagger()
+    
+    # Mock the gazetteer file reading
+    gazetteer_content = "Rabbi Akiva\nRav Ashi\nShimon ben Lakish\nZutra bar Toviyya"
+    # Mock os.path.exists to return True for the gazetteer path
+    mocker.patch('tagging.os.path.exists', return_value=True)
+    # Mock builtins.open to simulate reading the gazetteer file
+    mocker.patch('builtins.open', mock_open(read_data=gazetteer_content))
+    
+    # Instantiate the tagger - this will now use the mocked open
+    tagger_instance = TalmudTagger()
+    # Verify the mock worked (optional check)
+    assert len(tagger_instance.name_gazetteer) == 4
+    assert "Rabbi Akiva" in tagger_instance.name_gazetteer
+    
+    return tagger_instance
 
 def test_generate_tags_from_entities(tagger):
     """Test tag generation based on entities."""
-    processed_text = {
+    processed_en = {
         'entities': [
-            ("Rabbi Akiva", "PERSON"),
+            ("Rabbi Akiva", "PERSON"), # In mock gazetteer
             ("Babylonia", "GPE"),
-            ("a book", "WORK_OF_ART") # Should be ignored by current logic
+            ("a book", "WORK_OF_ART") # Should be ignored
         ],
         'noun_phrases': [],
-        'sentences': []
+        'sentences': [],
+        'doc': MockProcessedDoc("Text mentioning Rabbi Akiva and Babylonia.") # Add mock doc
     }
-    topics = [] # Not used in this specific test case for entity tags
-    tags = tagger.generate_tags(processed_text, topics)
-    # Use set for assertion to ignore order
+    topics = []
+    tags = tagger.generate_tags(processed_en, topics)
+    # NER finds Rabbi Akiva, Gazetteer also finds Rabbi Akiva. Set handles deduplication.
     assert set(tags) == {"person:rabbi akiva", "place:babylonia"}
-    assert len(tags) == 2 # Only PERSON and GPE tags should be generated
+    assert len(tags) == 2
 
 def test_generate_tags_from_noun_phrases(tagger):
     """Test tag generation based on keywords in noun phrases."""
-    processed_text = {
+    processed_en = {
         'entities': [],
         'noun_phrases': [
             "the morning prayer",
             "a discussion about blessings",
             "some other phrase"
         ],
-        'sentences': []
+        'sentences': [],
+        'doc': MockProcessedDoc("Text about prayer and blessings.") # Add mock doc
     }
     topics = []
-    tags = tagger.generate_tags(processed_text, topics)
-    # Use set for assertion to ignore order
+    tags = tagger.generate_tags(processed_en, topics)
     assert set(tags) == {"topic:prayer", "topic:blessings"}
-    assert len(tags) == 2 # Only prayer and blessings tags expected
+    assert len(tags) == 2
+
+def test_generate_tags_from_gazetteer(tagger):
+    """Test tag generation specifically from gazetteer matches."""
+    processed_en = {
+        'entities': [("Some Other Person", "PERSON")], # NER finds someone else
+        'noun_phrases': [],
+        'sentences': [],
+        'doc': MockProcessedDoc("This text mentions Rav Ashi. It also mentions zutra bar toviyya (lowercase). But not Rabbi Meir.") # Add mock doc with gazetteer names
+    }
+    topics = []
+    tags = tagger.generate_tags(processed_en, topics)
+    # Expected: NER tag + gazetteer matches (case-insensitive)
+    # Note: Gazetteer names are lowercased and cleaned in the tag
+    assert set(tags) == {
+        "person:some other person", # From NER
+        "person:rav ashi",          # From Gazetteer (exact case)
+        "person:zutra bar toviyya"  # From Gazetteer (lowercase match)
+    }
+    assert len(tags) == 3
 
 def test_generate_tags_deduplication(tagger):
-    """Test that generated tags are deduplicated."""
-    processed_text = {
-        'entities': [("Rabbi Akiva", "PERSON")],
-        'noun_phrases': ["the prayer of Rabbi Akiva", "another prayer"], # Generates 'topic:prayer' twice
-        'sentences': []
+    """Test that generated tags are deduplicated (NER + Gazetteer)."""
+    processed_en = {
+        'entities': [("Rabbi Akiva", "PERSON")], # NER finds Rabbi Akiva
+        'noun_phrases': ["the prayer of Rabbi Akiva", "another prayer"], 
+        'sentences': [],
+        'doc': MockProcessedDoc("Text about the prayer of Rabbi Akiva.") # Gazetteer also finds Rabbi Akiva
     }
     topics = []
-    tags = tagger.generate_tags(processed_text, topics)
-    # Even if rules could potentially add the same tag twice, the final list should be unique
+    tags = tagger.generate_tags(processed_en, topics)
+    # NER finds Rabbi Akiva, Gazetteer finds Rabbi Akiva. Should only appear once.
+    # Noun phrase rule finds prayer twice. Should only appear once.
     assert tags.count("person:rabbi akiva") == 1
     assert tags.count("topic:prayer") == 1
-    # Use set for assertion to ignore order and duplicates
     assert set(tags) == {"person:rabbi akiva", "topic:prayer"}
     assert len(tags) == 2
 

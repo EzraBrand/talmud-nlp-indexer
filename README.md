@@ -21,8 +21,11 @@ It leverages both the original Hebrew/Aramaic text and English translations avai
 - Bilingual processing:
   - Hebrew: Uses AlephBERT via `transformers` for embeddings. Removes HTML tags.
   - English: Uses `spacy`. Extracts **only bolded text** (representing the direct translation) before analysis (NER, noun phrase extraction).
-- Text analysis including named entity recognition, noun phrase extraction (English), and embeddings (Hebrew)
-- Basic topic modeling (using `scikit-learn`) and keyword/entity-based tag generation
+- Text analysis including named entity recognition (NER), noun phrase extraction (English), and embeddings (Hebrew)
+- Tag generation:
+  - Uses spaCy NER results (PERSON, GPE) from bolded English text.
+  - **Augments person identification using a custom name gazetteer** (`data/talmud_names_gazetteer.txt`) for improved accuracy and coverage.
+  - Basic topic modeling (using `scikit-learn`) and keyword-based topic tag generation (e.g., `topic:prayer`).
 - Storage of processed results as JSON files (`data/` directory)
 
 ## Setup

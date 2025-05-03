@@ -449,20 +449,22 @@
     ]
   },
   "tags": [
-    "person:shaog yishag",
-    "person:elijah",
-    "person:rav yitzḥak",
-    "person:rav",
     "person:eliezer",
+    "person:elijah",
     "person:meir",
+    "person:meir two",
+    "person:rabbi",
     "person:rabbi eliezer",
-    "person:shema",
-    "place:jerusalem",
-    "person:shmuel",
     "person:rabbi meir",
     "person:rabbi yosei",
-    "topic:prayer",
-    "person:meir two",
-    "place:israel"
+    "person:rav",
+    "person:rav yitzḥak",
+    "person:rav yitzḥak bar shmuel",
+    "person:shaog yishag",
+    "person:shema",
+    "person:shmuel",
+    "place:israel",
+    "place:jerusalem",
+    "topic:prayer"
   ]
 }
