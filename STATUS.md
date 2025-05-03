@@ -40,6 +40,8 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 
 0c. **Test having the output be more naturally readable:** In addition to JSON format, test parallel markdown format, especially of sentences, with recognized named entities highlighted / tagged. For QA and initial implementation.
 
+0d. **Identify and output words in italics (=transliterations)**: in separate section in output (JSON), list words in italics in ed. steinsaltz English.
+
 1. **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
     *   Consider using Hebrew entities/analysis for tagging if possible (requires a Hebrew NER model or different approach).
