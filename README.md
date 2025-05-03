@@ -18,7 +18,9 @@ It leverages both the original Hebrew/Aramaic text and English translations avai
 ## Features
 
 - Automated fetching of Talmudic text via Sefaria API
-- Bilingual processing (Hebrew using AlephBERT via `transformers`, English using `spacy`)
+- Bilingual processing:
+  - Hebrew: Uses AlephBERT via `transformers` for embeddings. Removes HTML tags.
+  - English: Uses `spacy`. Extracts **only bolded text** (representing the direct translation) before analysis (NER, noun phrase extraction).
 - Text analysis including named entity recognition, noun phrase extraction (English), and embeddings (Hebrew)
 - Basic topic modeling (using `scikit-learn`) and keyword/entity-based tag generation
 - Storage of processed results as JSON files (`data/` directory)

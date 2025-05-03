@@ -6,6 +6,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 import numpy as np
 from typing import Dict, Any, List, Optional
+import re  # Import the regex module
 
 
 class TextProcessor:
@@ -70,24 +71,32 @@ class TextProcessor:
     
     def clean_text(self, text: str, language: str) -> str:
         """
-        Clean and normalize text.
+        Clean and normalize text. 
+        For English ('en'), extracts only text within <b> tags.
+        For other languages, removes HTML tags.
         
         Args:
-            text: The text to clean
+            text: The text to clean/process
             language: Language code ('en' or 'he')
             
         Returns:
-            Cleaned text
+            Cleaned/extracted text
         """
-        # Basic cleaning applicable to both languages
-        text = text.replace('\n', ' ').replace('\r', ' ')
-        
-        # Language-specific cleaning
         if language == 'en':
-            # Example English-specific cleaning
-            pass
-        elif language == 'he':
-            # Example Hebrew-specific cleaning
-            pass
+            # Extract only text within <b> tags for English
+            bolded_parts = re.findall(r'<b>(.*?)</b>', text, re.IGNORECASE | re.DOTALL)
+            # Join the extracted parts and perform basic cleaning
+            text = ' '.join(bolded_parts)
+            text = text.replace('\n', ' ').replace('\r', ' ')
+            # Remove any remaining potential nested/stray tags within the bolded text (just in case)
+            text = re.sub(r'<[^>]+>', '', text)
+        else:
+            # For Hebrew (or other languages), just remove HTML tags
+            text = re.sub(r'<[^>]+>', '', text)
+            # Basic cleaning applicable to non-English languages
+            text = text.replace('\n', ' ').replace('\r', ' ')
+            
+        # Optional: Further common cleaning like stripping whitespace
+        text = text.strip()
         
         return text

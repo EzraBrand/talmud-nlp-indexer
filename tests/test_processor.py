@@ -112,10 +112,31 @@ def test_process_hebrew(text_processor, mocker): # Add mocker here if needed for
     # Optional: Verify that the mocked mean was called if the mock was stored in the fixture
     # assert mocker.mock_mean.called
 
-
 def test_clean_text(text_processor):
-    """Test text cleaning."""
-    text = " Text with\nnewlines and\rreturns. "
-    cleaned = text_processor.clean_text(text, 'en')
-    # The current clean_text only replaces \n and \r with space
-    assert cleaned == " Text with newlines and returns. "
+    """Test basic text cleaning (newlines, returns, stripping)."""
+    text_en = " Text with\nnewlines and\rreturns. "
+    text_he = " טקסט עם\nשורה חדשה ו\rחזרה. "
+    
+    # English: Should extract nothing as there are no <b> tags, then strip
+    cleaned_en = text_processor.clean_text(text_en, 'en')
+    assert cleaned_en == ""
+    
+    # Hebrew: Should remove HTML (none here) and replace newlines/returns
+    cleaned_he = text_processor.clean_text(text_he, 'he')
+    assert cleaned_he == "טקסט עם שורה חדשה ו חזרה."
+
+def test_clean_text_html(text_processor):
+    """Test HTML tag removal/extraction during cleaning."""
+    text = "Plain text. <b>Bold part 1.</b> More plain. <b>Bold part 2 with <i>nested</i> tag.</b>\n<b>Another bold.</b>"
+    
+    # English: Extract only content within <b> tags, join, clean
+    cleaned_en = text_processor.clean_text(text, 'en')
+    # Expected: "Bold part 1. Bold part 2 with nested tag. Another bold."
+    # Note: The inner <i> tag is removed in the second cleaning pass within the 'en' block
+    expected_en = "Bold part 1. Bold part 2 with nested tag. Another bold."
+    assert cleaned_en == expected_en
+    
+    # Hebrew: Remove all tags, replace newlines
+    cleaned_he = text_processor.clean_text(text, 'he')
+    expected_he = "Plain text. Bold part 1. More plain. Bold part 2 with nested tag. Another bold."
+    assert cleaned_he == expected_he
