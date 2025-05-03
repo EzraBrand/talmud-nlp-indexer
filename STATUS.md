@@ -34,7 +34,7 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 
 ## Suggested Next Steps
 
-2a. **Add initial processing of text**: my mapping table / dictionary ('Lord' to 'YHWH'; 'gentile' to 'non-Jew'; etc)
+1a. **Add initial processing of text**: Input and incorporate my mapping table / dictionary ('Lord' to 'YHWH'; 'gentile' to 'non-Jew'; etc)
 
 1b. **Refine Tagging Logic (`tagging.py`) & Gazetteers**:
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
