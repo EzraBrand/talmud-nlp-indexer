@@ -11,8 +11,10 @@ import re  # For regex matching
 class TalmudTagger:
     """Generate and manage tags for Talmudic texts."""
     
-    def __init__(self, gazetteer_path="data/talmud_names_gazetteer.txt"):
-        """Initialize the tagger and load the name gazetteer."""
+    def __init__(self, 
+                 name_gazetteer_path="data/talmud_names_gazetteer.txt",
+                 toponym_gazetteer_path="data/talmud_toponyms_gazetteer.txt"):
+        """Initialize the tagger and load the name and toponym gazetteers."""
         # Define tag categories
         self.tag_categories = {
             'topics': [],
@@ -22,16 +24,23 @@ class TalmudTagger:
         }
         
         # Load name gazetteer
-        self.name_gazetteer = set()
+        self.name_gazetteer = self._load_gazetteer(name_gazetteer_path, "Name")
+        # Load toponym gazetteer
+        self.toponym_gazetteer = self._load_gazetteer(toponym_gazetteer_path, "Toponym")
+
+    def _load_gazetteer(self, gazetteer_path: str, gazetteer_type: str) -> set:
+        """Helper function to load a gazetteer file into a set."""
+        gazetteer_set = set()
         try:
             if os.path.exists(gazetteer_path):
                 with open(gazetteer_path, 'r', encoding='utf-8') as f:
-                    self.name_gazetteer = {line.strip() for line in f if line.strip()}
-                print(f"Loaded {len(self.name_gazetteer)} names from gazetteer: {gazetteer_path}")
+                    gazetteer_set = {line.strip() for line in f if line.strip()}
+                print(f"Loaded {len(gazetteer_set)} {gazetteer_type.lower()}s from gazetteer: {gazetteer_path}")
             else:
-                print(f"Warning: Gazetteer file not found at {gazetteer_path}. Proceeding without gazetteer.")
+                print(f"Warning: {gazetteer_type} gazetteer file not found at {gazetteer_path}. Proceeding without it.")
         except Exception as e:
-            print(f"Error loading gazetteer file {gazetteer_path}: {e}. Proceeding without gazetteer.")
+            print(f"Error loading {gazetteer_type.lower()} gazetteer file {gazetteer_path}: {e}. Proceeding without it.")
+        return gazetteer_set
     
     def extract_topics(self, texts: List[str], n_topics: int = 5) -> List[List[str]]:
         """
@@ -64,11 +73,11 @@ class TalmudTagger:
     
     def generate_tags(self, processed_en: Dict[str, Any], topics: List[List[str]]) -> List[str]:
         """
-        Generate tags based on processed English text, topics, and gazetteer.
+        Generate tags based on processed English text, topics, and gazetteers.
         
         Args:
             processed_en: Dictionary containing processed English text data (must include 'doc')
-            topics: List of topics
+            topics: List of topics (currently unused, placeholder)
             
         Returns:
             List of generated tags
@@ -78,14 +87,14 @@ class TalmudTagger:
         # Extract entities for tagging
         if 'entities' in processed_en:
             for entity, label in processed_en['entities']:
+                clean_entity = entity.lower().strip('.:, ')
+                if not clean_entity:
+                    continue  # Skip empty entities
+                
                 if label == 'PERSON':
-                    clean_entity = entity.lower().strip('.:, ')
-                    if clean_entity:
-                        tags.add(f"person:{clean_entity}")
-                elif label == 'GPE':
-                    clean_entity = entity.lower().strip('.:, ')
-                    if clean_entity:
-                        tags.add(f"place:{clean_entity}")
+                    tags.add(f"person:{clean_entity}")
+                elif label == 'GPE':  # Geographical Political Entity
+                    tags.add(f"place:{clean_entity}")
         
         # Check for keywords in noun phrases
         if 'noun_phrases' in processed_en:
@@ -96,20 +105,32 @@ class TalmudTagger:
                 if 'blessing' in phrase_lower or 'berakhot' in phrase_lower:
                     tags.add('topic:blessings')
         
-        # Match names from the gazetteer against the full text
+        # Match terms from gazetteers against the full text
         if 'doc' in processed_en and hasattr(processed_en['doc'], 'text'):
             text_content = processed_en['doc'].text
+            
+            # Match Names
             if self.name_gazetteer:
                 for name in self.name_gazetteer:
-                    escaped_name = re.escape(name)
-                    pattern = r"\b" + escaped_name + r"\b"
-                    if re.search(pattern, text_content, re.IGNORECASE):
+                    if self._find_term_in_text(name, text_content):
                         clean_name = name.lower().strip('.:, ')
                         if clean_name:
                             tags.add(f"person:{clean_name}")
-            else:
-                pass
+            
+            # Match Toponyms
+            if self.toponym_gazetteer:
+                for toponym in self.toponym_gazetteer:
+                    if self._find_term_in_text(toponym, text_content):
+                        clean_toponym = toponym.lower().strip('.:, ')
+                        if clean_toponym:
+                            tags.add(f"place:{clean_toponym}")
         else:
             print("Warning: 'doc' object with 'text' attribute not found in processed_en. Cannot perform gazetteer matching.")
         
         return sorted(list(tags))
+
+    def _find_term_in_text(self, term: str, text: str) -> bool:
+        """Helper to find a whole word, case-insensitive match for a term in text."""
+        escaped_term = re.escape(term)
+        pattern = r"\b" + escaped_term + r"\b"
+        return bool(re.search(pattern, text, re.IGNORECASE))

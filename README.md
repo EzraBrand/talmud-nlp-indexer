@@ -25,6 +25,7 @@ It leverages both the original Hebrew/Aramaic text and English translations avai
 - Tag generation:
   - Uses spaCy NER results (PERSON, GPE) from bolded English text.
   - **Augments person identification using a custom name gazetteer** (`data/talmud_names_gazetteer.txt`) for improved accuracy and coverage.
+  - **Augments place identification using a custom toponym gazetteer** (`data/talmud_toponyms_gazetteer.txt`).
   - Basic topic modeling (using `scikit-learn`) and keyword-based topic tag generation (e.g., `topic:prayer`).
 - Storage of processed results as JSON files (`data/` directory)
 
