@@ -43,7 +43,7 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 
 0a. **Add initial processing of text**: Input and incorporate my mapping table / dictionary ('Lord' to 'YHWH'; 'gentile' to 'non-Jew'; etc)
 
-0b. **Add original Hebrew to the markdown files**.
+0b. **Add original Hebrew sentences to the markdown files**. and split it into newlines based on punctuation, same as for English translation sentences.
 
 0c. **Entity Linking to Wikipedia / wiki ID**.
 
