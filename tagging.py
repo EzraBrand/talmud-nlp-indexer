@@ -13,8 +13,9 @@ class TalmudTagger:
     
     def __init__(self, 
                  name_gazetteer_path="data/talmud_names_gazetteer.txt",
-                 toponym_gazetteer_path="data/talmud_toponyms_gazetteer.txt"):
-        """Initialize the tagger and load the name and toponym gazetteers."""
+                 toponym_gazetteer_path="data/talmud_toponyms_gazetteer.txt",
+                 concept_gazetteer_path="data/talmud_concepts_gazetteer.txt"):
+        """Initialize the tagger and load the name, toponym, and concept gazetteers."""
         # Define tag categories
         self.tag_categories = {
             'topics': [],
@@ -27,6 +28,8 @@ class TalmudTagger:
         self.name_gazetteer = self._load_gazetteer(name_gazetteer_path, "Name")
         # Load toponym gazetteer
         self.toponym_gazetteer = self._load_gazetteer(toponym_gazetteer_path, "Toponym")
+        # Load concept gazetteer
+        self.concept_gazetteer = self._load_gazetteer(concept_gazetteer_path, "Concept")
 
     def _load_gazetteer(self, gazetteer_path: str, gazetteer_type: str) -> set:
         """Helper function to load a gazetteer file into a set."""
@@ -124,6 +127,14 @@ class TalmudTagger:
                         clean_toponym = toponym.lower().strip('.:, ')
                         if clean_toponym:
                             tags.add(f"place:{clean_toponym}")
+                            
+            # Match Concepts
+            if self.concept_gazetteer:
+                for concept in self.concept_gazetteer:
+                    if self._find_term_in_text(concept, text_content):
+                        clean_concept = concept.lower().strip('.:, ')
+                        if clean_concept:
+                            tags.add(f"concept:{clean_concept}")
         else:
             print("Warning: 'doc' object with 'text' attribute not found in processed_en. Cannot perform gazetteer matching.")
         

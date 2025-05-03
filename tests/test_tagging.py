@@ -38,9 +38,10 @@ def tagger(mocker): # Add mocker to the fixture
     mocker.patch('tagging.CountVectorizer', return_value=MockVectorizer())
     mocker.patch('tagging.LatentDirichletAllocation', side_effect=lambda n_components, random_state: MockLDA(n_components, random_state))
 
-    # Mock gazetteer file reading for both files
+    # Mock gazetteer file reading for all three files
     name_gazetteer_content = "Rabbi Akiva\nRav Ashi\nShimon ben Lakish\nZutra bar Toviyya"
     toponym_gazetteer_content = "Babylonia\nJerusalem\nAkko\nPumbedita"
+    concept_gazetteer_content = "Shekhina\nbat kol\ntefillin\nGehenna\nShabbat"
 
     # Mock os.path.exists to always return True for simplicity in this fixture
     mocker.patch('tagging.os.path.exists', return_value=True)
@@ -49,6 +50,7 @@ def tagger(mocker): # Add mocker to the fixture
     mock_file_map = {
         "data/talmud_names_gazetteer.txt": mock_open(read_data=name_gazetteer_content).return_value,
         "data/talmud_toponyms_gazetteer.txt": mock_open(read_data=toponym_gazetteer_content).return_value,
+        "data/talmud_concepts_gazetteer.txt": mock_open(read_data=concept_gazetteer_content).return_value,
     }
     # Use a side_effect function to return the correct mock file handle based on the path
     def open_side_effect(path, *args, **kwargs):
@@ -68,6 +70,8 @@ def tagger(mocker): # Add mocker to the fixture
     assert "Rabbi Akiva" in tagger_instance.name_gazetteer
     assert len(tagger_instance.toponym_gazetteer) == 4
     assert "Jerusalem" in tagger_instance.toponym_gazetteer
+    assert len(tagger_instance.concept_gazetteer) == 5
+    assert "Shekhina" in tagger_instance.concept_gazetteer
 
     return tagger_instance
 
@@ -144,28 +148,48 @@ def test_generate_tags_from_toponym_gazetteer(tagger):
     }
     assert len(tags) == 4
 
+def test_generate_tags_from_concept_gazetteer(tagger):
+    """Test tag generation specifically from concept gazetteer matches."""
+    processed_en = {
+        'entities': [],
+        'noun_phrases': [],
+        'sentences': [],
+        'doc': MockProcessedDoc("Discussion about the Shekhina and putting on tefillin before Shabbat. Also mentions bat kol.") # Add mock doc with gazetteer concepts
+    }
+    topics = []
+    tags = tagger.generate_tags(processed_en, topics)
+    # Expected: gazetteer matches (case-insensitive)
+    assert set(tags) == {
+        "concept:shekhina",
+        "concept:tefillin",
+        "concept:shabbat",
+        "concept:bat kol"
+    }
+    assert len(tags) == 4
 
 def test_generate_tags_deduplication(tagger):
-    """Test that generated tags are deduplicated (NER + Gazetteers)."""
+    """Test that generated tags are deduplicated (NER + Gazetteers + Keywords)."""
     processed_en = {
         'entities': [
             ("Rabbi Akiva", "PERSON"), # NER + Name Gazetteer
             ("Babylonia", "GPE")       # NER + Toponym Gazetteer
         ],
-        'noun_phrases': ["the prayer of Rabbi Akiva", "another prayer"],
+        'noun_phrases': ["the prayer of Rabbi Akiva", "another prayer about Shabbat"], # Keyword 'prayer', 'Shabbat' (also in concept gazetteer)
         'sentences': [],
-        'doc': MockProcessedDoc("Text about the prayer of Rabbi Akiva in Babylonia.") # Gazetteer also finds both
+        'doc': MockProcessedDoc("Text about the prayer of Rabbi Akiva in Babylonia concerning Shabbat.") # Gazetteers find Akiva, Babylonia, Shabbat
     }
     topics = []
     tags = tagger.generate_tags(processed_en, topics)
-    # NER finds Rabbi Akiva, Name Gazetteer finds Rabbi Akiva. Should only appear once.
-    # NER finds Babylonia, Toponym Gazetteer finds Babylonia. Should only appear once.
-    # Noun phrase rule finds prayer twice. Should only appear once.
+    # NER finds Rabbi Akiva, Name Gazetteer finds Rabbi Akiva. -> person:rabbi akiva (1)
+    # NER finds Babylonia, Toponym Gazetteer finds Babylonia. -> place:babylonia (1)
+    # Noun phrase rule finds prayer twice. -> topic:prayer (1)
+    # Noun phrase rule finds Shabbat, Concept Gazetteer finds Shabbat. -> concept:shabbat (1)
     assert tags.count("person:rabbi akiva") == 1
     assert tags.count("place:babylonia") == 1
     assert tags.count("topic:prayer") == 1
-    assert set(tags) == {"person:rabbi akiva", "place:babylonia", "topic:prayer"}
-    assert len(tags) == 3
+    assert tags.count("concept:shabbat") == 1
+    assert set(tags) == {"person:rabbi akiva", "place:babylonia", "topic:prayer", "concept:shabbat"}
+    assert len(tags) == 4
 
 def test_extract_topics(tagger):
     """Test topic extraction with mocked scikit-learn components."""
