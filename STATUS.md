@@ -29,17 +29,16 @@ This project aims to analyze and tag the Babylonian Talmud using NLP. It fetches
 *   The tagging logic is basic, relying on simple entity mapping and keyword checks. Topic modeling results from `extract_topics` are not currently integrated into `generate_tags`.
 *   Error handling in `main.py` is present but could be more robust.
 *   Serialization in `main.py` handles basic data but explicitly excludes complex objects like spaCy docs or full embeddings (only embedding shape is saved).
-*   **Discrepancy**: `main.py` imports `TalmudProcessor` from `talmud_indexer`, but this module/class does not exist in the current workspace structure. The script likely needs refactoring to directly use `SefariaAPI`, `TextProcessor`, and `TalmudTagger` from the existing modules.
+*   `main.py` correctly uses the individual `SefariaAPI`, `TextProcessor`, and `TalmudTagger` components.
 
 ## Suggested Next Steps
 
-1.  **Resolve `TalmudProcessor` Discrepancy (`main.py`)**: Refactor `main.py` to remove the non-existent `from talmud_indexer import TalmudProcessor` import. Instead, import `SefariaAPI`, `TextProcessor`, and `TalmudTagger` directly and instantiate/use them within the `main` function.
-2.  **Integration Testing (`main.py`)**: After refactoring, create tests for `main.py` to ensure the components work together correctly. This will likely involve mocking the `SefariaAPI`, `TextProcessor`, `TalmudTagger`, file system operations (`open`, `os.makedirs`), and `json.dump`.
-3.  **Refine Tagging Logic (`tagging.py`)**:
+1.  **Integration Testing (`main.py`)**: Create tests for `main.py` to ensure the components work together correctly. This will likely involve mocking the `SefariaAPI`, `TextProcessor`, `TalmudTagger`, file system operations (`open`, `os.makedirs`), and `json.dump`.
+2.  **Refine Tagging Logic (`tagging.py`)**:
     *   Integrate the results from `extract_topics` into `generate_tags` (e.g., add `topic:<top_word>` tags).
     *   Expand keyword rules for `topic:`, `halacha:`, and `aggadah:` tags based on domain knowledge.
     *   Consider using Hebrew entities/analysis for tagging if possible (requires a Hebrew NER model or different approach).
-4.  **Enhance Hebrew Processing (`processor.py`)**: Explore more advanced Hebrew NLP tasks beyond embeddings if needed (e.g., morphological analysis, NER if a suitable model exists).
-5.  **Configuration**: Move settings like the target tractate/pages from `main.py` into a configuration file or command-line arguments.
-6.  **Error Handling & Logging**: Implement more robust error handling and add proper logging throughout the application.
-7.  **Data Storage**: Consider alternative storage solutions if JSON files become unwieldy (e.g., a database, document store). Decide how to store/use the large Hebrew embeddings if needed beyond just their shape.
+3.  **Enhance Hebrew Processing (`processor.py`)**: Explore more advanced Hebrew NLP tasks beyond embeddings if needed (e.g., morphological analysis, NER if a suitable model exists).
+4.  **Configuration**: Move settings like the target tractate/pages from `main.py` into a configuration file or command-line arguments.
+5.  **Error Handling & Logging**: Implement more robust error handling and add proper logging throughout the application.
+6.  **Data Storage**: Consider alternative storage solutions if JSON files become unwieldy (e.g., a database, document store). Decide how to store/use the large Hebrew embeddings if needed beyond just their shape.
