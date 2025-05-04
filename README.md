@@ -8,6 +8,9 @@ This project uses modern natural language processing techniques to analyze and t
 
 It leverages both the original Hebrew/Aramaic text and English translations available through the Sefaria API.
 
+See also my overview at my blog: 
+["Mapping the Talmud: Scalable Natural Language Processing (NLP) for Named Entities, Topics, and Tags in the Talmudic Corpus"](https://www.ezrabrand.com/p/mapping-the-talmud-scalable-natural) (May 04, 2025)
+
 ### Initial Focus
 - Tractate Berakhot (first 10 pages: 2a-7a)
 - Developing core NLP pipelines for Talmudic text (`processor.py`)
