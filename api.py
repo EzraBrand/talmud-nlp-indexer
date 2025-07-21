@@ -46,6 +46,40 @@ class SefariaAPI:
         ref = f"{tractate}.{daf}"
         return self.fetch_text(ref)
 
+    def fetch_talmud_page_sections(self, tractate: str, daf: str) -> List[Dict[str, Any]]:
+        """
+        Fetch a specific page (daf) from the Talmud and return individual sections.
+        
+        Args:
+            tractate: Name of the tractate (e.g., "Berakhot")
+            daf: Page reference (e.g., "2a", "2b")
+            
+        Returns:
+            List of dictionaries, each containing a section with metadata
+        """
+        page_data = self.fetch_talmud_page(tractate, daf)
+        
+        en_sections = page_data.get('text', [])
+        he_sections = page_data.get('he', [])
+        ref = page_data.get('ref', f"{tractate}.{daf}")
+        
+        sections = []
+        max_sections = max(len(en_sections), len(he_sections))
+        
+        for i in range(max_sections):
+            section = {
+                'section_id': i,
+                'ref': f"{ref}:{i+1}",  # e.g., "Sanhedrin 91a:1"
+                'page_ref': ref,
+                'en_text': en_sections[i] if i < len(en_sections) else '',
+                'he_text': he_sections[i] if i < len(he_sections) else '',
+                'section_number': i + 1,
+                'total_sections': max_sections
+            }
+            sections.append(section)
+        
+        return sections
+
     def fetch_tractate_range(self, tractate: str, start_daf: str, end_daf: str) -> List[Dict[str, Any]]:
         """
         Fetch a range of pages from a tractate.

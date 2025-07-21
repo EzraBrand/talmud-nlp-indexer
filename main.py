@@ -3,6 +3,7 @@ Main script for running the Talmud NLP Indexer.
 """
 import json
 import os
+from typing import List
 from api import SefariaAPI
 from processor import TextProcessor
 from tagging import TalmudTagger
@@ -71,6 +72,47 @@ def apply_term_replacements(text: str) -> str:
             modified_text = re.sub(pattern, new_term, modified_text, flags=re.IGNORECASE)
     
     return modified_text
+
+def process_section(section: dict, text_processor, tagger) -> dict:
+    """
+    Process an individual section of Talmudic text.
+    
+    Args:
+        section: Dictionary containing section data from Sefaria
+        text_processor: TextProcessor instance
+        tagger: TalmudTagger instance
+        
+    Returns:
+        Dictionary containing processed section data
+    """
+    # Apply term replacements to English text
+    en_text_processed = apply_term_replacements(section['en_text'])
+    
+    # Clean Hebrew text
+    he_text_cleaned, _ = text_processor.clean_text(section['he_text'], 'he')
+    
+    # Process texts
+    en_processed = text_processor.process_english(en_text_processed)
+    he_processed = text_processor.process_hebrew(he_text_cleaned)
+    
+    # Generate tags for this section
+    topics = []  # Could implement topic modeling per section if needed
+    tags = tagger.generate_tags(en_processed, topics)
+    
+    return {
+        'section_id': section['section_id'],
+        'ref': section['ref'],
+        'page_ref': section['page_ref'],
+        'section_number': section['section_number'],
+        'total_sections': section['total_sections'],
+        'en_text_raw': section['en_text'],
+        'en_text_processed': en_text_processed,
+        'he_text_raw': section['he_text'],
+        'he_text_cleaned': he_text_cleaned,
+        'en_processed': en_processed,
+        'he_processed': he_processed,
+        'tags': tags
+    }
 
 def generate_markdown(result: dict, output_md_path: str):
     """Generates a Markdown file summarizing and annotating the processed text,
@@ -163,7 +205,7 @@ def generate_markdown(result: dict, output_md_path: str):
                 # Generate Hebrew sentences with RTL formatting (no numbering)
                 for sentence in he_sentences:
                     if sentence:  # Only process non-empty sentences
-                        f.write(f"<div dir=\"rtl\"><strong>{sentence}</strong></div>\n\n")
+                        f.write(f"<div dir=\"rtl\">{sentence}</div>\n\n")
             else:
                 f.write("No Hebrew text available.\n\n")
 
@@ -207,9 +249,164 @@ def generate_markdown(result: dict, output_md_path: str):
                 f.write("No analyzed text available.\n")
 
     except Exception as e:
+        
         # Use f-string for cleaner formatting
         print(f"Error generating Markdown file {output_md_path}: {e}")
         traceback.print_exc() # Add traceback for debugging
+
+def generate_sections_markdown(sections: List[dict], output_md_path: str):
+    """
+    Generate a Markdown file with section-aware analysis including full processing.
+    
+    Args:
+        sections: List of processed section dictionaries
+        output_md_path: Path to output markdown file
+    """
+    try:
+        with open(output_md_path, 'w', encoding='utf-8') as f:
+            # Page title - extract from first section's ref
+            if sections:
+                first_ref = sections[0]['ref']  # e.g. "Sanhedrin 91a:1"
+                page_ref = first_ref.split(':')[0] if ':' in first_ref else first_ref  # e.g. "Sanhedrin 91a"
+            else:
+                page_ref = "Unknown"
+            f.write(f"# {page_ref} (Section-Aware Analysis)\n\n")
+            
+            # Overall page tags (aggregate from all sections)
+            all_tags = set()
+            all_italics = set()
+            
+            for section in sections:
+                all_tags.update(section['tags'])
+                italics = section.get('en_processed', {}).get('italicized_words', [])
+                all_italics.update(italics)
+            
+            # Write aggregated tags
+            f.write("## Overall Page Tags\n\n")
+            if all_tags:
+                for tag in sorted(all_tags):
+                    f.write(f"- {tag}\n")
+            else:
+                f.write("No tags found.\n")
+            f.write("\n")
+            
+            # Write aggregated italics
+            f.write("## Bolded & Italicized Words (All Sections)\n\n")
+            if all_italics:
+                for word in sorted(all_italics):
+                    f.write(f"- {word}\n")
+            else:
+                f.write("No bolded and italicized words found.\n")
+            f.write("\n")
+            
+            # Process each section with full analysis
+            for section in sections:
+                section_num = section['section_number']
+                f.write(f"## Section {section_num}\n\n")
+                
+                # Section tags
+                f.write(f"### Tags (Section {section_num})\n\n")
+                section_tags = section['tags']
+                if section_tags:
+                    for tag in sorted(section_tags):
+                        f.write(f"- {tag}\n")
+                else:
+                    f.write("No tags found in this section.\n")
+                f.write("\n")
+                
+                # Hebrew text for this section
+                f.write(f"### Hebrew Text (Section {section_num})\n\n")
+                he_text_raw = section.get('he_text', section.get('he_text_cleaned', ''))
+                if he_text_raw:
+                    # Process Hebrew text (strip nikud, split sentences)
+                    import re
+                    
+                    def strip_nikud(text):
+                        nikud_pattern = r'[\u0591-\u05C7]'
+                        return re.sub(nikud_pattern, '', text)
+                    
+                    he_text_cleaned = re.sub(r'<[^>]+>', '', he_text_raw)
+                    he_text_cleaned = strip_nikud(he_text_cleaned)
+                    he_sentences = re.split(r'[.!?׃։]', he_text_cleaned)
+                    he_sentences = [sent.strip() for sent in he_sentences if sent.strip()]
+                    
+                    for sentence in he_sentences:
+                        if sentence:
+                            f.write(f"<div dir=\"rtl\">{sentence}</div>\n\n")
+                else:
+                    f.write("No Hebrew text available for this section.\n\n")
+                
+                # English text for this section with full annotation
+                f.write(f"### Annotated English Text (Section {section_num})\n\n")
+                
+                # Create gazetteer lookup for this section
+                from tagging import TalmudTagger
+                tagger = TalmudTagger()
+                gazetteer_tag_lookup = {}
+                
+                # Load gazetteers and create lookup
+                gazetteer_sources = [
+                    ('person:bible', tagger.bible_name_gazetteer),
+                    ('place:bible', tagger.bible_place_gazetteer),
+                    ('place:bible', tagger.bible_nation_gazetteer),  # Bible nations are also places
+                    ('person', tagger.name_gazetteer),
+                    ('place', tagger.toponym_gazetteer),
+                    ('concept', tagger.concept_gazetteer)
+                ]
+                
+                for tag_prefix, gazetteer in gazetteer_sources:
+                    for word in gazetteer:
+                        word_lower = word.lower()
+                        if word_lower not in gazetteer_tag_lookup:
+                            gazetteer_tag_lookup[word_lower] = (tag_prefix, word)
+                
+                doc = section.get('en_processed', {}).get('doc')
+                if doc and doc.text:
+                    for sent in doc.sents:
+                        original_sentence_text = sent.text
+                        annotated_sentence_text = original_sentence_text
+                        
+                        entities_in_sentence = sorted([
+                            (ent.start_char - sent.start_char, ent.end_char - sent.start_char, ent.text, ent.label_)
+                            for ent in doc.ents if ent.start_char >= sent.start_char and ent.end_char <= sent.end_char
+                        ], key=lambda x: x[1], reverse=True)
+
+                        for start, end, text, spacy_label in entities_in_sentence:
+                            if annotated_sentence_text[start:end] == text:
+                                entity_text_lower = text.lower()
+                                final_label = spacy_label
+                                from_gazetteer = False
+
+                                # Prioritize Gazetteer Tag
+                                if entity_text_lower in gazetteer_tag_lookup:
+                                    final_label = gazetteer_tag_lookup[entity_text_lower][0]
+                                    from_gazetteer = True
+
+                                # Exclude specific spaCy labels
+                                if not from_gazetteer and final_label in EXCLUDED_SPACY_LABELS:
+                                    continue
+                                
+                                escaped_text = re.sub(r'([`*_{}[\]()#+.!-])', r'\1', text)
+                                annotation = f"**{escaped_text}**`[{final_label}]`" 
+                                annotated_sentence_text = annotated_sentence_text[:start] + annotation + annotated_sentence_text[end:]
+
+                        f.write(annotated_sentence_text + "\n\n")
+                else:
+                    f.write("No analyzed text available for this section.\n\n")
+                
+                # Section italics
+                section_italics = section.get('en_processed', {}).get('italicized_words', [])
+                if section_italics:
+                    f.write(f"### Bolded & Italicized Words (Section {section_num})\n\n")
+                    for word in sorted(section_italics):
+                        f.write(f"- {word}\n")
+                    f.write("\n")
+                
+                f.write("---\n\n")  # Section separator
+                
+    except Exception as e:
+        print(f"Error generating sections Markdown file {output_md_path}: {e}")
+        traceback.print_exc()
 
 
 def main():
@@ -231,41 +428,98 @@ def main():
         print(f"Processing {tractate}.{daf}...")
 
         try:
-            # 1. Fetch data
-            page_data = sefaria_api.fetch_talmud_page(tractate, daf)
+            # 1. Fetch data using section-aware approach
+            sections_data = sefaria_api.fetch_talmud_page_sections(tractate, daf)
+            print(f"  Found {len(sections_data)} sections for {tractate}.{daf}")
 
-            # Extract texts (handle potential missing keys and list format)
-            # Keep the raw text with HTML for process_english
-            en_text_raw = ' '.join(page_data.get('text', [])) if isinstance(page_data.get('text'), list) else page_data.get('text', '')
-            he_text_raw = ' '.join(page_data.get('he', [])) if isinstance(page_data.get('he'), list) else page_data.get('he', '')
+            # Process each section individually while aggregating page-level results
+            page_sections = []
+            page_en_texts = []
+            page_he_texts = []
+            all_page_tags = set()
+            all_page_italics = set()
 
-            # Apply term replacements to English text before processing
-            en_text_processed = apply_term_replacements(en_text_raw)
+            for section in sections_data:
+                section_num = section['section_number']
+                print(f"    Processing section {section_num}/{len(sections_data)}...")
+
+                # Get section texts
+                en_text_raw = section['en_text']
+                he_text_raw = section['he_text']
+
+                # Skip empty sections
+                if not en_text_raw.strip() and not he_text_raw.strip():
+                    continue
+
+                # Apply term replacements to English text before processing
+                en_text_processed = apply_term_replacements(en_text_raw)
+
+                # Store texts for page-level concatenation (for backward compatibility)
+                page_en_texts.append(en_text_processed)
+                page_he_texts.append(he_text_raw)
+
+                # Clean Hebrew text for this section
+                he_text_cleaned, _ = text_processor.clean_text(he_text_raw, 'he') 
+
+                # 2. Process section texts
+                en_processed = text_processor.process_english(en_text_processed) 
+                he_processed = text_processor.process_hebrew(he_text_cleaned)
+
+                # 3. Generate tags for this section
+                topics = []  # Could be section-specific in the future
+                section_tags = tagger.generate_tags(en_processed, topics)
+
+                # Collect section-level data
+                section_result = {
+                    'section_id': section['section_id'],
+                    'section_number': section['section_number'],
+                    'ref': section['ref'],
+                    'en_text': en_text_raw,
+                    'en_text_processed': en_text_processed,
+                    'he_text': he_text_raw,
+                    'he_text_cleaned': he_text_cleaned,
+                    'en_processed': en_processed,
+                    'he_processed': he_processed,
+                    'tags': section_tags
+                }
+                page_sections.append(section_result)
+
+                # Aggregate tags and italics for page level
+                all_page_tags.update(section_tags)
+                all_page_italics.update(en_processed.get('italicized_words', []))
+
+            # Create page-level concatenated texts for backward compatibility
+            en_text_raw = ' '.join(page_en_texts)
+            he_text_raw = ' '.join(page_he_texts)
+            en_text_processed = ' '.join(page_en_texts)
 
             # Clean only Hebrew text here (English cleaning happens inside process_english)
             # Note: clean_text now returns a tuple, but we only need the text for Hebrew here
-            he_text_cleaned, _ = text_processor.clean_text(he_text_raw, 'he') 
+            he_text_cleaned, _ = text_processor.clean_text(he_text_raw, 'he')
 
-            # 2. Process texts
+            # 2. Process page-level texts (for backward compatibility)
             # Pass the processed English text (with term replacements) to process_english
             en_processed = text_processor.process_english(en_text_processed) 
             he_processed = text_processor.process_hebrew(he_text_cleaned)
 
-            # 3. Generate tags
-            # Extract cleaned text for topic modeling if needed (or use doc directly)
-            # cleaned_en_text_for_topics = en_processed['doc'].text # Example
+            # 3. Generate page-level tags (combine all section tags)
             topics = [] # tagger.extract_topics([cleaned_en_text_for_topics])
-            tags = tagger.generate_tags(en_processed, topics)
+            page_tags = list(all_page_tags)  # Convert set to list
 
-            # 4. Assemble result
+            # Get page reference from first section
+            page_ref = sections_data[0]['page_ref'] if sections_data else f"{tractate}.{daf}"
+
+            # 4. Assemble result with section metadata
             result = {
-                'ref': page_data.get('ref', f"{tractate}.{daf}"),
-                'en_text': en_text_raw, # Store original raw text
+                'ref': page_ref,
+                'en_text': en_text_raw, # Store page-level concatenated text
                 'en_text_processed': en_text_processed, # Store text with term replacements
-                'he_text': he_text_raw, # Store raw text
+                'he_text': he_text_raw, # Store page-level concatenated text
                 'en_processed': en_processed, 
                 'he_processed': he_processed,
-                'tags': tags
+                'tags': page_tags,  # Use aggregated page-level tags
+                'sections': page_sections,  # NEW: Include all section data
+                'section_count': len(sections_data)  # NEW: Section metadata
             }
 
             # Save results
@@ -274,15 +528,17 @@ def main():
                 # Convert complex objects for JSON serialization
                 serializable_result = {}
                 serializable_result['ref'] = result['ref']
-                serializable_result['en_text'] = result['en_text'] # Original raw text
+                serializable_result['en_text'] = result['en_text'] # Page-level concatenated text
                 serializable_result['en_text_processed'] = result['en_text_processed'] # Text with term replacements
-                serializable_result['he_text'] = result['he_text'] # Raw text
-                # Extract serializable parts from en_processed, including italics
+                serializable_result['he_text'] = result['he_text'] # Page-level concatenated text
+                
+                # Extract serializable parts from page-level en_processed, including italics
                 serializable_result['en_processed'] = {
                     k: v for k, v in result['en_processed'].items()
-                    if k in ['entities', 'noun_phrases', 'sentences', 'italicized_words'] # Add italicized_words
+                    if k in ['entities', 'noun_phrases', 'sentences', 'italicized_words']
                 }
-                # Extract serializable parts from he_processed (e.g., embedding shape)
+                
+                # Extract serializable parts from page-level he_processed (e.g., embedding shape)
                 embedding_tensor = result['he_processed'].get('embeddings')
                 if embedding_tensor is not None:
                     serializable_result['he_processed'] = {'embedding_shape': list(embedding_tensor.shape)}
@@ -290,6 +546,38 @@ def main():
                     serializable_result['he_processed'] = {'embedding_shape': None}
 
                 serializable_result['tags'] = result['tags']
+                serializable_result['section_count'] = result['section_count']
+                
+                # NEW: Add serialized section data
+                serializable_sections = []
+                for section in result['sections']:
+                    serializable_section = {
+                        'section_id': section['section_id'],
+                        'section_number': section['section_number'],
+                        'ref': section['ref'],
+                        'en_text': section['en_text'],
+                        'en_text_processed': section['en_text_processed'],
+                        'he_text': section['he_text'],
+                        'he_text_cleaned': section['he_text_cleaned'],
+                        'tags': section['tags']
+                    }
+                    
+                    # Extract serializable parts from section en_processed
+                    serializable_section['en_processed'] = {
+                        k: v for k, v in section['en_processed'].items()
+                        if k in ['entities', 'noun_phrases', 'sentences', 'italicized_words']
+                    }
+                    
+                    # Extract serializable parts from section he_processed
+                    section_embedding_tensor = section['he_processed'].get('embeddings')
+                    if section_embedding_tensor is not None:
+                        serializable_section['he_processed'] = {'embedding_shape': list(section_embedding_tensor.shape)}
+                    else:
+                        serializable_section['he_processed'] = {'embedding_shape': None}
+                    
+                    serializable_sections.append(serializable_section)
+                
+                serializable_result['sections'] = serializable_sections
 
                 json.dump(serializable_result, f, ensure_ascii=False, indent=2)
 
@@ -297,12 +585,27 @@ def main():
 
             # Generate and Save Markdown results
             output_md_file = f"data/{tractate}_{daf}.md"
-            generate_markdown(result, output_md_file)  # Call the new function
-            print(f"Saved Markdown results to {output_md_file}")
+            
+            # Use section-aware markdown generation for better text flow
+            output_sections_md_file = f"data/{tractate}_{daf}_sections.md"
+            generate_sections_markdown(result['sections'], output_sections_md_file)
+            print(f"Saved section-aware Markdown results to {output_sections_md_file}")
+            
+            # Also generate traditional concatenated markdown for backward compatibility
+            generate_markdown(result, output_md_file)
+            print(f"Saved traditional Markdown results to {output_md_file}")
 
             # Print tags and italics
-            print(f"Tags: {', '.join(result['tags'])}")
-            print(f"Italics: {', '.join(result['en_processed'].get('italicized_words', []))}\n" + "-" * 50)
+            print(f"Total sections processed: {result['section_count']}")
+            print(f"Page-level tags: {', '.join(result['tags'])}")
+            print(f"Page-level italics: {', '.join(list(all_page_italics))}")
+            print(f"Section breakdown:")
+            for section in result['sections']:
+                section_tags = ', '.join(section['tags'][:5])  # Show first 5 tags
+                if len(section['tags']) > 5:
+                    section_tags += f" ... (+{len(section['tags']) - 5} more)"
+                print(f"  Section {section['section_number']}: {len(section['tags'])} tags ({section_tags})")
+            print("-" * 50)
 
         except Exception as e:
             # Print detailed error including traceback
