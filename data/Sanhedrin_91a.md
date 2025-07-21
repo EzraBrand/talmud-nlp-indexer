@@ -10,6 +10,7 @@
 - person:abba
 - person:alexander
 - person:alexander of macedon
+- person:alexander the king
 - person:bar abba
 - person:bible:abraham
 - person:bible:ami
@@ -23,6 +24,9 @@
 - person:yirmeya
 - place:afrikiya
 - place:bible:canaan
+- place:bible:children of israel
+- place:bible:descendants of ishmael
+- place:bible:descendants of keturah
 - place:bible:egypt
 - place:bible:israel
 - place:bible:jerusalem
@@ -224,7 +228,7 @@ They said to him: We are unable became angry at them and said to them: in a plac
 
 And if you do not believe go out to the valley and see an akhbar, that **today**`[DATE]` is **half**`[CARDINAL]` flesh and **half**`[CARDINAL]` earth, **tomorrow**`[DATE]` develop and all of it will become flesh.
 
-**Lest**`[PERSON]` you say over an extended period, ascend a mountain and see that **today**`[DATE]` there is **only one**`[CARDINAL]` snail there; **tomorrow**`[DATE]`, rain have fallen, and it entirely filled with snails.
+Lest you say over an extended period, ascend a mountain and see that **today**`[DATE]` there is **only one**`[CARDINAL]` snail there; **tomorrow**`[DATE]`, rain have fallen, and it entirely filled with snails.
 
 a certain heretic said to **Geviha ben Pesisa**`[person]`:
 
@@ -258,7 +262,7 @@ And moreover, **several years**`[DATE]` that you have not served us.
 
 And **that year**`[DATE]` was a Sabbatical another occasion, the people of **Egypt**`[GPE]` came to judgment with the **Jewish**`[NORP]` people before **Alexander**`[person]` of **Macedon**`[place]`.
 
-said to It says “And **YHWH**`[PERSON]` gave the people favor in the eyes of **Egypt**`[GPE]`, and they lent them” Give us the silver and gold that you took from us; **Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander**`[person]` If they will defeat me, say You have defeated an ordinary from among us, And if I will defeat them, say to them: The Torah of Moses, our teacher, defeated you, gave him permission, and he went and deliberated with them.
+said to It says “And **YHWH**`[concept:divine_name_yhwh]` gave the people favor in the eyes of **Egypt**`[GPE]`, and they lent them” Give us the silver and gold that you took from us; **Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander**`[person]` If they will defeat me, say You have defeated an ordinary from among us, And if I will defeat them, say to them: The Torah of Moses, our teacher, defeated you, gave him permission, and he went and deliberated with them.
 
 said to them: From where are you citing proof They said to him: From the **Torah**`[concept]`.
 

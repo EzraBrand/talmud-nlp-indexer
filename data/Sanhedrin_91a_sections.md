@@ -10,6 +10,7 @@
 - person:abba
 - person:alexander
 - person:alexander of macedon
+- person:alexander the king
 - person:bar abba
 - person:bible:abraham
 - person:bible:ami
@@ -23,6 +24,9 @@
 - person:yirmeya
 - place:afrikiya
 - place:bible:canaan
+- place:bible:children of israel
+- place:bible:descendants of ishmael
+- place:bible:descendants of keturah
 - place:bible:egypt
 - place:bible:israel
 - place:bible:jerusalem
@@ -118,7 +122,7 @@ The school of R' Yishmael taught a fortiori from glass vessels: If glass vessels
 
 ### Annotated English Text (Section 3)
 
-a certain heretic said to R' **Ami**`[person:bible]`: You say that the dead will live.
+**a certain heretic**`[person]` said to R' Ami: You say that the dead will live.
 
 Aren’t they dust?
 
@@ -164,7 +168,7 @@ became angry at them and said to them: in a place where there is no water and ea
 
 And if you do not believe go out to the valley and see an akhbar, that **today**`[DATE]` is **half**`[CARDINAL]` flesh and **half**`[CARDINAL]` earth, **tomorrow**`[DATE]` develop and all of it will become flesh.
 
-**Lest**`[PERSON]` you say over an extended period, ascend a mountain and see that **today**`[DATE]` there is **only one**`[CARDINAL]` snail there; **tomorrow**`[DATE]`, rain have fallen, and it entirely filled with snails.
+Lest you say over an extended period, ascend a mountain and see that **today**`[DATE]` there is **only one**`[CARDINAL]` snail there; **tomorrow**`[DATE]`, rain have fallen, and it entirely filled with snails.
 
 ### Bolded & Italicized Words (Section 4)
 
@@ -199,7 +203,7 @@ And if you do not believe go out to the valley and see an akhbar, that **today**
 
 ### Annotated English Text (Section 5)
 
-a certain heretic said to **Geviha ben Pesisa**`[person]`:
+**a certain heretic**`[person]` said to **Geviha ben Pesisa**`[person]`:
 
 Woe unto you, the wicked, as you say: The dead will come to life.
 
@@ -241,7 +245,7 @@ A baraita states On **the twenty-fourth**`[DATE]` in Nisan usurpers
 
 [dimusana’ei] were expelled from **Judea**`[place]` and **Jerusalem**`[place:bible]`.
 
-When the people of **Afrikiya**`[place]` came to judgment with the **Jewish**`[NORP]` people before **Alexander**`[person]` of **Macedon**`[place]`, they said to him: The land of **Canaan**`[place:bible]` is ours, as it is written: the land of **Canaan**`[place:bible]` according to its borders” And **Canaan**`[place:bible]` is the forefather of these people.
+When the people of **Afrikiya**`[place]` came to judgment with the **Jewish**`[NORP]` people before **Alexander of Macedon**`[person]`, they said to him: The **land of Canaan**`[place]` is ours, as it is written: the land of Canaan according to its borders” And Canaan is the forefather of these people.
 
 ### Bolded & Italicized Words (Section 6)
 
@@ -271,7 +275,7 @@ When the people of **Afrikiya**`[place]` came to judgment with the **Jewish**`[N
 
 ### Annotated English Text (Section 7)
 
-**Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander**`[person]` of **Macedon**`[place]`.
+**Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander of Macedon**`[person]`.
 
 If they will defeat me, say You have defeated an ordinary from among us, And if I will defeat them, say to them: The Torah of Moses defeated you, gave him permission, and he went and deliberated with them.
 
@@ -311,6 +315,7 @@ And moreover, **several years**`[DATE]` that you have not served us.
 ### Tags (Section 9)
 
 - person:alexander
+- person:alexander the king
 
 ### Hebrew Text (Section 9)
 
@@ -328,7 +333,7 @@ And moreover, **several years**`[DATE]` that you have not served us.
 
 ### Annotated English Text (Section 9)
 
-**Alexander**`[person]` the king said to Provide a response They said to Give us time; **three days**`[DATE]` gave them time they examined and did not find a response Immediately, they fled and abandoned their fields when they sown and their vineyards when they planted.
+**Alexander the king**`[person]` said to Provide a response They said to Give us time; three days gave them time they examined and did not find a response Immediately, they fled and abandoned their fields when they sown and their vineyards when they planted.
 
 And **that year**`[DATE]` was a Sabbatical
 
@@ -354,9 +359,9 @@ And **that year**`[DATE]` was a Sabbatical
 
 ### Annotated English Text (Section 10)
 
-another occasion, the people of **Egypt**`[place:bible]` came to judgment with the **Jewish**`[NORP]` people before **Alexander**`[person]` of **Macedon**`[place]`.
+another occasion, the people of **Egypt**`[place:bible]` came to judgment with the **Jewish**`[NORP]` people before **Alexander of Macedon**`[person]`.
 
-said to It says “And **YHWH**`[PERSON]` gave the people favor in the eyes of **Egypt**`[place:bible]`, and they lent them” Give us the silver and gold that you took from us;
+said to It says “And **YHWH**`[concept:divine_name_yhwh]` gave the people favor in the eyes of **Egypt**`[place:bible]`, and they lent them” Give us the silver and gold that you took from us;
 
 ---
 
@@ -380,7 +385,7 @@ said to It says “And **YHWH**`[PERSON]` gave the people favor in the eyes of *
 
 ### Annotated English Text (Section 11)
 
-**Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander**`[person]` If they will defeat me, say You have defeated an ordinary from among us, And if I will defeat them, say to them: The Torah of Moses, our teacher, defeated you, gave him permission, and he went and deliberated with them.
+**Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before Alexander If they will defeat me, say You have defeated an ordinary from among us, And if I will defeat them, say to them: The Torah of Moses, our teacher, defeated you, gave him permission, and he went and deliberated with them.
 
 ---
 
@@ -389,6 +394,7 @@ said to It says “And **YHWH**`[PERSON]` gave the people favor in the eyes of *
 ### Tags (Section 12)
 
 - concept:torah
+- place:bible:children of israel
 - place:bible:egypt
 - place:bible:israel
 
@@ -406,7 +412,7 @@ said to It says “And **YHWH**`[PERSON]` gave the people favor in the eyes of *
 
 said to them: From where are you citing proof They said to him: From the **Torah**`[concept]`.
 
-said to them: I too will cite proof to you only from the **Torah**`[concept]`, as it is stated: “And the sojourning of the children of **Israel**`[place:bible]`, who dwelt in **Egypt**`[place:bible]`, was **four hundred and thirty years**`[DATE]`” Give us the wages for the work by **600,000**`[CARDINAL]` whom you enslaved in **Egypt**`[place:bible]` **four hundred and thirty years**`[DATE]`.
+said to them: I too will cite proof to you only from the **Torah**`[concept]`, as it is stated: “And the sojourning of the **children of Israel**`[place:bible]`, who dwelt in Egypt, was four hundred and thirty years” Give us the wages for the work by 600,000 whom you enslaved in Egypt four hundred and thirty years.
 
 ---
 
@@ -434,7 +440,7 @@ said to them: I too will cite proof to you only from the **Torah**`[concept]`, a
 
 ### Annotated English Text (Section 13)
 
-**Alexander**`[person]` of **Macedon**`[place]` said to Provide a response They said to him: Give us time; **three days**`[DATE]` gave them time they examined and did not find a response Immediately, they abandoned their fields when they sown and their vineyards when they planted, and fled.
+**Alexander of Macedon**`[person]` said to Provide a response They said to him: Give us time; three days gave them time they examined and did not find a response Immediately, they abandoned their fields when they sown and their vineyards when they planted, and fled.
 
 And **that year**`[DATE]` was a Sabbatical
 
@@ -451,6 +457,8 @@ And **that year**`[DATE]` was a Sabbatical
 - person:bible:ishmael
 - person:bible:keturah
 - place:bible:canaan
+- place:bible:descendants of ishmael
+- place:bible:descendants of keturah
 - place:land of canaan
 - place:macedon
 
@@ -462,9 +470,9 @@ And **that year**`[DATE]` was a Sabbatical
 
 ### Annotated English Text (Section 14)
 
-And another occasion, the descendants of **Ishmael**`[person:bible]` and the descendants of **Keturah**`[person:bible]` came to judgment with the **Jewish**`[NORP]` people before **Alexander**`[person]` of **Macedon**`[place]`.
+And another occasion, the **descendants of Ishmael**`[place:bible]` and the **descendants of Keturah**`[place:bible]` came to judgment with the Jewish people before **Alexander of Macedon**`[person]`.
 
-They said to The land of **Canaan**`[place:bible]` is ours and yours, as it is written: “And these are the generations of **Ishmael**`[person:bible]`, son of **Abraham**`[person:bible]`, and it is written: “And these are the generations of **Isaac**`[person:bible]`, son of **Abraham**`[person:bible]`”
+They said to The **land of Canaan**`[place]` is ours and yours, as it is written: “And these are the generations of Ishmael, son of Abraham, and it is written: “And these are the generations of Isaac, son of Abraham”
 
 ---
 
@@ -490,7 +498,7 @@ They said to The land of **Canaan**`[place:bible]` is ours and yours, as it is w
 
 ### Annotated English Text (Section 15)
 
-**Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander**`[person]` of **Macedon**`[place]`.
+**Geviha ben Pesisa**`[person]` said to the rabbis: Give me permission and I will go and deliberate with them before **Alexander of Macedon**`[person]`.
 
 If they will defeat me, say You have defeated an ordinary from among us, And if I will defeat them, say to them: The Torah of Moses, our teacher, defeated you, gave him permission, and he went and deliberated with them.
 
@@ -532,7 +540,7 @@ said to them: I too will cite proof to you only from the **Torah**`[concept]`, a
 
 But to the sons of the concubines that **Abraham**`[person:bible]` had, **Abraham**`[person:bible]` gave gifts, a father who gave a document of bequest [agatin] to his sons during his lifetime and sent **one**`[CARDINAL]` away from the other, does have any claim against the other?
 
-What gifts R' **Yirmeya**`[PERSON]` bar **Abba**`[person]` says: teaches that provided them name impurity,
+What gifts R' **Yirmeya**`[PERSON]` **bar Abba**`[person]` says: teaches that provided them name impurity,
 
 ### Bolded & Italicized Words (Section 16)
 

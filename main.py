@@ -224,10 +224,26 @@ def generate_markdown(result: dict, output_md_path: str):
 
                     for start, end, text, spacy_label in entities_in_sentence:
                         if annotated_sentence_text[start:end] == text:
-                            entity_text_lower = text.lower()
+                            entity_text_lower = text.lower().strip('.:, ')
                             final_label = spacy_label # Default to spaCy label
                             from_gazetteer = False # Flag to track origin
 
+                            # Apply same filtering logic as tagging.py
+                            non_person_words = {
+                                'lest', 'yhwh', 'lord', 'god', 'today', 'tomorrow', 'yesterday', 
+                                'this', 'that', 'these', 'those', 'when', 'where', 'why', 'how',
+                                'what', 'which', 'who', 'whom', 'whose', 'will', 'would', 'could',
+                                'should', 'might', 'may', 'can', 'must', 'shall'
+                            }
+                            divine_names = {'yhwh', 'lord', 'god', 'hashem', 'adonai'}
+
+                            # Skip filtered words for PERSON entities
+                            if spacy_label == "PERSON":
+                                if entity_text_lower in divine_names:
+                                    final_label = f"concept:divine_name_{entity_text_lower}"
+                                elif entity_text_lower in non_person_words:
+                                    continue  # Skip this entity entirely
+                            
                             # --- Prioritize Gazetteer Tag ---
                             if entity_text_lower in gazetteer_tag_lookup:
                                 final_label = gazetteer_tag_lookup[entity_text_lower][0]
@@ -362,22 +378,79 @@ def generate_sections_markdown(sections: List[dict], output_md_path: str):
                 
                 doc = section.get('en_processed', {}).get('doc')
                 if doc and doc.text:
+                    # Helper function from tagging.py for multi-word matching
+                    def find_term_in_text(term: str, text: str) -> bool:
+                        """Helper to find a whole word, case-insensitive match for a term in text."""
+                        escaped_term = re.escape(term)
+                        pattern = r"\b" + escaped_term + r"\b"
+                        return bool(re.search(pattern, text, re.IGNORECASE))
+                    
                     for sent in doc.sents:
                         original_sentence_text = sent.text
                         annotated_sentence_text = original_sentence_text
+                        covered_spans = set()  # Track which character spans are already annotated
                         
+                        # First pass: Check for multi-word gazetteer matches
+                        multi_word_matches = []
+                        for tag_prefix, gazetteer in gazetteer_sources:
+                            for gazetteer_term in gazetteer:
+                                if ' ' in gazetteer_term and find_term_in_text(gazetteer_term, original_sentence_text):
+                                    # Find the actual position of this multi-word term in the sentence
+                                    escaped_term = re.escape(gazetteer_term)
+                                    pattern = r"\b" + escaped_term + r"\b"
+                                    match = re.search(pattern, original_sentence_text, re.IGNORECASE)
+                                    if match:
+                                        start_pos = match.start()
+                                        end_pos = match.end()
+                                        multi_word_matches.append((start_pos, end_pos, gazetteer_term, tag_prefix))
+                        
+                        # Sort by end position (reverse) to process from right to left
+                        multi_word_matches.sort(key=lambda x: x[1], reverse=True)
+                        
+                        # Apply multi-word annotations
+                        for start_pos, end_pos, term, tag_prefix in multi_word_matches:
+                            # Check if this span overlaps with already covered spans
+                            span_range = set(range(start_pos, end_pos))
+                            if not span_range.intersection(covered_spans):
+                                covered_spans.update(span_range)
+                                escaped_text = re.sub(r'([`*_{}[\]()#+.!-])', r'\1', term)
+                                annotation = f"**{escaped_text}**`[{tag_prefix}]`"
+                                annotated_sentence_text = annotated_sentence_text[:start_pos] + annotation + annotated_sentence_text[end_pos:]
+                        
+                        # Second pass: Process individual spaCy entities (but skip covered spans)
                         entities_in_sentence = sorted([
                             (ent.start_char - sent.start_char, ent.end_char - sent.start_char, ent.text, ent.label_)
                             for ent in doc.ents if ent.start_char >= sent.start_char and ent.end_char <= sent.end_char
                         ], key=lambda x: x[1], reverse=True)
 
                         for start, end, text, spacy_label in entities_in_sentence:
+                            # Check if this entity is already covered by multi-word annotation
+                            entity_span = set(range(start, end))
+                            if entity_span.intersection(covered_spans):
+                                continue  # Skip already annotated spans
+                                
                             if annotated_sentence_text[start:end] == text:
-                                entity_text_lower = text.lower()
+                                entity_text_lower = text.lower().strip('.:, ')
                                 final_label = spacy_label
                                 from_gazetteer = False
 
-                                # Prioritize Gazetteer Tag
+                                # Apply same filtering logic as tagging.py
+                                non_person_words = {
+                                    'lest', 'yhwh', 'lord', 'god', 'today', 'tomorrow', 'yesterday', 
+                                    'this', 'that', 'these', 'those', 'when', 'where', 'why', 'how',
+                                    'what', 'which', 'who', 'whom', 'whose', 'will', 'would', 'could',
+                                    'should', 'might', 'may', 'can', 'must', 'shall'
+                                }
+                                divine_names = {'yhwh', 'lord', 'god', 'hashem', 'adonai'}
+
+                                # Skip filtered words for PERSON entities
+                                if spacy_label == "PERSON":
+                                    if entity_text_lower in divine_names:
+                                        final_label = f"concept:divine_name_{entity_text_lower}"
+                                    elif entity_text_lower in non_person_words:
+                                        continue  # Skip this entity entirely
+
+                                # Prioritize Gazetteer Tag (single word lookup)
                                 if entity_text_lower in gazetteer_tag_lookup:
                                     final_label = gazetteer_tag_lookup[entity_text_lower][0]
                                     from_gazetteer = True

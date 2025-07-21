@@ -799,33 +799,37 @@
     ]
   },
   "tags": [
-    "person:bible:ishmael",
-    "place:afrikiya",
-    "person:a certain heretic",
-    "place:macedon",
     "place:land of canaan",
-    "concept:impurity",
-    "person:bible:ben",
-    "person:alexander",
-    "place:bible:jerusalem",
-    "person:abba",
-    "person:yirmeya",
-    "place:bible:canaan",
-    "concept:torah",
-    "person:bible:keturah",
-    "place:judea",
-    "place:bible:egypt",
-    "person:bar abba",
-    "place:bible:israel",
-    "person:bible:isaac",
-    "person:bible:abraham",
-    "person:alexander of macedon",
+    "place:bible:descendants of ishmael",
     "person:bible:on",
-    "person:a certain",
-    "person:bible:moses",
-    "person:geviha ben pesisa",
+    "concept:impurity",
+    "person:alexander the king",
+    "person:abba",
+    "person:bible:ishmael",
+    "place:bible:jerusalem",
     "person:bible:ami",
-    "concept:divine_name_yhwh"
+    "person:geviha ben pesisa",
+    "person:alexander of macedon",
+    "place:judea",
+    "person:bible:moses",
+    "person:yirmeya",
+    "person:bible:abraham",
+    "concept:torah",
+    "place:macedon",
+    "person:bible:ben",
+    "place:bible:egypt",
+    "person:a certain heretic",
+    "place:bible:descendants of keturah",
+    "person:alexander",
+    "place:bible:israel",
+    "place:afrikiya",
+    "person:bible:isaac",
+    "concept:divine_name_yhwh",
+    "place:bible:canaan",
+    "person:a certain",
+    "person:bible:keturah",
+    "place:bible:children of israel",
+    "person:bar abba"
   ],
   "section_count": 17,
   "sections": [
@@ -1422,7 +1426,8 @@
       "he_text": "אָמַר לָהֶם אֲלֶכְּסַנְדְּרוֹס מַלְכָּא: הַחְזִירוּ לוֹ תְּשׁוּבָה! אָמְרוּ לוֹ: תְּנוּ לָנוּ זְמַן שְׁלֹשָׁה יָמִים. נָתַן לָהֶם זְמַן. בָּדְקוּ וְלֹא מָצְאוּ תְּשׁוּבָה. מִיָּד בָּרְחוּ, וְהִנִּיחוּ שְׂדוֹתֵיהֶן כְּשֶׁהֵן זְרוּעוֹת, וְכַרְמֵיהֶן כְּשֶׁהֵן נְטוּעוֹת. וְאוֹתָהּ שָׁנָה שְׁבִיעִית הָיְתָה.",
       "he_text_cleaned": "אָמַר לָהֶם אֲלֶכְּסַנְדְּרוֹס מַלְכָּא: הַחְזִירוּ לוֹ תְּשׁוּבָה! אָמְרוּ לוֹ: תְּנוּ לָנוּ זְמַן שְׁלֹשָׁה יָמִים. נָתַן לָהֶם זְמַן. בָּדְקוּ וְלֹא מָצְאוּ תְּשׁוּבָה. מִיָּד בָּרְחוּ, וְהִנִּיחוּ שְׂדוֹתֵיהֶן כְּשֶׁהֵן זְרוּעוֹת, וְכַרְמֵיהֶן כְּשֶׁהֵן נְטוּעוֹת. וְאוֹתָהּ שָׁנָה שְׁבִיעִית הָיְתָה.",
       "tags": [
-        "person:alexander"
+        "person:alexander",
+        "person:alexander the king"
       ],
       "en_processed": {
         "entities": [
@@ -1623,6 +1628,7 @@
       "he_text_cleaned": "אָמַר לָהֶן: מֵהֵיכָן אַתֶּם מְבִיאִין רְאָיָיה? אָמְרוּ לוֹ: מִן הַתּוֹרָה. אָמַר לָהֶן: אַף אֲנִי לֹא אָבִיא לָכֶם רְאָיָיה אֶלָּא מִן הַתּוֹרָה, שֶׁנֶּאֱמַר: ״וּמוֹשַׁב בְּנֵי יִשְׂרָאֵל אֲשֶׁר יָשְׁבוּ בְּמִצְרָיִם שְׁלֹשִׁים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה״. תְּנוּ לָנוּ שְׂכַר עֲבוֹדָה שֶׁל שִׁשִּׁים רִיבּוֹא שֶׁשִּׁיעְבַּדְתֶּם בְּמִצְרַיִם שְׁלֹשִׁים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה.",
       "tags": [
         "concept:torah",
+        "place:bible:children of israel",
         "place:bible:egypt",
         "place:bible:israel"
       ],
@@ -1781,6 +1787,8 @@
         "person:bible:ishmael",
         "person:bible:keturah",
         "place:bible:canaan",
+        "place:bible:descendants of ishmael",
+        "place:bible:descendants of keturah",
         "place:land of canaan",
         "place:macedon"
       ],

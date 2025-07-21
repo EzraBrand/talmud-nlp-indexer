@@ -103,7 +103,7 @@
 
 ### Annotated English Text (Section 1)
 
-And it is written: “And it was for him so, and the people trampled him in the gate, and he died” Perhaps the curse of **Elisha**`[person:bible]` caused as **Rav Yehuda**`[person]` says **Rav**`[person]` says: The curse of a Sage, even baseless, comes If so, let the verse write:
+And it is written: “And it was for him so, and the people trampled him in the gate, and he died” Perhaps the curse of **Elisha**`[person:bible]` caused as **Rav Yehuda**`[person]` says Rav says: The curse of a Sage, even baseless, comes If so, let the verse write:
 
 And they trampled him and he died.
 
@@ -150,9 +150,9 @@ R' **Yoḥanan**`[PERSON]` says:
 
 From where resurrection of the dead from the **Torah**`[concept]`?
 
-as it is stated “And you shall give the teruma of **YHWH**`[PERSON]` to **Aaron**`[person:bible]` the priest”
+as it is stated “And you shall give the teruma of **YHWH**`[concept:divine_name_yhwh]` to **Aaron**`[person:bible]` the priest”
 
-And does **Aaron**`[person:bible]` exist forever But is it not did not enter **Eretz**`[GPE]` **Yisrael**`[GPE]`, where give him teruma?
+And does **Aaron**`[person:bible]` exist forever But is it not did not enter **Eretz Yisrael**`[place]`, where give him teruma?
 
 Rather, teaches that to live in the future and the **Jewish**`[NORP]` people give him teruma.
 
@@ -212,11 +212,11 @@ The school of R' Yishmael taught “to **Aaron**`[person:bible]`” like **Aaron
 
 ### Annotated English Text (Section 4)
 
-R' **Shmuel**`[person]` bar Naḥmani says R' **Yonatan**`[person]` says:
+R' **Shmuel bar Naḥmani**`[person]` says R' Yonatan says:
 
 From where that one does not give teruma to a priest an am ha’aretz?
 
-as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[place:bible]` to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of **YHWH**`[PERSON]`” Everyone who firmly adheres to the Torah of **YHWH**`[PERSON]` has a portion, and anyone who does not firmly adhere to the Torah of **YHWH**`[PERSON]` does not have a portion.
+as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[place:bible]` to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of **YHWH**`[concept:divine_name_yhwh]`” Everyone who firmly adheres to the Torah of **YHWH**`[concept:divine_name_yhwh]` has a portion, and anyone who does not firmly adhere to the Torah of **YHWH**`[concept:divine_name_yhwh]` does not have a portion.
 
 ### Bolded & Italicized Words (Section 4)
 
@@ -247,7 +247,7 @@ as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[pl
 
 ### Annotated English Text (Section 5)
 
-**Rav Aḥa**`[person]` bar **Adda**`[person]` says **Rav Yehuda**`[person]` says: anyone who gives teruma to a priest an am ha’aretz, it is as though he placed before a lion.
+**Rav Aḥa**`[person]` **Bar Adda**`[person]` says **Rav Yehuda**`[person]` says: anyone who gives teruma to a priest an am ha’aretz, it is as though he placed before a lion.
 
 Just as a lion, uncertainty maul and eat uncertainty not maul and eat so too, a priest an am ha’aretz uncertainty eat it in purity, uncertainty eat it in impurity,
 
@@ -303,7 +303,7 @@ It is taught R' Simai says:
 
 From where resurrection of the dead from the **Torah**`[concept]`?
 
-as it is stated “I have also established My covenant with them to give to them the land of **Canaan**`[place:bible]`” to you is not stated, rather, to them From here the resurrection of the dead is from the **Torah**`[concept]`,
+as it is stated “I have also established My covenant with them to give to them the **land of Canaan**`[place]`” to you is not stated, rather, to them From here the resurrection of the dead is from the Torah,
 
 ---
 
@@ -360,7 +360,7 @@ said to them from the **Torah**`[concept]`, from the **Prophets**`[NORP]`, and f
 
 ### Annotated English Text (Section 9)
 
-from the **Torah**`[concept]` as it is written: “And **YHWH**`[PERSON]` said to **Moses**`[person:bible]`, behold, you shall lie with your fathers and arise” said to him: But perhaps and this people will arise and stray
+from the **Torah**`[concept]` as it is written: “And **YHWH**`[concept:divine_name_yhwh]` said to **Moses**`[person:bible]`, behold, you shall lie with your fathers and arise” said to him: But perhaps and this people will arise and stray
 
 ---
 
@@ -432,7 +432,7 @@ Anyone in whose name a halakha is stated in this world, his lips move in the gra
 
 ### Annotated English Text (Section 12)
 
-until stated to them this verse: that **YHWH**`[PERSON]` took an oath to your forefathers to give them” To you, is not stated; rather, “To them,” From here resurrection of the dead from the **Torah**`[concept]`.
+until stated to them this verse: that **YHWH**`[concept:divine_name_yhwh]` took an oath to your forefathers to give them” To you, is not stated; rather, “To them,” From here resurrection of the dead from the **Torah**`[concept]`.
 
 ---
 
@@ -456,7 +456,7 @@ until stated to them this verse: that **YHWH**`[PERSON]` took an oath to your fo
 
 ### Annotated English Text (Section 13)
 
-And there are those who say from this verse he said to them “But you who cleave to **YHWH**`[PERSON]` your God every one of you is alive **this day**`[DATE]`” obvious “every one of you is alive **this day**`[DATE]`”?
+And there are those who say from this verse he said to them “But you who cleave to **YHWH**`[concept:divine_name_yhwh]` your God every one of you is alive **this day**`[DATE]`” obvious “every one of you is alive **this day**`[DATE]`”?
 
 Rather, Even on **the day**`[DATE]` when everyone is dead you will live; just as **today**`[DATE]` every one of you is alive, so too, in the World-to-Come every one of you alive.
 
@@ -482,7 +482,7 @@ Rather, Even on **the day**`[DATE]` when everyone is dead you will live; just as
 
 The **Romans**`[person]` asked R' **Yehoshua ben**`[PERSON]`
 
-Ḥananya: From where that God, revives the dead, and He knows what is destined to be? said to them: Both of those from this verse, as it is stated: “And **YHWH**`[PERSON]` said to **Moses**`[person:bible]`, Behold, you shall lie with your fathers and arise; this people will go astray”
+Ḥananya: From where that God, revives the dead, and He knows what is destined to be? said to them: Both of those from this verse, as it is stated: “And **YHWH**`[concept:divine_name_yhwh]` said to **Moses**`[person:bible]`, Behold, you shall lie with your fathers and arise; this people will go astray”
 
 ---
 
@@ -508,7 +508,7 @@ The **Romans**`[person]` asked R' **Yehoshua ben**`[PERSON]`
 
 But perhaps and this people will arise and go astray said to them: Take **at least half**`[CARDINAL]` in your hands that knows what is destined to be.
 
-It was also stated R' **Yoḥanan**`[PERSON]` says in the name of R' **Shimon ben Yoḥai**`[PERSON]`:
+It was also stated R' **Yoḥanan**`[PERSON]` says in the name of R' Shimon **ben Yoḥai**`[person]`:
 
 From where that God, revives the dead, and He knows what is destined to be?
 
@@ -567,7 +567,7 @@ I said to them: You falsified your **torah**`[concept]` and you accomplished not
 
 ### Annotated English Text (Section 17)
 
-**Rav Pappa**`[person]` said to **Abaye**`[person]`:
+**Rav Pappa**`[person]` said to Abaye:
 
 And let say to both of those from “shall be excised [**hikkaret tikkaret**`[PERSON]`].” would say: The **Torah**`[concept]` spoke in the language of people,
 
@@ -602,7 +602,7 @@ And let say to both of those from “shall be excised [**hikkaret tikkaret**`[PE
 
 parallel tanna’im “**hikkaret tikkaret**`[PERSON]`,” “**Hikkaret**`[PERSON]`” in this world, “**tikkaret**`[PERSON]`” in the World-to-Come; the statement of R' **Akiva**`[person]`.
 
-R' Yishmael said to him: Isn’t it already stated “That person that blasphemes **YHWH**`[PERSON]`, that soul shall be excised
+R' Yishmael said to him: Isn’t it already stated “That person that blasphemes **YHWH**`[concept:divine_name_yhwh]`, that soul shall be excised
 
 [venikhreta]” and are there **three**`[CARDINAL]` worlds Rather, “venikhreta” in this world, “**hikkaret**`[PERSON]`” in the World-to-Come, “**hikkaret tikkaret**`[PERSON]`” the **Torah**`[concept]` spoke in the language of people.
 
@@ -666,7 +666,7 @@ I said only when his iniquity upon him.
 
 ### Annotated English Text (Section 20)
 
-Queen **Cleopatra**`[PERSON]` asked R' **Meir**`[PERSON]`
+**Queen Cleopatra**`[person]` asked R' Meir
 
 She said: I know that the dead will live, as it is written: “And may they blossom out of the city like grass of the earth”
 

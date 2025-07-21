@@ -229,7 +229,7 @@ R' **Yoḥanan**`[person]` says:
 
 From where resurrection of the dead from the **Torah**`[concept]`?
 
-as it is stated “And you shall give the teruma of **YHWH**`[PERSON]` to **Aaron**`[PERSON]` the priest”
+as it is stated “And you shall give the teruma of **YHWH**`[concept:divine_name_yhwh]` to **Aaron**`[PERSON]` the priest”
 
 And does **Aaron**`[PERSON]` exist forever But is it not did not enter **Eretz**`[place]` **Yisrael**`[place]`, where give him teruma?
 
@@ -243,7 +243,7 @@ R' **Shmuel**`[person]` bar Naḥmani says R' **Yonatan**`[person]` says:
 
 From where that one does not give teruma to a priest an am ha’aretz?
 
-as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[GPE]` to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of **YHWH**`[PERSON]`” Everyone who firmly adheres to the Torah of **YHWH**`[PERSON]` has a portion, and anyone who does not firmly adhere to the Torah of **YHWH**`[PERSON]` does not have a portion.
+as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[GPE]` to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of **YHWH**`[concept:divine_name_yhwh]`” Everyone who firmly adheres to the Torah of **YHWH**`[concept:divine_name_yhwh]` has a portion, and anyone who does not firmly adhere to the Torah of **YHWH**`[concept:divine_name_yhwh]` does not have a portion.
 
 **Rav Aḥa**`[person]` bar **Adda**`[person]` says **Rav Yehuda**`[person]` says: anyone who gives teruma to a priest an am ha’aretz, it is as though he placed before a lion.
 
@@ -257,7 +257,7 @@ Heretics asked **Rabban Gamliel**`[person]`: From where that God, revives the de
 
 said to them from the **Torah**`[concept]`, from the **Prophets**`[NORP]`, and from Writings, but they did not accept from him.
 
-from the **Torah**`[concept]` as it is written: “And **YHWH**`[PERSON]` said to **Moses**`[PERSON]`, behold, you shall lie with your fathers and arise” said to him:
+from the **Torah**`[concept]` as it is written: “And **YHWH**`[concept:divine_name_yhwh]` said to **Moses**`[PERSON]`, behold, you shall lie with your fathers and arise” said to him:
 
 But perhaps and this people will arise and stray from the Prophets as it is written: “Your dead shall live, my corpse shall arise.
 
@@ -269,15 +269,15 @@ from **Writings**`[PERSON]` as it is written: “And your palate is like the bes
 
 Anyone in whose name a halakha is stated in this world, his lips move in the grave as it is stated: “Moving gently the lips of those that sleep.”
 
-until stated to them this verse: that **YHWH**`[PERSON]` took an oath to your forefathers to give them” To you, is not stated; rather, “To them,” From here resurrection of the dead from the **Torah**`[concept]`.
+until stated to them this verse: that **YHWH**`[concept:divine_name_yhwh]` took an oath to your forefathers to give them” To you, is not stated; rather, “To them,” From here resurrection of the dead from the **Torah**`[concept]`.
 
-And there are those who say from this verse he said to them “But you who cleave to **YHWH**`[PERSON]` your God every one of you is alive **this day**`[DATE]`” obvious “every one of you is alive **this day**`[DATE]`”?
+And there are those who say from this verse he said to them “But you who cleave to **YHWH**`[concept:divine_name_yhwh]` your God every one of you is alive **this day**`[DATE]`” obvious “every one of you is alive **this day**`[DATE]`”?
 
 Rather, Even on **the day**`[DATE]` when everyone is dead you will live; just as **today**`[DATE]` every one of you is alive, so too, in the World-to-Come every one of you alive.
 
 The **Romans**`[person]` asked R' **Yehoshua ben**`[PERSON]`
 
-Ḥananya: From where that God, revives the dead, and He knows what is destined to be? said to them: Both of those from this verse, as it is stated: “And **YHWH**`[PERSON]` said to **Moses**`[PERSON]`, Behold, you shall lie with your fathers and arise; this people will go astray”
+Ḥananya: From where that God, revives the dead, and He knows what is destined to be? said to them: Both of those from this verse, as it is stated: “And **YHWH**`[concept:divine_name_yhwh]` said to **Moses**`[PERSON]`, Behold, you shall lie with your fathers and arise; this people will go astray”
 
 But perhaps and this people will arise and go astray said to them: Take **at least half**`[CARDINAL]` in your hands that knows what is destined to be.
 
@@ -295,7 +295,7 @@ I said to them: You falsified your **torah**`[concept]` and you accomplished not
 
 And let say to both of those from “shall be excised [**hikkaret tikkaret**`[person]`].” would say: The **Torah**`[concept]` spoke in the language of people, parallel tanna’im “**hikkaret tikkaret**`[person]`,” “**Hikkaret**`[person]`” in this world, “**tikkaret**`[person]`” in the World-to-Come; the statement of R' **Akiva**`[person]`.
 
-R' Yishmael said to him: Isn’t it already stated “That person that blasphemes **YHWH**`[PERSON]`, that soul shall be excised
+R' Yishmael said to him: Isn’t it already stated “That person that blasphemes **YHWH**`[concept:divine_name_yhwh]`, that soul shall be excised
 
 [venikhreta]” and are there **three**`[CARDINAL]` worlds Rather, “venikhreta” in this world, “**hikkaret**`[person]`” in the World-to-Come, “**hikkaret tikkaret**`[person]`” the **Torah**`[concept]` spoke in the language of people.
 

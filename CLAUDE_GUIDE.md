@@ -100,8 +100,14 @@ English       AlephBERT (HE)  + Topic Model    Markdown
   - `person:lest` → Filtered out (obvious non-person word)
   - `person:yhwh` → `concept:divine_name_yhwh` (proper divine name classification)
   - `person:afrikiya` → `place:afrikiya` (correctly prioritized as place from gazetteer)
-- ⚠️ **Annotation consistency**: Need to fix inline text annotations (still shows "**Lest**`[PERSON]`" in annotated text)
-- ⚠️ **Entity boundary detection**: Mixed quality for multi-word names ("Geviha ben Pesisa" vs generic "a certain")
+- ✅ **Inline annotation consistency FIXED**: Updated `main.py` annotation logic to match improved tagging
+  - No more "**Lest**`[PERSON]`" - filtered words now appear without annotations
+  - "**YHWH**`[concept:divine_name_yhwh]`" - divine names properly categorized in inline text
+  - Consistent filtering logic applied to both tag generation and inline annotations
+- 🔄 **Multi-word entity matching PARTIALLY IMPLEMENTED**: 
+  - ✅ "Alexander of Macedon" now tagged as single `[person]` entity
+  - ⚠️ "R' Yirmeya bar Abba" still fragmented due to term replacement ("Rabbi" → "R'") vs gazetteer mismatch
+  - ⚠️ Character position alignment issues after multi-word substitutions
 - ⚠️ **CARDINAL tags for numbers**: "one", "two" getting tagged unnecessarily in context
 
 ### Current Scope
@@ -124,6 +130,15 @@ English       AlephBERT (HE)  + Topic Model    Markdown
   - **Divine name handling**: YHWH now tagged as `concept:divine_name_yhwh` instead of `person:yhwh`
   - **Gazetteer prioritization**: Place names from gazetteers now override incorrect spaCy PERSON classifications
   - **Conflict resolution**: Improved logic prevents spaCy from tagging known places as persons
+- ✅ **INLINE ANNOTATION FIXES** (July 21, 2025):
+  - **Consistent filtering**: Updated `main.py` annotation logic to match `tagging.py` improvements
+  - **Divine name annotations**: "YHWH" now shows as `[concept:divine_name_yhwh]` in inline text
+  - **Filtered word handling**: Words like "lest" no longer appear with incorrect `[PERSON]` annotations
+  - **Multi-word entity support**: Added logic to detect and annotate multi-word gazetteer matches
+- 🔄 **MULTI-WORD ENTITY MATCHING** (July 21, 2025):
+  - **Partial success**: "Alexander of Macedon" now correctly tagged as single `[person]` entity
+  - **Term replacement conflicts**: "Rabbi Yirmeya bar Abba" in gazetteer vs "R' Yirmeya bar Abba" in text
+  - **Character alignment issues**: Position calculation needs refinement after multi-word substitutions
 
 ### Current Output Files
 - `data/Sanhedrin_91a.md` - Traditional concatenated approach (backward compatibility)
@@ -140,13 +155,19 @@ English       AlephBERT (HE)  + Topic Model    Markdown
 3. ✅ **Preserve section metadata** (section_number, ref like "Sanhedrin 91a:3") - DONE
 4. ✅ **Complete section-aware markdown generation** - All sections render properly with Hebrew text, annotations, and tags
 
-### **🎯 CURRENT PRIORITIES: Quality Improvements** (PARTIALLY COMPLETED)
+### **🎯 CURRENT PRIORITIES: Quality Improvements** (MAJOR PROGRESS)
 1. ✅ **Tag refinement**: Fixed major incorrect tags in `tagging.py`:
    - `person:lest` → Filtered out (added to `non_person_words` blacklist)
    - `person:yhwh` → `concept:divine_name_yhwh` (special divine name handling)
    - `person:afrikiya` → `place:afrikiya` (gazetteer prioritization over spaCy)
-2. 🔄 **Inline annotation fixes**: Need to update `main.py` annotation logic to match tag improvements
-3. ⚠️ **Entity boundary detection**: Improve precision for multi-word names and phrases
+2. ✅ **Inline annotation fixes**: Updated `main.py` annotation logic to match tag improvements
+   - Consistent filtering applied to both tag generation and inline annotations
+   - Divine names properly handled in inline text
+   - Eliminated problematic annotations like "**Lest**`[PERSON]`"
+3. 🔄 **Multi-word entity matching**: Partially implemented with remaining challenges
+   - ✅ Basic multi-word detection working ("Alexander of Macedon")
+   - ⚠️ Term replacement conflicts need resolution ("Rabbi" vs "R'" in gazetteers)
+   - ⚠️ Character position alignment after multi-word substitutions
 4. ⚠️ **Entity linking**: Connect entities to Wikipedia/Wikidata IDs for enhanced research capabilities
 
 ### **🔮 FUTURE ENHANCEMENTS**
@@ -193,13 +214,65 @@ if all_place_gazetteers:
 - ✅ **Proper divine name classification**: `concept:divine_name_yhwh` appears in sections
 - ✅ **Gazetteer wins conflicts**: "Afrikiya" correctly tagged as `place:afrikiya`
 - ✅ **Maintained all valid tags**: Legitimate person/place tags preserved
+- ✅ **Inline annotation consistency**: Annotations now match tag generation logic
 
-### Remaining Issue: Inline Annotations
-The tag generation is fixed, but inline text still shows **`[PERSON]`** annotations for filtered words:
+### Issue RESOLVED: Inline Annotations (July 21, 2025)
+The inline annotation logic in `main.py` has been updated to match the improved tagging system:
+
+**✅ FIXED EXAMPLES**:
+- `**Lest**[PERSON]` → `Lest` (no annotation, correctly filtered)
+- `**YHWH**[PERSON]` → `**YHWH**[concept:divine_name_yhwh]` (correctly categorized)
+- Multi-word entities: `**Alexander of Macedon**[person]` (single entity recognition)
+
+**🔄 REMAINING CHALLENGES**:
+- Term replacement vs gazetteer misalignment ("Rabbi" → "R'" causes fragmentation)
+- Character position calculation after multi-word substitutions
+- Some multi-word entities still showing mixed annotations
+
+---
+
+## 🔧 **Multi-Word Entity Matching Implementation (July 21, 2025)**
+
+### Problem Identified
+The annotation logic was only checking individual words against gazetteers, missing multi-word entities:
+- "Alexander of Macedon" in gazetteer → "Alexander" + "Macedon" tagged separately
+- "Rabbi Yirmeya bar Abba" in gazetteer → "Yirmeya" + "bar" + "Abba" tagged separately
+
+### Solution Approach
+Added multi-word gazetteer matching in `main.py` annotation logic:
+
+```python
+# Check for multi-word gazetteer matches in full sentence text
+multi_word_matches = []
+for tag_prefix, gazetteer in gazetteer_sources:
+    for phrase in gazetteer:
+        if tagger._find_term_in_text(phrase, original_sentence_text):
+            # Find phrase position and add to matches
+            start_pos = original_sentence_text.lower().find(phrase.lower())
+            if start_pos != -1:
+                end_pos = start_pos + len(phrase)
+                multi_word_matches.append((start_pos, end_pos, phrase, tag_prefix))
+
+# Sort by position and apply multi-word annotations first
+multi_word_matches.sort(key=lambda x: x[0])
+for start, end, phrase, tag_prefix in multi_word_matches:
+    # Apply annotation and track annotated regions
 ```
-**Lest**`[PERSON]` you say over an extended period  # ❌ Still wrong in text
-```
-**Next Priority**: Update annotation logic in `main.py` to match the improved tagging system.
+
+### Current Results
+- ✅ **"Alexander of Macedon"** now correctly appears as single `[person]` annotation
+- ✅ **"land of Canaan"** properly tagged as single `[place]` entity  
+- ✅ **"children of Israel"** recognized as single `[place:bible]` entity
+
+### Remaining Issues
+1. **Term replacement conflicts**: Gazetteers have "Rabbi Yirmeya bar Abba" but text shows "R' Yirmeya bar Abba"
+2. **Character position drift**: After applying multi-word annotations, individual entity positions become incorrect
+3. **Overlap handling**: Need better logic to prevent double-annotation of overlapping entities
+
+### Next Steps for Multi-Word Entity Matching
+1. **Gazetteer normalization**: Create variants for "Rabbi"/"R'" in gazetteers or preprocessing
+2. **Position recalculation**: Update character positions after each multi-word substitution
+3. **Overlap detection**: Implement region tracking to prevent annotation conflicts
 
 ---
 
@@ -345,20 +418,23 @@ he_text_raw = ' '.join(page_data.get('he', []))    # PROBLEM: Loses structure
 3. ✅ **Preserve section metadata** in JSON output
 4. ✅ **Maintain backward compatibility** with existing output format
 
-### ✅ Phase 3: Enhancement - MAJOR PROGRESS
+### ✅ Phase 3: Enhancement - COMPLETED MAJOR MILESTONES
 1. ✅ **Complete section-aware markdown generation** - All sections now render properly
 2. ✅ **Section-aware architecture** - Full pipeline implemented with metadata preservation
-3. 🔄 **Section-specific tagging refinement** - Next priority for quality improvements
-4. 🔄 **Improved cross-references** using section IDs
-5. 🔄 **Better topic modeling** using section boundaries
-6. 🔄 **Enhanced scholarly citations** with section precision
+3. ✅ **Tag refinement and inline annotation consistency** - Major quality improvements implemented
+4. ✅ **Multi-word entity detection** - Partially working with known limitations
+5. 🔄 **Enhanced cross-references** using section IDs
+6. 🔄 **Better topic modeling** using section boundaries
+7. 🔄 **Enhanced scholarly citations** with section precision
 
 ### Current Implementation Status
 - **Architecture**: ✅ Section-aware processing fully implemented in `main.py`
 - **Data**: ✅ Section metadata preserved in JSON output
 - **Backward compatibility**: ✅ Traditional concatenated output still generated
 - **Section-aware output**: ✅ **COMPLETE** - All 17/21 sections render with Hebrew text, annotations, and tags
-- **Quality improvements**: 🔄 Ready for next phase of tag refinement and entity linking
+- **Tag quality**: ✅ **MAJOR IMPROVEMENTS** - Problematic tags eliminated, divine names handled properly
+- **Inline annotations**: ✅ **CONSISTENT** - Annotation logic matches tag generation filtering
+- **Multi-word entities**: 🔄 **PARTIAL** - Basic detection working, position alignment needs refinement
 
 ---
 
