@@ -2,12 +2,12 @@
 
 ## Overall Page Tags
 
+- concept:divine_name_yhwh
 - concept:impurity
 - concept:torah
 - person:a certain
 - person:a certain heretic
 - person:abba
-- person:afrikiya
 - person:alexander
 - person:alexander of macedon
 - person:bar abba
@@ -20,8 +20,6 @@
 - person:bible:moses
 - person:bible:on
 - person:geviha ben pesisa
-- person:lest
-- person:yhwh
 - person:yirmeya
 - place:afrikiya
 - place:bible:canaan
@@ -148,7 +146,7 @@ They said to him: We are unable
 
 ### Tags (Section 4)
 
-- person:lest
+No tags found in this section.
 
 ### Hebrew Text (Section 4)
 
@@ -221,7 +219,6 @@ If I stand, I will kick you and flatten your hump, said to him If you do so, you
 
 ### Tags (Section 6)
 
-- person:afrikiya
 - person:alexander
 - person:alexander of macedon
 - person:bible:on
@@ -341,9 +338,9 @@ And **that year**`[DATE]` was a Sabbatical
 
 ### Tags (Section 10)
 
+- concept:divine_name_yhwh
 - person:alexander
 - person:alexander of macedon
-- person:yhwh
 - place:bible:egypt
 - place:macedon
 

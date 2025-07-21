@@ -798,59 +798,59 @@
     ]
   },
   "tags": [
-    "concept:impurity",
-    "person:cleopatra",
-    "person:queen cleopatra",
-    "concept:tithes",
-    "person:rabban gamliel",
-    "place:tzadi",
-    "person:ḥananya",
-    "person:yoḥanan",
-    "person:hikkaret",
-    "person:bible:moses",
-    "place:land of canaan",
-    "person:bible:ben",
-    "person:yonatan",
     "place:bible:ar",
-    "person:yehuda",
-    "person:meir",
-    "place:yoḥanan",
-    "concept:purity",
-    "person:shmuel bar naḥmani",
-    "place:bible:jerusalem",
-    "person:bible:on",
-    "person:ḥaverim",
-    "concept:torah",
-    "person:romans",
-    "person:ben yoḥai",
-    "person:rav yehuda",
-    "person:abaye",
-    "person:tikkaret",
-    "place:eretz",
-    "person:yhwh",
-    "concept:mitzvot",
-    "concept:heretics",
-    "person:bible:ezekiel",
-    "person:akiva",
-    "person:shmuel",
     "person:adda",
-    "person:bar naḥmani",
-    "person:rav aḥa",
-    "person:bible:eliezer",
-    "person:rav",
-    "place:eretz yisrael",
+    "concept:tithes",
     "person:rav pappa",
-    "person:bar adda",
-    "person:rav aḥa bar adda",
+    "concept:heretics",
+    "person:rav",
+    "person:hikkaret",
     "person:hikkaret tikkaret",
-    "person:bible:elisha",
-    "place:bible:canaan",
-    "concept:world-to-come",
-    "person:gimmel",
-    "place:yisrael",
     "person:torah",
+    "person:ḥaverim",
+    "person:shmuel bar naḥmani",
+    "person:bible:eliezer",
+    "person:akiva",
+    "person:queen cleopatra",
+    "place:land of canaan",
+    "person:tikkaret",
+    "concept:impurity",
+    "place:tzadi",
+    "person:rav yehuda",
+    "person:bible:ben",
+    "person:yehuda",
     "person:bible:aaron",
-    "topic:halacha"
+    "place:yisrael",
+    "person:bible:elisha",
+    "person:rav aḥa",
+    "person:bar naḥmani",
+    "place:yoḥanan",
+    "person:ḥananya",
+    "topic:halacha",
+    "concept:world-to-come",
+    "person:abaye",
+    "concept:purity",
+    "place:bible:jerusalem",
+    "person:bar adda",
+    "person:bible:ezekiel",
+    "place:bible:canaan",
+    "concept:torah",
+    "person:rav aḥa bar adda",
+    "person:rabban gamliel",
+    "person:shmuel",
+    "person:ben yoḥai",
+    "person:meir",
+    "place:eretz",
+    "person:cleopatra",
+    "place:eretz yisrael",
+    "person:yoḥanan",
+    "person:yonatan",
+    "person:bible:on",
+    "person:gimmel",
+    "person:bible:moses",
+    "concept:divine_name_yhwh",
+    "concept:mitzvot",
+    "person:romans"
   ],
   "section_count": 21,
   "sections": [
@@ -937,10 +937,10 @@
       "he_text": "אָמַר רַבִּי יוֹחָנָן: מִנַּיִין לִתְחִיַּית הַמֵּתִים מִן הַתּוֹרָה? שֶׁנֶּאֱמַר: ״וּנְתַתֶּם מִמֶּנּוּ [אֶת] תְּרוּמַת ה׳ לְאַהֲרֹן הַכֹּהֵן״. וְכִי אַהֲרֹן לְעוֹלָם קַיָּים? וַהֲלֹא לֹא נִכְנַס לְאֶרֶץ יִשְׂרָאֵל שֶׁנּוֹתְנִין לוֹ תְּרוּמָה! אֶלָּא מְלַמֵּד שֶׁעָתִיד לִחְיוֹת, וְיִשְׂרָאֵל נוֹתְנִין לוֹ תְּרוּמָה. מִכָּאן לִתְחִיַּית הַמֵּתִים מִן הַתּוֹרָה.",
       "he_text_cleaned": "אָמַר רַבִּי יוֹחָנָן: מִנַּיִין לִתְחִיַּית הַמֵּתִים מִן הַתּוֹרָה? שֶׁנֶּאֱמַר: ״וּנְתַתֶּם מִמֶּנּוּ [אֶת] תְּרוּמַת ה׳ לְאַהֲרֹן הַכֹּהֵן״. וְכִי אַהֲרֹן לְעוֹלָם קַיָּים? וַהֲלֹא לֹא נִכְנַס לְאֶרֶץ יִשְׂרָאֵל שֶׁנּוֹתְנִין לוֹ תְּרוּמָה! אֶלָּא מְלַמֵּד שֶׁעָתִיד לִחְיוֹת, וְיִשְׂרָאֵל נוֹתְנִין לוֹ תְּרוּמָה. מִכָּאן לִתְחִיַּית הַמֵּתִים מִן הַתּוֹרָה.",
       "tags": [
+        "concept:divine_name_yhwh",
         "concept:torah",
         "person:bible:aaron",
         "person:torah",
-        "person:yhwh",
         "person:yoḥanan",
         "place:eretz",
         "place:eretz yisrael",
@@ -1106,11 +1106,11 @@
       "he_text": "אָמַר רַבִּי שְׁמוּאֵל בַּר נַחְמָנִי אָמַר רַבִּי יוֹנָתָן: מִנַּיִין שֶׁאֵין נוֹתְנִין תְּרוּמָה לְכֹהֵן עַם הָאָרֶץ? שֶׁנֶּאֱמַר: ״וַיֹּאמֶר לָעָם לְיוֹשְׁבֵי יְרוּשָׁלִַים לָתֵת מְנָת הַכֹּהֲנִים וְהַלְוִיִּם לְמַעַן יֶחֶזְקוּ בְּתוֹרַת ה׳״. כׇּל הַמַּחְזִיק בְּתוֹרַת ה׳ – יֵשׁ לוֹ מְנָת, וְשֶׁאֵינוֹ מַחְזִיק בְּתוֹרַת ה׳ – אֵין לוֹ מְנָת.",
       "he_text_cleaned": "אָמַר רַבִּי שְׁמוּאֵל בַּר נַחְמָנִי אָמַר רַבִּי יוֹנָתָן: מִנַּיִין שֶׁאֵין נוֹתְנִין תְּרוּמָה לְכֹהֵן עַם הָאָרֶץ? שֶׁנֶּאֱמַר: ״וַיֹּאמֶר לָעָם לְיוֹשְׁבֵי יְרוּשָׁלִַים לָתֵת מְנָת הַכֹּהֲנִים וְהַלְוִיִּם לְמַעַן יֶחֶזְקוּ בְּתוֹרַת ה׳״. כׇּל הַמַּחְזִיק בְּתוֹרַת ה׳ – יֵשׁ לוֹ מְנָת, וְשֶׁאֵינוֹ מַחְזִיק בְּתוֹרַת ה׳ – אֵין לוֹ מְנָת.",
       "tags": [
+        "concept:divine_name_yhwh",
         "concept:torah",
         "person:bar naḥmani",
         "person:shmuel",
         "person:shmuel bar naḥmani",
-        "person:yhwh",
         "person:yonatan",
         "place:bible:jerusalem"
       ],
@@ -1474,9 +1474,9 @@
       "he_text": "מִן הַתּוֹרָה, דִּכְתִיב: ״וַיֹּאמֶר ה׳ אֶל מֹשֶׁה הִנְּךָ שֹׁכֵב עִם אֲבֹתֶיךָ וְקָם״. אָמְרוּ לוֹ: וְדִילְמָא ״וְקָם הָעָם הַזֶּה וְזָנָה״?",
       "he_text_cleaned": "מִן הַתּוֹרָה, דִּכְתִיב: ״וַיֹּאמֶר ה׳ אֶל מֹשֶׁה הִנְּךָ שֹׁכֵב עִם אֲבֹתֶיךָ וְקָם״. אָמְרוּ לוֹ: וְדִילְמָא ״וְקָם הָעָם הַזֶּה וְזָנָה״?",
       "tags": [
+        "concept:divine_name_yhwh",
         "concept:torah",
-        "person:bible:moses",
-        "person:yhwh"
+        "person:bible:moses"
       ],
       "en_processed": {
         "entities": [
@@ -1641,8 +1641,8 @@
       "he_text": "עַד שֶׁאָמַר לָהֶם מִקְרָא זֶה: ״אֲשֶׁר נִשְׁבַּע ה׳ לַאֲבֹתֵיכֶם לָתֵת לָהֶם״. ״לָכֶם״ לֹא נֶאֱמַר, אֶלָּא ״לָהֶם״. מִיכָּן לִתְחִיַּית הַמֵּתִים מִן הַתּוֹרָה.",
       "he_text_cleaned": "עַד שֶׁאָמַר לָהֶם מִקְרָא זֶה: ״אֲשֶׁר נִשְׁבַּע ה׳ לַאֲבֹתֵיכֶם לָתֵת לָהֶם״. ״לָכֶם״ לֹא נֶאֱמַר, אֶלָּא ״לָהֶם״. מִיכָּן לִתְחִיַּית הַמֵּתִים מִן הַתּוֹרָה.",
       "tags": [
-        "concept:torah",
-        "person:yhwh"
+        "concept:divine_name_yhwh",
+        "concept:torah"
       ],
       "en_processed": {
         "entities": [
@@ -1688,9 +1688,9 @@
       "he_text": "וְיֵשׁ אוֹמְרִים: מִן הַמִּקְרָא הַזֶּה אָמַר לָהֶם, ״וְאַתֶּם הַדְּבֵקִים בַּה׳ אֱלֹהֵיכֶם חַיִּים כֻּלְּכֶם הַיּוֹם״. פְּשִׁיטָא דְּחַיִּים כֻּלְּכֶם הַיּוֹם! אֶלָּא, אֲפִילּוּ בְּיוֹם שֶׁכׇּל הָעוֹלָם כּוּלָּם מֵתִים – אַתֶּם חַיִּים. מָה הַיּוֹם כּוּלְּכֶם קַיָּימִין, אַף לָעוֹלָם הַבָּא כּוּלְּכֶם קַיָּימִין.",
       "he_text_cleaned": "וְיֵשׁ אוֹמְרִים: מִן הַמִּקְרָא הַזֶּה אָמַר לָהֶם, ״וְאַתֶּם הַדְּבֵקִים בַּה׳ אֱלֹהֵיכֶם חַיִּים כֻּלְּכֶם הַיּוֹם״. פְּשִׁיטָא דְּחַיִּים כֻּלְּכֶם הַיּוֹם! אֶלָּא, אֲפִילּוּ בְּיוֹם שֶׁכׇּל הָעוֹלָם כּוּלָּם מֵתִים – אַתֶּם חַיִּים. מָה הַיּוֹם כּוּלְּכֶם קַיָּימִין, אַף לָעוֹלָם הַבָּא כּוּלְּכֶם קַיָּימִין.",
       "tags": [
+        "concept:divine_name_yhwh",
         "concept:world-to-come",
-        "person:bible:on",
-        "person:yhwh"
+        "person:bible:on"
       ],
       "en_processed": {
         "entities": [
@@ -1756,10 +1756,10 @@
       "he_text": "שָׁאֲלוּ רוֹמִיִּים אֶת רַבִּי יְהוֹשֻׁעַ בֶּן חֲנַנְיָה: מִנַּיִין שֶׁהַקָּדוֹשׁ בָּרוּךְ הוּא מְחַיֵּה מֵתִים, וְיוֹדֵעַ מַה שֶּׁעָתִיד לִהְיוֹת? אֲמַר לְהוּ: תַּרְוַויְיהוּ מִן הַמִּקְרָא הַזֶּה, שֶׁנֶּאֱמַר: ״וַיֹּאמֶר ה׳ אֶל מֹשֶׁה הִנְּךָ שֹׁכֵב עִם אֲבֹתֶיךָ וְקָם הָעָם הַזֶּה וְזָנָה״.",
       "he_text_cleaned": "שָׁאֲלוּ רוֹמִיִּים אֶת רַבִּי יְהוֹשֻׁעַ בֶּן חֲנַנְיָה: מִנַּיִין שֶׁהַקָּדוֹשׁ בָּרוּךְ הוּא מְחַיֵּה מֵתִים, וְיוֹדֵעַ מַה שֶּׁעָתִיד לִהְיוֹת? אֲמַר לְהוּ: תַּרְוַויְיהוּ מִן הַמִּקְרָא הַזֶּה, שֶׁנֶּאֱמַר: ״וַיֹּאמֶר ה׳ אֶל מֹשֶׁה הִנְּךָ שֹׁכֵב עִם אֲבֹתֶיךָ וְקָם הָעָם הַזֶּה וְזָנָה״.",
       "tags": [
+        "concept:divine_name_yhwh",
         "person:bible:ben",
         "person:bible:moses",
         "person:romans",
-        "person:yhwh",
         "person:ḥananya"
       ],
       "en_processed": {
@@ -2023,14 +2023,14 @@
       "he_text": "כְּתַנָּאֵי: ״הִכָּרֵת תִּכָּרֵת״ – ״הִכָּרֵת״ בָּעוֹלָם הַזֶּה, ״תִּכָּרֵת״ לָעוֹלָם הַבָּא, דִּבְרֵי רַבִּי עֲקִיבָא. אָמַר לוֹ רַבִּי יִשְׁמָעֵאל: וַהֲלֹא כְּבָר נֶאֱמַר ״אֶת ה׳ הוּא מְגַדֵּף וְנִכְרְתָה״, וְכִי שְׁלֹשָׁה עוֹלָמִים יֵשׁ? אֶלָּא ״וְנִכְרְתָה״ בָּעוֹלָם הַזֶּה, ״הִכָּרֵת״ לָעוֹלָם הַבָּא, ״הִכָּרֵת תִּכָּרֵת״ – דִּבְּרָה תוֹרָה כִלְשׁוֹן בְּנֵי אָדָם.",
       "he_text_cleaned": "כְּתַנָּאֵי: ״הִכָּרֵת תִּכָּרֵת״ – ״הִכָּרֵת״ בָּעוֹלָם הַזֶּה, ״תִּכָּרֵת״ לָעוֹלָם הַבָּא, דִּבְרֵי רַבִּי עֲקִיבָא. אָמַר לוֹ רַבִּי יִשְׁמָעֵאל: וַהֲלֹא כְּבָר נֶאֱמַר ״אֶת ה׳ הוּא מְגַדֵּף וְנִכְרְתָה״, וְכִי שְׁלֹשָׁה עוֹלָמִים יֵשׁ? אֶלָּא ״וְנִכְרְתָה״ בָּעוֹלָם הַזֶּה, ״הִכָּרֵת״ לָעוֹלָם הַבָּא, ״הִכָּרֵת תִּכָּרֵת״ – דִּבְּרָה תוֹרָה כִלְשׁוֹן בְּנֵי אָדָם.",
       "tags": [
+        "concept:divine_name_yhwh",
         "concept:torah",
         "concept:world-to-come",
         "person:akiva",
         "person:hikkaret",
         "person:hikkaret tikkaret",
         "person:tikkaret",
-        "person:torah",
-        "person:yhwh"
+        "person:torah"
       ],
       "en_processed": {
         "entities": [

@@ -96,9 +96,12 @@ English       AlephBERT (HE)  + Topic Model    Markdown
 - ✅ **Italicized word extraction**: Technical terms like "a fortiori", "palterin", "agatin"
 
 ### Known Issues (Prioritized for next improvements)
-- ⚠️ **Tag accuracy issues**: Some incorrect assignments like `person:lest`, `person:yhwh`, `person:afrikiya` (should be place)
+- ✅ **Tag accuracy issues FIXED**: Corrected incorrect assignments like `person:lest`, `person:yhwh`, `person:afrikiya`
+  - `person:lest` → Filtered out (obvious non-person word)
+  - `person:yhwh` → `concept:divine_name_yhwh` (proper divine name classification)
+  - `person:afrikiya` → `place:afrikiya` (correctly prioritized as place from gazetteer)
+- ⚠️ **Annotation consistency**: Need to fix inline text annotations (still shows "**Lest**`[PERSON]`" in annotated text)
 - ⚠️ **Entity boundary detection**: Mixed quality for multi-word names ("Geviha ben Pesisa" vs generic "a certain")
-- ⚠️ **Term standardization**: Need to implement 33 scholarly mappings ("Rabbi" → "R'", "the Holy One, Blessed be He" → "God")
 - ⚠️ **CARDINAL tags for numbers**: "one", "two" getting tagged unnecessarily in context
 
 ### Current Scope
@@ -116,6 +119,11 @@ English       AlephBERT (HE)  + Topic Model    Markdown
 - ✅ **Section metadata preservation**: JSON includes individual section data and aggregated page data
 - ✅ **Section-aware markdown generation**: NOW COMPLETE - All 17 sections render with Hebrew text, annotations, and tags
 - ✅ **Gazetteer integration fixed**: Section-aware processing correctly accesses all gazetteer data
+- ✅ **TAG REFINEMENT IMPROVEMENTS** (Current Session):
+  - **spaCy NER filtering**: Added logic to filter obvious non-person words (`lest`, `yhwh`, etc.)
+  - **Divine name handling**: YHWH now tagged as `concept:divine_name_yhwh` instead of `person:yhwh`
+  - **Gazetteer prioritization**: Place names from gazetteers now override incorrect spaCy PERSON classifications
+  - **Conflict resolution**: Improved logic prevents spaCy from tagging known places as persons
 
 ### Current Output Files
 - `data/Sanhedrin_91a.md` - Traditional concatenated approach (backward compatibility)
@@ -132,11 +140,14 @@ English       AlephBERT (HE)  + Topic Model    Markdown
 3. ✅ **Preserve section metadata** (section_number, ref like "Sanhedrin 91a:3") - DONE
 4. ✅ **Complete section-aware markdown generation** - All sections render properly with Hebrew text, annotations, and tags
 
-### **🎯 CURRENT PRIORITIES: Quality Improvements**
-1. **Tag refinement**: Fix incorrect tags like `person:lest`, `person:yhwh`, `person:afrikiya` (should be place)
-2. **Entity boundary detection**: Improve precision for multi-word names and phrases
-3. **Term replacement system**: Implement the 33 scholarly mappings ("Rabbi" → "R'", etc.)
-4. **Entity linking**: Connect entities to Wikipedia/Wikidata IDs for enhanced research capabilities
+### **🎯 CURRENT PRIORITIES: Quality Improvements** (PARTIALLY COMPLETED)
+1. ✅ **Tag refinement**: Fixed major incorrect tags in `tagging.py`:
+   - `person:lest` → Filtered out (added to `non_person_words` blacklist)
+   - `person:yhwh` → `concept:divine_name_yhwh` (special divine name handling)
+   - `person:afrikiya` → `place:afrikiya` (gazetteer prioritization over spaCy)
+2. 🔄 **Inline annotation fixes**: Need to update `main.py` annotation logic to match tag improvements
+3. ⚠️ **Entity boundary detection**: Improve precision for multi-word names and phrases
+4. ⚠️ **Entity linking**: Connect entities to Wikipedia/Wikidata IDs for enhanced research capabilities
 
 ### **🔮 FUTURE ENHANCEMENTS**
 5. **Scope expansion**: Test on more tractates and pages (beyond Sanhedrin 90b-91a)
@@ -144,6 +155,53 @@ English       AlephBERT (HE)  + Topic Model    Markdown
 7. **Advanced topic modeling**: Leverage section boundaries for better thematic analysis
 
 
+
+## ⚡ Recent Tag Refinement Implementation (July 2025)
+
+### Problem Analysis
+The main tag quality issues were caused by **spaCy NER misclassifications**:
+- `person:lest` - "Lest" incorrectly tagged as PERSON by spaCy
+- `person:yhwh` - "YHWH" tagged as PERSON instead of divine concept
+- `person:afrikiya` - "Afrikiya" tagged as PERSON despite being in `talmud_toponyms_gazetteer.txt`
+
+### Solution Implemented in `tagging.py`
+```python
+# 1. Added filtering for obvious non-person words
+non_person_words = {
+    'lest', 'yhwh', 'lord', 'god', 'today', 'tomorrow', 'yesterday', 
+    'this', 'that', 'these', 'those', 'when', 'where', 'why', 'how', ...
+}
+
+# 2. Special handling for divine names
+divine_names = {'yhwh', 'lord', 'god', 'hashem', 'adonai'}
+if clean_ent in divine_names:
+    tags.add(f"concept:divine_name_{clean_ent}")
+
+# 3. Gazetteer prioritization over spaCy NER
+# Check if spaCy PERSON entity is actually a known place
+is_known_place = False
+all_place_gazetteers = self.toponym_gazetteer.union(self.bible_place_gazetteer).union(self.bible_nation_gazetteer)
+if all_place_gazetteers:
+    for place_name in all_place_gazetteers:
+        if self._find_term_in_text(place_name, ent_text):
+            is_known_place = True
+            break
+```
+
+### Results Achieved
+- ✅ **Eliminated problematic person tags**: No more `person:lest`, `person:yhwh`, `person:afrikiya`
+- ✅ **Proper divine name classification**: `concept:divine_name_yhwh` appears in sections
+- ✅ **Gazetteer wins conflicts**: "Afrikiya" correctly tagged as `place:afrikiya`
+- ✅ **Maintained all valid tags**: Legitimate person/place tags preserved
+
+### Remaining Issue: Inline Annotations
+The tag generation is fixed, but inline text still shows **`[PERSON]`** annotations for filtered words:
+```
+**Lest**`[PERSON]` you say over an extended period  # ❌ Still wrong in text
+```
+**Next Priority**: Update annotation logic in `main.py` to match the improved tagging system.
+
+---
 
 ## Quick Commands for Development
 

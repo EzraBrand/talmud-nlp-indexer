@@ -2,6 +2,7 @@
 
 ## Overall Page Tags
 
+- concept:divine_name_yhwh
 - concept:heretics
 - concept:impurity
 - concept:mitzvot
@@ -40,7 +41,6 @@
 - person:tikkaret
 - person:torah
 - person:yehuda
-- person:yhwh
 - person:yonatan
 - person:yoḥanan
 - person:ḥananya
@@ -121,10 +121,10 @@ What “in the gate” over matters to the gate
 
 ### Tags (Section 2)
 
+- concept:divine_name_yhwh
 - concept:torah
 - person:bible:aaron
 - person:torah
-- person:yhwh
 - person:yoḥanan
 - place:eretz
 - place:eretz yisrael
@@ -194,11 +194,11 @@ The school of R' Yishmael taught “to **Aaron**`[person:bible]`” like **Aaron
 
 ### Tags (Section 4)
 
+- concept:divine_name_yhwh
 - concept:torah
 - person:bar naḥmani
 - person:shmuel
 - person:shmuel bar naḥmani
-- person:yhwh
 - person:yonatan
 - place:bible:jerusalem
 
@@ -348,9 +348,9 @@ said to them from the **Torah**`[concept]`, from the **Prophets**`[NORP]`, and f
 
 ### Tags (Section 9)
 
+- concept:divine_name_yhwh
 - concept:torah
 - person:bible:moses
-- person:yhwh
 
 ### Hebrew Text (Section 9)
 
@@ -419,8 +419,8 @@ Anyone in whose name a halakha is stated in this world, his lips move in the gra
 
 ### Tags (Section 12)
 
+- concept:divine_name_yhwh
 - concept:torah
-- person:yhwh
 
 ### Hebrew Text (Section 12)
 
@@ -440,9 +440,9 @@ until stated to them this verse: that **YHWH**`[PERSON]` took an oath to your fo
 
 ### Tags (Section 13)
 
+- concept:divine_name_yhwh
 - concept:world-to-come
 - person:bible:on
-- person:yhwh
 
 ### Hebrew Text (Section 13)
 
@@ -466,10 +466,10 @@ Rather, Even on **the day**`[DATE]` when everyone is dead you will live; just as
 
 ### Tags (Section 14)
 
+- concept:divine_name_yhwh
 - person:bible:ben
 - person:bible:moses
 - person:romans
-- person:yhwh
 - person:ḥananya
 
 ### Hebrew Text (Section 14)
@@ -581,6 +581,7 @@ And let say to both of those from “shall be excised [**hikkaret tikkaret**`[PE
 
 ### Tags (Section 18)
 
+- concept:divine_name_yhwh
 - concept:torah
 - concept:world-to-come
 - person:akiva
@@ -588,7 +589,6 @@ And let say to both of those from “shall be excised [**hikkaret tikkaret**`[PE
 - person:hikkaret tikkaret
 - person:tikkaret
 - person:torah
-- person:yhwh
 
 ### Hebrew Text (Section 18)
 

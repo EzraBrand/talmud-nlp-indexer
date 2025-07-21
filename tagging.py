@@ -88,13 +88,13 @@ class TalmudTagger:
 
         return topics
 
-    def generate_tags(self, processed_en: Dict[str, Any], topics: List[List[str]]) -> List[str]:
+    def generate_tags(self, processed_en: Dict[str, Any], topics: Optional[List[List[str]]] = None) -> List[str]:
         """
-        Generate tags based on processed English text, topics, and gazetteers.
+        Generate tags from text using spaCy NER, gazetteers, and topic modeling.
 
         Args:
-            processed_en: Dictionary containing processed English text data (must include 'doc', 'entities', 'noun_phrases')
-            topics: List of topics (currently unused, placeholder for future integration)
+            processed_en: Processed English text with entities and noun phrases
+            topics: Optional topic modeling results
 
         Returns:
             List of generated tags
@@ -112,26 +112,57 @@ class TalmudTagger:
         entities = processed_en.get('entities', [])
         noun_phrases = processed_en.get('noun_phrases', [])
 
-        # 1. Extract entities from spaCy NER (if available)
+        # Define words that should never be tagged as persons (common misclassifications)
+        non_person_words = {
+            'lest', 'yhwh', 'lord', 'god', 'today', 'tomorrow', 'yesterday', 
+            'this', 'that', 'these', 'those', 'when', 'where', 'why', 'how',
+            'what', 'which', 'who', 'whom', 'whose', 'will', 'would', 'could',
+            'should', 'might', 'may', 'can', 'must', 'shall'
+        }
+
+        # Special handling for divine names
+        divine_names = {'yhwh', 'lord', 'god', 'hashem', 'adonai'}
+
+        # 1. Extract entities from spaCy NER (with improved filtering)
         for ent_text, ent_label in entities:
             clean_ent = ent_text.lower().strip('.:, ')
             if not clean_ent:
                 continue
 
             if ent_label == "PERSON":
-                # Check if it's also a known Bible name first
-                is_bible_name = False
-                if self.bible_name_gazetteer:
-                    for bible_name in self.bible_name_gazetteer:
-                        # Use _find_term_in_text for robust matching (whole word, case-insensitive)
-                        if self._find_term_in_text(bible_name, ent_text):
-                            clean_bible_name = bible_name.lower().strip('.:, ')
-                            if clean_bible_name:
-                                tags.add(f"person:bible:{clean_bible_name}")
-                                is_bible_name = True
-                                break  # Found a match, no need to check further bible names for this entity
-                if not is_bible_name:
-                    tags.add(f"person:{clean_ent}")
+                # Handle divine names specially
+                if clean_ent in divine_names:
+                    tags.add(f"concept:divine_name_{clean_ent}")
+                    continue
+                    
+                # Skip obvious non-person words
+                if clean_ent in non_person_words:
+                    continue
+                    
+                # Check if it's in any place gazetteer first (prioritize place over person for ambiguous terms)
+                is_known_place = False
+                all_place_gazetteers = self.toponym_gazetteer.union(self.bible_place_gazetteer).union(self.bible_nation_gazetteer)
+                if all_place_gazetteers:
+                    for place_name in all_place_gazetteers:
+                        if self._find_term_in_text(place_name, ent_text):
+                            # This entity is actually a known place, skip adding as person
+                            is_known_place = True
+                            break
+                
+                if not is_known_place:
+                    # Check if it's also a known Bible name first
+                    is_bible_name = False
+                    if self.bible_name_gazetteer:
+                        for bible_name in self.bible_name_gazetteer:
+                            # Use _find_term_in_text for robust matching (whole word, case-insensitive)
+                            if self._find_term_in_text(bible_name, ent_text):
+                                clean_bible_name = bible_name.lower().strip('.:, ')
+                                if clean_bible_name:
+                                    tags.add(f"person:bible:{clean_bible_name}")
+                                    is_bible_name = True
+                                    break  # Found a match, no need to check further bible names for this entity
+                    if not is_bible_name:
+                        tags.add(f"person:{clean_ent}")
 
             elif ent_label == "GPE" or ent_label == "LOC":
                 # Check if it's a known person name first to avoid misclassification

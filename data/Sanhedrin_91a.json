@@ -799,35 +799,33 @@
     ]
   },
   "tags": [
-    "person:lest",
-    "concept:impurity",
-    "person:bible:abraham",
-    "person:abba",
-    "person:bible:moses",
-    "place:land of canaan",
-    "person:bible:ben",
-    "place:bible:israel",
-    "person:bible:ami",
-    "person:geviha ben pesisa",
-    "person:bible:on",
-    "place:bible:jerusalem",
-    "concept:torah",
-    "person:yhwh",
-    "place:afrikiya",
-    "place:bible:egypt",
-    "person:afrikiya",
     "person:bible:ishmael",
-    "person:bar abba",
+    "place:afrikiya",
+    "person:a certain heretic",
+    "place:macedon",
+    "place:land of canaan",
+    "concept:impurity",
+    "person:bible:ben",
+    "person:alexander",
+    "place:bible:jerusalem",
+    "person:abba",
+    "person:yirmeya",
+    "place:bible:canaan",
+    "concept:torah",
     "person:bible:keturah",
     "place:judea",
-    "place:macedon",
-    "person:yirmeya",
-    "person:a certain",
-    "place:bible:canaan",
-    "person:alexander of macedon",
+    "place:bible:egypt",
+    "person:bar abba",
+    "place:bible:israel",
     "person:bible:isaac",
-    "person:a certain heretic",
-    "person:alexander"
+    "person:bible:abraham",
+    "person:alexander of macedon",
+    "person:bible:on",
+    "person:a certain",
+    "person:bible:moses",
+    "person:geviha ben pesisa",
+    "person:bible:ami",
+    "concept:divine_name_yhwh"
   ],
   "section_count": 17,
   "sections": [
@@ -1013,9 +1011,7 @@
       "en_text_processed": "The king <b>became angry at them and said to them:</b> If <b>in a place where there is no water and earth</b> available <b>you constructed</b> a palace, <b>now that there is water and earth</b> available <b>all the more so</b> should you be able to do so. Similarly, concerning man, whom God created <i>ex nihilo</i>, all the more so will God be able to resurrect him from dust. <b>And if you do not believe</b> that a being can be created from dust, <b>go out to the valley and see an <i>akhbar</i>,</b> a creature <b>that today is half flesh and half earth,</b> and <b>tomorrow</b> the being will <b>develop and all of it will become flesh. Lest you say</b> that creation of living creatures is a matter that develops <b>over an extended period, ascend a mountain and see that today there is only one snail there;</b> then ascend <b>tomorrow,</b> after <b>rain</b> will <b>have fallen, and</b> see that <b>it</b> will be <b>entirely filled with snails.</b>",
       "he_text": "כָּעַס עֲלֵיהֶם, וְאָמַר לָהֶן: בִּמְקוֹם שֶׁאֵין מַיִם וְעָפָר בְּנִיתֶם, עַכְשָׁיו שֶׁיֵּשׁ מַיִם וְעָפָר – עַל אַחַת כַּמָּה וְכַמָּה! וְאִם אִי אַתָּה מַאֲמִין, צֵא לַבִּקְעָה וּרְאֵה עַכְבָּר שֶׁהַיּוֹם חֶצְיוֹ בָּשָׂר וְחֶצְיוֹ אֲדָמָה, לְמָחָר הִשְׁרִיץ וְנַעֲשָׂה כֻּלּוֹ בָּשָׂר. שֶׁמָּא תֹּאמַר לִזְמַן מְרוּבֶּה? עֲלֵה לָהָר וּרְאֵה שֶׁהַיּוֹם אֵין בּוֹ אֶלָּא חִלָּזוֹן אֶחָד, לְמָחָר יָרְדוּ גְּשָׁמִים וְנִתְמַלֵּא כּוּלּוֹ חֶלְזוֹנוֹת.",
       "he_text_cleaned": "כָּעַס עֲלֵיהֶם, וְאָמַר לָהֶן: בִּמְקוֹם שֶׁאֵין מַיִם וְעָפָר בְּנִיתֶם, עַכְשָׁיו שֶׁיֵּשׁ מַיִם וְעָפָר – עַל אַחַת כַּמָּה וְכַמָּה! וְאִם אִי אַתָּה מַאֲמִין, צֵא לַבִּקְעָה וּרְאֵה עַכְבָּר שֶׁהַיּוֹם חֶצְיוֹ בָּשָׂר וְחֶצְיוֹ אֲדָמָה, לְמָחָר הִשְׁרִיץ וְנַעֲשָׂה כֻּלּוֹ בָּשָׂר. שֶׁמָּא תֹּאמַר לִזְמַן מְרוּבֶּה? עֲלֵה לָהָר וּרְאֵה שֶׁהַיּוֹם אֵין בּוֹ אֶלָּא חִלָּזוֹן אֶחָד, לְמָחָר יָרְדוּ גְּשָׁמִים וְנִתְמַלֵּא כּוּלּוֹ חֶלְזוֹנוֹת.",
-      "tags": [
-        "person:lest"
-      ],
+      "tags": [],
       "en_processed": {
         "entities": [
           [
@@ -1172,7 +1168,6 @@
       "he_text": "תָּנוּ רַבָּנַן: בְּעֶשְׂרִים וְאַרְבָּעָה בְּנִיסָן אִיתְנְטִילוּ דֵּימוֹסְנָאֵי מִיהוּדָה וּמִירוּשָׁלַיִם. כְּשֶׁבָּאוּ בְּנֵי אַפְרִיקִיָּא לָדוּן עִם יִשְׂרָאֵל לִפְנֵי אֲלֶכְּסַנְדְּרוֹס מוֹקְדוֹן, אָמְרוּ לוֹ: אֶרֶץ כְּנַעַן שֶׁלָּנוּ הִיא, דִּכְתִיב ״אֶרֶץ כְּנַעַן לִגְבֻלֹתֶיהָ״, וּכְנַעַן אֲבוּהוֹן דְּהָנְהוּ אִינָשֵׁי הֲוָה.",
       "he_text_cleaned": "תָּנוּ רַבָּנַן: בְּעֶשְׂרִים וְאַרְבָּעָה בְּנִיסָן אִיתְנְטִילוּ דֵּימוֹסְנָאֵי מִיהוּדָה וּמִירוּשָׁלַיִם. כְּשֶׁבָּאוּ בְּנֵי אַפְרִיקִיָּא לָדוּן עִם יִשְׂרָאֵל לִפְנֵי אֲלֶכְּסַנְדְּרוֹס מוֹקְדוֹן, אָמְרוּ לוֹ: אֶרֶץ כְּנַעַן שֶׁלָּנוּ הִיא, דִּכְתִיב ״אֶרֶץ כְּנַעַן לִגְבֻלֹתֶיהָ״, וּכְנַעַן אֲבוּהוֹן דְּהָנְהוּ אִינָשֵׁי הֲוָה.",
       "tags": [
-        "person:afrikiya",
         "person:alexander",
         "person:alexander of macedon",
         "person:bible:on",
@@ -1485,9 +1480,9 @@
       "he_text": "שׁוּב פַּעַם אַחַת בָּאוּ בְּנֵי מִצְרַיִם לָדוּן עִם יִשְׂרָאֵל לִפְנֵי אֲלֶכְּסַנְדְּרוֹס מוֹקְדוֹן. אָמְרוּ לוֹ: הֲרֵי הוּא אוֹמֵר ״וַה׳ נָתַן אֶת חֵן הָעָם בְּעֵינֵי מִצְרַיִם וַיַּשְׁאִלוּם״. תְּנוּ לָנוּ כֶּסֶף וְזָהָב שֶׁנְּטַלְתֶּם מִמֶּנּוּ.",
       "he_text_cleaned": "שׁוּב פַּעַם אַחַת בָּאוּ בְּנֵי מִצְרַיִם לָדוּן עִם יִשְׂרָאֵל לִפְנֵי אֲלֶכְּסַנְדְּרוֹס מוֹקְדוֹן. אָמְרוּ לוֹ: הֲרֵי הוּא אוֹמֵר ״וַה׳ נָתַן אֶת חֵן הָעָם בְּעֵינֵי מִצְרַיִם וַיַּשְׁאִלוּם״. תְּנוּ לָנוּ כֶּסֶף וְזָהָב שֶׁנְּטַלְתֶּם מִמֶּנּוּ.",
       "tags": [
+        "concept:divine_name_yhwh",
         "person:alexander",
         "person:alexander of macedon",
-        "person:yhwh",
         "place:bible:egypt",
         "place:macedon"
       ],
