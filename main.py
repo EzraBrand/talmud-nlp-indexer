@@ -17,8 +17,63 @@ EXCLUDED_SPACY_LABELS = {
     # Excluded: QUANTITY, ORDINAL, CARDINAL
 }
 
+# Define term replacements for English text processing
+TERM_REPLACEMENTS = {
+    "Gemara": "Talmud",
+    "Rabbi": "R'",
+    "The Sages taught": "A baraita states",
+    "Divine Voice": "bat kol",
+    "Divine Presence": "Shekhina",
+    "divine inspiration": "Holy Spirit",
+    "Divine Spirit": "Holy Spirit",
+    "the Lord": "YHWH",
+    "leper": "metzora",
+    "leprosy": "tzara'at",
+    "phylacteries": "tefillin",
+    "gentile": "non-Jew",
+    "gentiles": "non-Jews",
+    "ignoramus": "am ha'aretz",
+    "maidservant": "female slave",
+    "maidservants": "female slaves",
+    "barrel": "jug",
+    "barrels": "jugs",
+    "the Holy One, Blessed be He": "God",
+    "the Merciful One": "God",
+    "the Almighty": "God",
+    "engage in intercourse": "have sex",
+    "engages in intercourse": "has sex",
+    "engaged in intercourse": "had sex",
+    "engaging in intercourse": "having sex",
+    "had intercourse": "had sex",
+    "intercourse with": "sex with",
+    "Sages": "rabbis",
+    "mishna": "Mishnah",
+    "rainy season": "winter",
+    "son of R'": "ben"
+}
+
+def apply_term_replacements(text: str) -> str:
+    """Apply term replacements to English text for more consistent terminology."""
+    if not text:
+        return text
+    
+    # Apply replacements, being careful about word boundaries
+    modified_text = text
+    for old_term, new_term in TERM_REPLACEMENTS.items():
+        # Use word boundaries for most replacements to avoid partial matches
+        # Exception: some phrases don't need word boundaries
+        if old_term in ["son of R'", "intercourse with"]:
+            # These are phrase replacements that don't need word boundaries
+            modified_text = modified_text.replace(old_term, new_term)
+        else:
+            # Use regex with word boundaries for single words and most phrases
+            pattern = r'\b' + re.escape(old_term) + r'\b'
+            modified_text = re.sub(pattern, new_term, modified_text, flags=re.IGNORECASE)
+    
+    return modified_text
+
 def generate_markdown(result: dict, output_md_path: str):
-    """Generates a Markdown file with Hebrew and English text sections,
+    """Generates a Markdown file summarizing and annotating the processed text,
        prioritizing gazetteer tags and excluding specific spaCy entity labels."""
     try:
         # --- Create Gazetteer Lookup with Priority ---
@@ -56,15 +111,9 @@ def generate_markdown(result: dict, output_md_path: str):
                             gazetteer_tag_lookup[key] = (tag_type_full, current_priority)
         # ---------------------------------------------
 
-        # Get the processed data
-        doc = result.get('en_processed', {}).get('doc')
-        hebrew_sentences = result.get('he_processed', {}).get('sentences_without_nikud', [])
-
         with open(output_md_path, 'w', encoding='utf-8') as f:
-            # Header
+            # Sections 1, 2, 3 (Header, Tags, Bold/Italic) remain unchanged
             f.write(f"# {result.get('ref', 'Unknown Reference')}\n\n")
-            
-            # Tags
             f.write("## Tags\n\n")
             if result.get('tags'):
                 for tag in sorted(result['tags']):
@@ -72,8 +121,6 @@ def generate_markdown(result: dict, output_md_path: str):
             else:
                 f.write("No tags generated.\n")
             f.write("\n")
-            
-            # Bold/Italic words
             bold_italic_words = result.get('en_processed', {}).get('italicized_words', [])
             f.write("## Bolded & Italicized Words\n\n")
             if bold_italic_words:
@@ -83,62 +130,85 @@ def generate_markdown(result: dict, output_md_path: str):
                 f.write("No bolded and italicized words found.\n")
             f.write("\n")
 
-            # Hebrew Text
+            # 3. Hebrew Text Section
             f.write("## Hebrew Text\n\n")
-            if hebrew_sentences:
-                for i, sentence in enumerate(hebrew_sentences, 1):
-                    f.write(f"{i}. <div dir=\"rtl\">**{sentence}**</div>\n\n")
+            he_text_raw = result.get('he_text', '')
+            if he_text_raw:
+                # Split Hebrew text into sentences based on punctuation
+                # Clean the Hebrew text first (remove HTML tags but preserve structure)
+                import re
+                
+                # Function to strip nikud (Hebrew vowel points)
+                def strip_nikud(text):
+                    # Hebrew nikud (vowel points) Unicode ranges:
+                    # U+0591-U+05C7 (Hebrew accents and points)
+                    # U+05D0-U+05EA are Hebrew letters (keep these)
+                    # U+05F0-U+05F4 are Hebrew ligatures (keep these)
+                    nikud_pattern = r'[\u0591-\u05C7]'
+                    return re.sub(nikud_pattern, '', text)
+                
+                # Remove HTML tags but preserve the text
+                he_text_cleaned = re.sub(r'<[^>]+>', '', he_text_raw)
+                
+                # Strip nikud from Hebrew text
+                he_text_cleaned = strip_nikud(he_text_cleaned)
+                
+                # Split by common Hebrew punctuation marks and periods
+                # Include both Hebrew and Latin punctuation
+                he_sentences = re.split(r'[.!?׃։]', he_text_cleaned)
+                
+                # Clean and filter sentences
+                he_sentences = [sent.strip() for sent in he_sentences if sent.strip()]
+                
+                # Generate Hebrew sentences with RTL formatting (no numbering)
+                for sentence in he_sentences:
+                    if sentence:  # Only process non-empty sentences
+                        f.write(f"<div dir=\"rtl\"><strong>{sentence}</strong></div>\n\n")
             else:
-                f.write("No Hebrew sentences found.\n\n")
+                f.write("No Hebrew text available.\n\n")
 
-            # Annotated English Text
+            # 4. Annotated English Text Section (Modified Annotation Logic)
             f.write("## Annotated English Text\n\n")
-            if doc:
-                # Create a copy of the text to annotate
-                annotated_text = doc.text
-                
-                # Collect entities and sort by end position (reverse order for replacement)
-                entities = [(ent.start_char, ent.end_char, ent.text, ent.label_) for ent in doc.ents]
-                entities.sort(key=lambda x: x[1], reverse=True)
-                
-                # Apply annotations
-                for start, end, text, spacy_label in entities:
-                    if start >= 0 and end <= len(annotated_text) and annotated_text[start:end] == text:
-                        entity_text_lower = text.lower()
-                        final_label = spacy_label # Default to spaCy label
-                        from_gazetteer = False # Flag to track origin
+            doc = result.get('en_processed', {}).get('doc')
+            if doc and doc.text:
+                for sent in doc.sents:
+                    original_sentence_text = sent.text
+                    annotated_sentence_text = original_sentence_text
+                    
+                    entities_in_sentence = sorted([
+                        (ent.start_char - sent.start_char, ent.end_char - sent.start_char, ent.text, ent.label_)
+                        for ent in doc.ents if ent.start_char >= sent.start_char and ent.end_char <= sent.end_char
+                    ], key=lambda x: x[1], reverse=True)
 
-                        # --- Prioritize Gazetteer Tag ---
-                        if entity_text_lower in gazetteer_tag_lookup:
-                            final_label = gazetteer_tag_lookup[entity_text_lower][0]
-                            from_gazetteer = True
-                        # ---------------------------------
+                    for start, end, text, spacy_label in entities_in_sentence:
+                        if annotated_sentence_text[start:end] == text:
+                            entity_text_lower = text.lower()
+                            final_label = spacy_label # Default to spaCy label
+                            from_gazetteer = False # Flag to track origin
 
-                        # --- Exclude specific spaCy labels ---
-                        # Only exclude if it's from spaCy AND in the exclusion list
-                        if not from_gazetteer and final_label in EXCLUDED_SPACY_LABELS:
-                            continue # Skip this entity
-                        # -------------------------------------
-                        
-                        import re
-                        escaped_text = re.sub(r'([\\`*_{}[\]()#+.!-])', r'\\\1', text)
-                        annotation = f"**{escaped_text}**`[{final_label}]`" 
-                        annotated_text = annotated_text[:start] + annotation + annotated_text[end:]
-                
-                f.write(annotated_text + "\n\n")
+                            # --- Prioritize Gazetteer Tag ---
+                            if entity_text_lower in gazetteer_tag_lookup:
+                                final_label = gazetteer_tag_lookup[entity_text_lower][0]
+                                from_gazetteer = True
+                            # ---------------------------------
+
+                            # --- Exclude specific spaCy labels ---
+                            # Only exclude if it's from spaCy AND in the exclusion list
+                            if not from_gazetteer and final_label in EXCLUDED_SPACY_LABELS:
+                                continue # Skip this entity
+                            # -------------------------------------
+                            
+                            escaped_text = re.sub(r'([\\`*_{}[\]()#+.!-])', r'\\\1', text)
+                            annotation = f"**{escaped_text}**`[{final_label}]`" 
+                            annotated_sentence_text = annotated_sentence_text[:start] + annotation + annotated_sentence_text[end:]
+
+                    f.write(annotated_sentence_text + "\n\n")
             else:
-                f.write("No English text processed.\n\n")
+                f.write("No analyzed text available.\n")
 
     except Exception as e:
         # Use f-string for cleaner formatting
         print(f"Error generating Markdown file {output_md_path}: {e}")
-        import traceback
-        traceback.print_exc() # Add traceback for debugging
-
-    except Exception as e:
-        # Use f-string for cleaner formatting
-        print(f"Error generating Markdown file {output_md_path}: {e}")
-        import traceback
         traceback.print_exc() # Add traceback for debugging
 
 
@@ -149,42 +219,36 @@ def main():
     text_processor = TextProcessor()
     tagger = TalmudTagger()
 
-    # Define the target pages (testing Sanhedrin 90b-91a)
+    # Define the target pages (Sanhedrin 90b-91a)
     tractate = "Sanhedrin"
-    start_daf = "90b"  # Starting from 90b
-    end_daf = "91a"    # Ending at 91a
+    target_pages = ["90b", "91a"]  # Specific pages to process
 
     # Create directory for output
     os.makedirs("data", exist_ok=True)
 
-    # Fetch the range of pages
-    try:
-        pages_data = sefaria_api.fetch_tractate_range(tractate, start_daf, end_daf)
-        print(f"Fetched {len(pages_data)} pages from {tractate} {start_daf}-{end_daf}")
-    except Exception as e:
-        print(f"Error fetching range: {e}")
-        return
-
-    # Process each page
-    for page_data in pages_data:
-        # Extract the daf reference from the page data
-        ref = page_data.get('ref', '')
-        daf = ref.split('.')[-1] if '.' in ref else ref.replace(tractate + ' ', '')
+    # Process each specific page
+    for daf in target_pages:
         print(f"Processing {tractate}.{daf}...")
 
         try:
+            # 1. Fetch data
+            page_data = sefaria_api.fetch_talmud_page(tractate, daf)
+
             # Extract texts (handle potential missing keys and list format)
             # Keep the raw text with HTML for process_english
             en_text_raw = ' '.join(page_data.get('text', [])) if isinstance(page_data.get('text'), list) else page_data.get('text', '')
             he_text_raw = ' '.join(page_data.get('he', [])) if isinstance(page_data.get('he'), list) else page_data.get('he', '')
+
+            # Apply term replacements to English text before processing
+            en_text_processed = apply_term_replacements(en_text_raw)
 
             # Clean only Hebrew text here (English cleaning happens inside process_english)
             # Note: clean_text now returns a tuple, but we only need the text for Hebrew here
             he_text_cleaned, _ = text_processor.clean_text(he_text_raw, 'he') 
 
             # 2. Process texts
-            # Pass the raw English text to process_english
-            en_processed = text_processor.process_english(en_text_raw) 
+            # Pass the processed English text (with term replacements) to process_english
+            en_processed = text_processor.process_english(en_text_processed) 
             he_processed = text_processor.process_hebrew(he_text_cleaned)
 
             # 3. Generate tags
@@ -196,7 +260,8 @@ def main():
             # 4. Assemble result
             result = {
                 'ref': page_data.get('ref', f"{tractate}.{daf}"),
-                'en_text': en_text_raw, # Store raw text
+                'en_text': en_text_raw, # Store original raw text
+                'en_text_processed': en_text_processed, # Store text with term replacements
                 'he_text': he_text_raw, # Store raw text
                 'en_processed': en_processed, 
                 'he_processed': he_processed,
@@ -209,25 +274,20 @@ def main():
                 # Convert complex objects for JSON serialization
                 serializable_result = {}
                 serializable_result['ref'] = result['ref']
-                serializable_result['en_text'] = result['en_text'] # Raw text
+                serializable_result['en_text'] = result['en_text'] # Original raw text
+                serializable_result['en_text_processed'] = result['en_text_processed'] # Text with term replacements
                 serializable_result['he_text'] = result['he_text'] # Raw text
-                # Extract serializable parts from en_processed, including italics and normalized text
+                # Extract serializable parts from en_processed, including italics
                 serializable_result['en_processed'] = {
                     k: v for k, v in result['en_processed'].items()
-                    if k in ['entities', 'noun_phrases', 'sentences', 'italicized_words', 'normalized_text'] # Add normalized_text
+                    if k in ['entities', 'noun_phrases', 'sentences', 'italicized_words'] # Add italicized_words
                 }
-                # Extract serializable parts from he_processed (e.g., embedding shape and sentences)
+                # Extract serializable parts from he_processed (e.g., embedding shape)
                 embedding_tensor = result['he_processed'].get('embeddings')
-                he_processed_data = {}
                 if embedding_tensor is not None:
-                    he_processed_data['embedding_shape'] = list(embedding_tensor.shape)
+                    serializable_result['he_processed'] = {'embedding_shape': list(embedding_tensor.shape)}
                 else:
-                    he_processed_data['embedding_shape'] = None
-                
-                # Add Hebrew sentences
-                he_processed_data['sentences'] = result['he_processed'].get('sentences', [])
-                he_processed_data['sentences_without_nikud'] = result['he_processed'].get('sentences_without_nikud', [])
-                serializable_result['he_processed'] = he_processed_data
+                    serializable_result['he_processed'] = {'embedding_shape': None}
 
                 serializable_result['tags'] = result['tags']
 

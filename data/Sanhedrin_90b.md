@@ -43,7 +43,6 @@
 - person:yehuda
 - person:yhwh
 - person:yonatan
-- person:yosei
 - person:yoḥanan
 - person:ḥananya
 - person:ḥaverim
@@ -82,225 +81,245 @@
 
 ## Hebrew Text
 
-1. <div dir="rtl">**וכתיב:**</div>
+<div dir="rtl"><strong>וכתיב: ״ויהי לו כן וירמסו אתו העם בשער וימת״</strong></div>
 
-2. <div dir="rtl">**״ויהי לו כן וירמסו אתו העם בשער וימת״.**</div>
+<div dir="rtl"><strong>ודילמא קללת אלישע גרמה ליה</strong></div>
 
-3. <div dir="rtl">**ודילמא קללת אלישע גרמה ליה?**</div>
+<div dir="rtl"><strong>דאמר רב יהודה אמר רב: קללת חכם, אפילו על חנם היא באה</strong></div>
 
-4. <div dir="rtl">**דאמר רב יהודה אמר רב:**</div>
+<div dir="rtl"><strong>אם כן, לכתוב קרא: ״וירמסוהו וימת״</strong></div>
 
-5. <div dir="rtl">**קללת חכם, אפילו על חנם היא באה.**</div>
+<div dir="rtl"><strong>מאי ״בשער״</strong></div>
 
-6. <div dir="rtl">**אם כן, לכתוב קרא:**</div>
+<div dir="rtl"><strong>על עסקי שער</strong></div>
 
-7. <div dir="rtl">**״וירמסוהו וימת״.**</div>
+<div dir="rtl"><strong>אמר רבי יוחנן: מניין לתחיית המתים מן התורה</strong></div>
 
-8. <div dir="rtl">**מאי ״בשער״?**</div>
+<div dir="rtl"><strong>שנאמר: ״ונתתם ממנו [את] תרומת ה׳ לאהרן הכהן״</strong></div>
 
-9. <div dir="rtl">**על עסקי שער.**</div>
+<div dir="rtl"><strong>וכי אהרן לעולם קיים</strong></div>
 
-10. <div dir="rtl">**אמר רבי יוחנן:**</div>
+<div dir="rtl"><strong>והלא לא נכנס לארץ ישראל שנותנין לו תרומה</strong></div>
 
-11. <div dir="rtl">**מניין לתחיית המתים מן התורה?**</div>
+<div dir="rtl"><strong>אלא מלמד שעתיד לחיות, וישראל נותנין לו תרומה</strong></div>
 
-12. <div dir="rtl">**שנאמר:**</div>
+<div dir="rtl"><strong>מכאן לתחיית המתים מן התורה</strong></div>
 
-13. <div dir="rtl">**״ונתתם ממנו [את] תרומת ה׳ לאהרן הכהן״.**</div>
+<div dir="rtl"><strong>דבי רבי ישמעאל תנא: ״לאהרן״ – כאהרן, מה אהרן חבר – אף בניו חברים</strong></div>
 
-14. <div dir="rtl">**וכי אהרן לעולם קיים?**</div>
+<div dir="rtl"><strong>אמר רבי שמואל בר נחמני אמר רבי יונתן: מניין שאין נותנין תרומה לכהן עם הארץ</strong></div>
 
-15. <div dir="rtl">**והלא לא נכנס לארץ ישראל שנותנין לו תרומה!**</div>
+<div dir="rtl"><strong>שנאמר: ״ויאמר לעם ליושבי ירושלים לתת מנת הכהנים והלוים למען יחזקו בתורת ה׳״</strong></div>
 
-16. <div dir="rtl">**אלא מלמד שעתיד לחיות, וישראל נותנין לו תרומה.**</div>
+<div dir="rtl"><strong>כל המחזיק בתורת ה׳ – יש לו מנת, ושאינו מחזיק בתורת ה׳ – אין לו מנת</strong></div>
 
-17. <div dir="rtl">**מכאן לתחיית המתים מן התורה.**</div>
+<div dir="rtl"><strong>אמר רב אחא בר אדא אמר רב יהודה: כל הנותן תרומה לכהן עם הארץ, כאילו נותנה לפני ארי</strong></div>
 
-18. <div dir="rtl">**דבי רבי ישמעאל תנא:**</div>
+<div dir="rtl"><strong>מה ארי - ספק דורס ואוכל, ספק אינו דורס ואוכל, אף כהן עם הארץ - ספק אוכלה בטהרה, ספק אוכלה בטומאה</strong></div>
 
-19. <div dir="rtl">**״לאהרן״ – כאהרן, מה אהרן חבר – אף בניו חברים.**</div>
+<div dir="rtl"><strong>רבי יוחנן אמר: אף גורם לו מיתה, שנאמר ״ומתו בו כי יחללהו״</strong></div>
 
-20. <div dir="rtl">**אמר רבי שמואל בר נחמני אמר רבי יונתן:**</div>
+<div dir="rtl"><strong>דבי רבי אליעזר בן יעקב תנא: אף משיאו עון אשמה, שנאמר ״והשיאו אותם עון אשמה באכלם את קדשיהם״</strong></div>
 
-21. <div dir="rtl">**מניין שאין נותנין תרומה לכהן עם הארץ?**</div>
+<div dir="rtl"><strong>תניא, רבי סימאי אומר: מניין לתחיית המתים מן התורה</strong></div>
 
-22. <div dir="rtl">**שנאמר:**</div>
+<div dir="rtl"><strong>שנאמר: ״וגם הקמתי את בריתי אתם לתת להם את ארץ כנען״</strong></div>
 
-23. <div dir="rtl">**״ויאמר לעם ליושבי ירושלים לתת מנת הכהנים והלוים למען יחזקו בתורת ה׳״.**</div>
+<div dir="rtl"><strong>״לכם״ לא נאמר, אלא ״להם״</strong></div>
 
-24. <div dir="rtl">**כל המחזיק בתורת ה׳ – יש לו מנת, ושאינו מחזיק בתורת ה׳ – אין לו מנת.**</div>
+<div dir="rtl"><strong>מכאן לתחיית המתים מן התורה</strong></div>
 
-25. <div dir="rtl">**אמר רב אחא בר אדא אמר רב יהודה:**</div>
+<div dir="rtl"><strong>(צד״ק ג״ם גש״ם ק״ם סימן) שאלו צדוקים את רבן גמליאל: מניין שהקדוש ברוך הוא מחייה מתים</strong></div>
 
-26. <div dir="rtl">**כל הנותן תרומה לכהן עם הארץ, כאילו נותנה לפני ארי.**</div>
+<div dir="rtl"><strong>אמר להם: מן התורה, ומן הנביאים, ומן הכתובים</strong></div>
 
-27. <div dir="rtl">**מה ארי - ספק דורס ואוכל, ספק אינו דורס ואוכל, אף כהן עם הארץ - ספק אוכלה בטהרה, ספק אוכלה בטומאה.**</div>
+<div dir="rtl"><strong>ולא קיבלו ממנו</strong></div>
 
-28. <div dir="rtl">**רבי יוחנן אמר:**</div>
+<div dir="rtl"><strong>מן התורה, דכתיב: ״ויאמר ה׳ אל משה הנך שכב עם אבתיך וקם״</strong></div>
 
-29. <div dir="rtl">**אף גורם לו מיתה, שנאמר ״ומתו בו כי יחללהו״.**</div>
+<div dir="rtl"><strong>אמרו לו: ודילמא ״וקם העם הזה וזנה״</strong></div>
 
-30. <div dir="rtl">**דבי רבי אליעזר בן יעקב תנא:**</div>
+<div dir="rtl"><strong>מן הנביאים, דכתיב: ״יחיו מתיך נבלתי יקומון הקיצו ורננו שכני עפר כי טל אורת טלך וארץ רפאים תפיל״</strong></div>
 
-31. <div dir="rtl">**אף משיאו עון אשמה, שנאמר ״והשיאו אותם עון אשמה באכלם את קדשיהם״.**</div>
+<div dir="rtl"><strong>ודילמא מתים שהחיה יחזקאל</strong></div>
 
-32. <div dir="rtl">**תניא, רבי סימאי אומר:**</div>
+<div dir="rtl"><strong>מן הכתובים, דכתיב: ״וחכך כיין הטוב הולך לדודי למישרים דובב שפתי ישנים״</strong></div>
 
-33. <div dir="rtl">**מניין לתחיית המתים מן התורה?**</div>
+<div dir="rtl"><strong>ודילמא רחושי מרחשן שפוותיה בעלמא</strong></div>
 
-34. <div dir="rtl">**שנאמר:**</div>
+<div dir="rtl"><strong>כרבי יוחנן, דאמר רבי יוחנן משום רבי שמעון בן יהוצדק: כל מי שנאמרה הלכה בשמו בעולם הזה, שפתותיו דובבות בקבר, שנאמר: ״דובב שפתי ישנים״</strong></div>
 
-35. <div dir="rtl">**״וגם הקמתי את בריתי אתם לתת להם את ארץ כנען״.**</div>
+<div dir="rtl"><strong>עד שאמר להם מקרא זה: ״אשר נשבע ה׳ לאבתיכם לתת להם״</strong></div>
 
-36. <div dir="rtl">**״לכם״ לא נאמר, אלא ״להם״.**</div>
+<div dir="rtl"><strong>״לכם״ לא נאמר, אלא ״להם״</strong></div>
 
-37. <div dir="rtl">**מכאן לתחיית המתים מן התורה.**</div>
+<div dir="rtl"><strong>מיכן לתחיית המתים מן התורה</strong></div>
 
-38. <div dir="rtl">**(צד״ק ג״ם גש״ם ק״ם סימן) שאלו צדוקים את רבן גמליאל:**</div>
+<div dir="rtl"><strong>ויש אומרים: מן המקרא הזה אמר להם, ״ואתם הדבקים בה׳ אלהיכם חיים כלכם היום״</strong></div>
 
-39. <div dir="rtl">**מניין שהקדוש ברוך הוא מחייה מתים?**</div>
+<div dir="rtl"><strong>פשיטא דחיים כלכם היום</strong></div>
 
-40. <div dir="rtl">**אמר להם:**</div>
+<div dir="rtl"><strong>אלא, אפילו ביום שכל העולם כולם מתים – אתם חיים</strong></div>
 
-41. <div dir="rtl">**מן התורה, ומן הנביאים, ומן הכתובים.**</div>
+<div dir="rtl"><strong>מה היום כולכם קיימין, אף לעולם הבא כולכם קיימין</strong></div>
 
-42. <div dir="rtl">**ולא קיבלו ממנו.**</div>
+<div dir="rtl"><strong>שאלו רומיים את רבי יהושע בן חנניה: מניין שהקדוש ברוך הוא מחיה מתים, ויודע מה שעתיד להיות</strong></div>
 
-43. <div dir="rtl">**מן התורה, דכתיב:**</div>
+<div dir="rtl"><strong>אמר להו: תרווייהו מן המקרא הזה, שנאמר: ״ויאמר ה׳ אל משה הנך שכב עם אבתיך וקם העם הזה וזנה״</strong></div>
 
-44. <div dir="rtl">**״ויאמר ה׳ אל משה הנך שכב עם אבתיך וקם״.**</div>
+<div dir="rtl"><strong>ודילמא ״וקם העם הזה וזנה״</strong></div>
 
-45. <div dir="rtl">**אמרו לו:**</div>
+<div dir="rtl"><strong>אמר להו: נקוטו מיהא פלגא בידייכו, דיודע מה שעתיד להיות</strong></div>
 
-46. <div dir="rtl">**ודילמא ״וקם העם הזה וזנה״?**</div>
+<div dir="rtl"><strong>איתמר נמי, אמר רבי יוחנן משום רבי שמעון בן יוחאי: מניין שהקדוש ברוך הוא מחיה מתים ויודע מה שעתיד להיות</strong></div>
 
-47. <div dir="rtl">**מן הנביאים, דכתיב:**</div>
+<div dir="rtl"><strong>שנאמר ״הנך שכב עם אבתיך וקם וגו׳״</strong></div>
 
-48. <div dir="rtl">**״יחיו מתיך נבלתי יקומון הקיצו ורננו שכני עפר כי טל אורת טלך וארץ רפאים תפיל״.**</div>
+<div dir="rtl"><strong>תניא: אמר רבי אליעזר ברבי יוסי: בדבר זה זייפתי ספרי כותים, שהיו אומרים אין תחיית המתים מן התורה</strong></div>
 
-49. <div dir="rtl">**ודילמא מתים שהחיה יחזקאל?**</div>
+<div dir="rtl"><strong>אמרתי להן: זייפתם תורתכם ולא העליתם בידכם כלום, שאתם אומרים אין תחיית המתים מן התורה</strong></div>
 
-50. <div dir="rtl">**מן הכתובים, דכתיב:**</div>
+<div dir="rtl"><strong>הרי הוא אומר ״הכרת תכרת הנפש ההיא עונה בה״</strong></div>
 
-51. <div dir="rtl">**״וחכך כיין הטוב הולך לדודי למישרים דובב שפתי ישנים״.**</div>
+<div dir="rtl"><strong>״הכרת תכרת״ – בעולם הזה, ״עונה בה״ – לאימת</strong></div>
 
-52. <div dir="rtl">**ודילמא רחושי מרחשן שפוותיה בעלמא?**</div>
+<div dir="rtl"><strong>לאו לעולם הבא</strong></div>
 
-53. <div dir="rtl">**כרבי יוחנן, דאמר רבי יוחנן משום רבי שמעון בן יהוצדק:**</div>
+<div dir="rtl"><strong>אמר ליה רב פפא לאביי: ולימא להו תרוייהו מ״הכרת תכרת״</strong></div>
 
-54. <div dir="rtl">**כל מי שנאמרה הלכה בשמו בעולם הזה, שפתותיו דובבות בקבר, שנאמר:**</div>
+<div dir="rtl"><strong>אינהו הוו אמרי ליה: דברה תורה כלשון בני אדם</strong></div>
 
-55. <div dir="rtl">**״דובב שפתי ישנים״.**</div>
+<div dir="rtl"><strong>כתנאי: ״הכרת תכרת״ – ״הכרת״ בעולם הזה, ״תכרת״ לעולם הבא, דברי רבי עקיבא</strong></div>
 
-56. <div dir="rtl">**עד שאמר להם מקרא זה:**</div>
+<div dir="rtl"><strong>אמר לו רבי ישמעאל: והלא כבר נאמר ״את ה׳ הוא מגדף ונכרתה״, וכי שלשה עולמים יש</strong></div>
 
-57. <div dir="rtl">**״אשר נשבע ה׳ לאבתיכם לתת להם״.**</div>
+<div dir="rtl"><strong>אלא ״ונכרתה״ בעולם הזה, ״הכרת״ לעולם הבא, ״הכרת תכרת״ – דברה תורה כלשון בני אדם</strong></div>
 
-58. <div dir="rtl">**״לכם״ לא נאמר, אלא ״להם״.**</div>
+<div dir="rtl"><strong>בין רבי ישמעאל ובין רבי עקיבא, ״עונה בה״ מאי עבדי ביה</strong></div>
 
-59. <div dir="rtl">**מיכן לתחיית המתים מן התורה.**</div>
+<div dir="rtl"><strong>לכדתניא: יכול אפילו עשה תשובה</strong></div>
 
-60. <div dir="rtl">**ויש אומרים:**</div>
+<div dir="rtl"><strong>תלמוד לומר: ״עונה בה״</strong></div>
 
-61. <div dir="rtl">**מן המקרא הזה אמר להם, ״ואתם הדבקים בה׳ אלהיכם חיים כלכם היום״.**</div>
+<div dir="rtl"><strong>לא אמרתי אלא בזמן שעונה בה</strong></div>
 
-62. <div dir="rtl">**פשיטא דחיים כלכם היום!**</div>
+<div dir="rtl"><strong>שאלה קליאופטרא מלכתא את רבי מאיר</strong></div>
 
-63. <div dir="rtl">**אלא, אפילו ביום שכל העולם כולם מתים – אתם חיים.**</div>
+<div dir="rtl"><strong>אמרה: ידענא דחיי שכבי, דכתיב ״ויציצו מעיר כעשב הארץ״</strong></div>
 
-64. <div dir="rtl">**מה היום כולכם קיימין, אף לעולם הבא כולכם קיימין.**</div>
+<div dir="rtl"><strong>אלא כשהן עומדין, עומדין ערומין או בלבושיהן עומדין</strong></div>
 
-65. <div dir="rtl">**שאלו רומיים את רבי יהושע בן חנניה:**</div>
+<div dir="rtl"><strong>אמר לה: קל וחומר מחיטה</strong></div>
 
-66. <div dir="rtl">**מניין שהקדוש ברוך הוא מחיה מתים, ויודע מה שעתיד להיות?**</div>
+<div dir="rtl"><strong>ומה חיטה שנקברה ערומה יוצאה בכמה לבושין, צדיקים שנקברים בלבושיהן – על אחת כמה וכמה</strong></div>
 
-67. <div dir="rtl">**אמר להו:**</div>
+<div dir="rtl"><strong>אמר ליה קיסר לרבן גמליאל: אמריתו דשכבי חיי</strong></div>
 
-68. <div dir="rtl">**תרווייהו מן המקרא הזה, שנאמר:**</div>
-
-69. <div dir="rtl">**״ויאמר ה׳ אל משה הנך שכב עם אבתיך וקם העם הזה וזנה״.**</div>
-
-70. <div dir="rtl">**ודילמא ״וקם העם הזה וזנה״?**</div>
-
-71. <div dir="rtl">**אמר להו:**</div>
-
-72. <div dir="rtl">**נקוטו מיהא פלגא בידייכו, דיודע מה שעתיד להיות.**</div>
-
-73. <div dir="rtl">**איתמר נמי, אמר רבי יוחנן משום רבי שמעון בן יוחאי:**</div>
-
-74. <div dir="rtl">**מניין שהקדוש ברוך הוא מחיה מתים ויודע מה שעתיד להיות?**</div>
-
-75. <div dir="rtl">**שנאמר ״הנך שכב עם אבתיך וקם וגו׳״.**</div>
-
-76. <div dir="rtl">**תניא:**</div>
-
-77. <div dir="rtl">**אמר רבי אליעזר ברבי יוסי:**</div>
-
-78. <div dir="rtl">**בדבר זה זייפתי ספרי כותים, שהיו אומרים אין תחיית המתים מן התורה.**</div>
-
-79. <div dir="rtl">**אמרתי להן:**</div>
-
-80. <div dir="rtl">**זייפתם תורתכם ולא העליתם בידכם כלום, שאתם אומרים אין תחיית המתים מן התורה.**</div>
-
-81. <div dir="rtl">**הרי הוא אומר ״הכרת תכרת הנפש ההיא עונה בה״.**</div>
-
-82. <div dir="rtl">**״הכרת תכרת״ – בעולם הזה, ״עונה בה״ – לאימת?**</div>
-
-83. <div dir="rtl">**לאו לעולם הבא?**</div>
-
-84. <div dir="rtl">**אמר ליה רב פפא לאביי:**</div>
-
-85. <div dir="rtl">**ולימא להו תרוייהו מ״הכרת תכרת״!**</div>
-
-86. <div dir="rtl">**אינהו הוו אמרי ליה:**</div>
-
-87. <div dir="rtl">**דברה תורה כלשון בני אדם.**</div>
-
-88. <div dir="rtl">**כתנאי:**</div>
-
-89. <div dir="rtl">**״הכרת תכרת״ – ״הכרת״ בעולם הזה, ״תכרת״ לעולם הבא, דברי רבי עקיבא.**</div>
-
-90. <div dir="rtl">**אמר לו רבי ישמעאל:**</div>
-
-91. <div dir="rtl">**והלא כבר נאמר ״את ה׳ הוא מגדף ונכרתה״, וכי שלשה עולמים יש?**</div>
-
-92. <div dir="rtl">**אלא ״ונכרתה״ בעולם הזה, ״הכרת״ לעולם הבא, ״הכרת תכרת״ – דברה תורה כלשון בני אדם.**</div>
-
-93. <div dir="rtl">**בין רבי ישמעאל ובין רבי עקיבא, ״עונה בה״ מאי עבדי ביה?**</div>
-
-94. <div dir="rtl">**לכדתניא:**</div>
-
-95. <div dir="rtl">**יכול אפילו עשה תשובה?**</div>
-
-96. <div dir="rtl">**תלמוד לומר:**</div>
-
-97. <div dir="rtl">**״עונה בה״.**</div>
-
-98. <div dir="rtl">**לא אמרתי אלא בזמן שעונה בה.**</div>
-
-99. <div dir="rtl">**שאלה קליאופטרא מלכתא את רבי מאיר.**</div>
-
-100. <div dir="rtl">**אמרה:**</div>
-
-101. <div dir="rtl">**ידענא דחיי שכבי, דכתיב ״ויציצו מעיר כעשב הארץ״.**</div>
-
-102. <div dir="rtl">**אלא כשהן עומדין, עומדין ערומין או בלבושיהן עומדין?**</div>
-
-103. <div dir="rtl">**אמר לה:**</div>
-
-104. <div dir="rtl">**קל וחומר מחיטה.**</div>
-
-105. <div dir="rtl">**ומה חיטה שנקברה ערומה יוצאה בכמה לבושין, צדיקים שנקברים בלבושיהן – על אחת כמה וכמה.**</div>
-
-106. <div dir="rtl">**אמר ליה קיסר לרבן גמליאל:**</div>
-
-107. <div dir="rtl">**אמריתו דשכבי חיי.**</div>
-
-108. <div dir="rtl">**הא הוו עפרא, ועפרא מי קא חיי?**</div>
-
-109. <div dir="rtl">**!**</div>
+<div dir="rtl"><strong>הא הוו עפרא, ועפרא מי קא חיי</strong></div>
 
 ## Annotated English Text
 
-And it is written: “And it was for him so, and the people trampled him in the gate, and he died” Perhaps the curse of **Elisha**`[PERSON]` caused as **Rav Yehuda**`[person]` says **Rav**`[person]` says: The curse of a Sage, even baseless, comes If so, let the verse write: And they trampled him and he died. What “in the gate” over matters to the gate [sha’ar]. R' **Yoḥanan**`[person]` says: From where resurrection of the dead from the **Torah**`[concept]`? as it is stated “And you shall give the teruma of **YHWH**`[person]` to **Aaron**`[PERSON]` the priest” And does **Aaron**`[PERSON]` exist forever But is it not did not enter **Eretz**`[place]` **Yisrael**`[place]`, where give him teruma? Rather, teaches that to live in the future and the **Jewish**`[NORP]` people give him teruma. From here the resurrection of the dead is from the **Torah**`[concept]`. The school of R' Yishmael taught “to **Aaron**`[PERSON]`” like **Aaron**`[PERSON]`; just as **Aaron**`[PERSON]` is one devoted to the meticulous observance of mitzvot, particularly those relating to ritual purity, teruma, and tithes [ḥaver], so too his descendants **ḥaverim**`[person]`. R' **Shmuel**`[person]` bar Naḥmani says R' **Yonatan**`[person]` says: From where that one does not give teruma to a priest an am ha’aretz? as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[GPE]` to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of **YHWH**`[person]`” Everyone who firmly adheres to the Torah of **YHWH**`[person]` has a portion, and anyone who does not firmly adhere to the Torah of **YHWH**`[person]` does not have a portion. **Rav Aḥa**`[person]` bar **Adda**`[person]` says **Rav Yehuda**`[person]` says: anyone who gives teruma to a priest an am ha’aretz, it is as though he placed before a lion. Just as a lion, uncertainty maul and eat uncertainty not maul and eat so too, a priest an am ha’aretz uncertainty eat it in purity, uncertainty eat it in impurity, R' **Yoḥanan**`[person]` says: even causes death, as it is stated “And die therefore if they profane it” The school of R' **Eliezer ben Ya’akov**`[PERSON]` taught: one also brings upon him a sin of guilt, as it is stated: “And so bring upon them a sin of guilt when they eat their sacred items” It is taught R' Simai says: From where resurrection of the dead from the **Torah**`[concept]`? as it is stated “I have also established My covenant with them to give to them the land of **Canaan**`[GPE]`” to you is not stated, rather, to them From here the resurrection of the dead is from the **Torah**`[concept]`, **Tzadi**`[place]`, dalet, kuf; **gimmel**`[person]`, mem; **gimmel**`[person]`, shin, mem; kuf, mem. Heretics asked **Rabban Gamliel**`[person]`: From where that God, revives the dead? said to them from the **Torah**`[concept]`, from the **Prophets**`[NORP]`, and from **Writings**`[person]`, but they did not accept from him. from the **Torah**`[concept]` as it is written: “And **YHWH**`[person]` said to **Moses**`[PERSON]`, behold, you shall lie with your fathers and arise” said to him: But perhaps and this people will arise and stray from the Prophets as it is written: “Your dead shall live, my corpse shall arise. Awake and sing, you that dwell in the dust, for your dew is as the dew of vegetation, and the land shall cast out the dead” But perhaps the dead that **Ezekiel**`[PERSON]` revived. from **Writings**`[person]` as it is written: “And your palate is like the best wine that glides down smoothly for my beloved, moving gently the lips of those that sleep” But perhaps merely their lips will move, in accordance with R' **Yoḥanan**`[person]`, as R' **Yoḥanan**`[person]` says in the name of R' **Shimon ben Yehotzadak**`[PERSON]`: Anyone in whose name a halakha is stated in this world, his lips move in the grave as it is stated: “Moving gently the lips of those that sleep.” until stated to them this verse: that **YHWH**`[person]` took an oath to your forefathers to give them” To you, is not stated; rather, “To them,” From here resurrection of the dead from the **Torah**`[concept]`. And there are those who say from this verse he said to them “But you who cleave to **YHWH**`[person]` your God every one of you is alive **this day**`[DATE]`” obvious “every one of you is alive **this day**`[DATE]`”? Rather, Even on **the day**`[DATE]` when everyone is dead you will live; just as **today**`[DATE]` every one of you is alive, so too, in the World-to-Come every one of you alive. The **Romans**`[person]` asked R' **Yehoshua ben**`[PERSON]` Ḥananya: From where that God, revives the dead, and He knows what is destined to be? said to them: Both of those from this verse, as it is stated: “And **YHWH**`[person]` said to **Moses**`[PERSON]`, Behold, you shall lie with your fathers and arise; this people will go astray” But perhaps and this people will arise and go astray said to them: Take **at least half**`[CARDINAL]` in your hands that knows what is destined to be. It was also stated R' **Yoḥanan**`[person]` says in the name of R' **Shimon ben Yoḥai**`[PERSON]`: From where that God, revives the dead, and He knows what is destined to be? as it is stated: “Behold, you shall lie with your fathers and arise.” It is taught R' **Eliezer**`[PERSON]`, son of R' **Yosei**`[person]`, says: With this matter, I refuted the books of the Samaritans, as they would say there is no the resurrection of the dead from the **Torah**`[concept]`. I said to them: You falsified your **torah**`[concept]` and you accomplished nothing, as you say there is no the resurrection of the dead from the **Torah**`[concept]`, states: “That soul shall be excised; his iniquity shall be upon him” shall be excised” in this world. “his iniquity shall be upon him,” for when not for the World-to-Come, **Rav Pappa**`[person]` said to **Abaye**`[person]`: And let say to both of those from “shall be excised [**hikkaret tikkaret**`[person]`].” would say: The **Torah**`[concept]` spoke in the language of people, parallel tanna’im “**hikkaret tikkaret**`[person]`,” “**Hikkaret**`[person]`” in this world, “**tikkaret**`[person]`” in the World-to-Come; the statement of R' **Akiva**`[person]`. R' Yishmael said to him: Isn’t it already stated “That person that blasphemes **YHWH**`[person]`, that soul shall be excised [venikhreta]” and are there **three**`[CARDINAL]` worlds Rather, “venikhreta” in this world, “**hikkaret**`[person]`” in the World-to-Come, “**hikkaret tikkaret**`[person]`” the **Torah**`[concept]` spoke in the language of people. both R' Yishmael and R' **Akiva**`[person]`, what do they do with, “His iniquity shall be upon him”? for that which is taught might even he repented. the verse states: “His iniquity shall be upon him.” I said only when his iniquity upon him. Queen **Cleopatra**`[person]` asked R' **Meir**`[person]` She said: I know that the dead will live, as it is written: “And may they blossom out of the city like grass of the earth” But when they arise, arise naked or they arise with their garments? said to her: a fortiori from wheat. If wheat, which is buried naked, emerges with several garments all the more so the righteous, who are buried with their garments, emperor said to **Rabban Gamliel**`[person]`: You say that the dead will live. Aren’t they dust? And does dust come to life?
+And it is written: “And it was for him so, and the people trampled him in the gate, and he died” Perhaps the curse of **Elisha**`[PERSON]` caused as **Rav Yehuda**`[person]` says **Rav**`[person]` says: The curse of a Sage, even baseless, comes If so, let the verse write:
+
+And they trampled him and he died.
+
+What “in the gate” over matters to the gate
+
+[sha’ar].
+
+R' **Yoḥanan**`[person]` says:
+
+From where resurrection of the dead from the **Torah**`[concept]`?
+
+as it is stated “And you shall give the teruma of **YHWH**`[person]` to **Aaron**`[PERSON]` the priest”
+
+And does **Aaron**`[PERSON]` exist forever But is it not did not enter **Eretz**`[place]` **Yisrael**`[place]`, where give him teruma?
+
+Rather, teaches that to live in the future and the **Jewish**`[NORP]` people give him teruma.
+
+From here the resurrection of the dead is from the **Torah**`[concept]`.
+
+The school of R' Yishmael taught “to **Aaron**`[PERSON]`” like **Aaron**`[PERSON]`; just as **Aaron**`[PERSON]` is one devoted to the meticulous observance of mitzvot, particularly those relating to ritual purity, teruma, and tithes [ḥaver], so too his descendants **ḥaverim**`[person]`.
+
+R' **Shmuel**`[person]` bar Naḥmani says R' **Yonatan**`[person]` says:
+
+From where that one does not give teruma to a priest an am ha’aretz?
+
+as it is stated: “And he commanded the people who dwelled in **Jerusalem**`[GPE]` to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of **YHWH**`[person]`” Everyone who firmly adheres to the Torah of **YHWH**`[person]` has a portion, and anyone who does not firmly adhere to the Torah of **YHWH**`[person]` does not have a portion.
+
+**Rav Aḥa**`[person]` bar **Adda**`[person]` says **Rav Yehuda**`[person]` says: anyone who gives teruma to a priest an am ha’aretz, it is as though he placed before a lion.
+
+Just as a lion, uncertainty maul and eat uncertainty not maul and eat so too, a priest an am ha’aretz uncertainty eat it in purity, uncertainty eat it in impurity, R' **Yoḥanan**`[person]` says: even causes death, as it is stated “And die therefore if they profane it” The school of R' **Eliezer ben Ya’akov**`[PERSON]` taught: one also brings upon him a sin of guilt, as it is stated: “And so bring upon them a sin of guilt when they eat their sacred items” It is taught R' Simai says:
+
+From where resurrection of the dead from the **Torah**`[concept]`?
+
+as it is stated “I have also established My covenant with them to give to them the land of **Canaan**`[GPE]`” to you is not stated, rather, to them From here the resurrection of the dead is from the **Torah**`[concept]`, **Tzadi**`[place]`, dalet, kuf; **gimmel**`[person]`, mem; **gimmel**`[person]`, shin, mem; kuf, mem.
+
+Heretics asked **Rabban Gamliel**`[person]`: From where that God, revives the dead?
+
+said to them from the **Torah**`[concept]`, from the **Prophets**`[NORP]`, and from **Writings**`[person]`, but they did not accept from him.
+
+from the **Torah**`[concept]` as it is written: “And **YHWH**`[person]` said to **Moses**`[PERSON]`, behold, you shall lie with your fathers and arise” said to him:
+
+But perhaps and this people will arise and stray from the Prophets as it is written: “Your dead shall live, my corpse shall arise.
+
+Awake and sing, you that dwell in the dust, for your dew is as the dew of vegetation, and the land shall cast out the dead” But perhaps the dead that **Ezekiel**`[PERSON]` revived.
+
+from **Writings**`[person]` as it is written: “And your palate is like the best wine that glides down smoothly for my beloved, moving gently the lips of those that sleep” But perhaps merely their lips will move, in accordance with R' **Yoḥanan**`[person]`, as R' **Yoḥanan**`[person]` says in the name of R'
+
+**Shimon ben Yehotzadak**`[PERSON]`:
+
+Anyone in whose name a halakha is stated in this world, his lips move in the grave as it is stated: “Moving gently the lips of those that sleep.”
+
+until stated to them this verse: that **YHWH**`[person]` took an oath to your forefathers to give them” To you, is not stated; rather, “To them,” From here resurrection of the dead from the **Torah**`[concept]`.
+
+And there are those who say from this verse he said to them “But you who cleave to **YHWH**`[person]` your God every one of you is alive **this day**`[DATE]`” obvious “every one of you is alive **this day**`[DATE]`”?
+
+Rather, Even on **the day**`[DATE]` when everyone is dead you will live; just as **today**`[DATE]` every one of you is alive, so too, in the World-to-Come every one of you alive.
+
+The **Romans**`[person]` asked R' **Yehoshua ben**`[PERSON]`
+
+Ḥananya: From where that God, revives the dead, and He knows what is destined to be? said to them: Both of those from this verse, as it is stated: “And **YHWH**`[person]` said to **Moses**`[PERSON]`, Behold, you shall lie with your fathers and arise; this people will go astray”
+
+But perhaps and this people will arise and go astray said to them: Take **at least half**`[CARDINAL]` in your hands that knows what is destined to be.
+
+It was also stated R' **Yoḥanan**`[person]` says in the name of R' **Shimon ben Yoḥai**`[PERSON]`:
+
+From where that God, revives the dead, and He knows what is destined to be?
+
+as it is stated: “Behold, you shall lie with your fathers and arise.”
+
+It is taught R' **Eliezer**`[PERSON]`, **ben Yosei**`[PERSON]`, says: With this matter, I refuted the books of the Samaritans, as they would say there is no the resurrection of the dead from the **Torah**`[concept]`.
+
+I said to them: You falsified your **torah**`[concept]` and you accomplished nothing, as you say there is no the resurrection of the dead from the **Torah**`[concept]`, states: “That soul shall be excised; his iniquity shall be upon him” shall be excised” in this world.
+
+“his iniquity shall be upon him,” for when not for the World-to-Come, **Rav Pappa**`[person]` said to **Abaye**`[person]`:
+
+And let say to both of those from “shall be excised [**hikkaret tikkaret**`[person]`].” would say: The **Torah**`[concept]` spoke in the language of people, parallel tanna’im “**hikkaret tikkaret**`[person]`,” “**Hikkaret**`[person]`” in this world, “**tikkaret**`[person]`” in the World-to-Come; the statement of R' **Akiva**`[person]`.
+
+R' Yishmael said to him: Isn’t it already stated “That person that blasphemes **YHWH**`[person]`, that soul shall be excised
+
+[venikhreta]” and are there **three**`[CARDINAL]` worlds Rather, “venikhreta” in this world, “**hikkaret**`[person]`” in the World-to-Come, “**hikkaret tikkaret**`[person]`” the **Torah**`[concept]` spoke in the language of people.
+
+both R' Yishmael and R' **Akiva**`[person]`, what do they do with, “His iniquity shall be upon him”?
+
+for that which is taught might even he repented.
+
+the verse states: “His iniquity shall be upon him.”
+
+I said only when his iniquity upon him.
+
+Queen **Cleopatra**`[person]` asked R' **Meir**`[person]`
+
+She said: I know that the dead will live, as it is written: “And may they blossom out of the city like grass of the earth”
+
+But when they arise, arise naked or they arise with their garments?
+
+said to her: a fortiori from wheat.
+
+If wheat, which is buried naked, emerges with several garments all the more so the righteous, who are buried with their garments, emperor said to **Rabban Gamliel**`[person]`: You say that the dead will live.
+
+Aren’t they dust?
+
+And does dust come to life?
 
