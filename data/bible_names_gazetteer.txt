@@ -934,7 +934,6 @@ Obed
 Obil
 Ocran
 Ohad
-On
 Onam
 Ophir
 Oren
@@ -1364,7 +1363,6 @@ Hadadrimmon, son of Tabrimmon
 Mephibosheth, son of Jonathan
 Hadadrimmon, son of Tavrimon
 Joshua, son of Nun
-Araḥ ben Yehuda
 King Ahasuerus
 King Ahaz
 King Asa
@@ -1375,7 +1373,6 @@ King Josiah
 King Nebuchadnezzar
 King Rehoboam
 King Solomon
-King Who
 King Baladan
 King Lemuel
 Abijah, son of Jeroboam
@@ -1427,7 +1424,6 @@ Hoshea, son of Ela
 Hoshea, son of Elah
 Hushim, the son of Dan
 Irijah, the son of Shelemiah
-Is the son of Ḥoni
 Isaac, son of Abraham
 Isaiah the son of Amoz
 Isaiah, the son of Amoz
@@ -1464,7 +1460,6 @@ Josiah, son of Amon
 Jubilee, the son of David
 Kilab, son of David
 Koheleth, the son of David
-Like the son of Manoah
 Machir, son of Manasseh
 Manasseh, son of Hezekiah
 Menahem, son of Gadi
@@ -1489,7 +1484,6 @@ Pelatiah, son of Benaiah
 Pinehas, son of Elazar
 Pinehas, the son of Elazar
 Pinehas, the son of Eli
-Sefer Ben Sira
 Sethur the son of Michael
 Shammua the son of Zaccur
 Sheba, son of Bichri
@@ -1513,22 +1507,10 @@ Zekharya, son of Kevutal
 Zephaniah the son of Cushi
 Zimri, son of Salu
 Ahab, son of Kolaiah
-And bar Kappara
-And bar Padda
-And ben Azzai
-And ben Bag
-And ben Beteira
-And ben Nanas
-Had ben Zakkai
-Rabbi Ḥiyya from Rabbi
-Rather, ben Azzai
-The son of Tikvah
-When bar Hedya
 Saul, son of Kish
 Adriel the son of Barzillai the Meholathite
 Abigail the daughter of Nahash
 Abigal the daughter of Nahash
-And the daughter of Pharaoh
 Bithiah the daughter of Pharaoh
 Caesarea, the daughter of Edom
 Dina, the daughter of Jacob
