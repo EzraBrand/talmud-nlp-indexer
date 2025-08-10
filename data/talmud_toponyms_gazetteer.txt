@@ -62,10 +62,12 @@ Beitar
 Beityoni
 Ben Akhmai
 Ben Mekoshesh
+Biram
 Biri
 Bozrah
 Bridge of Shabistana
 Burnitz River
+Bursi
 Bursif
 Caesarea
 Cappadocia
@@ -124,10 +126,11 @@ Ginai River
 Ginai River
 Ginnosar
 Ginzak
-Ginzak
+Gizma
 Greece
 Gufnit
 Gush Ḥalav
+Guvya
 Hadayeiv
 Ḥadid
 Hadyav
@@ -142,6 +145,7 @@ Harpanya
 Ḥarta De’argiz
 Ḥatzdad crossing
 Hatzleponi
+Ḥaveil Yamma
 Ḥavran
 Hebron
 Ḥidekel
@@ -248,6 +252,8 @@ Shelaniya
 Shittim
 Shosh
 Shosh the second
+Shot Mishot
+Shunya
 Sikhnei Valley
 Sikhra
 Siva’a
@@ -274,6 +280,7 @@ Tyre
 Tzaidan
 Tzinta
 Tzippori
+Tzitzora
 Tzoar
 upper Galilee
 Usha
