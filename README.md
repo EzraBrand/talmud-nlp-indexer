@@ -12,11 +12,12 @@ See also my overview at my blog:
 ["Mapping the Talmud: Scalable Natural Language Processing (NLP) for Named Entities, Topics, and Tags in the Talmudic Corpus"](https://www.ezrabrand.com/p/mapping-the-talmud-scalable-natural) (May 04, 2025)
 
 Includes extensive curated gazetteers: 
-https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_names_gazetteer.txt
-https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_nations_gazetteer.txt
-https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_places_gazetteer.txt
-https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/talmud_concepts_gazetteer.txt
-https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/talmud_toponyms_gazetteer.txt
+
+* https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_names_gazetteer.txt
+* https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_nations_gazetteer.txt
+* https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_places_gazetteer.txt
+* https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/talmud_concepts_gazetteer.txt
+* https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/talmud_toponyms_gazetteer.txt
 
 ### Initial Focus
 - Tractate Berakhot (first 10 pages: 2a-7a)
