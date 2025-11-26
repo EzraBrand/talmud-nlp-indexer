@@ -306,6 +306,7 @@ Bava ben Buta
 Beit HaTzerifa
 Beit Hillel
 Beit Shammai
+Beloreya the female convert
 Ben Akhmai
 ben Ami
 ben Antigonus
@@ -377,6 +378,8 @@ Binyamin the doctor
 Binyamin the righteous
 Binyamin the shepherd
 Boethus ben Zunen
+Boethusian
+Boethusians
 Bonyam ben Nunyam
 Bonyos
 Botnit, son of Abba Shaul ben Botnit
@@ -487,7 +490,10 @@ Hadrian
 Ḥanina, son of Rabbi Yehoshua
 Ḥanina, son of Rabbi Yehoshua’s brother
 Ḥaruta
+Hasmoneans
 Ḥavai bar Nanai
+Herod
+Herod the slave
 Ḥilfa bar Agra
 Ḥillak
 Hillel
@@ -681,8 +687,12 @@ Minyamin the Egyptian convert
 Minyamin, Rav Ashi’s slave
 Minyamin, the servant of Rav Ashi
 Minyumi the physician
+Miriam
 Miriam of Tarmod
 Miriam, daughter of Bilga
+Miriam, raiser of babies
+Miriam, raiser women’s hair
+Miriam, who braided women’s hair
 Moshe bar Atzari
 Moshe bar Atzrei
 Munbaz
@@ -2866,6 +2876,7 @@ Sheila bar Avina
 Sheila bar Mari
 Sheila bar Summakei
 Sheila of Kefar Temarta
+Shel Tziyyon the queen
 Shemaya
 Shemaya
 Shila, a man of K’far Temarta
@@ -2944,6 +2955,7 @@ Tavi, son of Mari
 Tavi, the servant of Rabban Gamliel
 Tavi, the slave of Rabban Gamliel
 Teḥina ben Perisha
+the Angel of Death
 the brother of bar Abuveram
 the brother of Rabbi Yehoshua
 the brother of Rabbi Zeira
@@ -3303,7 +3315,6 @@ Yosei ben Yo’ezer
 Yosei ben Yo’ezer of Tzereida
 Yosei ben Yoḥanan
 Yosei ben Yoḥanan of Jerusalem
-Yoshiya from Usha
 Yoshiya from Usha
 Yudan the Distinguished
 Yudan the maidservant
