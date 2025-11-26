@@ -36,8 +36,8 @@ A certain philosopher
 a certain poor person
 A certain pregnant woman
 a certain prostitute
-A certain Roman officer
 a certain student
+a certain widow
 a certain woman
 a certain young woman
 a passerby from the Galilee
@@ -54,6 +54,7 @@ Abaye’s tenant farmer
 Abaye’s wife, Ḥoma
 Abba
 Abba bar Abba
+Abba bar Abba, the father of Shmuel
 Abba bar Aḥa Karsala
 Abba bar Aḥa Karsala from Kafrei
 Abba bar Ḥama
@@ -125,12 +126,15 @@ Adda bar Ukhmei
 Adda Mari
 Adda the attendant
 Adda the fisherman
+Adda, attendant
 Admon
 Admon ben Gaddai
 Adrakan
 Agardamis the Arab merchant
 Agra
 Agra, the father-in-law of Rabbi Abba
+Agrat, daughter of Maḥalat
+Agrippas general
 Agrippas the general
 Aḥa bar Hidya
 Aḥa, brother of Abba, father of Rabbi Yirmeya bar Abba
@@ -139,6 +143,9 @@ Aha, the governor of the castle
 Aḥai bar Yoshiya
 Aḥai the Distinguished
 Ahava, son of Rabbi Zeira
+Aḥi Shakkaya
+Ahurmiz
+Aivu
 Akatriel
 Akavya
 Akavya ben Mahalalel
@@ -148,7 +155,6 @@ Alexa
 Alexander
 Alexander of Macedon
 Alexander of Macedonia
-Alexander the king
 Alexandrians
 Ameimar
 Ami bar Avin
@@ -178,11 +184,13 @@ Arta
 Aryokh
 Ashiyan bar Nadbakh
 Ashyan bar Nidbakh
+Ashyan, the tanna in the school of Rabbi Ami
 Asi bar Hini
 Asveirus, son of Antoninus
 Avdimi bar Ḥama
 Avdimi bar Ḥama bar Dosa
 Avidan
+Avidarna
 Avimei bar Rav Pappi
 Avimei, son of Rabbi Abbahu
 Avimi
@@ -197,6 +205,7 @@ Avimi, son of Rabbi Abbahu
 Avin bar Huna
 Avin from Nashikiya
 Avin the fool
+Avitul the scribe
 Avtalyon
 Avtolemos
 Avtolmos bar Reuven
@@ -294,6 +303,7 @@ Barukh ben Levi
 Bati bar Tuvi
 Bati bar Tuviyya
 Bava ben Buta
+Beit HaTzerifa
 Beit Hillel
 Beit Shammai
 Ben Akhmai
@@ -303,6 +313,7 @@ ben Arza
 Ben Avatiaḥ
 ben Azzai
 ben Bag Bag
+Ben Bag Bag
 ben Beivai
 ben Beroka
 ben Beteira
@@ -390,6 +401,9 @@ Donag
 Dorenunita
 Dostai, father of Rabbi Aptoriki
 Dubiel
+Efrayim Miksha’a, a student of Rabbi Meir
+Efrayim Miksha’a, disciple of Rabbi Meir
+Efrayim the scribe
 Eifa
 Eifa and Avimi, the sons of Raḥava
 Elazar ben Arakh
@@ -415,13 +429,14 @@ Eliezer ben Dinai
 Eliezer ben Yehuda of Evlayim
 Eliezer of Biriyya
 Eliezer Ze’eira
-Elihu ben Barachel the Buzite
 Elijah
 Elisha ben Avuya
+Elisha, Man of Wings
 Elishama ben Pikai
 father Ḥalafta
 father of Ravin bar Ḥinnana
 father of Shmuel bar Avin
+Gaskalgas
 Geneiva
 Geniva
 Geviha ben Pesisa
@@ -504,12 +519,15 @@ Huna Mar, son of Rava, from Parzakya
 Huna, son of Mar
 Huna, son of Rav Naḥman
 Hurmin, son of Lilith
+Hurmiz
 Ḥutzpit the disseminator
+Hyrcanus
 Hyrcanus, son of Rabbi Eliezer ben Hyrcanus
 Hyrcanus, the son of Rabbi Eliezer ben Hyrcanus
 Ifera Hurmiz, the mother of King Shapur
 Ifra Hormiz
-Ila in Yavne
+Ifra Hormiz, mother of King Shapur
+Ila
 Ilfa
 Ilfai
 Imma Shalom
@@ -531,6 +549,7 @@ Issur
 Issur the Convert
 Ivut bar Ihi
 Iyya
+Izgadar, king
 Jesus
 Jesus the Nazarene
 Kamtza
@@ -543,6 +562,7 @@ Ketia, son of Shalom
 Kharkemit
 King Agrippa
 King Agrippas
+King Izgur
 King Munbaz
 King Ptolemy
 King Shapur
@@ -558,10 +578,13 @@ Levi bar Shmuel
 Levi bar Simon
 Levi HaSadar
 Levi, son of Rav Huna
+Levi, son of Rav Huna bar Ḥiyya
 Likhlukhit
 Luleyanus
+Mafsha’a
 Malla’ai
 Malokh the Arab
+Manyumin the jug maker
 Mar Aḥa
 Mar bar Ameimar
 Mar bar Avya
@@ -592,6 +615,7 @@ Mar Yehuda
 Mar Yenuka
 Mar Yoḥana, son of Rav Ḥana bar Adda
 Mar Yoḥana, son of Rav Ḥana bar Bizna
+Mar Yoḥani
 Mar Zutra
 Mar Zutra and Rav Adda the Elder, the sons of Rav Mari bar Issur
 Mar Zutra bar Toviya
@@ -630,6 +654,7 @@ Mari bar Raḥel
 Mari bar Rav Huna
 Mari, the grandson of Rav Huna, son of Rabbi Yirmeya bar Abba
 Markulis
+Marta
 Marta bat Baitos
 Maryon, son of Ravin
 Master
@@ -649,6 +674,7 @@ Menaḥem
 Menaḥem ben Ḥizkiyya
 Menashya bar Yirmeya
 Menashya ben Menaḥem
+Metatron
 Minyamin bar Ihi
 Minyamin Saksana
 Minyamin the Egyptian convert
@@ -656,8 +682,10 @@ Minyamin, Rav Ashi’s slave
 Minyamin, the servant of Rav Ashi
 Minyumi the physician
 Miriam of Tarmod
+Miriam, daughter of Bilga
 Moshe bar Atzari
 Moshe bar Atzrei
+Munbaz
 Naḥman bar Abba
 Naḥman the farmer
 Naḥum HaMadi
@@ -700,13 +728,16 @@ one of the sons of so-and-so
 one prostitute
 Onias
 Onkelos bar Kalonikos
+Onkelos bar Kalonikos, the son of Titus’s sister
 Onkelos bar Kelonimos
 Onkelos the convert
 orphan Ravina the younger, was his sister’s son
 Oshaya bar Zavda
 Oshaya, the youngest of the company
+Palaimo
 Pappa bar Abba
 Pappa the ox herder
+Pappas
 Pappos ben Yehuda
 Parva’a the Sorcerer
 Peleimu
@@ -945,6 +976,7 @@ Rabbi Dostai from Biri
 Rabbi Dostai of Biri
 Rabbi Dostai, son of Rabbi Matun
 Rabbi Dostai, son of Rabbi Yannai
+Rabbi Dostai, son of Rabbi Yehuda
 Rabbi El’a
 Rabbi El’ai
 Rabbi Ela
@@ -1059,6 +1091,7 @@ Rabbi Ḥana
 Rabbi Ḥana bar Sha’ina
 Rabbi Ḥana bar She’ona
 Rabbi Ḥana bar Yehuda
+Rabbi Ḥana from Tzippori
 Rabbi Ḥana the money changer
 Rabbi Ḥanan
 Rabbi Ḥanan bar Molada
@@ -1146,6 +1179,7 @@ Rabbi Ḥiyya bar Rav Ashi
 Rabbi Ḥiyya bar Rav of Difti
 Rabbi Ḥiyya bar Yosef
 Rabbi Ḥiyya bar Zarnokei
+Rabbi Ḥiyya from Avel Arav
 Rabbi Ḥiyya of Ketosfa’a
 Rabbi Ḥiyya of Parva
 Rabbi Ḥiyya the Great
@@ -1325,6 +1359,7 @@ Rabbi Shimon ben Shezuri
 Rabbi Shimon ben Taḥlifa
 Rabbi Shimon ben Tarfon
 Rabbi Shimon ben Ya’akov
+Rabbi Shimon ben Ya’akov from Tyre
 Rabbi Shimon ben Yehotzadak
 Rabbi Shimon ben Yehuda
 Rabbi Shimon ben Yehuda Ish Kefar Akko
@@ -1348,12 +1383,14 @@ Rabbi Shimon Shezuri
 Rabbi Shimon the deputy
 Rabbi Shimon the Pious
 Rabbi Shimon the Righteous
+Rabbi Shimon the son of the deputy
 Rabbi Shimon, son of Rabbi
 Rabbi Shimon, son of Rabbi Abba
 Rabbi Shimon, son of Rabbi Yoḥanan
 Rabbi Shimon, son of Rabbi Yoḥanan ben Beroka
 Rabbi Shimon, son of Rabbi Yosei
 Rabbi Shimon, son of Rabbi Yosei ben Lakonya
+Rabbi Shimon, son of the deputy
 Rabbi Shimon, the deputy
 Rabbi Shmuel
 Rabbi Shmuel bar Abba
@@ -1383,6 +1420,7 @@ Rabbi Tanḥum
 Rabbi Tanḥum bar Ḥakhinai
 Rabbi Tanḥum bar Ḥanilai
 Rabbi Tanḥum bar Ḥiyya
+Rabbi Tanḥum from Nevi
 Rabbi Tanḥum of Parod
 Rabbi Tanḥum, son of Rabbi Ḥanilai
 Rabbi Tanḥum, son of Rabbi Ḥiyya
@@ -1534,6 +1572,7 @@ Rabbi Yishmael bar Yosei
 Rabbi Yishmael ben Beroka
 Rabbi Yishmael ben Elazar
 Rabbi Yishmael ben Elisha
+Rabbi Yishmael ben Elisha the High Priest
 Rabbi Yishmael ben Elisha, the High Priest
 Rabbi Yishmael ben Kimḥit
 Rabbi Yishmael ben Loga
@@ -1623,6 +1662,7 @@ Rabbi Yoḥanan ben Yosef
 Rabbi Yoḥanan ben Zakkai
 Rabbi Yoḥanan HaMakkoti
 Rabbi Yoḥanan the Cobbler
+Rabbi Yoḥanan the Cobbler, Rabbi Akiva’s student
 Rabbi Yoḥanan the Ḥorani
 Rabbi Yoḥanan, brother of Mar, son of Rabbana
 Rabbi Yoḥanan’s son
@@ -1697,6 +1737,7 @@ Rabbi Yosei HaGelili
 Rabbi Yosei HaḤorem
 Rabbi Yosei of Hutzal
 Rabbi Yosei of Medea
+Rabbi Yosei of Media
 Rabbi Yosei of Neharbil
 Rabbi Yosei of Tzippori
 Rabbi Yosei son of Rabbi Yehuda
@@ -1747,6 +1788,7 @@ Rami bar Avin
 Rami bar Berabi
 Rami bar Dikkulei
 Rami bar Dikulei
+Rami bar Dikulei, from Pumbedita
 Rami bar Ezekiel
 Rami bar Ḥama
 Rami bar Pappa
@@ -1780,6 +1822,7 @@ Rav Adda bar Rav Yitzḥak
 Rav Adda bar Shimi
 Rav Adda bar Yitzḥak
 Rav Adda from Jaffa
+Rav Adda from Naresh
 Rav Adda Karḥina
 Rav Adda Karḥina’a
 Rav Adda son of Rav Ika
@@ -1828,6 +1871,7 @@ Rav Aḥa from Difti
 Rav Aḥa from Hutzal
 Rav Aḥa of Carthage
 Rav Aḥa of Difti
+Rav Aḥa of Huzal
 Rav Aḥa Sar HaBira
 Rav Aḥa Sava
 Rav Aḥa the Elder
@@ -1952,7 +1996,9 @@ Rav Geviha from Bei Ketil
 Rav Geviha of Bei
 Rav Giddel
 Rav Giddel bar Menashe
+Rav Giddel bar Menashe from Birei DeNeresh
 Rav Giddel bar Menashya
+Rav Giddel from Neresh
 Rav Ḥagga
 Rav Ḥaggai
 Rav Ḥama
@@ -2053,6 +2099,7 @@ Rav Ḥilkiya
 Rav Ḥilkiya bar Tovi
 Rav Ḥilkiya bar Toviya
 Rav Ḥilkiya bar Tuvi
+Rav Ḥilkiya from Hagronya
 Rav Ḥilkiya of Hagronya
 Rav Ḥilkiya, son of Rav Avya
 Rav Hillel
@@ -2105,6 +2152,7 @@ Rav Ḥiyya bar Yehuda
 Rav Ḥiyya bar Yosef
 Rav Ḥiyya from Vastanya
 Rav Ḥiyya from Yostiniyya
+Rav Ḥiyya, from Hurmiz Ardeshid
 Rav Ḥiyya, son of Abba
 Rav Ḥiyya, son of Abba bar Naḥmani
 Rav Ḥiyya, son of Rabba
@@ -2121,6 +2169,7 @@ Rav Hoshaya
 Rav Hoshaya from Neharde’a
 Rav Hoshaya, son of Rav Idi
 Rav Huna
+Rav Huna and Rabbi Ḥizkiyya, students of Rabbi Yirmeya
 Rav Huna bar Aḥa
 Rav Huna bar Ami
 Rav Huna bar Ashi
@@ -2472,6 +2521,7 @@ Rav Taḥlifa bar Giza
 Rav Taḥlifa bar Shaul
 Rav Taḥlifa ben Shaul
 Rav Taḥlifa from the West
+Rav Taḥlifa, brother Ravnai Ḥoza’a
 Rav Taḥlifa, father of Rav Huna
 Rav Taḥlifa, father of Rav Huna bar Taḥlifa
 Rav Taḥlifa, from the West
@@ -2516,6 +2566,7 @@ Rav Ya’akov of Nehar Pekod
 Rav Ya’akov of Pekod
 Rav Ya’akov, son of Rav Aḥa bar Ya’akov
 Rav Ya’akov, son of Shmuel
+Rav Ya’akov, son of Shmuel’s daughter
 Rav Ya’akov, son of the daughter of Ya’akov
 Rav Yaakov
 Rav Yaakov from Nehar Pekod
@@ -2550,12 +2601,14 @@ Rav Yehuda bar Yitzḥak
 Rav Yehuda bar Zevida
 Rav Yehuda bar Zevina
 Rav Yehuda brother of Rav Sala
+Rav Yehuda brother of Rav Sala Ḥasida
 Rav Yehuda from De’iskarta
 Rav Yehuda from Diskarta
 Rav Yehuda from India
 Rav Yehuda of Difti
 Rav Yehuda of Diskarta
 Rav Yehuda of Hagronya
+Rav Yehuda of Neharde’a
 Rav Yehuda of Sura
 Rav Yehuda, brother of Rav Sala
 Rav Yehuda, son of Rabbi Ḥiyya
@@ -2580,6 +2633,7 @@ Rav Yeiva bar Yosei
 Rav Yeiva the Elder
 Rav Yirmeya
 Rav Yirmeya bar Abba
+Rav Yirmeya bar Abba Shmuel
 Rav Yirmeya bar Aḥa
 Rav Yirmeya bar Ami
 Rav Yirmeya Bira’a
@@ -2756,6 +2810,7 @@ Rava, son of Rav Ḥanan
 Rava, son of Rav Ilai
 Rava, son of Rav Ulla
 Rava, son of Rav Yosef
+Rava, son of Rav Yosef bar Ḥama
 Rava, the brother of Rav Mari bar Raḥel
 Rava’s servant
 Rava’s sister
@@ -2783,6 +2838,7 @@ Ravina from Parzakya
 Ravina, son of Rav Sheila
 Ravina, son of Rav Ulla
 Ravina’s wife
+Ravnai Ḥoza’a
 Ravnai, brother of Rabbi Ḥiyya bar Abba
 Ravya bar Kisi
 Reḥava
@@ -2792,12 +2848,15 @@ Ronya
 Sabbeta ben Alas
 Sages of Caesarea
 Samma bar Ḥilkai
+Sandalfon
 Sason
 school of Menashe
+Semalyon
 Setini
 Sha’azrak
 Shabbetai bar Marinus
 Shabbetai the hoarder
+Shabbetai the hoarder of fruits
 Shabbtai, son of Rabbi Marinus
 Shabbtai, the hoarder of produce
 Shammai
@@ -2832,6 +2891,7 @@ Shimon HaTzaddik
 Shimon the Nazirite
 Shimon the Timnite
 Shimon the Yemenite
+Shimon, brother of Azarya
 Shmuel
 Shmuel bar Aḥa
 Shmuel bar Avin
@@ -2851,6 +2911,7 @@ Shmuel, son of Rabbi Abbahu
 Shmuel’s father
 Shmuel’s wife
 Simḥa
+Simlai of Lod
 son Bohayan
 son of Bonyas
 son of Lakish
@@ -2871,6 +2932,8 @@ sons of Raḥava
 sons of the daughter of Rabbi Yoḥanan ben Gudgeda
 sons of the sister of Rabbi Yoḥanan
 Sumakhos
+Sumakhus
+Summakhos
 Surḥav bar Pappa
 Talla’ai
 Tanḥum, son of Rabbi Ami
@@ -2920,6 +2983,8 @@ the family of Dorketi
 the family of Rabba bar Ulla
 the family of Rav Ḥanina
 the family of Rav Yitzḥak bar Shmuel bar Marta
+the family of the House of Happegarim
+the family of the House of Tzipperaya
 the father of bar Abuveram
 the father of Rabbi Aptoriki
 the father of Rabbi Avin
@@ -2939,8 +3004,11 @@ the governor of Pumbedita
 The grandfather of Rabbi Perida
 the grandson of Zekharya ben Kevutal
 the great men of the Galilee
+the holy Sages of Eretz Yisrael
 the house of Avtinas
 the house of Baitos
+the house of bar Maryon
+the house of Binyamin the doctor
 the house of Caesar
 the house of Dushai
 the house of Garmu
@@ -2974,6 +3042,7 @@ The maidservant of Master Shmuel
 the maidservant of Rabban Gamliel
 The maidservant of Rabbi
 The maidservant of Rabbi Abba bar Zutra
+the master of Eretz Yisrael
 the members of the Great Assembly
 the mother of ben Zaza
 the mother of Mar, son of Ravina
@@ -2985,8 +3054,8 @@ The mother of Rav Zutra bar Toviyya
 the mother of the sons of Rokhel
 the mother of Ze’eira the orphan
 the mother-in-law of Rav Ḥiyya Arikha
-the noblemen of Rome
 the people of the household of Rav Amram the pious
+the powerful men of Eretz Yisrael
 the prominent men of Rome
 The relatives of Rabbi Yoḥanan
 The Sages of Neharbela
@@ -3044,7 +3113,6 @@ the son of Lakish
 the son of Leiva’i
 the son of Levi
 the son of Mar Ukva’s father-in-law
-the son of Marta
 the son of Marta, daughter of Baitos
 The son of Master Shmuel
 the son of Neḥunya the well digger
@@ -3073,6 +3141,7 @@ The son of the daughter of Rabbi Yannai the Elder
 the son of Titus' sister
 the son-in-law of Rabbi Yirmeya Bira’a
 the sons of Beteira
+the sons of Manyomei the doctor
 the sons of Rabbi Akiva
 the sons of Rabbi Ḥalafta of Huna
 The sons of Rabbi Ḥiyya
@@ -3089,7 +3158,6 @@ the sons of Rokhel
 The sons of the father-in-law of Mar Ukva
 the sons of the High Priests
 The sons of Yudan the maidservant
-the wicked Titus
 The wife of Abaye
 the wife of Abba Mari, the Exilarch
 the wife of Rabba bar bar Ḥana
@@ -3109,7 +3177,9 @@ Titus
 Tobiah
 Toda
 Toviyya the doctor
+Trajan
 Turnus Rufus
+Tuveya
 Tzafenat bat Peniel
 Ukvan bar Neḥemya the Exilarch
 Ukvan the Babylonian
@@ -3119,11 +3189,11 @@ Ulla bar Ḥinnana
 Ulla bar Menashya
 Ulla bar Rav
 Ulla bar Yishmael
+Ulla Bira’a
 Ulla, son of Rav Ilai
 Vardimus, son of Rabbi Yosei
 Vespasian Caesar
 Ya’akov from Karḥina
-Ya’akov HaKatan
 Ya’akov Korḥa
 Ya’akov of Kefar Sekhanya
 Ya’akov the heretic
@@ -3134,13 +3204,13 @@ Yannai the king
 Yannai, son of Rabbi Ami
 Yehoshua ben Gamla
 Yehoshua ben Kefusai
+Yehoshua ben Kefusai, Rabbi Akiva’s son-in-law
 Yehoshua ben Levi
 Yehoshua ben Peraḥya
 Yehoshua ben Uza’a
 Yehoshua ben Zeiruz
 Yehoshua ben Zeiruz, son of the father-in-law of Rabbi Meir
 Yehoshua, son of Rabbi Akiva
-Yehoyada son of Benayahu
 Yehuda
 Yehuda and Hillel, sons of Rabban Gamliel
 Yehuda bar Gerogarot
@@ -3197,6 +3267,7 @@ Yoḥanan the High Priest
 Yoḥanan, son of Rabbi Elai
 Yoḥanan, son of Rabbi Yehonatan
 Yoḥanan, son of Yonatan
+Yoḥani bat Retivi
 Yona
 Yonatan
 Yonatan ben Amram
@@ -3224,6 +3295,7 @@ Yosef the Permissive
 Yosef the priest
 Yosef the Prohibiting
 Yosef who cherishes Shabbat
+Yosef who cherishes Shabbat
 Yosef, son of Rabbi Yehoshua
 Yosei ben Ḥoni
 Yosei ben Yehuda of Jerusalem
@@ -3248,21 +3320,11 @@ Zeira
 Zekharya ben HaKatzav
 Zekharya ben Kevutal
 Zevulun ben Dan
+Zigud
+Zilai
+Zivai
 Zuga from Hadayeiv
+Zuhamai
 Zunin
 Zutei, of the school of Rav Pappa
 Zutra bar Toviyya
-Yehoshua ben Kefusai, Rabbi Akiva’s son-in-law
-Rav Giddel bar Menashe from Birei DeNeresh
-Rami bar Dikulei, from Pumbedita
-Rav Ya’akov, son of Shmuel’s daughter
-Zuhamai
-Zilai
-Zivai
-Rabbi Yishmael ben Elisha the High Priest
-Rabbi Yoḥanan the Cobbler, Rabbi Akiva’s student
-Levi, son of Rav Huna bar Ḥiyya
-Rava, son of Rav Yosef bar Ḥama
-the holy Sages of Eretz Yisrael
-the master of Eretz Yisrael
-Abba bar Abba, the father of Shmuel
