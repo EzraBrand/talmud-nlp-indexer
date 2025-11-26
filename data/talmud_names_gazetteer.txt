@@ -36,12 +36,16 @@ A certain philosopher
 a certain poor person
 A certain pregnant woman
 a certain prostitute
+A certain Roman
+A certain Roman officer
+A certain Sage
 a certain student
 a certain widow
 a certain woman
 a certain young woman
 a passerby from the Galilee
 a passerby from the Galilee taught
+a Samaritan woman
 Abaye
 Abaye bar Abba
 Abaye bar Avin
@@ -439,6 +443,7 @@ Elishama ben Pikai
 father Ḥalafta
 father of Ravin bar Ḥinnana
 father of Shmuel bar Avin
+Fuga
 Gaskalgas
 Geneiva
 Geniva
@@ -537,6 +542,7 @@ Ila
 Ilfa
 Ilfai
 Imma Shalom
+Imma Shalom, the wife of Rabbi Eliezer
 In the West
 Isi
 Isi bar Hini
@@ -693,6 +699,7 @@ Miriam, daughter of Bilga
 Miriam, raiser of babies
 Miriam, raiser women’s hair
 Miriam, who braided women’s hair
+Mitatron
 Moshe bar Atzari
 Moshe bar Atzrei
 Munbaz
@@ -716,6 +723,7 @@ Natan bar Sheila, head of the butchers of Tzippori
 Natan the Babylonian
 Nayyoli
 Nefata
+Neharde’ans
 Neḥemya bar Baruch
 Neḥemya HaAmasoni
 Neḥemya HaAmmassoni
@@ -731,7 +739,9 @@ Nimos
 Nimos HaGardi
 Nimos, the brother of Rabbi Yehoshua HaGarsi
 Nit’za
+Nitai HaArbeli
 Nitza
+of Neharde’a
 Okvan, son of Neḥemya the Exilarch
 one of the Sages
 one of the sons of so-and-so
@@ -754,6 +764,7 @@ Peleimu
 Pelimu
 Perata, son of Rabbi Elazar ben Perata, grandson of Rabbi Perata the Great
 Persians
+Pharisees
 Pili Bereish
 Pineḥas the Dresser
 Pineḥas, the brother of Mar Shmuel
@@ -769,6 +780,8 @@ Rabba bar Ashabi
 Rabba bar Avin
 Rabba bar Avuh
 Rabba bar bar Ḥana
+Rabba bar bar Ḥanan
+Rabba bar bar Ḥanna
 Rabba bar Beruna
 Rabba bar Ḥana
 Rabba bar Ḥanan
@@ -1121,6 +1134,7 @@ Rabbi Ḥananya, son of Rabban Gamliel
 Rabbi Ḥananya, son of Rabbi Yehoshua
 Rabbi Ḥananya, son of Rabbi Yehoshua’s brother
 Rabbi Ḥananya, son of Rabbi Yosei
+Rabbi Ḥananya, son of Rabbi Yosei HaGelili
 Rabbi Ḥanilai
 Rabbi Ḥanilai bar Ḥanilai
 Rabbi Ḥanin
@@ -1154,6 +1168,7 @@ Rabbi Ḥanina of Tirna’a
 Rabbi Ḥanina the Great
 Rabbi Ḥanina, son of Rabbi Abbahu
 Rabbi Ḥanina, son of Rabbi Yosei
+Rabbi Ḥanina, son of Rabbi Yosei HaGelili
 Rabbi Ḥanina, son of Rav Ika
 Rabbi Ḥanina, son of the brother of Rabbi Yehoshua
 Rabbi Ḥanina, the Deputy
@@ -1394,6 +1409,7 @@ Rabbi Shimon the deputy
 Rabbi Shimon the Pious
 Rabbi Shimon the Righteous
 Rabbi Shimon the son of the deputy
+Rabbi Shimon Yasinia
 Rabbi Shimon, son of Rabbi
 Rabbi Shimon, son of Rabbi Abba
 Rabbi Shimon, son of Rabbi Yoḥanan
@@ -1821,6 +1837,7 @@ Rav Adda
 Rav Adda bar Abba
 Rav Adda bar Aḥa
 Rav Adda bar Ahava
+Rav Adda bar Ahava’s attendant
 Rav Adda bar Avimi
 Rav Adda bar Avin
 Rav Adda bar Ḥama
@@ -2430,6 +2447,7 @@ Rav Seorim
 Rav Seorim, Rava’s brother
 Rav Shabba
 Rav Shalman
+Rav Shapir
 Rav Shaya
 Rav Sheila
 Rav Sheila bar Avimi
@@ -2475,6 +2493,7 @@ Rav Shmuel bar Abba from Akronya
 Rav Shmuel bar Aḥa
 Rav Shmuel bar Aḥittai
 Rav Shmuel bar Ami
+Rav Shmuel bar bar Ḥana
 Rav Shmuel bar Bideri
 Rav Shmuel bar Bisna
 Rav Shmuel bar Eini
@@ -2709,6 +2728,7 @@ Rav Yosef bar Manyumi
 Rav Yosef bar Minyumi
 Rav Yosef bar Shemaya
 Rav Yosef Tzidoni
+Rav Yosef Tzidoni
 Rav Yosef, son of Rabba
 Rav Yosef, son of Rabbi Shemaya
 Rav Yosef, son of Rabbi Yehoshua ben Levi
@@ -2879,6 +2899,7 @@ Sheila of Kefar Temarta
 Shel Tziyyon the queen
 Shemaya
 Shemaya
+Shikhḥat
 Shila, a man of K’far Temarta
 Shila, a man of Kefar Temarta
 Shimi
@@ -2918,9 +2939,13 @@ Shmuel bar Yitzḥak
 Shmuel HaKatan
 Shmuel the elder, father-in-law of Rabbi Ḥanina
 Shmuel the Elder, father-in-law of Rav Shmuel bar Ami
+Shmuel Yarḥina’a
 Shmuel, son of Rabbi Abbahu
 Shmuel’s father
 Shmuel’s wife
+Sicarii
+Sicarius
+Sikarikon
 Simḥa
 Simlai of Lod
 son Bohayan
@@ -2954,6 +2979,8 @@ Tavi the bird hunter
 Tavi, son of Mari
 Tavi, the servant of Rabban Gamliel
 Tavi, the slave of Rabban Gamliel
+Tavut the bird hunter
+Tavut the hunter
 Teḥina ben Perisha
 the Angel of Death
 the brother of bar Abuveram
@@ -3015,7 +3042,10 @@ the governor of Meishan
 the governor of Pumbedita
 The grandfather of Rabbi Perida
 the grandson of Zekharya ben Kevutal
+the Great Assembly
+the Great Court
 the great men of the Galilee
+the Great Sanhedrin
 the holy Sages of Eretz Yisrael
 the house of Avtinas
 the house of Baitos
@@ -3070,6 +3100,7 @@ the people of the household of Rav Amram the pious
 the powerful men of Eretz Yisrael
 the prominent men of Rome
 The relatives of Rabbi Yoḥanan
+the righteous Priest
 The Sages of Neharbela
 the Sages of the school of Rav Ashi
 the Sages who came from Meḥoza
@@ -3184,10 +3215,13 @@ The wife of Rav Yosef, son of Rava
 the wife of Shimon the Priest
 the wife of Turnus Rufus
 Theodosius of Rome
+Theodosius the doctor
 this woman
+Tibbuaḥ
 Titus
 Tobiah
 Toda
+Todos the doctor
 Toviyya the doctor
 Trajan
 Turnus Rufus
@@ -3203,12 +3237,14 @@ Ulla bar Rav
 Ulla bar Yishmael
 Ulla Bira’a
 Ulla, son of Rav Ilai
+Vardimas
 Vardimus, son of Rabbi Yosei
 Vespasian Caesar
 Ya’akov from Karḥina
 Ya’akov Korḥa
 Ya’akov of Kefar Sekhanya
 Ya’akov the heretic
+Yadua the Babylonian
 Yalta
 Yannai
 Yannai father
@@ -3318,6 +3354,7 @@ Yosei ben Yoḥanan of Jerusalem
 Yoshiya from Usha
 Yudan the Distinguished
 Yudan the maidservant
+Yurkamo
 Yusteni, the daughter of Asveirus, son of Antoninus
 Zagga’ai
 Zavda bar Levi
