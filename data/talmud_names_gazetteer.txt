@@ -119,7 +119,6 @@ Abba, son of Rav Binyamin bar Ḥiyya
 Abba, son of Rav Minyamin bar Ḥiyya
 Abba, son of Rav Minyumi, son of Ḥiyya
 Abba, the father of Rabbi Simlai
-Abbudina, bar Shibbetai
 Abdon
 Adda
 Adda bar Abba
@@ -142,7 +141,6 @@ Agrippas general
 Agrippas the general
 Aḥa bar Hidya
 Aḥa, brother of Abba, father of Rabbi Yirmeya bar Abba
-Aḥa, son of Rabbi Ḥiyya bar Abba
 Aha, the governor of the castle
 Aḥai bar Yoshiya
 Aḥai the Distinguished
@@ -150,7 +148,6 @@ Ahava, son of Rabbi Zeira
 Aḥi Shakkaya
 Ahurmiz
 Aivu
-Akatriel
 Akavya
 Akavya ben Mahalalel
 Akiva
@@ -198,7 +195,6 @@ Avidarna
 Avimei bar Rav Pappi
 Avimei, son of Rabbi Abbahu
 Avimi
-Avimi bar Nazi
 Avimi bar Nazi, the father-in-law of Ravina
 Avimi bar Pappi
 Avimi of Hagron-ya
@@ -247,7 +243,6 @@ bar Giyorei
 bar Hadaya
 Bar Haddaya
 bar Ḥama
-Bar Hamdakh
 Bar Hamdurei
 Bar Hamduri
 bar Hamedurei
@@ -277,6 +272,7 @@ bar Livai
 bar Luyyanus
 bar Marta
 bar Maryon
+bar Maryon, son of Ravin
 bar Maryon, son of Ravin
 bar Naḥmani
 Bar Nappaḥa
@@ -309,9 +305,10 @@ Bati bar Tuviyya
 Bava ben Buta
 Beit HaTzerifa
 Beit Hillel
+Beit Kofai
 Beit Shammai
+Beit Tzevo’im
 Beloreya the female convert
-Ben Akhmai
 ben Ami
 ben Antigonus
 ben Arza
@@ -402,7 +399,6 @@ Daru bar Pappa
 Daughter of Ḥakhinai
 daughter-in-law of the house of the son of Elyashiv
 Dimi bar Kakuzta
-Dimi, brother of Rav Safra
 Doeg ben Yosef
 Donag
 Dorenunita
@@ -410,7 +406,7 @@ Dostai, father of Rabbi Aptoriki
 Dubiel
 Efrayim Miksha’a, a student of Rabbi Meir
 Efrayim Miksha’a, disciple of Rabbi Meir
-Efrayim the scribe
+Efrayim the scribe, a student of Reish Lakish
 Eifa
 Eifa and Avimi, the sons of Raḥava
 Elazar ben Arakh
@@ -448,7 +444,7 @@ Gaskalgas
 Geneiva
 Geniva
 Geviha ben Pesisa
-Gevini
+Gevini crier
 Giddel bar Manyumi
 Giddel bar Menashe
 Giddel bar Menashya
@@ -526,6 +522,9 @@ Hugras ben Levi
 Ḥulfana
 Ḥuma, the daughter of Isi, son of Rav Yitzḥak, son of Rav Yehuda
 Huna bar Natan
+Huna Mar, grandson of Rav Neḥemya
+Huna Mar, son of Rav Idi
+Huna Mar, son of Rava, from Parzakya
 Huna Mar, son of Rava, from Parzakya
 Huna, son of Mar
 Huna, son of Rav Naḥman
@@ -536,7 +535,6 @@ Hyrcanus
 Hyrcanus, son of Rabbi Eliezer ben Hyrcanus
 Hyrcanus, the son of Rabbi Eliezer ben Hyrcanus
 Ifera Hurmiz, the mother of King Shapur
-Ifra Hormiz
 Ifra Hormiz, mother of King Shapur
 Ila
 Ilfa
@@ -571,7 +569,7 @@ Karna’s father
 Kartuyim
 Ketia bar Shalom
 Ketia, son of Shalom
-Kharkemit
+Kharkemit, an emancipated maidservant in Jerusalem
 King Agrippa
 King Agrippas
 King Izgur
@@ -592,6 +590,7 @@ Levi HaSadar
 Levi, son of Rav Huna
 Levi, son of Rav Huna bar Ḥiyya
 Likhlukhit
+Lodites
 Luleyanus
 Mafsha’a
 Malla’ai
@@ -614,7 +613,6 @@ Mar Kashisha
 Mar Kashisha, son of Rabba
 Mar Kashisha, son of Rav Ḥisda
 Mar Kashisha, the son of Rav Ḥisda
-Mar Keshisha
 Mar Keshisha, son of Rav Ḥisda
 Mar Shmuel
 Mar son of Ravina
@@ -623,6 +621,7 @@ Mar Ukva
 Mar Ukva bar Ḥama
 Mar Ukva bar Ḥiyya
 Mar Yanuka
+Mar Yanuka and Mar Kashisha, sons of Rav Ḥisda
 Mar Yehuda
 Mar Yenuka
 Mar Yoḥana, son of Rav Ḥana bar Adda
@@ -641,23 +640,19 @@ Mar Zutra, son of Rav Mari
 Mar Zutra, son of Rav Naḥman
 Mar Zutra, son of Rav Tavi
 Mar Zutra, the son of Rav Naḥman
-Mar, grandson of Rav Neḥemya
 Mar, son of Ameimar
 Mar, son of Rabbana
 Mar, son of Rav Aḥa
 Mar, son of Rav Aḥa, son of Rava
 Mar, son of Rav Ashi
 Mar, son of Rav Huna
-Mar, son of Rav Idi
 Mar, son of Rav Neḥemya
 Mar, son of Rav Yosef
-Mar, son of Rava
 Mar, son of Ravina
 Marei bar Mar
 Marei, son of Rav Huna, son of Rav Yirmeya bar Abba
 Mareimar
 Mareimar bar Ḥanina
-Mari bar Avuh
 Mari bar Isak
 Mari bar Mar
 Mari bar Mar Ukva
@@ -717,7 +712,6 @@ Nakdimon ben Guryon
 Nanai bar Ḥavai
 Nanai, son of Rav Yosef, son of Rava
 Natan bar Mar Zutra
-Natan bar Sheila
 Natan bar Sheila, chief butcher of Tzippori
 Natan bar Sheila, head of the butchers of Tzippori
 Natan the Babylonian
@@ -747,7 +741,6 @@ one of the Sages
 one of the sons of so-and-so
 one prostitute
 Onias
-Onkelos bar Kalonikos
 Onkelos bar Kalonikos, the son of Titus’s sister
 Onkelos bar Kelonimos
 Onkelos the convert
@@ -806,7 +799,6 @@ Rabba bar Rav Hanan
 Rabba bar Rav Ḥanan
 Rabba bar Rav Ḥanin
 Rabba bar Rav Huna
-Rabba bar Rav Huna the Small
 Rabba bar Rav Huna the Small, of Neharde’a
 Rabba bar Rav Mattana
 Rabba bar Rav Naḥman
@@ -975,7 +967,7 @@ Rabbi Beivai
 Rabbi Bena’a
 Rabbi Berayes
 Rabbi Berekhya
-Rabbi Beroka
+Rabbi Beroka Ḥoza’a
 Rabbi Beruna
 Rabbi Binyamin
 Rabbi Binyamin bar Giddel
@@ -1048,7 +1040,7 @@ Rabbi Elazar HaKappar
 Rabbi Elazar HaKappar the Distinguished
 Rabbi Elazar HaKappar the Great
 Rabbi Elazar HaKappar, the distinguished Sage
-Rabbi Elazar HaKappar, the esteemed
+Rabbi Elazar HaKappar, the esteemed one
 Rabbi Elazar haModa'i
 Rabbi Elazar HaModa’i
 Rabbi Elazar Ḥisma
@@ -1341,7 +1333,6 @@ Rabbi Shabbtai’s daughter-in-law
 Rabbi Shamlai
 Rabbi Shefatya
 Rabbi Sheila
-Rabbi Sheila Ish Kefar
 Rabbi Sheila Ish Kefar Temarta
 Rabbi Sheila of Kefar Temarta
 Rabbi Shemaya
@@ -1377,13 +1368,11 @@ Rabbi Shimon ben Menasya
 Rabbi Shimon ben Nannas
 Rabbi Shimon ben Nezira
 Rabbi Shimon ben Pazi
-Rabbi Shimon ben Rabbi Yosei
 Rabbi Shimon ben Rabbi Yosei ben Lakonya
 Rabbi Shimon ben Shataḥ
 Rabbi Shimon ben Shezuri
 Rabbi Shimon ben Taḥlifa
 Rabbi Shimon ben Tarfon
-Rabbi Shimon ben Ya’akov
 Rabbi Shimon ben Ya’akov from Tyre
 Rabbi Shimon ben Yehotzadak
 Rabbi Shimon ben Yehuda
@@ -1412,7 +1401,6 @@ Rabbi Shimon the son of the deputy
 Rabbi Shimon Yasinia
 Rabbi Shimon, son of Rabbi
 Rabbi Shimon, son of Rabbi Abba
-Rabbi Shimon, son of Rabbi Yoḥanan
 Rabbi Shimon, son of Rabbi Yoḥanan ben Beroka
 Rabbi Shimon, son of Rabbi Yosei
 Rabbi Shimon, son of Rabbi Yosei ben Lakonya
@@ -1459,7 +1447,6 @@ Rabbi Tavi
 Rabbi Tavla
 Rabbi Tovi bar Kisna
 Rabbi Tzadok
-Rabbi Ulla
 Rabbi Ulla the Great
 Rabbi Uzziel, grandson of Rabbi Uzziel the Great
 Rabbi Ya’akov
@@ -2001,6 +1988,7 @@ Rav Dimi bar Yosef
 Rav Dimi from Neharde’a
 Rav Dimi of Haifa
 Rav Dimi of Neharde’a
+Rav Dimi, brother of Rav Safra
 Rav Dimi, son of Rav Huna from Dimhorya
 Rav Dimi, son of Rav Naḥman, son of Rav Yosef
 Rav Dimi, the brother of Rav Safra
@@ -2876,6 +2864,7 @@ Reish Lakish
 Romans
 Ronya
 Sabbeta ben Alas
+Sadducee
 Sages of Caesarea
 Samma bar Ḥilkai
 Sandalfon
@@ -2889,6 +2878,7 @@ Shabbetai the hoarder
 Shabbetai the hoarder of fruits
 Shabbtai, son of Rabbi Marinus
 Shabbtai, the hoarder of produce
+Shakud
 Shammai
 Shammai the Elder
 Sheila
@@ -3104,6 +3094,7 @@ the righteous Priest
 The Sages of Neharbela
 the Sages of the school of Rav Ashi
 the Sages who came from Meḥoza
+the school Mar bar Rav Adda
 The school of Eliyahu
 the school of Levi
 the school of Menashe
