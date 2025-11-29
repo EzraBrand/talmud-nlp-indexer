@@ -62,12 +62,10 @@ Beitar
 Beityoni
 Ben Akhmai
 Ben Mekoshesh
-Biram
 Biri
 Bozrah
 Bridge of Shabistana
 Burnitz River
-Bursi
 Bursif
 Caesarea
 Cappadocia
@@ -126,11 +124,10 @@ Ginai River
 Ginai River
 Ginnosar
 Ginzak
-Gizma
+Ginzak
 Greece
 Gufnit
 Gush Ḥalav
-Guvya
 Hadayeiv
 Ḥadid
 Hadyav
@@ -145,12 +142,11 @@ Harpanya
 Ḥarta De’argiz
 Ḥatzdad crossing
 Hatzleponi
-Ḥaveil Yamma
 Ḥavran
 Hebron
 Ḥidekel
 Ḥidkei
-Ḥillazon
+Ḥillazon Nihavnad
 Homanya
 Ḥosekei
 Ḥova
@@ -222,7 +218,6 @@ Nihar
 Nihavnad
 Nineveh
 Ono
-Otnai
 Pappa River 
 Pappunya
 Parhatya
@@ -252,8 +247,6 @@ Shelaniya
 Shittim
 Shosh
 Shosh the second
-Shot Mishot
-Shunya
 Sikhnei Valley
 Sikhra
 Siva’a
@@ -280,7 +273,6 @@ Tyre
 Tzaidan
 Tzinta
 Tzippori
-Tzitzora
 Tzoar
 upper Galilee
 Usha
@@ -300,7 +292,7 @@ Ardeshid
 Gomorrah
 Kefar Sava
 Laodicea
-Mediterranean
+Mediterranean Sea
 Modi’im
 Parzakya
 Puteoli
@@ -308,7 +300,7 @@ Shakhnetziv
 Bei Ḥarmakh
 Shanvata
 Sakistan
-Sabbatyon
+Sabbatyon River
 Kan Nishrayya
 Naftuḥa
 Kimḥonya
@@ -327,13 +319,12 @@ Beit Gilgul
 Beit Ha
 Beit Haifa
 Beit Hino
-Beit Kerem
 Beit Kofai
 Beit Lavan
 Beit Maron
 Beit Menaḥem
 Beit Meron
-the valley of Beit Mikle
+valley of Beit Mikle
 Beit Neresh
 Beit Pagei
 Beit Rima
@@ -345,7 +336,7 @@ Beit Unaiki
 Beit Unyaki
 Beit Ya’zek
 Beit Yazek
-Beit Ḥortan
+valley of Beit Ḥortan
 village of Signa
 Keduḥim
 Attulin
@@ -353,7 +344,7 @@ Greek Italy
 Italy of Greece
 Khuta
 Karddu
-Malka Sava
+river Malka Sava
 Mikhvar
 valley of Megiddon
 house of Natzrefei
@@ -403,3 +394,28 @@ Sikhera
 Bei Khatil
 Birei DeNeresh
 village of She’arim
+Akra DeAgma
+Eilat
+Alexandria in Egypt
+Alexandria of Egypt
+valley of Beit She’an
+desert of Gaza
+Bashan
+Shunya
+Ḥaveil Yamma
+Tzitzora
+Zoan
+Hutzal deVinyamin
+Karna deShizavta
+Shechem
+Bei Kovei
+fortress of Tulbakni
+village of Tavi
+Migdal Nunaya
+Migdal Eder
+Mount Ebal
+Mushekanei
+Keramiyyon
+Mount of Olives
+Sidon
+Ladder of Tyre
