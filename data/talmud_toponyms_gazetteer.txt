@@ -1,22 +1,29 @@
 Abei Givar
 Afrikei
 Afrikiya
+Agma
 Akhbaria
 Akistefon
 Akko
 Akra
 Akra De’agma
+Akra DeAgma
 Akrabat
 Akronya
 Akteisfon
 Alexandria
+Alexandria in Egypt
+Alexandria of Egypt
 Almin
+Anpantrin
 Antioch
 Antipatris
 Antokhya
 Appamya
 Apsetaya
 Arabia
+Ardaskeya
+Ardeshid
 Ardeshir
 Ardisekis
 Argiza
@@ -33,35 +40,73 @@ Assyria
 Asya
 Athens
 Atlantic Ocean
+Attulin
+Avel Arav
+Avna
 Babylonia
 Baghdad
 Bar Hamdakh
+Barkata
 Barnish
+Bartota
+Bashan
+Bashkar
+Beersheba
 Bei Abiyonei
 Bei Akhborei
 Bei Ardeshir
 Bei Argiza 
 Bei Dura
+Bei Ḥarmakh
 Bei Ḥoza’a
 Bei Ila’ei
 Bei Katil
 Bei Keifei
+Bei Keloḥit
 Bei Ketil
+Bei Khatil
+Bei Kovei
 Bei Kutai
 Bei Meḥoza
 Bei Shifei
+Bei Varei
 Beit Baltin
+Beit Biri
+Beit Bukya
+Beit D’li
 Beit Garem
+Beit Gilgul
+Beit Ha
+Beit Haifa
 Beit Ḥiddudo
 Beit Hini
+Beit Hino
 Beit Ḥoron
 Beit Jericho
 Beit Kerem Valley
+Beit Kofai
+Beit Lavan
+Beit Maron
+Beit Menaḥem
+Beit Meron
+Beit Neresh
+Beit Pagei
+Beit Rima
+Beit Shavor
 Beit She’an
+Beit She’arim
+Beit Teraiki
+Beit Tzevo’im
+Beit Unaiki
+Beit Unyaki
+Beit Ya’zek
+Beit Yazek
 Beitar
 Beityoni
 Ben Akhmai
 Ben Mekoshesh
+Birat Serika
+Birei DeNeresh
 Biri
 Bozrah
 Bridge of Shabistana
@@ -70,7 +115,9 @@ Bursif
 Caesarea
 Cappadocia
 Carthage
+Cave of Machpelah
 Cave of Pamyas
+cemetery of Huzal
 Chaldea
 Cimolia
 D’vil
@@ -83,6 +130,7 @@ Darshish
 Darumata
 De’iskarta
 Derokera
+desert of Gaza
 Deyomset
 Diaspora
 Difti
@@ -95,16 +143,22 @@ Drokart
 Dukeret
 Dumsekanin
 Egypt
+Eilat
 Ein Gedi
+Ein Kushi
+Eina Demayim
 Emma’um
 Emmaus
 Eretz Yisrael
 Euphrates
+fortress of Tulbakni
+Gaggot Tzerifim
 Galaḥi
 Galia
 Galilee
 Gamla
 Garden of Eden
+gardens of Tzerifin
 Gaza
 Geder
 Gedod
@@ -121,10 +175,11 @@ Gilad
 Gilead
 Gilgul
 Ginai River
-Ginai River
 Ginnosar
 Ginzak
+Gomorrah
 Greece
+Greek Italy
 Gufnit
 Gush Ḥalav
 Hadayeiv
@@ -137,21 +192,29 @@ Hagrunya
 Haifa
 Ḥaifa
 Ḥamadan
+Ḥamatan
+Har HaBarzel
+Har HaMelekh
+Har HaMishḥa
 Harpanya
 Ḥarta De’argiz
 Ḥatzdad crossing
 Hatzleponi
+Ḥaveil Yamma
 Ḥavran
 Hebron
+Ḥeger
 Ḥidekel
 Ḥidkei
 Ḥillazon Nihavnad
 Homanya
 Ḥosekei
-Ḥova
+house of Natzrefei
 Hutzal
+Hutzal deVinyamin
 Ihi Dekira
 India
+Italy of Greece
 Jaffa
 Jarmuth
 Jericho
@@ -162,50 +225,77 @@ Kabul
 Kadesh
 Kafrei
 Kafri
+Kan Nishrayya
+Kandiya
 Kapotekiyya
+Karddu
 Karkuza
+Karna deShizavta
+Kartigna
 Kartignin
 Katrazya
+Keduḥim
 Kefalorya
+Kefar Aḥim
 Kefar Bish
 Kefar Darom
 Kefar Dikhrayya
 Kefar Gibbor Ĥayil
 Kefar Gibboraya
 Kefar Otnai
+Kefar Sava
+Kefar Sekhanya
+Kefar Sekhanya of Egypt
 Kefar Shiḥalayim
 Kefar Temarta
 Keiromyon
 Kerakh
+Keramiyyon
+Kerazayim
+Kfar Barkai
+Khuta
+Kimḥonya
 King’s Mountain
 Korkoneya
 Kovei
+Ladder of Tyre
 land of Canaan
+Laodicea
 Lod
 Luz
 Macedon
 Macedonia
 Maon
 Marguan
+market of Neresh
 Mashhig
 Mashronya
 Mata Meḥasya
 Mavrakhta
 Medea
+Mediterranean Sea
 Meḥoza
 Meishan
 Meishon
 Meron
 Migdal
+Migdal Eder
 Migdal Gedor
+Migdal Nunaya
+Mikhvar
+Modi’im
+Mount Ebal
 Mount Gerizim
+Mount of Olives
 Mount Scopus
+Mushekanei
 Mushekhei
 Mushkhei
 Naftuḥa
 Namer
 Namori
 Nashikiya
+Ne’oran
 Nehar Pekod
 Neharbela
 Neharbil
@@ -217,20 +307,35 @@ Nihar
 Nihavnad
 Nineveh
 Ono
+Ovelin
+Pafunya
+Paphunya
 Pappa River 
 Pappunya
 Parhatya
+Parzakya
 Pashronya
+Pelusium
+Perat of Bursif
+Perat of Meishan
 Phrygia
 Piga
+Piran of Beit Menaḥem
+port of Akko
 Promontory of Tyre
 Pum Nahara
 Pumbedita
+Puteoli
 Ramata
+Rekem
 Rephidim
 Rimon
+river Malka Sava
+river of Gozan
 Rome
 Rumekei
+Sabbatyon River
+Sakistan
 Sartava
 Sea of Aspamya
 Sea of Ḥeilat
@@ -240,188 +345,97 @@ Sea of Sodom
 Sea of Tiberias
 Sebastia
 Sekhavta
+Seleucia
+Selikum
 Selug Mountains
+Shakhnetziv
 Shalma’a
+Shanvata
+Shechem
+Shefaram
 Shelaniya
+Shiḥin
 Shittim
 Shosh
 Shosh the second
+Shunya
+Shushan
+Sidon
+Sikhera
 Sikhnei Valley
 Sikhra
 Siva’a
 Spain
+Spring of Eitam
 Sura
 Suvara
 Syria
 Tamud
 Tarmod
+Tatlefush
 the Great Sea
 the islands [nissin] that are in the sea
 the land of the nations
 the River of Egypt
 the village of Ḥitiyya
-the village of Neviraya
 the West
 Tiberias
+Tiberius
 Tigris River
+Timnah
+Tiphsah
+Tivonin
 Tovyana
 Transjordan
+Tulbaknei
+Tulbakni
+Tulbanki
 Turei Amnon
 Tusneya
 Tyre
 Tzaidan
+Tzalmon
+Tzeidan
+Tzerifa
+Tzikuneya
 Tzinta
 Tzippori
+Tzitzora
 Tzoar
 upper Galilee
 Usha
+valley of Beit Ḥortan
+valley of Beit Mikle
+valley of Beit She’an
+valley of ben Hinnom
+valley of Ein Sokher
+valley of Megiddon
+valley of Tamrurita
+Vardonia
 Vastanya
+village of Akko
+village of Amiko
+village of ananya
+village of Bartota
+village of Kartzum
+village of Ludim
+village of Nefor Ḥayil
+village of Neviraya
+village of Otnai
+village of Pani
+village of Sekhanya
+village of Shaleim
+village of She’arim
+village of Signa
+village of Sisai
+village of Tavi
+village of Timarta
 Yavne
 Yodfat
 Yodfat Valley
 Yofti River
 Yokrat
 Yostiniyya
+Zagdor
 Zerokinya
-Avna
-Har HaBarzel
-Har HaMelekh
-Har HaMishḥa
-Ardeshid
-Gomorrah
-Kefar Sava
-Laodicea
-Mediterranean Sea
-Modi’im
-Parzakya
-Puteoli
-Shakhnetziv
-Bei Ḥarmakh
-Shanvata
-Sakistan
-Sabbatyon River
-Kan Nishrayya
-Naftuḥa
-Kimḥonya
-Kerazayim
-Kefar Aḥim
-Bei Keloḥit
-Kartigna
-Kandiya
-Artibbena
-Bashkar
-Beersheba
-Beit Biri
-Beit Bukya
-Beit D’li
-Beit Gilgul
-Beit Ha
-Beit Haifa
-Beit Hino
-Beit Kofai
-Beit Lavan
-Beit Maron
-Beit Menaḥem
-Beit Meron
-valley of Beit Mikle
-Beit Neresh
-Beit Pagei
-Beit Rima
-Beit Shavor
-Beit She’arim
-Beit Teraiki
-Beit Tzevo’im
-Beit Unaiki
-Beit Unyaki
-Beit Ya’zek
-Beit Yazek
-valley of Beit Ḥortan
-village of Signa
-Keduḥim
-Attulin
-Greek Italy
-Italy of Greece
-Khuta
-Karddu
-river Malka Sava
-Mikhvar
-valley of Megiddon
-house of Natzrefei
-Ne’oran
-Pafunya
-Paphunya
-Pelusium
-Perat of Bursif
-Perat of Meishan
-Piran of Beit Menaḥem
-Kefar Sekhanya of Egypt
-village of Sekhanya
-Kefar Sekhanya
-Seleucia
-Selikum
-Bridge of Shabistana
-Shefaram
-Shiḥin
-Agma
-Tzerifa
-Eina Demayim
-Shushan
-Spring of Eitam
-Tatlefush
-Tiberius
-Tiphsah
-Tivonin
-Selug Mountains
-Tulbaknei
-Tulbakni
-Tulbanki
-Tzalmon
-Tzeidan
-Tzikuneya
-Vardonia
-Timnah
-Bei Varei
-market of Neresh
-Ḥamatan
-Anpantrin
-port of Akko
-Ardaskeya
-Ovelin
-cemetery of Huzal
-Avel Arav
-Sikhera
-Bei Khatil
-Birei DeNeresh
-village of She’arim
-Akra DeAgma
-Eilat
-Alexandria in Egypt
-Alexandria of Egypt
-valley of Beit She’an
-desert of Gaza
-Bashan
-Shunya
-Ḥaveil Yamma
-Tzitzora
 Zoan
-Hutzal deVinyamin
-Karna deShizavta
-Shechem
-Bei Kovei
-fortress of Tulbakni
-village of Tavi
-Migdal Nunaya
-Migdal Eder
-Mount Ebal
-Mushekanei
-Keramiyyon
-Mount of Olives
-Sidon
-Ladder of Tyre
-valley of Ein Sokher
-Gaggot Tzerifim
-gardens of Tzerifin
-village of Timarta
-Bartota
-village of Pani
-river of Gozan
