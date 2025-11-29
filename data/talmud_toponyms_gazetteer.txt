@@ -124,7 +124,6 @@ Ginai River
 Ginai River
 Ginnosar
 Ginzak
-Ginzak
 Greece
 Gufnit
 Gush Ḥalav
@@ -419,3 +418,10 @@ Keramiyyon
 Mount of Olives
 Sidon
 Ladder of Tyre
+valley of Ein Sokher
+Gaggot Tzerifim
+gardens of Tzerifin
+village of Timarta
+Bartota
+village of Pani
+river of Gozan
