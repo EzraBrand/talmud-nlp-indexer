@@ -32,6 +32,7 @@ Arkat Leveina
 Armon
 Artibbena
 Arva’a
+Asia
 Aspamia
 Aspamya
 Asporak
@@ -147,6 +148,7 @@ Eilat
 Ein Gedi
 Ein Kushi
 Eina Demayim
+Emaum
 Emma’um
 Emmaus
 Eretz Yisrael
@@ -234,6 +236,7 @@ Karna deShizavta
 Kartigna
 Kartignin
 Katrazya
+Ke’ila
 Keduḥim
 Kefalorya
 Kefar Aḥim
@@ -256,6 +259,7 @@ Kfar Barkai
 Khuta
 Kimḥonya
 King’s Mountain
+Kishon Brook
 Korkoneya
 Kovei
 Ladder of Tyre
@@ -291,6 +295,7 @@ Mount Scopus
 Mushekanei
 Mushekhei
 Mushkhei
+Naaran
 Naftuḥa
 Namer
 Namori
@@ -364,6 +369,8 @@ Sidon
 Sikhera
 Sikhnei Valley
 Sikhra
+Siloam
+Sinai
 Siva’a
 Spain
 Spring of Eitam
@@ -373,6 +380,7 @@ Syria
 Tamud
 Tarmod
 Tatlefush
+the cities overseas
 the Great Sea
 the islands [nissin] that are in the sea
 the land of the nations
