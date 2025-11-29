@@ -407,6 +407,7 @@ Dubiel, the ministering angel of the Persians
 Efrayim Miksha’a, a student of Rabbi Meir
 Efrayim Miksha’a, disciple of Rabbi Meir
 Efrayim the scribe, a student of Reish Lakish
+Egyptians
 Eifa
 Eifa and Avimi, the sons of Raḥava
 Elazar ben Arakh
@@ -589,6 +590,7 @@ Levi bar Perata
 Levi bar Shmuel
 Levi bar Simon
 Levi HaSadar
+Levi the Elder
 Levi, son of Rav Huna
 Levi, son of Rav Huna bar Ḥiyya
 Likhlukhit
@@ -675,6 +677,7 @@ Matya ben Shmuel
 Mavgai
 Mavog
 Me’oret
+Medes
 men of Neharde’a
 Menaḥem
 Menaḥem ben Ḥizkiyya
@@ -1668,6 +1671,7 @@ Rabbi Yoḥanan ben Torta
 Rabbi Yoḥanan ben Yosef
 Rabbi Yoḥanan ben Zakkai
 Rabbi Yoḥanan HaMakkoti
+Rabbi Yoḥanan HaSandlar
 Rabbi Yoḥanan the Cobbler
 Rabbi Yoḥanan the Cobbler, Rabbi Akiva’s student
 Rabbi Yoḥanan the Ḥorani
@@ -2857,6 +2861,7 @@ Ronya
 Sabbeta ben Alas
 Sadducee
 Sages of Caesarea
+Samaritans
 Samma bar Ḥilkai
 Sandalfon
 Sason
@@ -2964,6 +2969,8 @@ Tavut the bird hunter
 Tavut the hunter
 Teḥina ben Perisha
 the Angel of Death
+The attendant of Rabbi Ḥanina
+The attendant of Rav Ḥilkiya bar Tovi
 the brother of bar Abuveram
 the brother of Rabbi Yehoshua
 the brother of Rabbi Zeira
@@ -3054,6 +3061,7 @@ the house of Rabbi
 the house of Rav
 the house of Rav Neḥemya, the Exilarch
 the house of Rava
+the house of the <i>Nasi</i>
 the house of the Exilarch
 the house of the governor Parzak
 the house of the Hasmoneans
