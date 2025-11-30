@@ -16,6 +16,8 @@ Alexandria
 Alexandria in Egypt
 Alexandria of Egypt
 Almin
+Alush
+Anat
 Anpantrin
 Antioch
 Antipatris
@@ -54,6 +56,7 @@ Barnish
 Bartota
 Bashan
 Bashkar
+Baskar
 Bav River
 Beersheba
 Bei Abiyonei
@@ -160,6 +163,7 @@ Domakya
 Drokart
 Dukeret
 Dumsekanin
+Edom
 Egypt
 Eilam
 Eilat
@@ -201,6 +205,7 @@ Gilead
 Gilgul
 Ginai River
 Ginnosar
+Ginosar
 Ginzak
 Gizma
 Gomorrah
@@ -298,11 +303,14 @@ Kidron River
 Kimḥonya
 King’s Mountain
 Kishon Brook
+Kitron
 Korkoneya
 Kovei
 Ladder of Tyre
 land of Canaan
+land of the deer
 Laodicea
+Leshem
 Lod
 Luz
 Macedon
@@ -362,9 +370,12 @@ Nihar
 Nihavnad
 Nile River
 Nineveh
+Nofer Ninefi
 Ono
+Orikhut
 Ovelin
 Pafunya
+Pamyas
 Paphunya
 Pappa River
 Pappunya
@@ -375,6 +386,7 @@ Pekod River
 Pelusium
 Perat of Bursif
 Perat of Meishan
+Persia
 Phrygia
 Piga
 Piran of Beit Menaḥem
@@ -384,6 +396,7 @@ Pum Nahara
 Pumbedita
 Puteoli
 Rakhis River
+Rakkath
 Ramata
 Rekem
 Rephidim
@@ -416,6 +429,7 @@ Shanvata
 Shechem
 Shefaram
 Shelaniya
+Sheshakh
 Sheviri
 Shiḥin
 Shittim
@@ -428,6 +442,7 @@ Sidon
 Sikhera
 Sikhnei Valley
 Sikhra
+Silek
 Siloam
 Sinai
 Siva’a
@@ -436,6 +451,7 @@ Spring of Eitam
 Sura
 Suvara
 Syria
+Talbush
 Tamud
 Tarmod
 Tatlefush
