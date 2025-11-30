@@ -45,6 +45,7 @@ Attulin
 Avel Arav
 Avna
 Babylonia
+Bagda
 Baghdad
 Bar Hamdakh
 Barkata
@@ -106,12 +107,16 @@ Beitar
 Beityoni
 Ben Akhmai
 Ben Mekoshesh
+Biram
 Birat Serika
 Birei DeNeresh
+Bireka
+Bireta DeSatya
 Biri
 Bozrah
 Bridge of Shabistana
 Burnitz River
+Bursi
 Bursif
 Caesarea
 Cappadocia
@@ -144,6 +149,7 @@ Drokart
 Dukeret
 Dumsekanin
 Egypt
+Eilam
 Eilat
 Ein Gedi
 Ein Kushi
@@ -154,6 +160,7 @@ Emmaus
 Eretz Yisrael
 Euphrates
 fortress of Tulbakni
+fortress Tulbaknei
 Gaggot Tzerifim
 Galaḥi
 Galia
@@ -179,11 +186,15 @@ Gilgul
 Ginai River
 Ginnosar
 Ginzak
+Gizma
 Gomorrah
+Great Sea
 Greece
 Greek Italy
 Gufnit
 Gush Ḥalav
+Guvya
+Habor
 Hadayeiv
 Ḥadid
 Hadyav
@@ -272,11 +283,13 @@ Macedonia
 Maon
 Marguan
 market of Neresh
+Masgariya
 Mashhig
 Mashronya
 Mata Meḥasya
 Mavrakhta
 Medea
+Media
 Mediterranean Sea
 Meḥoza
 Meishan
@@ -287,6 +300,7 @@ Migdal Eder
 Migdal Gedor
 Migdal Nunaya
 Mikhvar
+Mishon
 Modi’im
 Mount Ebal
 Mount Gerizim
@@ -335,8 +349,11 @@ Ramata
 Rekem
 Rephidim
 Rimon
+River Azak
 river Malka Sava
+River of Egypt
 river of Gozan
+River Yo’ani
 Rome
 Rumekei
 Sabbatyon River
@@ -363,6 +380,7 @@ Shiḥin
 Shittim
 Shosh
 Shosh the second
+Shot Mishot
 Shunya
 Shushan
 Sidon
@@ -381,14 +399,12 @@ Tamud
 Tarmod
 Tatlefush
 the cities overseas
-the Great Sea
 the islands [nissin] that are in the sea
 the land of the nations
-the River of Egypt
-the village of Ḥitiyya
 the West
 Tiberias
 Tiberius
+Tigris
 Tigris River
 Timnah
 Tiphsah
@@ -425,6 +441,7 @@ village of Akko
 village of Amiko
 village of ananya
 village of Bartota
+village of Ḥitiyya
 village of Kartzum
 village of Ludim
 village of Nefor Ḥayil
