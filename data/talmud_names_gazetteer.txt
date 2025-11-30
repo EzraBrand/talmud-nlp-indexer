@@ -45,7 +45,6 @@ a certain widow
 a certain woman
 a certain young woman
 a passerby from the Galilee
-a passerby from the Galilee taught
 a Samaritan woman
 Abaye
 Abaye bar Abba
@@ -494,6 +493,8 @@ Hadrian
 Ḥaruta
 Hasmoneans
 Ḥavai bar Nanai
+he household of Guryon
+Helene
 Herod
 Herod the slave
 Ḥilfa bar Agra
@@ -545,6 +546,7 @@ Ilfai
 Imma Shalom
 Imma Shalom, the wife of Rabbi Eliezer
 In the West
+Ishmaelites
 Isi
 Isi bar Hini
 Isi bar Natan
@@ -552,7 +554,6 @@ Isi bar Yehuda
 Isi ben Akavya
 Isi ben Akiva
 Isi ben Gamliel
-Isi ben Gur
 Isi ben Gur Arye
 Isi ben Mahalalel
 Isi ben Menaḥem
@@ -910,6 +911,7 @@ Rabbi Aḥa, son of Rava
 Rabbi Aḥai
 Rabbi Aḥai bar Ḥanina
 Rabbi Aḥai bar Yoshiya
+Rabbi Aḥai ben Yoshiya
 Rabbi Aḥai, son of Rabbi Ḥanina
 Rabbi Aḥai, son of Rabbi Yoshiya
 Rabbi Aḥiyya
@@ -3067,6 +3069,7 @@ the house of the governor Parzak
 the house of the Hasmoneans
 the house of Tzippara
 the house of Yishmael ben Piakhi
+the household of the Memel
 the household of the Nasi
 the interpreter of Rav Ḥisda
 The lord of my place
@@ -3337,7 +3340,6 @@ Yosef the hunter
 Yosef the Permissive
 Yosef the priest
 Yosef the Prohibiting
-Yosef who cherishes Shabbat
 Yosef who cherishes Shabbat
 Yosef, son of Rabbi Yehoshua
 Yosei ben Ḥoni
