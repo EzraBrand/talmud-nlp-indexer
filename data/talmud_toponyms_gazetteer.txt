@@ -1,4 +1,5 @@
 Abei Givar
+Africa
 Afrikei
 Afrikiya
 Agma
@@ -53,14 +54,17 @@ Barnish
 Bartota
 Bashan
 Bashkar
+Bav River
 Beersheba
 Bei Abiyonei
 Bei Akhborei
 Bei Ardeshir
-Bei Argiza 
+Bei Argiza
 Bei Dura
 Bei Ḥarmakh
+Bei Hedya
 Bei Ḥoza’a
+Bei Ḥozai
 Bei Ila’ei
 Bei Katil
 Bei Keifei
@@ -69,8 +73,14 @@ Bei Ketil
 Bei Khatil
 Bei Kovei
 Bei Kutai
+Bei Kuvei
+Bei Lefet
 Bei Meḥoza
+Bei Mikhsei
+Bei Mikhsi
 Bei Shifei
+Bei Tarbu
+Bei Torta
 Bei Varei
 Beit Baltin
 Beit Biri
@@ -78,8 +88,8 @@ Beit Bukya
 Beit D’li
 Beit Garem
 Beit Gilgul
-Beit Ha
 Beit Haifa
+Beit HaYeshimot
 Beit Ḥiddudo
 Beit Hini
 Beit Hino
@@ -108,6 +118,7 @@ Beityoni
 Ben Akhmai
 Ben Mekoshesh
 Biram
+Biran River
 Birat Serika
 Birei DeNeresh
 Bireka
@@ -120,6 +131,7 @@ Bursi
 Bursif
 Caesarea
 Cappadocia
+Carmi
 Carthage
 Cave of Machpelah
 Cave of Pamyas
@@ -154,17 +166,21 @@ Eilat
 Ein Gedi
 Ein Kushi
 Eina Demayim
+Eitan River
 Emaum
 Emma’um
 Emmaus
 Eretz Yisrael
+Eshel River
 Euphrates
+Euphrates River
 fortress of Tulbakni
 fortress Tulbaknei
 Gaggot Tzerifim
 Galaḥi
 Galia
 Galilee
+Gamda River
 Gamla
 Garden of Eden
 gardens of Tzerifin
@@ -188,6 +204,7 @@ Ginnosar
 Ginzak
 Gizma
 Gomorrah
+Goza River
 Great Sea
 Greece
 Greek Italy
@@ -195,6 +212,7 @@ Gufnit
 Gush Ḥalav
 Guvya
 Habor
+Ḥadasha
 Hadayeiv
 Ḥadid
 Hadyav
@@ -219,6 +237,7 @@ Hebron
 Ḥeger
 Ḥidekel
 Ḥidkei
+Ḥillazon
 Ḥillazon Nihavnad
 Homanya
 Ḥosekei
@@ -227,12 +246,14 @@ Hutzal
 Hutzal deVinyamin
 Ihi Dekira
 India
+Ishtetit River
 Italy of Greece
 Jaffa
 Jarmuth
 Jericho
 Jerusalem
 Jordan
+Jordan River
 Judea
 Kabul
 Kadesh
@@ -251,23 +272,29 @@ Ke’ila
 Keduḥim
 Kefalorya
 Kefar Aḥim
+Kefar Akko
 Kefar Bish
 Kefar Darom
 Kefar Dikhrayya
+Kefar Dima
 Kefar Gibbor Ĥayil
 Kefar Gibboraya
+Kefar Hino
+Kefar Ikos
 Kefar Otnai
 Kefar Sava
 Kefar Sekhanya
 Kefar Sekhanya of Egypt
 Kefar Shiḥalayim
 Kefar Temarta
+Kefar Yamma
 Keiromyon
 Kerakh
 Keramiyyon
 Kerazayim
 Kfar Barkai
 Khuta
+Kidron River
 Kimḥonya
 King’s Mountain
 Kishon Brook
@@ -280,6 +307,7 @@ Lod
 Luz
 Macedon
 Macedonia
+Malka River
 Maon
 Marguan
 market of Neresh
@@ -302,10 +330,18 @@ Migdal Nunaya
 Mikhvar
 Mishon
 Modi’im
+Mount Carmel
 Mount Ebal
+Mount Eival
 Mount Gerizim
+Mount Horeb
+Mount Moriah
 Mount of Olives
+Mount Paran
 Mount Scopus
+Mount Seir
+Mount Sinai
+Mount Tabor
 Mushekanei
 Mushekhei
 Mushkhei
@@ -324,16 +360,18 @@ Netzivin
 Neviraya
 Nihar
 Nihavnad
+Nile River
 Nineveh
 Ono
 Ovelin
 Pafunya
 Paphunya
-Pappa River 
+Pappa River
 Pappunya
 Parhatya
 Parzakya
 Pashronya
+Pekod River
 Pelusium
 Perat of Bursif
 Perat of Meishan
@@ -345,6 +383,7 @@ Promontory of Tyre
 Pum Nahara
 Pumbedita
 Puteoli
+Rakhis River
 Ramata
 Rekem
 Rephidim
@@ -357,6 +396,7 @@ River Yo’ani
 Rome
 Rumekei
 Sabbatyon River
+Sagya River
 Sakistan
 Sartava
 Sea of Aspamya
@@ -376,6 +416,7 @@ Shanvata
 Shechem
 Shefaram
 Shelaniya
+Sheviri
 Shiḥin
 Shittim
 Shosh
@@ -411,6 +452,7 @@ Tiphsah
 Tivonin
 Tovyana
 Transjordan
+Truth
 Tulbaknei
 Tulbakni
 Tulbanki
@@ -428,6 +470,7 @@ Tzitzora
 Tzoar
 upper Galilee
 Usha
+valley of Aravot
 valley of Beit Ḥortan
 valley of Beit Mikle
 valley of Beit She’an
@@ -440,7 +483,10 @@ Vastanya
 village of Akko
 village of Amiko
 village of ananya
+village of Barkai
 village of Bartota
+village of Gibeonites
+village of Ḥananya
 village of Ḥitiyya
 village of Kartzum
 village of Ludim
@@ -448,10 +494,12 @@ village of Nefor Ḥayil
 village of Neviraya
 village of Otnai
 village of Pani
+village of Parshai
 village of Sekhanya
 village of Shaleim
 village of She’arim
 village of Signa
+village of Siḥin
 village of Sisai
 village of Tavi
 village of Timarta
