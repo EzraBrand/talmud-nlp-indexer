@@ -1,4 +1,5 @@
 Abei Givar
+Aforayim
 Africa
 Afrikei
 Afrikiya
@@ -25,6 +26,7 @@ Antokhya
 Appamya
 Apsetaya
 Arabia
+Arav
 Ardaskeya
 Ardeshid
 Ardeshir
@@ -33,6 +35,7 @@ Argiza
 Argob
 Arkat Leveina
 Armon
+Aroma
 Artibbena
 Arva’a
 Asia
@@ -46,6 +49,7 @@ Athens
 Atlantic Ocean
 Attulin
 Avel Arav
+Avireya
 Avna
 Babylonia
 Bagda
@@ -120,6 +124,8 @@ Beitar
 Beityoni
 Ben Akhmai
 Ben Mekoshesh
+Beror Ḥayil
+Bezer
 Biram
 Biran River
 Birat Serika
@@ -127,8 +133,10 @@ Birei DeNeresh
 Bireka
 Bireta DeSatya
 Biri
+Bnei Brak
 Bozrah
 Bridge of Shabistana
+Burni
 Burnitz River
 Bursi
 Bursif
@@ -169,6 +177,7 @@ Eilam
 Eilat
 Ein Gedi
 Ein Kushi
+Ein Tav
 Eina Demayim
 Eitan River
 Emaum
@@ -180,6 +189,7 @@ Euphrates
 Euphrates River
 fortress of Tulbakni
 fortress Tulbaknei
+Gadyon
 Gaggot Tzerifim
 Galaḥi
 Galia
@@ -208,6 +218,7 @@ Ginnosar
 Ginosar
 Ginzak
 Gizma
+Golan
 Gomorrah
 Goza River
 Great Sea
@@ -244,12 +255,15 @@ Hebron
 Ḥidkei
 Ḥillazon
 Ḥillazon Nihavnad
+Hini
+Hitlu
 Homanya
 Ḥosekei
 house of Natzrefei
 Hutzal
 Hutzal deVinyamin
 Ihi Dekira
+Inbal
 India
 Ishtetit River
 Italy of Greece
@@ -264,6 +278,7 @@ Kabul
 Kadesh
 Kafrei
 Kafri
+Kalnevo
 Kan Nishrayya
 Kandiya
 Kapotekiyya
@@ -297,6 +312,7 @@ Keiromyon
 Kerakh
 Keramiyyon
 Kerazayim
+Keziv
 Kfar Barkai
 Khuta
 Kidron River
@@ -310,11 +326,13 @@ Ladder of Tyre
 land of Canaan
 land of the deer
 Laodicea
+Lavlevu
 Leshem
 Lod
 Luz
 Macedon
 Macedonia
+Makhnis
 Malka River
 Maon
 Marguan
@@ -338,12 +356,16 @@ Migdal Nunaya
 Mikhvar
 Mishon
 Modi’im
+Motza
 Mount Carmel
 Mount Ebal
 Mount Eival
+Mount Ephraim
 Mount Gerizim
 Mount Horeb
+Mount Judea
 Mount Moriah
+Mount Naphtali
 Mount of Olives
 Mount Paran
 Mount Scopus
@@ -353,12 +375,14 @@ Mount Tabor
 Mushekanei
 Mushekhei
 Mushkhei
+Na’usa
 Naaran
 Naftuḥa
 Namer
 Namori
 Nashikiya
 Ne’oran
+Nebo
 Nehar Pekod
 Neharbela
 Neharbil
@@ -371,6 +395,8 @@ Nihavnad
 Nile River
 Nineveh
 Nofer Ninefi
+Nov
+Ohalya
 Ono
 Orikhut
 Ovelin
@@ -380,8 +406,10 @@ Paphunya
 Pappa River
 Pappunya
 Parhatya
+Parod
 Parzakya
 Pashronya
+Peki’in
 Pekod River
 Pelusium
 Perat of Bursif
@@ -398,6 +426,7 @@ Puteoli
 Rakhis River
 Rakkath
 Ramata
+Regev
 Rekem
 Rephidim
 Rimon
@@ -432,6 +461,8 @@ Shelaniya
 Sheshakh
 Sheviri
 Shiḥin
+Shili
+Shiloh
 Shittim
 Shosh
 Shosh the second
@@ -440,21 +471,27 @@ Shunya
 Shushan
 Sidon
 Sikhera
+Sikhnei
 Sikhnei Valley
 Sikhra
 Silek
 Siloam
+Simoni
 Sinai
 Siva’a
+Sodom
 Spain
 Spring of Eitam
 Sura
 Suvara
 Syria
 Talbush
+Tamduria
 Tamud
 Tarmod
 Tatlefush
+Tavakh
+Tekoa
 the cities overseas
 the islands [nissin] that are in the sea
 the land of the nations
@@ -519,6 +556,7 @@ village of Siḥin
 village of Sisai
 village of Tavi
 village of Timarta
+Ya’ei
 Yavne
 Yodfat
 Yodfat Valley
@@ -526,5 +564,6 @@ Yofti River
 Yokrat
 Yostiniyya
 Zagdor
+Zateḥa
 Zerokinya
 Zoan
