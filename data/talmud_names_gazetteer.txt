@@ -1281,6 +1281,7 @@ Rabbi Meir
 Rabbi Menaḥem
 Rabbi Menaḥem bar Simai
 Rabbi Menaḥem bar Yosei
+Rabbi Menaḥem Yodfa’a
 Rabbi Menaḥem, son of Rabbi Simai
 Rabbi Menaḥem, son of Rabbi Yosef
 Rabbi Menaḥem, son of Rabbi Yosei
@@ -1316,7 +1317,10 @@ Rabbi Neḥemya, son of Rabbi Ḥanilai
 Rabbi Nehorai
 Rabbi Neḥunya
 Rabbi Neḥunya ben HaKana
+Rabbi Neḥunya from the valley of Beit Ḥortan
+Rabbi Neḥunya of the valley of Beit Ḥortan
 Rabbi Neḥunya the Great
+Rabbi Neḥunya, a man of the valley of Beit Ḥortan
 Rabbi Oshaya
 Rabbi Oshaya bar Rabbi
 Rabbi Oshaya the Distinguished
@@ -1331,6 +1335,7 @@ Rabbi Pappeyas
 Rabbi Parnakh
 Rabbi Pedat
 Rabbi Perata, son of Rabbi Elazar ben Perata
+Rabbi Perata, son of Rabbi Elazar ben Perata son of the son of Rabbi Perata the Great
 Rabbi Perida
 Rabbi Pineḥas
 Rabbi Pineḥas bar Ḥama
@@ -1460,6 +1465,8 @@ Rabbi Tanḥum, son of Rabbi Ḥanilai
 Rabbi Tanḥum, son of Rabbi Ḥiyya
 Rabbi Tanḥum, son of Rabbi Ḥiyya of the village of Akko
 Rabbi Tanḥum, son of Rabbi Ḥiyya, man of Akko
+Rabbi Tanḥum, son of Rabbi Ḥiyya, man of Akko village
+Rabbi Tanḥum, son of Rabbi Ḥiyya, of the village of Akko
 Rabbi Tanḥum, son of Rabbi Ḥiyya, the man of Akko village
 Rabbi Tanḥum, son of Rav Ḥiyya
 Rabbi Tanḥuma
@@ -1530,6 +1537,7 @@ Rabbi Yehuda bar Liva’ei
 Rabbi Yehuda bar Livai
 Rabbi Yehuda bar Masparta
 Rabbi Yehuda bar Naḥmani
+Rabbi Yehuda bar Naḥmani, the disseminator for Reish Lakish
 Rabbi Yehuda bar Rabbi Elai
 Rabbi Yehuda bar Sheila
 Rabbi Yehuda bar Sheilat
@@ -2909,7 +2917,6 @@ Sheila bar Mari
 Sheila bar Summakei
 Sheila of Kefar Temarta
 Shel Tziyyon the queen
-Shemaya
 Shemaya
 Shikhḥat
 Shila, a man of K’far Temarta
