@@ -78,6 +78,7 @@ Abba Elazar ben Gomel
 Abba Gurya
 Abba Guryan of Tzadyan
 Abba Ḥalafta
+Abba Ḥalafta, from the village of Ḥananya
 Abba Ḥalifa
 Abba Ḥalifa Karoya
 Abba Ḥanan
@@ -119,6 +120,7 @@ Abba, son of Rav Binyamin bar Ḥiyya
 Abba, son of Rav Minyamin bar Ḥiyya
 Abba, son of Rav Minyumi, son of Ḥiyya
 Abba, the father of Rabbi Simlai
+Abbudina
 Abdon
 Adda
 Adda bar Abba
@@ -148,6 +150,7 @@ Ahava, son of Rabbi Zeira
 Aḥi Shakkaya
 Ahurmiz
 Aivu
+Aivu and Ḥizkiya, sons of the daughter of Rav
 Akavya
 Akavya ben Mahalalel
 Akiva
@@ -156,6 +159,7 @@ Alexa
 Alexander
 Alexander of Macedon
 Alexander of Macedonia
+Alexander the king
 Alexandrians
 Ameimar
 Ami bar Avin
@@ -202,6 +206,7 @@ Avimi of Sanvata
 Avimi, son of Rabbi Abbahu
 Avin bar Huna
 Avin from Nashikiya
+Avin from Tzippori
 Avin the fool
 Avitul the scribe
 Avtalyon
@@ -282,6 +287,7 @@ bar Peyoli
 bar Shatya
 bar Sheila
 bar Sheshakh
+bar Shibbetai
 bar Shirika Panda
 bar Sisin
 bar Ta’utni
@@ -298,6 +304,7 @@ bar Yitzḥak
 bar Yoḥai
 bar Yokhani
 Barukh ben Levi
+Bati
 Bati bar Tuvi
 Bati bar Tuviyya
 Bava ben Buta
@@ -341,7 +348,6 @@ ben Koziva
 ben Lakonya
 ben Levi
 ben Megusat
-Ben Mekoshesh
 ben Nanas
 ben Nannas
 ben Nappaḥa
@@ -389,6 +395,7 @@ Carmanians
 Chaldean
 Cleopatra, Queen of Alexandria
 Cleopatra, the Greek queen
+court of the Hasmoneans
 Dama ben Netina
 Danna’ai
 Dari
@@ -436,6 +443,8 @@ Elijah
 Elisha ben Avuya
 Elisha, Man of Wings
 Elishama ben Pikai
+emperor Hadrian
+Exilarch’s household
 father Ḥalafta
 father of Ravin bar Ḥinnana
 father of Shmuel bar Avin
@@ -503,6 +512,7 @@ Hillel
 Hillel the Babylonian
 Hillel the Elder
 Hillel, son of Rabbi Shmuel
+Hillel, son of Rabbi Shmuel bar Naḥmani
 Ḥivvai
 Ḥiyya bar Ashi
 Ḥiyya bar Rabbi
@@ -525,12 +535,14 @@ Hugras ben Levi
 Ḥulfana
 Ḥuma, the daughter of Isi, son of Rav Yitzḥak, son of Rav Yehuda
 Huna bar Natan
+Huna Mar bar Mareimar
 Huna Mar, grandson of Rav Neḥemya
 Huna Mar, son of Rav Idi
 Huna Mar, son of Rav Neḥemya
 Huna Mar, son of Rava, from Parzakya
 Huna Mar, son of Rava, from Parzakya
 Huna, son of Mar
+Huna, son of Mar Zutra
 Huna, son of Rav Naḥman
 Hurmin, son of Lilith
 Hurmiz
@@ -615,6 +627,7 @@ Mar Huna, son of Rav Naḥman
 Mar Kashisha
 Mar Kashisha, son of Rabba
 Mar Kashisha, son of Rav Ḥisda
+Mar Kashisha, son Rava
 Mar Kashisha, the son of Rav Ḥisda
 Mar Keshisha, son of Rav Ḥisda
 Mar Shmuel
@@ -665,6 +678,7 @@ Mari, the grandson of Rav Huna, son of Rabbi Yirmeya bar Abba
 Markulis
 Marta
 Marta bat Baitos
+Marta, daughter of Baitos
 Maryon, son of Ravin
 Master
 Master Shmuel
@@ -682,6 +696,7 @@ Medes
 men of Neharde’a
 Menaḥem
 Menaḥem ben Ḥizkiyya
+Menaḥem Yodafa
 Menashya bar Yirmeya
 Menashya ben Menaḥem
 Metatron
@@ -691,7 +706,6 @@ Minyamin the Egyptian convert
 Minyamin, Rav Ashi’s slave
 Minyamin, the servant of Rav Ashi
 Minyumi the physician
-Miriam
 Miriam of Tarmod
 Miriam, daughter of Bilga
 Miriam, raiser of babies
@@ -752,6 +766,7 @@ orphan Ravina the younger, was his sister’s son
 Oshaya bar Zavda
 Oshaya, the youngest of the company
 Palaimo
+Pandeira
 Pappa bar Abba
 Pappa the ox herder
 Pappas
@@ -847,6 +862,7 @@ Rabban Yoḥanan ben Nuri
 Rabban Yoḥanan ben Zakkai
 Rabbana Neḥemya, brother of the Exilarch
 Rabbana Ukva the orphan
+Rabbeinu
 Rabbenai
 Rabbenai, the brother Rabbi Ḥiyya bar Abba
 Rabbi
@@ -901,6 +917,7 @@ Rabbi Aḥa bar Ḥinnana
 Rabbi Aḥa bar Pappa
 Rabbi Aḥa bar Ya’akov
 Rabbi Aḥa bar Yaakov
+Rabbi Aḥa Sar HaBira
 Rabbi Aḥa the son of Rava
 Rabbi Aḥa, lord of the capital
 Rabbi Aḥa, son of Ḥanina
@@ -1126,6 +1143,7 @@ Rabbi Ḥananya ben Gamla
 Rabbi Ḥananya ben Gamliel
 Rabbi Ḥananya ben Ḥakhinai
 Rabbi Ḥananya ben Teradyon
+Rabbi Ḥananya Terita
 Rabbi Ḥananya, son of Rabban Gamliel
 Rabbi Ḥananya, son of Rabbi Yehoshua
 Rabbi Ḥananya, son of Rabbi Yehoshua’s brother
@@ -1441,6 +1459,7 @@ Rabbi Tanḥum of Parod
 Rabbi Tanḥum, son of Rabbi Ḥanilai
 Rabbi Tanḥum, son of Rabbi Ḥiyya
 Rabbi Tanḥum, son of Rabbi Ḥiyya of the village of Akko
+Rabbi Tanḥum, son of Rabbi Ḥiyya, man of Akko
 Rabbi Tanḥum, son of Rabbi Ḥiyya, the man of Akko village
 Rabbi Tanḥum, son of Rav Ḥiyya
 Rabbi Tanḥuma
@@ -1449,6 +1468,7 @@ Rabbi Tavi
 Rabbi Tavla
 Rabbi Tovi bar Kisna
 Rabbi Tzadok
+Rabbi Tzadok’s father
 Rabbi Ulla the Great
 Rabbi Uzziel, grandson of Rabbi Uzziel the Great
 Rabbi Ya’akov
@@ -1544,6 +1564,7 @@ Rabbi Yehuda Gelostera
 Rabbi Yehuda HaNasi
 Rabbi Yehuda Ḥayyata
 Rabbi Yehuda Nesia
+Rabbi Yehuda Nesia, son of Rabban Gamliel son of Rabbi
 Rabbi Yehuda of the village of Neviraya
 Rabbi Yehuda of the West
 Rabbi Yehuda son of Rabbi El’ai
@@ -1778,6 +1799,7 @@ Rabbi Zeira
 Rabbi Zeira bar Adda
 Rabbi Zeira bar Ḥanina
 Rabbi Zeira bar Memel
+Rabbi Zeira’s father
 Rabbi Zekharya
 Rabbi Zekharya bar Kefutal
 Rabbi Zekharya ben Avkolas
@@ -2862,6 +2884,7 @@ Romans
 Ronya
 Sabbeta ben Alas
 Sadducee
+Sadducees
 Sages of Caesarea
 Samaritans
 Samma bar Ḥilkai
@@ -2869,6 +2892,7 @@ Sandalfon
 Sason
 school of Menashe
 Semalyon
+Setada
 Setini
 Sha’azrak
 Shabbetai bar Marinus
@@ -3003,6 +3027,7 @@ The daughters of Shmuel’s father
 The daughters-in-law of Abdan
 the Distinguished 
 the Distinguished One
+the distinguished Rabbi Elazar HaKappar
 the Elders
 the elders of the south
 the elders, of the school of Athens
@@ -3051,6 +3076,7 @@ the house of Ḥasa
 the house of Hasmonean
 the house of Ḥivvai
 the house of Katros
+the house of King Shapur
 the house of Mari bar Isak
 the house of Menashya bar Menaḥem
 the house of Pappa bar Abba
@@ -3198,6 +3224,7 @@ the sons of Rokhel
 The sons of the father-in-law of Mar Ukva
 the sons of the High Priests
 The sons of Yudan the maidservant
+The steward [<i>apotropos</i>] of King Agrippas
 The wife of Abaye
 the wife of Abba Mari, the Exilarch
 the wife of Rabba bar bar Ḥana
@@ -3278,6 +3305,7 @@ Yehuda ben Nekosa
 Yehuda ben Shammua
 Yehuda ben Tabbai
 Yehuda ben Teima
+Yehuda Mar bar Mareimar
 Yehuda the swindler
 Yehuda, my brother
 Yehuda, son of Rabbi Ḥiyya
@@ -3358,6 +3386,7 @@ Zavda bar Levi
 Zavdi bar Levi
 Ze’eira bar Ḥama
 Ze’eira, of the men of Jerusalem
+Ze’eira’s wife
 Ze’eiri
 Ze’iri
 Ze’iri from Dihavat
