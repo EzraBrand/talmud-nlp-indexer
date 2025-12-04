@@ -50,6 +50,7 @@ Atlantic Ocean
 Attulin
 Avel
 Avel Arav
+Avi Govar
 Avireya
 Avna
 Babylonia
@@ -123,6 +124,7 @@ Beit Ya’zek
 Beit Yazek
 Beitar
 Beityoni
+Beloa of Gader
 Ben Akhmai
 Ben Mekoshesh
 Benei Berak
@@ -195,8 +197,10 @@ Eretz Yisrael
 Eshel River
 Euphrates
 Euphrates River
+fortress of Shanvata
 fortress of Tulbakni
 fortress Tulbaknei
+Gader
 Gadyon
 Gaggot Tzerifim
 Gaggot Tzerifin
@@ -318,6 +322,7 @@ Kefar Sekhanya
 Kefar Sekhanya of Egypt
 Kefar Shiḥalayim
 Kefar Temarta
+Kefar Temarta in Judea
 Kefar Yamma
 Keiromyon
 Kerakh
@@ -331,6 +336,7 @@ Kimḥonya
 King’s Mountain
 Kishon Brook
 Kitron
+Koḥalit in the desert
 Korkoneya
 Kovei
 Ladder of Tyre
@@ -360,6 +366,7 @@ Meḥoza
 Meishan
 Meishon
 Meron
+Miashan
 Migdal
 Migdal Eder
 Migdal Gedor
@@ -442,6 +449,7 @@ Ramata
 Regev
 Rekem
 Rephidim
+reservoir of Diskim
 Rimon
 River Azak
 river Malka Sava
@@ -582,4 +590,5 @@ Yostiniyya
 Zagdor
 Zateḥa
 Zerokinya
+Zion
 Zoan
