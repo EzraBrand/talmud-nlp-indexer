@@ -48,6 +48,7 @@ Asya
 Athens
 Atlantic Ocean
 Attulin
+Avel
 Avel Arav
 Avireya
 Avna
@@ -124,11 +125,13 @@ Beitar
 Beityoni
 Ben Akhmai
 Ben Mekoshesh
+Benei Berak
 Beror Ḥayil
 Bezer
 Biram
 Biran River
 Birat Serika
+Birei
 Birei DeNeresh
 Bireka
 Bireta DeSatya
@@ -171,10 +174,15 @@ Domakya
 Drokart
 Dukeret
 Dumsekanin
+Dura
+Dura that was founded by shepherds
+Dura Valley
 Edom
 Egypt
 Eilam
 Eilat
+Ein Bul
+Ein Eitam
 Ein Gedi
 Ein Kushi
 Ein Tav
@@ -191,6 +199,7 @@ fortress of Tulbakni
 fortress Tulbaknei
 Gadyon
 Gaggot Tzerifim
+Gaggot Tzerifin
 Galaḥi
 Galia
 Galilee
@@ -264,6 +273,7 @@ Hutzal
 Hutzal deVinyamin
 Ihi Dekira
 Inbal
+Inbul
 India
 Ishtetit River
 Italy of Greece
@@ -288,6 +298,7 @@ Karna deShizavta
 Kartigna
 Kartignin
 Katrazya
+Kavul
 Ke’ila
 Keduḥim
 Kefalorya
@@ -409,8 +420,10 @@ Parhatya
 Parod
 Parzakya
 Pashronya
+passage [megizat] of Cappadocia
 Peki’in
 Pekod River
+Pelandarsin
 Pelusium
 Perat of Bursif
 Perat of Meishan
@@ -521,6 +534,7 @@ Tzinta
 Tzippori
 Tzitzora
 Tzoar
+Tzoar, the city of date palms
 upper Galilee
 Usha
 valley of Aravot
@@ -533,6 +547,7 @@ valley of Megiddon
 valley of Tamrurita
 Vardonia
 Vastanya
+village Eitam
 village of Akko
 village of Amiko
 village of ananya
@@ -558,6 +573,7 @@ village of Tavi
 village of Timarta
 Ya’ei
 Yavne
+Yehu water trough
 Yodfat
 Yodfat Valley
 Yofti River
