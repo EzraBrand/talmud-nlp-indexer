@@ -1,4 +1,5 @@
 a certain
+A certain apostate
 a certain butcher
 a certain child
 a certain demon
@@ -10,18 +11,22 @@ a certain elderly slave
 A certain elderly woman
 a certain emperor
 a certain eulogizer
+A certain eunuch
 a certain female convert
 A certain Galilean
 a certain gentile
 a certain gentile woman
+a certain girl
 a certain guarantor
 a certain herdsman
 a certain heretic
 A certain heretic named Sason
+a certain High Priest
 a certain individual
 a certain Jew
 a certain judge
 a certain launderer
+a certain Madonite
 A certain magus
 a certain maiden
 a certain maidservant
@@ -29,23 +34,37 @@ a certain man
 A certain matron
 a certain matron
 A certain noblewoman
+a certain of Meron
 a certain official
 a certain old man
 a certain Persian
 a certain person
 A certain philosopher
+a certain pious
+a certain pious man
 a certain poor person
 A certain pregnant woman
+a certain priest
+a certain priest’s daughter
 a certain prostitute
 A certain Roman
 A certain Roman officer
+a certain Sadducee
 A certain Sage
 a certain student
+a certain tanner
 a certain widow
 a certain woman
 a certain young woman
+a king and queen
+a leading authority of generation
+a maidservant of Rabbi
+a maidservant of the household of Rabbi
 a passerby from the Galilee
+a poor person of noble descent
 a Samaritan woman
+a young girl
+a youth
 Abaye
 Abaye bar Abba
 Abaye bar Avin
@@ -147,6 +166,7 @@ Aha, the governor of the castle
 Aḥai bar Yoshiya
 Aḥai the Distinguished
 Ahava, son of Rabbi Zeira
+Aḥer
 Aḥi Shakkaya
 Ahurmiz
 Aivu
@@ -167,6 +187,9 @@ Ami bar Natan
 Ami of Vardina
 Ami the oven maker
 Amram the dyer
+an armed bandit
+an examiner [<i>artavin</i>]
+an important woman
 Anan bar Ḥiyya
 Anan bar Ḥiyya Neharde’a
 Anan bar Ḥiyya of Ḥagra
@@ -396,12 +419,14 @@ Chaldean
 Cleopatra, Queen of Alexandria
 Cleopatra, the Greek queen
 court of the Hasmoneans
+Dama
 Dama ben Netina
 Danna’ai
 Dari
 Daru
 Daru bar Pappa
 Daughter of Ḥakhinai
+daughter-in-law of Rabbi Oshaya
 daughter-in-law of the house of the son of Elyashiv
 Dimi bar Kakuzta
 Doeg ben Yosef
@@ -410,6 +435,7 @@ Dorenunita
 Dostai, father of Rabbi Aptoriki
 Dubiel
 Dubiel, the ministering angel of the Persians
+Duma
 Efrayim Miksha’a, a student of Rabbi Meir
 Efrayim Miksha’a, disciple of Rabbi Meir
 Efrayim the scribe, a student of Reish Lakish
@@ -448,6 +474,7 @@ Exilarch’s household
 father Ḥalafta
 father of Ravin bar Ḥinnana
 father of Shmuel bar Avin
+father, Ḥalafta
 Fuga
 Gaskalgas
 Geneiva
@@ -755,15 +782,21 @@ Nitza
 of Neharbela
 of Neharde’a
 Okvan, son of Neḥemya the Exilarch
+one High Priest
+one man
 one of the Sages
 one of the sons of so-and-so
 one prostitute
+one Sadducee
+one weaver
+one woman
 Onias
 Onkelos bar Kalonikos, the son of Titus’s sister
 Onkelos bar Kelonimos
 Onkelos the convert
 orphan Ravina the younger, was his sister’s son
 Oshaya bar Zavda
+Oshaya the Distinguished
 Oshaya, the youngest of the company
 Palaimo
 Pandeira
@@ -784,6 +817,7 @@ Piruz the Evil
 Proclus ben Plospus
 Queen Cleopatra
 Queen Helene
+R' Meir’s son-in-law
 Rabba
 Rabba bar Abbahu
 Rabba bar Ahilai
@@ -940,6 +974,7 @@ Rabbi Akiva
 Rabbi Akiva bar Yosef
 Rabbi Akiva, son of Rabbi Ḥanina
 Rabbi Akiva’s daughter
+Rabbi Akiva’s student
 Rabbi Alexandri
 Rabbi Ami
 Rabbi Ami bar Abba
@@ -1094,6 +1129,7 @@ Rabbi Eliezer, son of Rabbi Shimon
 Rabbi Eliezer, son of Rabbi Tzadok
 Rabbi Eliezer, son of Rabbi Yosei
 Rabbi Eliezer, son of Rabbi Yosei HaGelili
+Rabbi Eliezer’s students
 Rabbi Elyashiv
 Rabbi Evyatar
 Rabbi Ezra
@@ -2997,6 +3033,7 @@ Tavi
 Tavi the bird hunter
 Tavi, son of Mari
 Tavi, the servant of Rabban Gamliel
+Tavi, the slave
 Tavi, the slave of Rabban Gamliel
 Tavut the bird hunter
 Tavut the hunter
@@ -3105,6 +3142,7 @@ the house of Yishmael ben Piakhi
 the household of the Memel
 the household of the Nasi
 the interpreter of Rav Ḥisda
+the judges of Neharde’a
 The lord of my place
 the maidservant of a certain violent person in Rimon
 The maidservant of Master Shmuel
@@ -3113,6 +3151,7 @@ The maidservant of Rabbi
 The maidservant of Rabbi Abba bar Zutra
 the master of Eretz Yisrael
 the members of the Great Assembly
+the members of the household of Memel
 the mother of ben Zaza
 the mother of Mar, son of Ravina
 The mother of Rami bar Ḥama
@@ -3123,7 +3162,11 @@ The mother of Rav Zutra bar Toviyya
 the mother of the sons of Rokhel
 the mother of Ze’eira the orphan
 the mother-in-law of Rav Ḥiyya Arikha
+the people of the Galilee
 the people of the household of Rav Amram the pious
+the people of the Upper Galilee
+the people of Tiberias
+the people of Tzippori 
 the powerful men of Eretz Yisrael
 the prominent men of Rome
 The relatives of Rabbi Yoḥanan
@@ -3232,6 +3275,7 @@ The sons of the father-in-law of Mar Ukva
 the sons of the High Priests
 The sons of Yudan the maidservant
 The steward [<i>apotropos</i>] of King Agrippas
+the students of Rabbi Yishmael
 The wife of Abaye
 the wife of Abba Mari, the Exilarch
 the wife of Rabba bar bar Ḥana
@@ -3245,6 +3289,7 @@ the wife of Rav Yosef, son of Rav Menashya of D’vil
 The wife of Rav Yosef, son of Rava
 the wife of Shimon the Priest
 the wife of Turnus Rufus
+the wife of Yosef the Priest
 Theodosius of Rome
 Theodosius the doctor
 this woman
