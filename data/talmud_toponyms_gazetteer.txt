@@ -31,6 +31,7 @@ Ardaskeya
 Ardeshid
 Ardeshir
 Ardisekis
+Ardiska
 Argiza
 Argob
 Arkat Leveina
@@ -209,7 +210,6 @@ Galia
 Galilee
 Gamda River
 Gamla
-Garden of Eden
 gardens of Tzerifin
 Gaza
 Geder
@@ -353,7 +353,6 @@ Makhnis
 Malka River
 Maon
 Marguan
-market of Neresh
 Masgariya
 Mashhig
 Mashronya
@@ -579,6 +578,7 @@ village of Siḥin
 village of Sisai
 village of Tavi
 village of Timarta
+village Shiḥayya
 Ya’ei
 Yavne
 Yehu water trough
