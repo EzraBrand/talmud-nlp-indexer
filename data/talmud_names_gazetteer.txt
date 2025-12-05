@@ -272,6 +272,7 @@ Bar Adi the Arab
 Bar Ahina
 bar Avin
 bar Avuh
+bar bar Ḥana
 bar Binittos
 bar Deroma
 bar Dosa
@@ -283,14 +284,13 @@ bar Ḥama
 Bar Hamdurei
 Bar Hamduri
 bar Hamedurei
-bar Ḥana
 bar Ḥanan
 bar Ḥanna
 bar Ḥasa
 bar Ḥashu
 bar Ḥavu
 Bar Hedya
-bar Hei
+bar Hei Hei
 Bar Hei Hei
 bar Hinak
 bar Ḥiyya
@@ -348,7 +348,6 @@ Beit Kofai
 Beit Shammai
 Beit Tzevo’im
 Beloreya the female convert
-ben Ami
 ben Antigonus
 ben Arza
 Ben Avatiaḥ
@@ -372,7 +371,6 @@ ben Ḥakhinai
 ben Ḥamtzan
 ben Harkinas
 ben Ḥavu
-ben Hinnom
 ben Idi
 ben Imma Miriam
 ben Kalba Savua
@@ -405,7 +403,6 @@ ben Tziyyon
 Ben Uzziel
 ben Yasiyan
 ben Yasiyyan
-ben Yehuda
 ben Yoḥai
 ben Zakkai
 ben Zaza
@@ -515,6 +512,7 @@ Hadrian
 Ḥama bar Adda
 Ḥama, son of Rabba
 Ḥama, son of Rabba bar Abbahu
+Ḥama, son of Rabba bar Avuh
 Ḥana
 Ḥana bar Isak
 Ḥanan ben Avishalom
@@ -1936,6 +1934,7 @@ Rav Aḥa bar Ami
 Rav Aḥa bar Ava
 Rav Aḥa bar Avira
 Rav Aḥa bar Avya
+Rav Aḥa bar bar Ḥana
 Rav Aḥa bar Bizna
 Rav Aḥa bar Ḥana
 Rav Aḥa bar Ḥanina
@@ -2753,6 +2752,7 @@ Rav Yitzḥak bar Ashyan
 Rav Yitzḥak bar Avdimi
 Rav Yitzḥak bar Avin
 Rav Yitzḥak bar Avudimi
+Rav Yitzḥak bar bar Ḥana
 Rav Yitzḥak bar Bisna
 Rav Yitzḥak bar Giyorei
 Rav Yitzḥak bar Ḥananya
@@ -2967,6 +2967,7 @@ Shabbetai the hoarder
 Shabbetai the hoarder of fruits
 Shabbtai, son of Rabbi Marinus
 Shabbtai, the hoarder of produce
+Shabbu
 Shakud
 Shammai
 Shammai the Elder
@@ -3072,6 +3073,7 @@ the Chaldeans
 The colleagues of Rabbi Abba
 the colleagues of Rabbi Zeira
 the daughter of Abba of Sura
+the daughter of bar Kalba Savua
 the daughter of King Shapur
 the daughter of King Yannai’s crown weaver
 the daughter of Neḥunya the ditchdigger
@@ -3255,6 +3257,7 @@ the people of Tivonin
 the people of Tzippori 
 the powerful men of Eretz Yisrael
 the prominent men of Rome
+the prominent of Rome
 The prominent women of Jerusalem
 The relative of Rabbi Asi
 The relatives of Rabbi Yoḥanan
@@ -3559,6 +3562,7 @@ Ze’eiri
 Ze’iri
 Ze’iri from Dihavat
 Zeira
+Zeira, of the residents of Jerusalem
 Zekharya ben HaKatzav
 Zekharya ben Kevutal
 Zevulun ben Dan
