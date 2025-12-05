@@ -88,7 +88,6 @@ Abaye’s wife, Ḥoma
 Abba
 Abba bar Abba
 Abba bar Abba, the father of Shmuel
-Abba bar Aḥa Karsala
 Abba bar Aḥa Karsala from Kafrei
 Abba bar Ḥama
 Abba bar Ḥanan
@@ -114,7 +113,7 @@ Abba Ḥanan
 Abba Ḥanin
 Abba Ḥilkiyya
 Abba Ḥilkiyyahu
-Abba Kohen
+Abba Kohen Bardela
 Abba Mar
 Abba Mar bar Rav Ashi
 Abba Mar, son of Rav Pappa
@@ -151,6 +150,8 @@ Abba, son of Rav Minyumi, son of Ḥiyya
 Abba, the father of Rabbi Simlai
 Abbudina
 Abdon
+Ablat
+Ablet
 Adda
 Adda bar Abba
 Adda bar Ahava
@@ -431,6 +432,7 @@ Cleopatra, the Greek queen
 court of the Hasmoneans
 Dama
 Dama ben Netina
+Dankhu
 Danna’ai
 Dari
 Daru
@@ -438,6 +440,7 @@ Daru bar Pappa
 Daughter of Ḥakhinai
 daughter-in-law of Rabbi Oshaya
 daughter-in-law of the house of the son of Elyashiv
+descendants of Joab, son of Zeruiah
 Dimi bar Kakuzta
 Doeg ben Yosef
 Donag
@@ -3094,6 +3097,18 @@ the daughters of Jerusalem
 The daughters of Master Shmuel
 The daughters of Shmuel’s father
 The daughters-in-law of Abdan
+The descendants of Adin ben Yehuda
+the descendants of Araḥ ben Yehuda
+the descendants of David ben Yehuda
+the descendants of Jonadab ben Rechab
+the descendants of Paḥat Moav ben Yehuda
+the descendants of Parosh
+the descendants of Parosh ben Yehuda
+the descendants of Salmai of Netophat
+the descendants of Sena’a ben Binyamin
+the descendants of those who deceived with a pestle
+the descendants of those who packed dried figs
+the descendants of Zattu ben Yehuda
 the disciples of Rabbi Ḥanina
 the Distinguished 
 the Distinguished One
@@ -3107,6 +3122,7 @@ the elders of the south
 the elders, of the school of Athens
 the emperor
 the emperor’s daughter
+the evil kingdom
 the family of Abba of Sura
 the family of Dorketi
 the family of Rabba bar Ulla
@@ -3184,6 +3200,7 @@ the household of the Memel
 the household of the Nasi
 the inhabitants of Tiberias
 the interpreter of Rav Ḥisda
+The Jewish Sages
 the judges of Neharde’a
 The judges of Pumbedita
 The landlord of Rami bar Ḥama
@@ -3259,6 +3276,7 @@ The Sages in Yavne
 the Sages of Caesarea
 The Sages of Neharbela
 The Sages of Neharde’a
+the sages of the nations of the world
 the Sages of the school of Rav
 the Sages of the school of Rav Ashi
 the Sages of the study hall of Rav
@@ -3373,6 +3391,7 @@ The students of Rabbi Shimon ben Yoḥai
 the students of Rabbi Yishmael
 the students of Rav
 The students of Shammai the Elder
+The vatikin
 The wife of Abaye
 the wife of Abba Mari, the Exilarch
 the wife of Rabba bar bar Ḥana
