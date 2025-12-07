@@ -200,7 +200,7 @@ Ami of Vardina
 Ami the oven maker
 Amram the dyer
 an armed bandit
-an examiner [<i>artavin</i>]
+an examiner
 an important woman
 Anan bar Ḥiyya
 Anan bar Ḥiyya Neharde’a
@@ -309,7 +309,6 @@ bar Livai
 bar Luyyanus
 bar Marta
 bar Maryon
-bar Maryon, son of Ravin
 bar Maryon, son of Ravin
 bar Naḥmani
 Bar Nappaḥa
@@ -3221,6 +3220,7 @@ the martyrs of Lod
 the master of Eretz Yisrael
 the members of the Great Assembly
 the members of the household of Memel
+the members of the households, of Rav Pappa and of Rav Huna, son of Rav Yehoshua
 the merchants of Lod
 the mother of ben Zaza
 the mother of Mar, son of Ravina
@@ -3443,6 +3443,7 @@ Ulla, son of Rav Ilai
 Vardimas
 Vardimus, son of Rabbi Yosei
 Vespasian Caesar
+Wise one
 Ya’akov from Karḥina
 Ya’akov Korḥa
 Ya’akov of Kefar Sekhanya
