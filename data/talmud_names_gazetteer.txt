@@ -73,6 +73,7 @@ a resident of Meḥoza
 A resident of Naresh
 a resident of Pappunya
 a Samaritan woman
+a son of a Levite
 a young girl
 a youth
 Abaye
@@ -423,6 +424,7 @@ Buni
 butchers of Huzal
 Caesar
 Carmanians
+certain hooligans
 Chaldean
 Cleopatra, Queen of Alexandria
 Cleopatra, the Greek queen
@@ -624,6 +626,7 @@ Karduyim
 Karna
 Karna’s father
 Kartuyim
+Keen scholar
 Ketia bar Shalom
 Ketia, son of Shalom
 Kharkemit, an emancipated maidservant in Jerusalem
@@ -649,6 +652,7 @@ Levi, son of Rav Huna
 Levi, son of Rav Huna bar Ḥiyya
 Likhlukhit
 Lodites
+Long-toothed one
 Luleyanus
 Mafsha’a
 Malla’ai
@@ -2946,6 +2950,7 @@ Ravnai, brother of Rabbi Ḥiyya bar Abba
 Ravya bar Kisi
 Reḥava
 Reish Lakish
+Ridya
 Romans
 Ronya
 Sabbeta ben Alas
@@ -3003,6 +3008,7 @@ Shimon the Nazirite
 Shimon the Timnite
 Shimon the Yemenite
 Shimon, brother of Azarya
+Shinnana
 Shmuel
 Shmuel bar Aḥa
 Shmuel bar Avin
@@ -3022,6 +3028,7 @@ Shmuel Yarḥina’a
 Shmuel, son of Rabbi Abbahu
 Shmuel’s father
 Shmuel’s wife
+short one with singed legs
 Sicarii
 Sicarius
 Sikarikon
@@ -3080,7 +3087,6 @@ the daughter of Neḥunya the ditchdigger
 the daughter of Neḥunya the well digger
 the daughter of Rabbi
 the daughter of Rabbi Ḥiyya
-the daughter of Rabbi Yishmael ben Elisha
 the daughter of Rabbi Yitzḥak Nappaḥa
 the daughter of Rami bar Ḥama
 the daughter of Rav
@@ -3120,6 +3126,7 @@ the Elders of Beit Hillel
 the elders of Beit Shammai
 The elders of Mata Meḥasya
 The elders of Pumbedita
+the elders of the Negev
 the elders of the south
 the elders, of the school of Athens
 the emperor
@@ -3287,6 +3294,7 @@ the Sages who came from Meḥoza
 the school Mar bar Rav Adda
 The school of Elijah
 The school of Eliyahu
+the school of Ḥizkiyya
 the school of Levi
 the school of Menashe
 the school of Rabbi
@@ -3327,11 +3335,13 @@ the school of Rav Yehuda
 the school of Rav Zevid
 the school of Rava
 the servant of Rav Yehuda bar Yeḥezkel
+the short one with singed legs
 The sister of Rami bar Ḥama
 The sister of Rami bar Pappa
 The sister of Rav Dimi bar Yosef
 The sister of Rav Tovi bar Rav Mattana
 the slave of Yannai the king
+the son and the daughter of Rabbi Yishmael ben Elisha 
 the son of Ameimar
 the son of Ameimar’s son
 the son of Ḥakhinai
