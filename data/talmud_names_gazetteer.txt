@@ -1,5 +1,6 @@
 a certain
 A certain apostate
+a certain army
 a certain blind man
 a certain butcher
 a certain child
@@ -18,6 +19,7 @@ a certain eulogizer
 A certain eunuch
 a certain family in Jerusalem
 a certain female convert
+a certain female owner of a wine shop
 A certain Galilean
 a certain gentile
 a certain gentile woman
@@ -27,6 +29,7 @@ a certain herdsman
 a certain heretic
 A certain heretic named Sason
 a certain High Priest
+a certain imbecile
 a certain individual
 a certain Jew
 a certain judge
@@ -59,6 +62,7 @@ a certain Sadducee
 A certain Sage
 a certain student
 a certain tanner
+a certain teacher of children
 a certain widow
 a certain woman
 a certain young woman
@@ -380,6 +384,7 @@ ben Lakonya
 ben Levi
 ben Megusat
 ben Nanas
+Ben Nanas
 ben Nannas
 ben Nappaḥa
 ben Nedavai
@@ -423,6 +428,8 @@ butchers of Huzal
 Caesar
 Carmanians
 certain hooligans
+Certain porters
+certain thieves
 Chaldean
 Cleopatra, Queen of Alexandria
 Cleopatra, the Greek queen
@@ -805,6 +812,7 @@ one prostitute
 one Sadducee
 one weaver
 one woman
+one woman, the neighbor of Rabban Gamliel
 Onias
 Onkelos bar Kalonikos, the son of Titus’s sister
 Onkelos bar Kelonimos
@@ -3050,6 +3058,7 @@ sons of Beteira
 sons of Raḥava
 sons of the daughter of Rabbi Yoḥanan ben Gudgeda
 sons of the sister of Rabbi Yoḥanan
+Stada
 Sumakhos
 Sumakhus
 Summakhos
@@ -3066,7 +3075,9 @@ Tavi, the slave
 Tavi, the slave of Rabban Gamliel
 Tavut the bird hunter
 Tavut the hunter
+Tavyumei
 Teḥina ben Perisha
+the agent of the Angel of Death
 the Angel of Death
 The attendant of Rabbi Ḥanina
 The attendant of Rav Ḥilkiya bar Tovi
@@ -3076,6 +3087,7 @@ the brother of Rabbi Zeira
 the Chaldeans
 The colleagues of Rabbi Abba
 the colleagues of Rabbi Zeira
+the court of the Hasmoneans
 the daughter of Abba of Sura
 the daughter of bar Kalba Savua
 the daughter of King Shapur
@@ -3129,6 +3141,7 @@ the elders, of the school of Athens
 the emperor
 the emperor’s daughter
 the evil kingdom
+The Exilarch
 the family of Abba of Sura
 the family of Dorketi
 the family of Rabba bar Ulla
@@ -3136,6 +3149,7 @@ the family of Rav Ḥanina
 the family of Rav Yitzḥak bar Shmuel bar Marta
 the family of the House of Happegarim
 the family of the House of Tzipperaya
+the farmers of Rav Zevid
 the father of bar Abuveram
 the father of Rabbi Aptoriki
 the father of Rabbi Avin
@@ -3197,6 +3211,7 @@ the house of Tzippara
 the house of Yishmael ben Piakhi
 the household of bar Maryon, son of Ravin
 the household of King Munbaz
+the household of Menaḥem
 the household of Rabban Gamliel
 the household of Rabbi
 the household of Rabbi Ḥiyya
@@ -3213,6 +3228,7 @@ The landlord of Rami bar Ḥama
 The lord of my place
 the maidservant of a certain violent person in Rimon
 The maidservant of Master Shmuel
+the maidservant of one violent person
 the maidservant of Rabban Gamliel
 The maidservant of Rabbi
 The maidservant of Rabbi Abba bar Zutra
@@ -3232,6 +3248,7 @@ The mother of Rav Zutra bar Toviyya
 the mother of the sons of Rokhel
 the mother of Ze’eira the orphan
 the mother-in-law of Rav Ḥiyya Arikha
+the nephews of Rabban Yoḥanan ben Zakkai
 the noblemen of Rome
 the nobles of Rome
 the people of Afrikiya
@@ -3293,6 +3310,7 @@ the school Mar bar Rav Adda
 The school of Elijah
 The school of Eliyahu
 the school of Ḥizkiyya
+the school of Karna
 the school of Levi
 the school of Menashe
 the school of Rabbi
@@ -3420,6 +3438,7 @@ the wife of Yosef the Priest
 Theodosius of Rome
 Theodosius the doctor
 this woman
+those three cattle herders
 Tibbuaḥ
 Titus
 Tobiah
@@ -3447,6 +3466,7 @@ Wise one
 Ya’akov from Karḥina
 Ya’akov Korḥa
 Ya’akov of Kefar Sekhanya
+Ya’akov of the village of Sekhanya
 Ya’akov the heretic
 Yadua the Babylonian
 Yalta
@@ -3522,6 +3542,7 @@ Yoḥanan, son of Rabbi Elai
 Yoḥanan, son of Rabbi Yehonatan
 Yoḥanan, son of Rabbi Yehonatan, the lion from the village Shiḥayya
 Yoḥanan, son of Yonatan
+Yoḥanan, that scribe
 Yoḥani bat Retivi
 Yona
 Yonatan
