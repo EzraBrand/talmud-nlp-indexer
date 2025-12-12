@@ -3232,6 +3232,9 @@ the household of the Nasi
 The hunters of Akko
 The inhabitants of Alexandria
 The inhabitants of Bashkar
+the inhabitants of Jerusalem
+the inhabitants of Meḥoza
+the inhabitants of Pumbedita
 the inhabitants of Tiberias
 the interpreter of Rav Ḥisda
 The Jewish Sages
@@ -3277,9 +3280,11 @@ the people of Beit She’an
 the people of Cappadocia
 the people of Egypt
 The people of Galilee
+the people of Greece
+The people of Jericho
 the people of Jerusalem
 the people of Judea
-the people of Kefar Temarta in Judea
+the people of Kefar Temarta
 the people of Laodicea
 the people of Mata Meḥasya
 the people of Medea
@@ -3293,7 +3298,7 @@ the people of the household, of Rav Amram the pious
 the people of the Upper Galilee
 the people of Tiberias
 the people of Tivonin
-the people of Tzippori 
+the people of Tzippori
 the powerful men of Eretz Yisrael
 the prominent men of Rome
 the prominent of Rome
@@ -3317,6 +3322,7 @@ the righteous Priest
 the Romans
 The Sages in Yavne
 the Sages of Caesarea
+the Sages of Israel
 The Sages of Neharbela
 The Sages of Neharde’a
 the sages of the nations of the world
