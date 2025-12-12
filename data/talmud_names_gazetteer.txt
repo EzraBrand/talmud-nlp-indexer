@@ -1,5 +1,6 @@
 a certain
 A certain apostate
+a certain Arab
 a certain army
 a certain blind man
 a certain butcher
@@ -429,6 +430,7 @@ Caesar
 Carmanians
 certain hooligans
 Certain porters
+certain residents Bei Ḥarmakh
 certain thieves
 Chaldean
 Cleopatra, Queen of Alexandria
@@ -517,6 +519,7 @@ Guryon of Asporak
 Guryon of Aspork
 Hadrian
 Ḥama bar Adda
+Ḥama bar Adda, emissary of Zion
 Ḥama, son of Rabba
 Ḥama, son of Rabba bar Abbahu
 Ḥama, son of Rabba bar Avuh
@@ -658,6 +661,7 @@ Levi, son of Rav Huna bar Ḥiyya
 Likhlukhit
 Lodites
 Long-toothed one
+Luda
 Luleyanus
 Mafsha’a
 Malla’ai
@@ -830,6 +834,7 @@ Pappos ben Yehuda
 Parva’a the Sorcerer
 Peleimu
 Pelimu
+people Bei Tarbu
 Perata, son of Rabbi Elazar ben Perata, grandson of Rabbi Perata the Great
 Persians
 Pharisees
@@ -902,6 +907,7 @@ Rabba ben Isi
 Rabba from the school of Rav Sheila
 Rabba son of Rav Huna the Short
 Rabba the Younger
+Rabba Tosfa’a
 Rabba, son of Mari
 Rabba, son of Rav Huna
 Rabba, son of Rava
@@ -2233,6 +2239,7 @@ Rav Ḥinnana, son of Rav Ika
 Rav Ḥinnana, son of Rav Yehoshua
 Rav Ḥinnana, son of Rava
 Rav Ḥinnana, son of Rava of Pashronya
+Rav Ḥinnana, son of Rava, of Pashronya
 Rav Hisda
 Rav Ḥisda
 Rav Ḥisda bar Avdimi
@@ -2955,6 +2962,7 @@ Ravnai, brother of Rabbi Ḥiyya bar Abba
 Ravya bar Kisi
 Reḥava
 Reish Lakish
+residents of Bei Mikhsi
 Ridya
 Romans
 Ronya
@@ -3077,6 +3085,7 @@ Tavut the bird hunter
 Tavut the hunter
 Tavyumei
 Teḥina ben Perisha
+the <i>tumtum</i> of Biri
 the agent of the Angel of Death
 the Angel of Death
 The attendant of Rabbi Ḥanina
@@ -3174,6 +3183,7 @@ the Great Court
 the great men of the Galilee
 the Great Sanhedrin
 the Greeks
+The groats makers of Tzippori
 the holy Sages of Eretz Yisrael
 The host of Rava, son of Rav Ḥanan
 the house of Avtinas
@@ -3219,9 +3229,13 @@ the household of Rabbi Yosei ben Zimra
 the household of Rav Pappa
 the household of the Memel
 the household of the Nasi
+The hunters of Akko
+The inhabitants of Alexandria
+The inhabitants of Bashkar
 the inhabitants of Tiberias
 the interpreter of Rav Ḥisda
 The Jewish Sages
+the judges of Caesarea
 the judges of Neharde’a
 The judges of Pumbedita
 The landlord of Rami bar Ḥama
@@ -3238,6 +3252,7 @@ the members of the Great Assembly
 the members of the household of Memel
 the members of the households, of Rav Pappa and of Rav Huna, son of Rav Yehoshua
 the merchants of Lod
+The merchants of Tiberias
 the mother of ben Zaza
 the mother of Mar, son of Ravina
 The mother of Rami bar Ḥama
@@ -3254,8 +3269,10 @@ the nobles of Rome
 the people of Afrikiya
 the people of Akistefon
 the people of Alexandria
+the people of Ardeshir
 the people of Babylonia
 the people of Bar Hamdakh
+the people of Beit Haifa
 the people of Beit She’an
 the people of Cappadocia
 the people of Egypt
@@ -3285,6 +3302,7 @@ The relative of Rabbi Asi
 The relatives of Rabbi Yoḥanan
 The resident of Pappunya
 The residents of Akhbaria
+The residents of Akra De’Agma
 the residents of Asia
 The residents of Biri
 The residents of Jericho
@@ -3318,6 +3336,7 @@ the school of Rabbi Aḥa
 the school of Rabbi Akiva
 the school of Rabbi Ami
 the school of Rabbi Elai
+The school of Rabbi Elazar ben Shimon
 the school of Rabbi Eliezer
 the school of Rabbi Eliezer ben Ya’akov
 the school of Rabbi Ḥiyya
@@ -3394,6 +3413,7 @@ The son of the daughter of Rabbi Yannai the Elder
 the son of Titus' sister
 the son-in-law of Rabbi Yirmeya Bira’a
 the sons of Beteira
+the sons of Hatzleponi
 The sons of High Priests
 the sons of Manyomei the doctor
 the sons of Rabbi Akiva
@@ -3435,6 +3455,7 @@ The wife of Rav Yosef, son of Rava
 the wife of Shimon the Priest
 the wife of Turnus Rufus
 the wife of Yosef the Priest
+the women of Bei Meḥoza
 Theodosius of Rome
 Theodosius the doctor
 this woman
@@ -3521,6 +3542,7 @@ Yishmael ben Elisha
 Yishmael ben Pavi
 Yishmael ben Piakhi
 Yishmael the priest
+Yishmael, a man of Kefar Yamma
 Yishmael, son of Rabbi Yosei
 Yissakhar from the village of Barkai
 Yissakhar of the village of Barkai
