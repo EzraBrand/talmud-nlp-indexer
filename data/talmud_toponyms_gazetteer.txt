@@ -1,3 +1,4 @@
+a certain place
 Abei Givar
 Adiabene
 Aforayim
@@ -49,6 +50,7 @@ Aspamya
 Asporak
 Aspork
 Assyria
+Astonia
 Asya
 Athens
 Atlantic Ocean
@@ -153,6 +155,7 @@ Burnitz River
 Bursi
 Bursif
 Caesarea
+Canaan
 Cappadocia
 Carmi
 Carthage
@@ -160,7 +163,10 @@ Cave of Machpelah
 Cave of Pamyas
 Chaldea
 Cimolia
+cities overseas
+city of Meḥasya
 city of Rome
+Cush
 D’vil
 Damascus
 Damḥarya
@@ -281,6 +287,7 @@ Hebron
 Ḥillazon Nihavnad
 Hini
 Hitlu
+Hodu
 Homanya
 Ḥosekei
 hot springs of Tiberias
@@ -294,6 +301,7 @@ Inbal
 Inbul
 India
 Ishtetit River
+islands [nissin] that are in the sea
 Italy of Greece
 Jaffa
 Jarmuth
@@ -319,6 +327,7 @@ Katrazya
 Kavul
 Kayar
 Ke’ila
+Kedar
 Keduḥim
 Kefalorya
 Kefar Aḥim
@@ -350,12 +359,12 @@ Kimḥonya
 King’s Mountain
 Kishon Brook
 Kitron
-Koḥalit in the desert
+Koḥalit
 Korkoneya
 Kovei
 Ladder of Tyre
-land of Canaan
 land of the deer
+land of the nations
 Laodicea
 Lavlevu
 Leshem
@@ -539,9 +548,6 @@ Tavakh
 Tekoa
 Temple Mount
 the bridge over the Euphrates
-the cities overseas
-the islands [nissin] that are in the sea
-the land of the nations
 the West
 Tiberias
 Tiberius
