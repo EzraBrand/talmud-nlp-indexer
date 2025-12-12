@@ -1,4 +1,5 @@
 Abei Givar
+Adiabene
 Aforayim
 Africa
 Afrikei
@@ -20,6 +21,8 @@ Almin
 Alush
 Ammon
 Anat
+ancient fort [<i>katzra</i>] of Tzippori
+ancient Yodfat
 Anpantrin
 Antioch
 Antipatris
@@ -29,7 +32,6 @@ Apsetaya
 Arabia
 Arav
 Ardaskeya
-Ardeshid
 Ardeshir
 Ardisekis
 Ardiska
@@ -40,6 +42,7 @@ Armon
 Aroma
 Artibbena
 Arva’a
+Ashkelon
 Asia
 Aspamia
 Aspamya
@@ -55,6 +58,7 @@ Avel Arav
 Avi Govar
 Avireya
 Avna
+Ba’al Shalisha
 Babylonia
 Bagda
 Baghdad
@@ -142,6 +146,7 @@ Bireta DeSatya
 Biri
 Bnei Brak
 Bozrah
+bridge of Babylonia
 Bridge of Shabistana
 Burni
 Burnitz River
@@ -153,13 +158,14 @@ Carmi
 Carthage
 Cave of Machpelah
 Cave of Pamyas
-cemetery of Huzal
 Chaldea
 Cimolia
+city of Rome
 D’vil
 Damascus
 Damḥarya
 Damihareya
+Dan
 Daniel’s synagogue
 Dannak River
 Darshish
@@ -199,6 +205,7 @@ Eretz Yisrael
 Eshel River
 Euphrates
 Euphrates River
+fortress [<i>ḥakra</i>] of Gush Ḥalav
 fortress of Shanvata
 fortress of Tulbakni
 fortress Tulbaknei
@@ -222,6 +229,7 @@ Gerav
 Germamya
 Gerofina
 Gevat
+Gibeon
 Gifti
 Gihon
 Gilad
@@ -245,6 +253,7 @@ Habor
 Ḥadasha
 Hadayeiv
 Ḥadid
+Ḥadyab
 Hadyav
 Hagron-ya
 Hagroneya
@@ -257,6 +266,7 @@ Haifa
 Har HaBarzel
 Har HaMelekh
 Har HaMishḥa
+Ḥarim
 Harpanya
 Ḥarta De’argiz
 Ḥatzdad crossing
@@ -273,9 +283,12 @@ Hini
 Hitlu
 Homanya
 Ḥosekei
+hot springs of Tiberias
 house of Natzrefei
+Hurmiz Ardeshid
 Hutzal
 Hutzal deVinyamin
+Huzal
 Ihi Dekira
 Inbal
 Inbul
@@ -304,6 +317,7 @@ Kartigna
 Kartignin
 Katrazya
 Kavul
+Kayar
 Ke’ila
 Keduḥim
 Kefalorya
@@ -323,7 +337,6 @@ Kefar Sekhanya
 Kefar Sekhanya of Egypt
 Kefar Shiḥalayim
 Kefar Temarta
-Kefar Temarta in Judea
 Kefar Yamma
 Keiromyon
 Kerakh
@@ -347,6 +360,7 @@ Laodicea
 Lavlevu
 Leshem
 Lod
+Lower Appamya
 Luz
 Macedon
 Macedonia
@@ -373,6 +387,7 @@ Migdal Gedor
 Migdal Nunaya
 Mikhvar
 Mishon
+Moab
 Modi’im
 Motza
 Mount Carmel
@@ -390,9 +405,11 @@ Mount Scopus
 Mount Seir
 Mount Sinai
 Mount Tabor
+Mountains of Darkness
 Mushekanei
 Mushekhei
 Mushkhei
+Musya
 Na’usa
 Naaran
 Naftuḥa
@@ -406,12 +423,14 @@ Neharbela
 Neharbil
 Neharde’a
 Neresh
+Nesibin
 Netzivin
 Neviraya
 Nihar
 Nihavnad
 Nile River
 Nineveh
+Nob
 Nofer Ninefi
 Nov
 Ohalya
@@ -426,6 +445,7 @@ Pappunya
 Parhatya
 Parod
 Parzakya
+Parzina
 Pashronya
 passage [megizat] of Cappadocia
 Peki’in
@@ -443,6 +463,7 @@ Promontory of Tyre
 Pum Nahara
 Pumbedita
 Puteoli
+Rabat
 Rakhis River
 Rakkath
 Ramata
@@ -476,6 +497,7 @@ Selug Mountains
 Shakhnetziv
 Shalma’a
 Shanvata
+Sharon
 Shechem
 Shefaram
 Shelaniya
@@ -490,6 +512,7 @@ Shosh the second
 Shot Mishot
 Shunya
 Shushan
+Shushan the capital
 Sidon
 Sikhera
 Sikhnei
@@ -501,6 +524,7 @@ Simoni
 Sinai
 Siva’a
 Sodom
+Sodom Sea
 Spain
 Spring of Eitam
 Sura
@@ -513,6 +537,8 @@ Tarmod
 Tatlefush
 Tavakh
 Tekoa
+Temple Mount
+the bridge over the Euphrates
 the cities overseas
 the islands [nissin] that are in the sea
 the land of the nations
@@ -532,6 +558,7 @@ Tulbakni
 Tulbanki
 Turei Amnon
 Tusneya
+Tuvina
 Tyre
 Tzaidan
 Tzalmon
@@ -544,6 +571,7 @@ Tzitzora
 Tzoar
 Tzoar, the city of date palms
 upper Galilee
+Ur of the Chaldeans
 Usha
 valley of Aravot
 valley of Beit Ḥortan
