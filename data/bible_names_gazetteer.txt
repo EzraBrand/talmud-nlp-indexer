@@ -1,1690 +1,390 @@
-Saul
-Ish-bosheth
-David
-Solomon
-Jeroboam I
-Nadab
-Baasha
-Elah
-Zimri
-Tibni
-Omri
-Ahab
-Jezebel
-Ahaziah
-Jehoram
-Jehu
-Jehoahaz
-Jehoash
-Jeroboam II
-Zechariah
-Shallum
-Menahem
-Pekahiah
-Pekah
-Hoshea
-Rehoboam
-Abijam
-Asa
-Jehoshaphat
-Athaliah
-Amaziah
-Uzziah
-Jotham
-Ahaz
-Hezekiah
-Manasseh
-Amon
-Josiah
-Jehoiakim
-Jeconiah
-Zedekiah
-Abel
-Enoch
-Noah
-Abraham
-Isaac
-Jacob
-Sarah
-Moses
 Aaron
-Miriam
-Eldad
-Medad
-Phinehas
-Joshua
-Deborah
-Gideon
-Samson
-Elkanah
-Hannah
+Aaron the priest
+Abiathar
 Abigail
-Samuel
-Gad
-Nathan
-Jeduthun
-Ahijah
-Shemaiah
-Elijah
-Elisha
-Iddo
-Hanani
-Micaiah
-Jahaziel
-Eliezer ben Dodavah
-Zechariah ben Jehoiada
-Huldah
-Isaiah
-Jeremiah
-Ezekiel
-Daniel
-Hosea
-Joel
-Amos
-Obadiah
-Jonah
-Micah
-Nahum
-Habakkuk
-Zephaniah
-Haggai
-Malachi
-Beor
-Balaam
-Job
-Amoz
-Beeri
-Baruch
-Agur
-Uriah
-Buzi
-Mordecai
-Esther
-Ezra
-Nehemiah
-Ruth
-Oded
-Azariah
-Adam
-Seth
-Enos
-Kenan
-Mahalalel
-Jared
-Methuselah
-Lamech
-Shem
-Arpachshad
-Cainan
-Shelah
-Eber
-Peleg
-Reu
-Serug
-Nahor
-Terah
-Judah
-Perez
-Hezron
-Ram
-Amminadab
-Nahshon
-Salmon
-Boaz
-Obed
-Jesse
-Asher
-Benjamin
-Dan
-Gad
-Issachar
-Levi
-Naphtali
-Reuben
-Simeon
-Zebulun
-Abagtha
-Abda
-Abdeel
-Abdi
-Abdiel
-Abdon
-Abi
-Abiah
-Abialbon
-Abiasaph
-Abida
-Abiel
-Abiezer
-Abihail
-Abihud
-Abijah
-Abimael
-Abinadab
-Abinoam
-Abiram
-Abishua
-Abishur
-Abital
-Abitub
-Achbor
-Achsa
-Achsah
-Adah
-Adaiah
-Adalia
-Adbeel
-Addar
-Ader
-Adeel
-Adin
-Adina
-Adino
-Adlai
-Admatha
-Adna
-Adnah
-Adonijah
-Adonikam
-Adriel
-Agee
-Ahab
-Aharah
-Aharhel
-Ahasai
-Ahasbai
-Ahaz
-Ahban
-Aher
-Ahi
-Ahiah
-Ahiam
-Ahian
-Ahiezer
-Ahihud
-Ahijah
-Ahikam
-Ahilud
-Ahimaaz
-Ahiman
-Ahimelech
-Ahimoth
-Ahinadab
-Ahinoam
-Ahio
-Ahira
-Ahiram
-Ahisamach
-Ahishahar
-Ahishar
-Ahitub
-Ahlai
-Ahoah
-Aholibamah
-Ahumai
-Ahuzam
-Ahuzath
-Ahuzzah
-Ahuzzam
-Ahuzzath
-Ahzai
-Aiah
-Ajah
-Akan
-Akkub
-Alameth
-Alemeth
-Allon
-Almodad
-Alvah
-Alvan
-Amal
-Amariah
-Amasa
-Amasai
-Amashai
-Amashsai
-Amasiah
-Amaziah
-Ami
-Aminadab
-Amittai
-Ammiel
-Ammihud
-Amminadab
-Amminadib
-Ammishaddai
-Ammizabad
-Amnon
-Amok
-Amon
-Amoz
-Amram
-Amzi
-Anah
-Anaiah
-Anak
-Anamim
-Anan
-Anani
-Ananiah
-Anath
-Anathoth
-Aner
-Aniam
-Antothijah
-Anub
-Aphiah
-Aphses
-Appaim
-Ara
-Arad
-Arah
-Aram
-Aran
-Araunah
-Arba
-Ard
-Ardon
-Areli
-Argob
-Aridai
-Aridatha
-Arieh
-Ariel
-Arioch
-Arisai
-Armoni
-Arnan
-Arodi
-Arza
-Asa
-Asahel
-Asahiah
-Asaiah
-Asaph
-Asareel
-Asarelah
-Asharelah
-Ashbel
-Ashpenaz
-Ashriel
-Ashur
-Ashvath
-Asiel
-Asnah
-Aspatha
-Asriel
-Asshur
-Asshurim
-Assir
-Atarah
-Ater
-Athaiah
-Athaliah
-Athlai
-Attai
-Azaliah
-Azaniah
-Azarael
-Azarel
-Azareel
-Azariah
-Azaz
-Azaziah
-Azbuk
-Azel
-Azgad
-Aziel
-Aziza
-Azmaveth
-Azriel
-Azrikam
-Azubah
-Azur
-Azzan
-Azzur
-Baal
-Baal-hanan
-Baana
-Baanah
-Baara
-Baaseiah
-Bakbakkar
-Bakbuk
-Bakbukiah
-Bakkuk
-Bani
-Barachel
-Bariah
-Barkos
-Baruch
-Barzillai
-Basemath
-Bavai
-Bazlith
-Bazluth
-Bealiah
-Bebai
-Becher
-Bechorath
-Becorath
-Bedad
-Bedan
-Bedeiah
-Beera
-Beerah
-Beeri
-Beker
-Bela
-Belah
-Ben
-Ben Abinadab
-Ben-Ammi
-Ben Deker
-Ben Geber
-Ben-hail
-Ben-hanan
-Ben Hesed
-Ben Hur
-Ben-Zoheth
-Benaiah
-Beninu
-Benjamin
-Beno
-Beor
-Berachah
-Beraiah
-Berechiah
-Beriah
-Bered
-Beri
-Besai
-Besodeiah
-Beth-rapha
-Bethuel
-Beth Zur
-Bezai
-Bezalel
-Bezaleel
-Bezer
-Bichri
-Bidkar
-Bigtha
-Bigthana
-Bigvai
-Bilgah
-Bilhan
-Bilshan
-Bimhal
-Binea
-Binnui
-Birsha
-Bishlam
-Biztha
-Bocheru
-Bohan
-Bukki
-Bukkiah
-Bunah
-Bunni
-Buz
-Buzi
-Calcol
-Caleb
-Carkas
-Carmi
-Carshena
-Chalcol
-Chelal
-Chelluh
-Chelub
-Chelubai
-Chenaanah
-Chenani
-Chenaniah
-Cheran
-Chileab
-Chimham
-Chislon
-Col-hozeh
-Conaniah
-Coz
-Cushi
-Dalaiah
-Dalphon
-Dara
-Darda
-Darkon
-Dathan
-Debir
-Deborah
-Dedan
-Delaiah
-Deuel
-Diblaim
-Dibri
-Diklah
-Dishan
-Dishon
-Dodavahu
-Dodo
-Dumah
-Ebal
-Ebed
-Ebed-melech
-Eber
-Ebiasaph
-Eden
-Eder
-Eglah
-Ehi
-Ehud
-Eker
-Eladah
-Elah
-Elasah
-Eldaah
-Elead
-Eleasah
-Eliada
-Eliadah
-Eliezer
-Eliphal
-Eliphelet
-Eliasaph
-Eliathah
-Elidad
-Elienai
-Elihoreph
-Elijah
-Elimelech
-Elioenai
-Elishama
-Elishaphat
-Elisheba
-Elizaphan
-Elizur
-Elnaam
-Elnathan
-Elon
-Elpaal
-Elpalet
-Elpelet
-Eluzai
-Elzabad
-Elzaphan
-Enan
-Enoch
-Enan
-Ephlal
-Ephod
-Ephron
-Er
-Eran
-Eri
-Eshek
-Ethnan
-Ethni
-Evi
-Ezbon
-Ezrah
-Gad
-Gaddi
-Gaddiel
-Gaham
-Gamaliel
-Gamul
-Gatam
-Gazez
-Geber
-Gemalli
-Gemariah
-Genubath
-Gera
-Geuel
-Ginath
-Gideoni
-Giddalti
-Gilalai
-Ginnethoi
-Gishpa
-Gog
-Guni
-Haahashtari
-Habaiah
-Habazziniah
-Hachmoni
-Hadadezer
-Haddad
-Hadlai
-Hagab
-Hagabah
-Haggiah
-Haggi
-Hajehudijah
-Hakkatan
-Hakkoz
-Hallohesh
-Hammedatha
-Hammoleketh
-Hammelech
-Hamor
-Hamul
-Hamutal
-Hanameel
-Hananiah
-Hanniel
-Hanoch
-Happizzez
-Haran
-Harbona
-Hareph
-Harhaiah
-Harhas
-Harim
-Harnepher
-Harum
-Harumaph
-Haruz
-Hasadiah
-Hashabiah
-Hashabnah
-Hashub
-Hashubah
-Hasrah
-Hassenaah
-Hasupha
-Hathach
-Hathath
-Hattil
-Hazaiah
-Hazo
-Heber
-Hebron
-Hel
-Helah
-Heldai
-Helez
-Helkai
-Helon
-Hemam
-Henadad
-Hepher
-Heresh
-Hezekiah
-Hezir
-Hezron
-Hiel
-Hillel
-Hiram
-Hobab
-Hod
-Hodaviah
-Hodesh
-Hoham
-Homam
-Hon
-Hori
-Hoshama
-Hotham
-Hothir
-Hubbah
-Huppah
-Huppim
-Hushim
-Huzzab
-Ibhar
-Ibneiah
-Ibnijah
-Ibsam
-Idbash
-Igal
-Igdaliah
-Ikkesh
-Ilai
-Imla
-Immer
-Imna
-Imnah
-Imrah
-Imri
-Iphdeiah
-Ir
-Ira
-Irad
-Iram
-Iri
-Irijah
-Iru
-Iscah
-Ishbah
-Ishbi-benob
-Ishhod
-Ishi
-Ishiah
-Ishijah
-Ishmael
-Ishmaiah
-Ishmerai
-Ishod
-Ishpah
-Ishpan
-Ishuah
-Ishuai
-Ishui
-Isui
-Ithai
-Ithmah
-Ithran
-Ithream
-Ittai
-Izhar
-Izrahiah
-Izri
-Izziah
-Jaanai
-Jaareshiah
-Jaasai
-Jaasau
-Jaasiel
-Jaasu
-Jaaziah
-Jaaziel
-Jacan
-Jachin
-Jada
-Jahath
-Jahaziah
-Jahleel
-Jahmai
-Jahzeel
-Jahzeiah
-Jahzerah
-Jair
-Jakeh
-Janai
-Jakim
-Jalon
-Jamin
-Jamlech
-Japhia
-Jarah
-Jareb
-Jarib
-Jaresiah
-Jarha
-Jasiel
-Jasub
-Jathniel
-Jaziz
-Jeatherai
-Jecamiah
-Jecholiah
-Jediael
-Jeezer
-Jehallelel
-Jehdeiah
-Jehezkel
-Jehiah
-Jehiel
-Jehizkiah
-Jehoaddah
-Jehoaddan
-Jehoiada
-Jehoshaphat
-Jehozabad
-Jehubbah
-Jehudi
-Jehudijah
-Jehush
-Jeiel
-Jekameam
-Jekamiah
-Jekoliah
-Jekuthiel
-Jemima
-Jemuel
-Jephunneh
-Jerah
-Jeremai
-Jeriah
-Jerioth
-Jeriel
-Jerijah
-Jeroham
-Jerusha
-Jesbi
-Jeshaiah
-Jeshebeab
-Jesher
-Jeshishai
-Jeshohaiah
-Jesimiel
-Jesui
-Jether
-Jetheth
-Jeuel
-Jeush
-Jezer
-Jeziah
-Jezoar
-Jezrahiah
-Jezreel
-Jibsam
-Jidlaph
-Jimnah
-Jishui
-Joahaz
-Joarib
-Joash
-Job
-Jobab
-Joed
-Joel
-Joelah
-Joezer
-Jogli
-Johanan
-Joiarib
-Jokim
-Jonathan
-Josedech
-Joseph
-Joshah
-Joshaviah
-Joshbekashah
-Joshibiah
-Joshua
-Josibiah
-Josiphiah
-Jozabad
-Jozachar
-Jushab-hesed
-Kallai
-Karshena
-Kedar
-Kelal
-Kelita
-Kesed
-Kemuel
-Keren-happuch
-Keziah
-Kimham
-Kolaiah
-Kore
-
-Laadah
-Laadan
-Ladan
-Lael
-Lahmi
-Laish
-Lapidoth
-Letushim
-Leummim
-Libni
-Likhi
-Lo-Ammi
-Lo-Ruhamah
-Maacah
-Maadai
-Maadiah
-Maai
-Maaseiah
-Maasiai
-Maaz
-Machbanai
-Machbena
-Machi
-Machnadebai
-Magpiash
-Mahalath
-Mahali
-Mahath
-Mahazioth
-Maher-shalal-hash-baz
-Mahlah
-Mahol
-Malcam
-Malchiel
-Malchishua
-Malchiah
-Mallothi
-Malluch
-Manahath
-Maon
-Marsena
-Mash
-Massa
-Matred
-Matri
-Mattan
-Mattattah
-Matthanias
-Mehetabeel
-Mehetabel
-Mehir
-Mehujael
-Mehuman
-Melatiah
-Melech
-Melzar
-Merab
-Meraiah
-Meraioth
-Meremoth
-Meres
-Meshelemiah
-Meshillemoth
-Meshullam
-Meshullemeth
-Methusael
-Mezahab
-Miamin
-Mibhar
-Mibzar
-Micah
-Michael
-Michaiah
-Michri
-Mijamin
-Mikloth
-Milalai
-Miniamin
-Minjamin
-Mishael
-Mishma
-Mishmannah
-Mithredath
-Mivsam
-Moab
-Molid
-Moza
-Muppim
-Mushi
-Naam
-Naaman
-Naarah
-Naboth
-Nadab
-Naharai
-Nahath
-Nahbi
-Naphish
-Naphtuhim
-Neariah
-Nebat
-Nebuzaradan
-Nedabiah
-Nehum
-Nehushta
-Nekoda
-Nemuel
-Nepheg
-Nephish
-Ner
-Nethaniah
-Noadiah
-Nobah
-Nogah
-Obadiah
-Obal
-Obed
-Obil
-Ocran
-Ohad
-Onam
-Ophir
-Oren
-Ozem
-Ozni
-Pagiel
-Palti
-Paltiel
-Parmashta
-Parnach
-Parosh
-Parshandatha
-Paruah
-Paseah
-Pedahel
-Pedahzur
-Pelaiah
-Pelaliah
-Pelatiah
-Pelet
-Peleth
-Peresh
-Pethahiah
-Pethuel
-Peulthai
-Phallu
-Phalti
-Phaltiel
-Phurah
-Phuvah
-Pildash
-Pinon
-Piram
-Pochereth-hazzebaim
-Poratha
-Pul
-Putiel
-Qedar
-Raamiah
-Rabmag
-Raddai
-Rakem
-Ramiah
-Rapha
-Raphu
-Rechab
-Regem
-Regem-melech
-Rehabiah
-Rehob
-Rehum
-Rephaiah
-Reba
-Rekem
-Rephael
-Reumah
-Rezon
-Ribai
-Rinnah
-Rohgah
-Romamti-ezer
-Rosh
-Sabtah
-Sabtechah
-Sachar
-Sachia
-Salu
-Saph
-Saraph
-Sarsekim
-Seba
-Segub
-Seled
-Semachiah
-Sered
-Sethur
-Shaaph
-Shaashgaz
-Shabbethai
-Shagee
-Shaharaim
-Shamed
-Shamhuth
-Shamir
-Shammah
-Shammai
-Shammoth
-Shammua
-Shamsherai
-Shapham
-Shaphat
-Sharai
-Sharar
-Sharezer
-Shashai
-Shashak
-Sheariah
-Shearjashub
-Sheconiah
-Shechem
-Shedeur
-Shelemiah
-Shelomi
-Shelumiel
-Shelomith
-Shelomoth
-Shemaiah
-Shemariah
-Shemeber
-Shemed
-Shemer
-Shemida
-Shemiramoth
-Shemuel
-Shenazar
-Shephatiah
-Shepho
-Sheshai
-Sheshan
-Shillem
-Shimea
-Shimeah
-Shimei
-Shimi
-Shimrath
-Shimri
-Shimron
-Shimshai
-Shinab
-Shiphi
-Shiphtan
-Shisha
-Shobab
-Shobal
-Shuni
-Shuthelah
-Sisamai
-Sodi
-Sotai
-Susi
-Tahan
-Tahash
-Tahath
-Taphath
-Tappuah
-Tebah
-Tekoa
-Temeni
-Tirhanah
-Tola
-Uel
-Ulam
-Uri
-Uriel
-Urijah
-Uz
-Vaizatha
-Vaniah
-Vophsi
-Yair
-Zaavan
-Zabad
-Zabbai
-Zabdi
-Zabud
-Zaccur
-Zalmon
-Zaza
-Zebadiah
-Zebudah
-Zechariah
-Zedekiah
-Zephaniah
-Zephon
-Zerah
-Zerahiah
-Zeri
-Zeror
-Zichri
-Zidkijah
-Zillah
-Ziphah
-Zippor
-Ziphion
-Zithri
-Ziza
-Zobebah
-Zohar
-Zoheth
-Zuar
-Zuph
-Zuriel
-Zurishaddai
-
-Abigail
-Abihail
-Abijah
-Abishag
-Achsah
-Ahinoam
-Almah
-Asenath
-Basemath
-Bathsheba
-Bilhah
-Cozbi
-Daughters of Zelophehad
-Deborah
-Delilah
-Dinah
-Elisheba
-Ephrath
-Esther
-Eve
-Gomer
-Hannah
-Hazzelelponi
-Hephzibah
-Huldah
-Iscah
-Jehosheba
-Jemima
-Jephthah's daughter
-Job's wife
-Jochebed
-Keren-happuch
-Keturah
-Keziah
-Leah
-Levite's concubine
-Lot's daughters
-Lot's wife
-Maacah
-Mahalath
-Manoah's wife
-Milcah
-Miriam
-Naamah
-Naomi
-Nitzevet
-Noah's wife
-Orpah
-Peninnah
-Phinehas's wife
-Potiphar's wife
-Rahab
-Rizpah
-Ruth
-Serah
-Sheerah
-Shelomith bat Dibri
-Shiphrah
-Puah
-Shulamite
-Sisera
-Sisera's mother
-Tahpenes
-Tamar
-Tirzah
-Vashti
-Wise woman of Abel
-Witch of Endor
-Woman of Shunem
-Woman of Tekoa
-Woman of Thebez
-Zeresh
-Zeruah
-Zeruiah
-Zilpah
-Zipporah
-Aaron
-Abigail
-Abraham
-Agur
-Ahijah the Shilonite
-Amos
-Azariah
-Balaam
-Baruch ben Neriah
-Beeri
-Beor
-Buzi
-Daniel
-David
-Deborah
-Eldad
-Medad
-Eli
-Eliezer
-Elijah
-Elisha
-Elkanah
-Esther
-Ezekiel
-Gad
-Habakkuk
-Haggai
-Hanani
-Hosea
-Huldah
-Iddo
-Isaac
-Isaiah
-Jacob
-Esau
-Jahaziel
-Jeduthun
-Jehu
-Jeremiah
-Job
-Joel
-Jonah
-Joseph
-Joshua
-Lamech
-Leah
-Malachi
-Micah
-Micaiah
-Miriam
-Mordecai
-Moses
-Nahum
-Nathan
-Nehemiah
-Noah
-Obadiah
-Oded
-Phinehas
-Rachel
-Rebecca
-Samuel
-Sarah
-Shemaiah
-Uriah
-Zechariah
-Zechariah ben Jehoiada
-Zephaniah
-Abijah of Judah
-Abiram
-Abishag
-Achbor
-Adonijah
-Adoniram
-Ahijah the Shilonite
-Ahikam
-Ahinadab
-Azariah
-Eliakim
-Elijah
-Elisha
-Gedaliah
-Gehazi
-Hadad the Edomite
-Hephzibah
-Hezion
-Hilkiah
-Hiram Abiff
-Jehonadab
-Jehoshaphat
-Jehosheba
-Jehu
-Jether
-Joab
-Joah
-Jonah
-Jonathan
-Mesha
-Micaiah
-Naamah
-Naaman
-Naboth
-Nimshi
-Obadiah
-Pharaoh
-Pharaoh's daughter
-Queen of Sheba
-Rabsaris
-Rabshakeh
-Rechab
-Rezon the Syrian
-Seraiah
-Shaphan
-Shaphat
-Shemaiah
-Shimei ben Gera
-Solomon
-Tahpenes
-Uriah
-Widow of Zarephath
-Woman of Shunem
-Zadok
-Zeruah
-
-
-Avishai ben Tzeruya
-Baruch ben Neriah
-Elihu ben Barachel
-Elisha ben Shafat
-Ezekiel ben Buzi
-Gedaliah ben Ahikam
-Hadrimmon ben Tabrimmon
-Abner ben Ner
-Ahab ben Omri
-Isaiah ben Amoz
-Nehemiah ben Hacaliah
-Yehoram ben Ahab
-Benaiah ben Jehoiada
-Benayahu ben Yehoyada
-Jeroboam ben Joash
-Jeroboam ben Nevat
-Jonadab ben Rechab
-Jotham ben Uzziah
-Joab ben Zeruiah
-Pashḥur ben Immer
-Sena’a ben Binyamin
-Sena’av ben Binyamin
-Shecaniah ben Jehiel
-Shefatya ben Avital
-Shimi ben Gera
-Abishai ben Zeruiah
-David ben Yehuda
-Hoshea ben Elah
-Nahshon ben Amminadab
-Manasseh ben Hezekiah
-Hadadrimmon, son of Tabrimmon
-Mephibosheth, son of Jonathan
-Hadadrimmon, son of Tavrimon
-Joshua, son of Nun
-King Ahasuerus
-King Ahaz
-King Asa
-King Darius
-King David
-King Hezekiah
-King Josiah
-King Nebuchadnezzar
-King Rehoboam
-King Solomon
-King Baladan
-King Lemuel
+Abigail the daughter of Nahash
+Abigal the daughter of Nahash
 Abijah, son of Jeroboam
+Abimelech
+Abishag
+Abishai ben Zeruiah
 Abishai, son of Zeruiah
+Abner
+Abner ben Ner
+Abraham
+Absalom
 Absalom, son of Maacah
 Achan, son of Zerah
+Adam, the first
+Adonijah
 Adonijah, son of Haggith
+Adrammelech
 Adriel the son of Barzillai
+Adriel the son of Barzillai the Meholathite
+Ahab
+Ahab ben Omri
+Ahab, son of Kolaiah
 Ahab, son of Omri
+Ahasuerus
 Ahijah, son of Shamhazai
 Ahijah, the son of Ahitub
+Ahiman
 Ahimelech, son of Ahitub
+Ahithophel
+Ahitophel
+Amatlai bat Karnevo
+Amatlai bat Orevati
+Amnon
 Amnon, son of David
+Amon
+Amos
+Amoz
+Amram, father of Moses
+Amraphel
+Anah
+Anammelech
+Arad
+Araunah
+Artaxerxes
+Asa
+Avishai ben Tzeruya
+Azubah
 Baasa, son of Ahijah
+Balaam
+Balaam the wicked
 Balaam, son of Beor
 Baladan, son of Baladan
+Barak
+Baruch ben Neriah
 Baruch, the son of Neriah
+Barzillai the Gileadite
+Bathsheba
+Bathsheba, daughter of Eliam
+Bedan
+Belshazzar
+Benaiah ben Jehoiada
 Benaiah the son of Jehoiada
 Benaiah, son of Jehoiada
+Benayahu ben Yehoyada
 Benayahu, son of Jehoiada
 Benayahu, son of Yehoyada
+Benjamin the righteous
 Benjamin, son of Jacob
+Bezalel
 Bezalel, son of Uri
+Bigthan
+Bildad the Shuhite
+Bithiah the daughter of Pharaoh
+Boaz
+Cain
+Caleb
 Caleb the son of Jephunneh
 Caleb, son of Hezron
 Caleb, son of Jephunneh
 Caleb, the son of Hezron
 Chileab, son of David
+Chilion
+Cozbi
+Cushan-Rishathaim
+Cyrus
+Daniel
+Darius
+Dathan
+Daughters of Zelophehad
+David
 David, son of Yishai
+Deborah
+Delilah
+Dina, the daughter of Jacob
+Doeg
+Doeg the Edomite
+Doeg the wicked
+Eber
+Ebiathar
+Eglah
 Eglon, son of Balak
 Elazar, the son of Aaron
-Elder, son of Rav Ḥisda
+Eldad and Medad
 Eleazar, son of Aaron
 Eliakim, son of Hilkiah
 Eliakim, son of Hilkiya
 Eliam, son of Ahithophel
+Eliezer, servant of Abraham
+Elihu ben Barachel
+Elihu ben Barachel the Buzite
 Elihu, son of Barachel
+Elimelech
+Eliphaz the Temanite
 Eliphaz, son of Esau
+Elisha ben Shafat
 Elisha son of Shafat
+Elisheva
+Elisheva, the daughter of Amminadav
+Elpaal
+Ephron
+Er
+Er and Onan
+Esther
+Ezekiel
+Ezekiel ben Buzi
 Ezekiel, son of Buzi
+Ezra
+Gabriel
+Gad
+Gad the seer
+Gedaliah ben Ahikam
 Gedaliah, son of Ahikam
+Gehazi
+Geihazi
+Gog and Magog
+Goliath
+Gomer the daughter of Diblaim
+Habakkuk
 Hadadrimmon, son of Tabrimmon
 Hadadrimmon, son of Tavrimon
+Hadrimmon ben Tabrimmon
+Haggai, Zechariah, and Malachi
+Haggith
+Haman
+Hanamel
+Hanani
+Hananiah, Mishael, and Azariah
 Hananiah, son of Azzur
+Hannah
+Harafa
+Haran
+Harim
+Helah
+Heman
+Hepher
+Hezekiah
+Hezekiah, king of Judea
+Hilkiah
+Ḥiram, king of Tyre
+Ḥofni and Pineḥas the sons of Eli
+Hosea
 Hosea, son of Beeri
 Hosea, son of Nun
+Hoshea ben Elah
 Hoshea son of Nun
 Hoshea, son of Ela
 Hoshea, son of Elah
+Huldah
+Huldah the prophetess
 Hushim, the son of Dan
+Ibzan
+Iddo the prophet
+Immer
+Ira HaYa’iri
+Ira the Yairite
 Irijah, the son of Shelemiah
+Isaac
 Isaac, son of Abraham
+Isaiah
+Isaiah ben Amoz
 Isaiah the son of Amoz
 Isaiah, the son of Amoz
+Iscah
+Ish-bosheth
+Ishbibenob
+Ishi
+Ishmael
 Ishmael the son of Nethaniah
 Ishmael, son of Abraham
 Ishmael, son of Nethaniah
+Issachar
+Istahar
+Ittai the Gittite
 Jaazaniah the son of Azzur
 Jaazaniah, son of Shaphan
+Jacob our forefather
+Japheth
+Jeconiah
+Jedaiah
+Jeduthun
+Jehoahaz
+Jehoiachin
+Jehoiada
+Jehoiada the priest
+Jehoiakim
 Jehoiakim, son of Josiah
+Jehoiarib
+Jehoram
 Jehoram, son of Ahab
+Jehoshaphat
+Jehoshaphat, king of Judea
+Jehu
 Jehu, son of Nimshi
+Jemimah
+Jephthah
+Jephthah the Gileadite
+Jephunneh
+Jeremiah
 Jeremiah, son of Hilkiah
+Jerioth
+Jeroboam ben Joash
+Jeroboam ben Nevat
 Jeroboam, son of Joash
 Jeroboam, son of Nebat
 Jeroboam, son of Nevat
 Jeroboam, the son of Joash
+Jerubaal
+Jesse, father of David
+Joab
+Joab ben Zeruiah
 Joab, son of Zeruiah
 Joah, son of Asaph
+Joash
+Job
+Jochebed
+Joel
 Joel, son of Pethuel
+Johanan
 Johanan, son of Kareah
+Jonadab ben Rechab
 Jonadab, son of Rechab
 Jonadab, son of Shimeah
+Jonah
 Jonah the son of Amittai
 Jonah, son of Amittai
+Jonathan
 Jonathan, son of Saul
 Jonathan, the son of Gershom
 Joram, son of Ahab
+Joseph
+Joseph the righteous
 Joseph the son of Israel
+Joshua
+Joshua the High Priest
 Joshua the son of Nun
 Joshua, son of Nun
 Joshua, the son of Nun
+Josiah
 Josiah the son of Amon
 Josiah, son of Amon
-Jubilee, the son of David
+Jotham
+Jotham ben Uzziah
+Judah
+Keren-happuch
+Keziah
 Kilab, son of David
+King Ahasuerus
+King Ahaz
+King Asa
+King Baladan
+King Darius
+King David
+King Hezekiah
+King Josiah
+King Lemuel
+King Nebuchadnezzar
+King Rehoboam
+King Solomon
 Koheleth, the son of David
+Korah
+Laban the Aramean
+Leah
+Maachah
 Machir, son of Manasseh
+Mahalath, the daughter of Ishmael
+Mahlon
+Mahseiah
+Malachi
+Manasseh
+Manasseh ben Hezekiah
 Manasseh, son of Hezekiah
+Melchizedek
 Menahem, son of Gadi
 Mephibosheth, son of Jonathan
+Mephibosheth, son of Jonathan
 Mephibosheth, the son of Saul
+Merab
+Mered
+Mesha, king of Moab
+Meshullam
 Meshullam the son of Berechiah
+Messiah ben David
+Messiah ben Yosef
+Messiah, son of David
 Messiah, son of Yishai
+Methuselah
+Micah
+Micaiah
+Michael the great ministering angel
+Michal
+Michal the daughter of Saul
+Michal, the daughter of Saul
+Miriam
+Mishael
+Moab
+Mordecai
+Moses
+Na’ama the Ammonite
+Naamah the Ammonite
+Naaman
+Naboth
+Naboth the Jezreelite
+Nahbi
 Nahbi the son of Vophsi
+Nahor
+Nahshon
+Nahshon ben Amminadab
 Nahshon, son of Amminadab
-Naḥshon, son of Amminadab
+Naomi
+Naomi’s father
+Nashyan
+Nathan the prophet
+Natzvat bat Ada’el
+Nebat
+Nebuchadnezzar
+Nebuchadnezzar the wicked
+Nebuzaradan
+Nehemiah
+Nehemiah ben Hacaliah
 Nehemiah, son of Hacaliah
 Nehemiah, son of Hachaliah
+Neriah
+Nimrod
+Obadiah
 Obadiah, son of Jehiel
+Obed
 Oholiab, the son of Ahisamach
+Omri
 On, son of Peleth
+Onan
+Orpah
 Othniel, son of Kenaz
 Othniel, the son of Kenaz
+our Patriarch Abraham
+Palti
 Palti, son of Laish
+Paltiel
+Parosh
+Pashḥur
+Pashḥur ben Immer
 Pekah, son of Remaliah
 Pelatiah the son of Benaiah
 Pelatiah, son of Benaiah
+Peninnah
+Perez
+Pharaoh
+Pharaoh Nekho
+Pharaoh the lame
+Philistines
 Pinehas, son of Elazar
 Pinehas, the son of Elazar
 Pinehas, the son of Eli
-Sethur the son of Michael
-Shammua the son of Zaccur
-Sheba, son of Bichri
-Shebuel, the son of Gershom
-Shecaniah the son of Arah
-Shecaniah the son of Jehiel
-Shecaniah, the son of Jehiel
-Shechem, son of Hamor
-Shechem, the son of Hamor
-Shelumiel, son of Zuri
-Shephatiah, son of Abital
-Shevuel, son of Gershom
-Shimei, the son of Gera
-Solomon, son of David
-Tabrimmon, son of Hezion
-Zechariah the son of Jeberechiah
-Zechariah, son of Ido
-Zedekiah, son of Chenaanah
-Zedekiah, son of Maaseiah
-Zekharya, son of Kevutal
-Zephaniah the son of Cushi
-Zimri, son of Salu
-Ahab, son of Kolaiah
-Saul, son of Kish
-Adriel the son of Barzillai the Meholathite
-Abigail the daughter of Nahash
-Abigal the daughter of Nahash
-Bithiah the daughter of Pharaoh
-Caesarea, the daughter of Edom
-Dina, the daughter of Jacob
-Elisheva, the daughter of Amminadav
-Gomer the daughter of Diblaim
-Mahalath, the daughter of Ishmael
-Michal the daughter of Saul
-Michal, the daughter of Saul
-Serah, the daughter of Asher
-the daughter of Yishai
-the daughter of Yitro
-the daughter of Zion
-the daughter of Pharaoh
-the daughter of Machir
-the daughter of Meshullam the son of Berechiah
-the daughter of Nahash
-the daughter of Nebuchadnezzar
-the daughter of Abraham
-the daughter of Amminadab
-The daughter of Amminadav
-the daughter of Babylon
-the daughter of Eglon
-the daughter of Eglon, son of Balak
-the daughter of Ishmael
-the daughter of Judah
-the son of Amram
-the son of Balak
-the son of Bithiah
-the son of Eglon
-the son of Elishama
-the son of Elyashiv
-the son of Gedaliah
-the son of Haggith
-the son of Harhas
-the son of Hezron
-the son of Jair
-the son of Kenaz
-the son of Kish
-the son of Levi
-the son of Maachah
-the son of Manasseh
-the son of Manoah
-the son of Mesha
-the son of Moses
-the son of Pinehas, the son of Eli
-the son of Remaliah
-the son of Shimei
-son of David
-Jonathan, the son of Gershom, the son of
-Irijah, the son of Shelemiah, the son of
-Ishmael the son of Nethaniah, the son of
-Mephibosheth, son of Jonathan, son of
-Zephaniah the son of Cushi, the son of
-the son of Shelemiah, the son of Hananiah
-the son of Cushi, the son of Gedaliah
-the son of Eglon, the son of the son of Balak
-the son of Elazar, the son of Aaron
-the son of Gershom, the son of Manasseh
-the son of Gershom, the son of Moses
-the son of Nethaniah, the son of Elishama
-the son of Shelemiah, the son of Hananiah
-the daughter of Eglon, son of the son of Balak
-son of Yishai of the house of Bethlehem
-Shebuel, the son of Gershom, the son of
-Pinehas, son of Elazar, son of
-Pinehas, the son of Elazar, the son of
-Tobiah the servant
-son of Tabrimmon, son of Hezion
-son of Torah
-son of Yishai
-the son of Jair
-the son of Kenaz
-the son of Kish
-the son of Maachah
-the son of Manasseh
-the son of Manoah
-Doesn’t bar Kappara
-Elihu, son of Barachel the Buzite
-Seraiah, the son of Mahseiah
-Shechem, the son of Hamor the Hivite
-son of Aaron
-son of Amram
-son of Baladan
-son of Beor
-son of Buzi
-son of David
-son of Esau
-son of Hezron
-son of Hur
-son of Iddo
-son of Israel
-son of Jephunneh
-son of Kenaz
-son of Nebat
-son of Nimshi
-son of Puti
-son of Salu
-son of Saul
-son of Levi
-Since ben Beteira
-the son of Aaron
-the son of Amram
-the son of Balak
-the son of Bithiah
-the son of Eglon
-the son of Elishama
-the son of Gedaliah
-the son of Haggith
-the son of Harhas
-the son of Hezron
-the son of Mesha
-the son of Moses
-the son of Remaliah
-the son of Shimei
-Jedaiah
-Harim
-Pashḥur
-Immer
-Caleb
-Jonathan
-David
-Zedekiah
-Jehoiakim
-Ezra
-Manasseh
-Jeremiah
-Aaron
-Elihu ben Barachel the Buzite
-Shevilnai, daughter of Zur
-Zechariah, son of Iddo
-Goliath
-Habakkuk
-Istahar
-Malachi
-Melchizedek
-Messiah, son of David
-Methuselah
-Miriam
-Nebuzaradan
-Zelophehad
-Yissakhar
-Yair, son of Manasseh
-Yishai, father of David
-Zerubavel
-Zerubbabel
-Tzelelponit
-Sennacherib
-Amram, father of Moses
-Artaxerxes
-Belshazzar
-Benjamin the righteous
-Bigthan
-Elisheva
-Ira the Yairite
-Ishbibenob
-Ittai the Gittite
-Japheth
-Jehoiachin
-Jehoiada the priest
-Jehoiarib
-Jemimah
-Jephthah
-Jerubaal
-Joshua the High Priest
-Joseph the righteous
-Amatlai bat Karnevo
-Amatlai bat Orevati
-Natzvat bat Ada’el
-Nashyan
-Pharaoh the lame
-Naamah the Ammonite
-Na’ama the Ammonite
-Naboth the Jezreelite
+Rabshakeh
+Rachel
+Rahab the prostitute
+Rebecca
+Rehoboam
+Reuben
+Ruth
 Ruth the Moabite
+Salmon
+Samson
+Samuel
 Samuel from Rama
 Samuel from Ramah
 Samuel of Rama
@@ -1692,55 +392,99 @@ Samuel of Ramah
 Samuel the Ramathite
 Samuel the righteous
 Sanḥeriv
+Sarah
+Saraph
+Saul
 Saul, son of Kish
+Segub
+Sena’a ben Binyamin
+Sena’av ben Binyamin
+Sennacherib
+Sennacherib the wicked
+Sennacherib, king of Assyria
+Serah, the daughter of Asher
+Seraiah
+Seth
+Sethur the son of Michael
 Shakrai
 Shakrurai
+Shallum
+Shammua the son of Zaccur
+Shaphan
+Sheba, son of Bichri
+Shebuel, the son of Gershom
+Shecaniah ben Jehiel
+Shecaniah the son of Arah
+Shecaniah the son of Jehiel
+Shecaniah, the son of Jehiel
+Shechem, son of Hamor
+Shechem, the son of Hamor
+Shefatya ben Avital
+Shelumiel, son of Zuri
+Shelumiel, son of Zuri Shaddai
+Shem
 Shem the Great
+Shephatiah, son of Abital
+Sheshai
+Shevilnai, daughter of Zur
+Shevuel, son of Gershom
+Shimei, the son of Gera
+Shimi ben Gera
+Shimi, David’s brother
+Shimshai
 Shishak
+Shishak, king of Egypt
 Shobach
 Shophach
+Sihon
+Sisera
+Solomon
+Solomon, son of David
 Son of Amoz
-On, son of Peleth
+son of the Canaanite woman
+Tabrimmon, son of Hezion
+Talmai
+Tamar
+Teresh
+The astrologers of Pharaoh
+the prophet Habakkuk
 the righteous Esther
 the righteous Mordecai
-Zadok the priest
-Zelek the Ammonite
-Zophar the Naamathite
-Aaron the priest
-Abimelech
-Absalom
-Ahithophel
-Ahitophel
-Amraphel
-Ahasuerus
-Nebuchadnezzar
-Jehoshaphat, king of Judea
-Michael the great ministering angel
-Salmon
-Naomi
-Gad
-Zimri
-Job
-Hezekiah, king of Judea
-Pharaoh Nekho
-Doeg the Edomite
-Geihazi
-Asa
-Cain
-Balaam the wicked
-Bathsheba, daughter of Eliam
-Doeg the wicked
-Sennacherib, king of Assyria
-Hananiah, Mishael, and Azariah
-Ḥiram, king of Tyre
-the wicked Haman
+The son of David
+the sons of Aaron
+the sons of Eli
+The sons of Samuel
 the wicked Balak
 the wicked Esau
+the wicked Haman
 the wicked Nebuchadnezzar
 the wicked Vashti
+Tzelelponit
+Uriah the Hittite
+Uzziah
 wicked Balaam
-Nebuchadnezzar the wicked
-Sennacherib the wicked
-Haman
-Darius
-Cyrus
+Yair, son of Manasseh
+Yehoram ben Ahab
+Yishai
+Yishai, father of David
+Yissakhar
+Yitro
+Zadok
+Zadok the priest
+Zechariah the son of Jeberechiah
+Zechariah, son of Iddo
+Zechariah, son of Ido
+Zedekiah
+Zedekiah, son of Chenaanah
+Zedekiah, son of Maaseiah
+Zekharya, son of Kevutal
+Zelek the Ammonite
+Zelophehad
+Zephaniah the son of Cushi
+Zerubavel
+Zerubbabel
+Zeruiah
+Zibeon
+Zimri
+Zimri, son of Salu
+Zophar the Naamathite
