@@ -1,24 +1,31 @@
 Aaron
+Aaron and his sons
 Aaron the priest
+Abel
 Abiathar
 Abigail
-Abigail the daughter of Nahash
-Abigal the daughter of Nahash
 Abijah, son of Jeroboam
 Abimelech
+Abiram
 Abishag
 Abishai ben Zeruiah
 Abishai, son of Zeruiah
 Abner
 Abner ben Ner
 Abraham
+Abraham, Isaac, and Jacob
 Absalom
 Absalom, son of Maacah
 Achan, son of Zerah
+Achsah
+Adam and Eve
+Adam the first man
 Adam, the first
+Adin
 Adonijah
 Adonijah, son of Haggith
 Adrammelech
+Adriel
 Adriel the son of Barzillai
 Adriel the son of Barzillai the Meholathite
 Ahab
@@ -26,15 +33,22 @@ Ahab ben Omri
 Ahab, son of Kolaiah
 Ahab, son of Omri
 Ahasuerus
+Ahaz
+Ahaziah
+Ahijah the Shilonite
 Ahijah, son of Shamhazai
 Ahijah, the son of Ahitub
 Ahiman
 Ahimelech, son of Ahitub
 Ahithophel
 Ahitophel
+Amasa
 Amatlai bat Karnevo
 Amatlai bat Orevati
+Amaziah
+Ammon and Moab
 Amnon
+Amnon and Tamar
 Amnon, son of David
 Amon
 Amos
@@ -47,6 +61,9 @@ Arad
 Araunah
 Artaxerxes
 Asa
+Asahel
+Asaph
+Asher
 Avishai ben Tzeruya
 Azubah
 Baasa, son of Ahijah
@@ -68,10 +85,13 @@ Benaiah, son of Jehoiada
 Benayahu ben Yehoyada
 Benayahu, son of Jehoiada
 Benayahu, son of Yehoyada
+Benjamin
 Benjamin the righteous
 Benjamin, son of Jacob
+Beor
 Bezalel
 Bezalel, son of Uri
+Bigtan and Teresh
 Bigthan
 Bildad the Shuhite
 Bithiah the daughter of Pharaoh
@@ -110,12 +130,14 @@ Eliakim, son of Hilkiah
 Eliakim, son of Hilkiya
 Eliam, son of Ahithophel
 Eliezer, servant of Abraham
+Eliezer, the servant of Abraham
 Elihu ben Barachel
 Elihu ben Barachel the Buzite
 Elihu, son of Barachel
 Elimelech
 Eliphaz the Temanite
 Eliphaz, son of Esau
+Elisha
 Elisha ben Shafat
 Elisha son of Shafat
 Elisheva
@@ -136,6 +158,7 @@ Gedaliah ben Ahikam
 Gedaliah, son of Ahikam
 Gehazi
 Geihazi
+Gideon
 Gog and Magog
 Goliath
 Gomer the daughter of Diblaim
@@ -159,6 +182,7 @@ Heman
 Hepher
 Hezekiah
 Hezekiah, king of Judea
+Hezron
 Hilkiah
 Ḥiram, king of Tyre
 Ḥofni and Pineḥas the sons of Eli
@@ -186,6 +210,7 @@ Isaiah the son of Amoz
 Isaiah, the son of Amoz
 Iscah
 Ish-bosheth
+Ishbi in Nob
 Ishbibenob
 Ishi
 Ishmael
@@ -197,10 +222,13 @@ Istahar
 Ittai the Gittite
 Jaazaniah the son of Azzur
 Jaazaniah, son of Shaphan
+Jacob
 Jacob our forefather
+Jacob, our patriarch
 Japheth
 Jeconiah
 Jedaiah
+Jedaiah, Harim, Pashhur, and Immer
 Jeduthun
 Jehoahaz
 Jehoiachin
@@ -241,6 +269,7 @@ Joel
 Joel, son of Pethuel
 Johanan
 Johanan, son of Kareah
+Joiarib
 Jonadab ben Rechab
 Jonadab, son of Rechab
 Jonadab, son of Shimeah
@@ -282,6 +311,7 @@ King Rehoboam
 King Solomon
 Koheleth, the son of David
 Korah
+Laban
 Laban the Aramean
 Leah
 Maachah
@@ -318,6 +348,7 @@ Miriam
 Mishael
 Moab
 Mordecai
+Mordecai and Esther
 Moses
 Na’ama the Ammonite
 Naamah the Ammonite
@@ -332,6 +363,7 @@ Nahshon ben Amminadab
 Nahshon, son of Amminadab
 Naomi
 Naomi’s father
+Naphtali
 Nashyan
 Nathan the prophet
 Natzvat bat Ada’el
@@ -345,6 +377,7 @@ Nehemiah, son of Hacaliah
 Nehemiah, son of Hachaliah
 Neriah
 Nimrod
+Nimrod the wicked
 Obadiah
 Obadiah, son of Jehiel
 Obed
@@ -393,6 +426,7 @@ Samuel the Ramathite
 Samuel the righteous
 Sanḥeriv
 Sarah
+Sarah, Rachel, and Hannah
 Saraph
 Saul
 Saul, son of Kish
@@ -437,21 +471,23 @@ Shishak, king of Egypt
 Shobach
 Shophach
 Sihon
+Simeon
 Sisera
 Solomon
 Solomon, son of David
 Son of Amoz
 son of the Canaanite woman
+sons of Korah
 Tabrimmon, son of Hezion
 Talmai
 Tamar
 Teresh
 The astrologers of Pharaoh
+the daughter of Pharaoh
 the prophet Habakkuk
 the righteous Esther
 the righteous Mordecai
-The son of David
-the sons of Aaron
+the son of Manoah
 the sons of Eli
 The sons of Samuel
 the wicked Balak
@@ -467,17 +503,17 @@ Yair, son of Manasseh
 Yehoram ben Ahab
 Yishai
 Yishai, father of David
-Yissakhar
 Yitro
 Zadok
 Zadok the priest
+Zebulun
+Zechariah , son of Iddo
 Zechariah the son of Jeberechiah
 Zechariah, son of Iddo
 Zechariah, son of Ido
 Zedekiah
 Zedekiah, son of Chenaanah
 Zedekiah, son of Maaseiah
-Zekharya, son of Kevutal
 Zelek the Ammonite
 Zelophehad
 Zephaniah the son of Cushi
