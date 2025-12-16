@@ -47,7 +47,8 @@ a certain of Meron
 a certain official
 a certain old man
 a certain one of the Sages
-a certain Persian
+a certain orphan
+a certain Persian priest
 a certain person
 A certain philosopher
 a certain pious
@@ -772,6 +773,7 @@ Naḥman bar Abba
 Naḥman the farmer
 Naḥum HaMadi
 Naḥum of Galia
+Naḥum of Gam Zo
 Naḥum of Gam Zu
 Naḥum the Elder
 Naḥum the Mede
@@ -3126,7 +3128,10 @@ The daughters-in-law of Abdan
 The descendants of Adin ben Yehuda
 the descendants of Araḥ ben Yehuda
 the descendants of David ben Yehuda
+the descendants of Ishmael
+the descendants of Joab, son of Zeruiah
 the descendants of Jonadab ben Rechab
+the descendants of Keturah
 the descendants of Paḥat Moav ben Yehuda
 the descendants of Parosh
 the descendants of Parosh ben Yehuda
@@ -3139,7 +3144,6 @@ the disciples of Rabbi Ḥanina
 the Distinguished 
 the Distinguished One
 the distinguished Rabbi Elazar HaKappar
-the Elders
 the Elders of Beit Hillel
 the elders of Beit Shammai
 The elders of Mata Meḥasya
@@ -3471,6 +3475,7 @@ Titus
 Tobiah
 Toda
 Todos the doctor
+Toviyya
 Toviyya the doctor
 Trajan
 Turnus Rufus
