@@ -156,6 +156,8 @@ Hannah
 Harafa
 Haran
 Harim
+Hatach
+Hathach
 Helah
 Heman
 Hepher
@@ -329,6 +331,7 @@ Nehemiah, son of Hachaliah
 Neriah
 Nimrod
 Nimrod the wicked
+Noah the righteous
 Obadiah
 Obed
 Omri
@@ -419,6 +422,7 @@ Tamar
 Teresh
 The astrologers of Pharaoh
 the daughter of Pharaoh
+the Patriarchs
 the prophet Habakkuk
 the righteous Esther
 the righteous Mordecai
