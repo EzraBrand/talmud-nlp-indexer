@@ -20,7 +20,6 @@ Alexandria in Egypt
 Alexandria of Egypt
 Almin
 Alush
-Ammon
 Anat
 ancient fort [<i>katzra</i>] of Tzippori
 ancient Yodfat
@@ -60,7 +59,6 @@ Avel Arav
 Avi Govar
 Avireya
 Avna
-Ba’al Shalisha
 Babylonia
 Bagda
 Baghdad
@@ -68,7 +66,6 @@ Bar Hamdakh
 Barkata
 Barnish
 Bartota
-Bashan
 Bashkar
 Baskar
 Bav River
@@ -156,7 +153,6 @@ Burnitz River
 Bursi
 Bursif
 Caesarea
-Canaan
 Cappadocia
 Carmel
 Carmi
@@ -196,7 +192,6 @@ Dura
 Dura that was founded by shepherds
 Dura Valley
 Edom
-Egypt
 Eilam
 Eilat
 Ein Bul
@@ -402,7 +397,6 @@ Migdal Gedor
 Migdal Nunaya
 Mikhvar
 Mishon
-Moab
 Modi’im
 Motza
 Mount Carmel
@@ -418,7 +412,6 @@ Mount of Olives
 Mount Paran
 Mount Scopus
 Mount Seir
-Mount Sinai
 Mount Tabor
 Mountains of Darkness
 Mushekanei
@@ -521,13 +514,11 @@ Sheshakh
 Sheviri
 Shiḥin
 Shili
-Shiloh
 Shittim
 Shosh
 Shosh the second
 Shot Mishot
 Shunya
-Shushan
 Shushan the capital
 Sidon
 Sikhera
@@ -537,7 +528,6 @@ Sikhra
 Silek
 Siloam
 Simoni
-Sinai
 Siva’a
 Sodom
 Sodom Sea
@@ -635,5 +625,4 @@ Yostiniyya
 Zagdor
 Zateḥa
 Zerokinya
-Zion
 Zoan
