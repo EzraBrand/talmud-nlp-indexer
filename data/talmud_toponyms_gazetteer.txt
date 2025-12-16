@@ -204,6 +204,7 @@ Ein Kushi
 Ein Tav
 Eina Demayim
 Eitan River
+Ekron
 Emaum
 Emma’um
 Emmaus
@@ -250,6 +251,7 @@ Golan
 Gomorrah
 Goza River
 Great Sea
+great spring of Beiram
 Greece
 Greek Italy
 Gufnit
@@ -444,6 +446,7 @@ Nofer Ninefi
 Nov
 Ohalya
 Ono
+Ophir
 Orikhut
 Ovelin
 Pafunya
@@ -546,6 +549,7 @@ Tarmod
 Tatlefush
 Tavakh
 Tekoa
+Tel Arza
 Temple Mount
 the bridge over the Euphrates
 the West
@@ -555,6 +559,7 @@ Tigris
 Tigris River
 Timnah
 Tiphsah
+Tiv’in
 Tivonin
 Tovyana
 Transjordan
