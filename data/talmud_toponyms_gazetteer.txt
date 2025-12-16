@@ -137,6 +137,7 @@ Ben Akhmai
 Ben Mekoshesh
 Benei Berak
 Beror Ḥayil
+Bethlehem
 Bezer
 Biram
 Biran River
@@ -157,6 +158,7 @@ Bursif
 Caesarea
 Canaan
 Cappadocia
+Carmel
 Carmi
 Carthage
 Cave of Machpelah
@@ -349,10 +351,12 @@ Kefar Sekhanya of Egypt
 Kefar Shiḥalayim
 Kefar Temarta
 Kefar Yamma
+Keilah
 Keiromyon
 Kerakh
 Keramiyyon
 Kerazayim
+Keren Ophel
 Keziv
 Kfar Barkai
 Khuta
@@ -542,6 +546,7 @@ Spring of Eitam
 Sura
 Suvara
 Syria
+Tabor
 Talbush
 Tamduria
 Tamud
