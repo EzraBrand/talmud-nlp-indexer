@@ -1,11 +1,20 @@
 Ai
+Ammon
+Ba’al Shalisha
+Bashan
 Bethel
+Canaan
+Egypt
+Eshtaol
 Gath
 Gilgal
 Kedesh
 Mamre
 Marah
 Meroz
+Moab
+Mount Sinai
+Nile River
 Ophel
 Paran
 Pithom
@@ -13,6 +22,9 @@ Ramoth
 Ramoth-Gilead
 Samaria
 Sheol
-Shinar
+Shiloh
+Shushan
+Sinai
 Tarshish
+Zion
 Zorah
