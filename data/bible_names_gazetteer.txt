@@ -8,6 +8,7 @@ Abijah, son of Jeroboam
 Abimelech
 Abiram
 Abishag
+Abishai
 Abishai ben Zeruiah
 Abishai, son of Zeruiah
 Abner
@@ -17,6 +18,7 @@ Abraham, Isaac, and Jacob
 Absalom
 Achan
 Achsah
+Adam
 Adam and Eve
 Adam the first man
 Adam, the first
@@ -75,6 +77,7 @@ Bathsheba
 Bathsheba, daughter of Eliam
 Bedan
 Belshazzar
+Benaiah
 Benaiah ben Jehoiada
 Benaiah the son of Jehoiada
 Benaiah, son of Jehoiada
@@ -87,6 +90,7 @@ Bezalel
 Bigtan and Teresh
 Bigthan
 Bildad the Shuhite
+Bithiah
 Boaz
 Cain
 Caleb
@@ -110,6 +114,7 @@ Doeg the Edomite
 Eber
 Ebiathar
 Eglah
+Eglon
 Eglon, king of Moab
 Eglon, son of Balak
 Eglon, son of Balak
@@ -129,6 +134,7 @@ Elpaal
 Ephron
 Er
 Er and Onan
+Esau
 Esther
 Ezekiel
 Ezekiel ben Buzi
@@ -150,6 +156,7 @@ Hadadrimmon, son of Tavrimon
 Hadrimmon ben Tabrimmon
 Haggai, Zechariah, and Malachi
 Haggith
+Ham
 Haman
 Hanamel
 Hanani
@@ -168,6 +175,7 @@ Hezekiah
 Hezekiah, king of Judea
 Hezron
 Hilkiah
+Ḥiram
 Ḥiram, king of Tyre
 Ḥofni and Pineḥas the sons of Eli
 Hosea
@@ -179,6 +187,7 @@ Huldah
 Huldah the prophetess
 Hushim, the son of Dan
 Ibzan
+Iddo
 Iddo the prophet
 Immer
 Ira HaYa’iri
@@ -223,13 +232,16 @@ Jephunneh
 Jeremiah
 Jeremiah, son of Hilkiah
 Jerioth
+Jeroboam
 Jeroboam ben Joash
 Jeroboam ben Nevat
 Jeroboam, son of Joash
 Jeroboam, son of Nebat
 Jeroboam, son of Nevat
 Jerubaal
+Jesse
 Jesse, father of David
+Jezebel
 Joab
 Joab ben Zeruiah
 Joab, son of Zeruiah
@@ -247,6 +259,7 @@ Jonah
 Jonah, son of Amittai
 Jonathan
 Jonathan, son of Saul
+Joram
 Joram, son of Ahab
 Joseph
 Joseph the righteous
@@ -284,6 +297,7 @@ Malachi
 Manasseh
 Manasseh ben Hezekiah
 Manasseh, son of Hezekiah
+matriarchs
 Melchizedek
 Menahem, son of Gadi
 Mephibosheth
@@ -291,6 +305,7 @@ Merab
 Mered
 Mesha, king of Moab
 Meshullam
+Messiah
 Messiah ben David
 Messiah ben Yosef
 Messiah, son of David
@@ -337,6 +352,7 @@ Nimrod the wicked
 Noah the righteous
 Obadiah
 Obed
+Og
 Omri
 On, son of Peleth
 Onan
@@ -358,6 +374,8 @@ Pharaoh Nekho
 Pharaoh the lame
 Philistines
 Pinehas
+Potiphar
+Puah
 Rabshakeh
 Rachel
 Rahab the prostitute
@@ -409,6 +427,7 @@ Shimei, the son of Gera
 Shimi ben Gera
 Shimi, David’s brother
 Shimshai
+Shiphrah
 Shishak, king of Egypt
 Shobach
 Shophach
@@ -425,6 +444,9 @@ Tamar
 Teresh
 The astrologers of Pharaoh
 the daughter of Pharaoh
+the generation of the dispersion
+the generation of the flood
+the Matriarchs
 the Patriarchs
 the prophet Habakkuk
 the righteous Esther
@@ -432,6 +454,7 @@ the righteous Mordecai
 the son of Manoah
 the sons of Eli
 The sons of Samuel
+the spies
 the wicked Balak
 the wicked Esau
 the wicked Haman
@@ -450,6 +473,7 @@ Yoav
 Zadok
 Zadok the priest
 Zebulun
+Zechariah
 Zechariah , son of Iddo
 Zechariah, son of Iddo
 Zechariah, son of Ido
@@ -458,10 +482,12 @@ Zedekiah, son of Chenaanah
 Zelek the Ammonite
 Zelophehad
 Zephaniah
+Zeresh
 Zerubavel
 Zerubbabel
 Zeruiah
 Zibeon
 Zimri
 Zimri, son of Salu
+Zipporah
 Zophar the Naamathite
