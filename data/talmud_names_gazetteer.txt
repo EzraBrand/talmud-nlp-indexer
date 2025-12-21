@@ -1,4 +1,3 @@
-a certain
 A certain apostate
 a certain Arab
 a certain army
@@ -525,6 +524,7 @@ Hadrian
 Ḥama, son of Rabba bar Abbahu
 Ḥama, son of Rabba bar Avuh
 Ḥana
+Ḥana
 Ḥana bar Isak
 Ḥanan ben Avishalom
 Ḥanan ben Pineḥas
@@ -808,7 +808,6 @@ Nit’za
 Nitai HaArbeli
 Nitza
 of Neharbela
-of Neharde’a
 Okvan, son of Neḥemya the Exilarch
 one High Priest
 one man
@@ -1302,6 +1301,7 @@ Rabbi Ḥiyya, son of Rabbi Yosef
 Rabbi Ḥiyya, son of Rabbi Yosei
 Rabbi Ḥiyya, son of Rav Avya
 Rabbi Ḥiyya, son of Rav Huna
+Rabbi Ḥiyya’s maidservant
 Rabbi Ḥiyya’s wife
 Rabbi Ḥizkiyya
 Rabbi Hoshaya
@@ -1591,6 +1591,7 @@ Rabbi Yehoshua ben Peraḥya
 Rabbi Yehoshua ben Petter Rosh
 Rabbi Yehoshua ben Uza’a
 Rabbi Yehoshua ben Zeruz, son of the father-in-law of Rabbi Meir
+Rabbi Yehoshua Deroma
 Rabbi Yehoshua HaGarsi
 Rabbi Yehoshua of Sikhnei
 Rabbi Yehoshua, son of Rabbi Ḥananya
@@ -2998,6 +2999,7 @@ Sheila bar Summakei
 Sheila of Kefar Temarta
 Shel Tziyyon the queen
 Shemaya
+Shevna of Jerusalem
 Shikhḥat
 Shila, a man of K’far Temarta
 Shila, a man of Kefar Temarta
@@ -3211,8 +3213,6 @@ the house of Parzak, the general
 the house of Pegarim
 the house of Rabba
 the house of Rabban Gamliel
-the house of Rabbi
-the house of Rav
 the house of Rav Neḥemya, the Exilarch
 the house of Rava
 the house of the <i>Nasi</i>
@@ -3321,6 +3321,7 @@ the residents of Mashronya
 The residents of Mata Meḥasya
 the residents of Mavrakhta
 the residents of Meḥoza
+the residents of the Diaspora
 the residents of the fortress of Shanvata
 the righteous Priest
 the Romans
@@ -3481,6 +3482,7 @@ Trajan
 Turnus Rufus
 Tuveya
 Tzafenat bat Peniel
+Tzimtzemai the queen
 Ukvan bar Neḥemya the Exilarch
 Ukvan the Babylonian
 Ulla
