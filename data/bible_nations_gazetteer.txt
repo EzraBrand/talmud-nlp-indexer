@@ -1,6 +1,7 @@
 Africa
 Amalek
 Ammon
+Ammon and Moab
 Ammonite
 Arab
 Arabia
@@ -11,30 +12,29 @@ Assyrian
 Babylon
 Babylonia
 Babylonian
-Canaan
-Canaanite
 Chaldean
+Coptic
 Cush
 Cushite
-Cuthite
 Edom
 Edomite
 Egypt
 Egyptian
+Eilamitic
+Elamite
 Eretz Yisrael
 Galilean
 Gibeonite
 Greece
 Greek
 Hodu
-Ishmaelite
 Israel
 Israelite
+Ivrit
 Jew
 Judea
 Judean
 Kush
-Kushite
 Median
 Midian
 Moab
@@ -46,5 +46,8 @@ Roman
 Rome
 Samaria
 Samaritan
+the children of Ammon
 the land of Canaan
+the seed of Amalek
 the Seven Nations
+Tyrian
