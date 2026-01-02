@@ -67,6 +67,7 @@ a certain teacher of children
 a certain widow
 a certain woman
 a certain young woman
+A Galilean
 a king and queen
 a leading authority of generation
 a maidservant of Rabbi
@@ -168,6 +169,7 @@ Adda Mari
 Adda the attendant
 Adda the fisherman
 Adda, attendant
+Adi the Arab
 Admon
 Admon ben Gaddai
 Adrakan
@@ -494,6 +496,7 @@ father Ḥalafta
 father of Ravin bar Ḥinnana
 father of Shmuel bar Avin
 father, Ḥalafta
+Foolish Galilean
 Fuga
 Gaskalgas
 Geneiva
@@ -2966,6 +2969,7 @@ Reḥava
 Reish Lakish
 residents of Bei Mikhsi
 Ridya
+Roman notables
 Romans
 Ronya
 Sabbeta ben Alas
@@ -3088,6 +3092,7 @@ Tavut the bird hunter
 Tavut the hunter
 Tavyumei
 Teḥina ben Perisha
+that Galilean
 the <i>tumtum</i> of Biri
 the agent of the Angel of Death
 the Angel of Death
@@ -3569,6 +3574,7 @@ Yoḥanan ben Dehavai
 Yoḥanan ben Gudgeda
 Yoḥanan ben Narbbai
 Yoḥanan ben Nedavai
+Yoḥanan Ḥakuka’a
 Yoḥanan HaNazuf
 Yoḥanan HaSandlar
 Yoḥanan the High Priest
@@ -3626,6 +3632,7 @@ Ze’eira’s wife
 Ze’eiri
 Ze’iri
 Ze’iri from Dihavat
+Zefer, the head of Geder
 Zeira
 Zeira, of the residents of Jerusalem
 Zekharya ben HaKatzav
