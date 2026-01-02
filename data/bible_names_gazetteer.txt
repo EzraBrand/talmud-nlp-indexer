@@ -95,6 +95,7 @@ Boaz
 Cain
 Caleb
 Caleb, son of Jephunneh
+Canaan
 Chileab, son of David
 Chilion
 Cozbi
@@ -136,6 +137,7 @@ Er
 Er and Onan
 Esau
 Esther
+Evil-merodach
 Ezekiel
 Ezekiel ben Buzi
 Ezekiel, son of Buzi
@@ -372,12 +374,14 @@ Perez
 Pharaoh
 Pharaoh Nekho
 Pharaoh the lame
+Pharaoh’s daughter
 Philistines
 Pinehas
 Potiphar
 Puah
 Rabshakeh
 Rachel
+Rahab
 Rahab the prostitute
 Rebecca
 Rehoboam
