@@ -26,6 +26,7 @@ Adin
 Adonijah
 Adrammelech
 Adriel
+Agag
 Ahab
 Ahab ben Omri
 Ahab, son of Omri
@@ -155,6 +156,7 @@ Goliath
 Habakkuk
 Hadadrimmon, son of Tabrimmon
 Hadadrimmon, son of Tavrimon
+Hadassah
 Hadrimmon ben Tabrimmon
 Haggai, Zechariah, and Malachi
 Haggith
@@ -231,6 +233,7 @@ Jemimah
 Jephthah
 Jephthah the Gileadite
 Jephunneh
+Jered
 Jeremiah
 Jeremiah, son of Hilkiah
 Jerioth
@@ -266,6 +269,7 @@ Joram, son of Ahab
 Joseph
 Joseph the righteous
 Joshua
+Joshua bin Nun
 Joshua the High Priest
 Joshua the son of Nun
 Joshua, son of Nun
@@ -279,6 +283,7 @@ Judah
 Keren-happuch
 Keziah
 Kilab, son of David
+Kilav
 King Ahasuerus
 King Baladan
 King David
@@ -300,7 +305,9 @@ Manasseh
 Manasseh ben Hezekiah
 Manasseh, son of Hezekiah
 matriarchs
+Mefivoshet
 Melchizedek
+Memucan
 Menahem, son of Gadi
 Mephibosheth
 Merab
@@ -425,8 +432,10 @@ Shelumiel, son of Zuri Shaddai
 Shem
 Shem the Great
 Sheshai
+Shevilnai
 Shevilnai, daughter of Zur
 Shevuel, son of Gershom
+Shimei
 Shimei, the son of Gera
 Shimi ben Gera
 Shimi, David’s brother
@@ -441,6 +450,7 @@ Sisera
 Solomon
 Solomon, son of David
 Son of Amoz
+son of Salu
 son of the Canaanite woman
 sons of Korah
 Talmai
@@ -468,6 +478,7 @@ Tzelelponit
 Uriah the Hittite
 Uzziah
 wicked Balaam
+Yael
 Yair, son of Manasseh
 Yehoram ben Ahab
 Yishai
