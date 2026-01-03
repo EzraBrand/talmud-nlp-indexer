@@ -358,6 +358,7 @@ ben Antigonus
 ben Arza
 Ben Avatiaḥ
 ben Azzai
+Ben Azzai
 ben Bag Bag
 Ben Bag Bag
 ben Beivai
@@ -446,6 +447,7 @@ Dari
 Daru
 Daru bar Pappa
 Daughter of Ḥakhinai
+daughter of Nakdimon ben Guryon
 daughter-in-law of Rabbi Oshaya
 daughter-in-law of the house of the son of Elyashiv
 descendants of Joab, son of Zeruiah
@@ -463,6 +465,7 @@ Efrayim the scribe, a student of Reish Lakish
 Egyptians
 Eifa
 Eifa and Avimi, the sons of Raḥava
+Eina the Elder
 Elazar ben Arakh
 Elazar ben Durdayya
 Elazar ben Ḥanokh
@@ -3056,6 +3059,7 @@ Simḥa
 Simlai of Lod
 son Bohayan
 son of Bonyas
+Son of great men
 son of Lakish
 son of Nappaḥa
 son of Pedat
