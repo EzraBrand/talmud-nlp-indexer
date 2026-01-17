@@ -347,6 +347,7 @@ Naphtali
 Nashyan
 Nathan the prophet
 Natzvat bat Ada’el
+Nebaioth
 Nebat
 Nebuchadnezzar
 Nebuchadnezzar the wicked
@@ -362,6 +363,7 @@ Noah the righteous
 Obadiah
 Obed
 Og
+Og, king of the Bashan
 Omri
 On, son of Peleth
 Onan
@@ -381,6 +383,7 @@ Perez
 Pharaoh
 Pharaoh Nekho
 Pharaoh the lame
+Pharaoh the wicked
 Pharaoh’s daughter
 Philistines
 Pinehas
@@ -477,6 +480,7 @@ the wicked Vashti
 Tzelelponit
 Uriah the Hittite
 Uzziah
+Vashti
 wicked Balaam
 Yael
 Yair, son of Manasseh
