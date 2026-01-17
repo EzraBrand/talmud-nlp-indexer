@@ -175,6 +175,7 @@ Dannak River
 Darshish
 Darumata
 De’iskarta
+Dead Sea
 Derokera
 desert of Gaza
 Deyomset
@@ -488,6 +489,7 @@ river Malka Sava
 River of Egypt
 river of Gozan
 River Yo’ani
+Rodya
 Rome
 Rumekei
 Sabbatyon River
@@ -550,6 +552,7 @@ Tekoa
 Tel Arza
 Temple Mount
 the bridge over the Euphrates
+the sea towns
 the West
 Tiberias
 Tiberius
