@@ -607,6 +607,7 @@ Hurmiz
 Hyrcanus
 Hyrcanus, son of Rabbi Eliezer ben Hyrcanus
 Hyrcanus, the son of Rabbi Eliezer ben Hyrcanus
+Ifera Hurmiz
 Ifera Hurmiz, the mother of King Shapur
 Ifra Hormiz, mother of King Shapur
 Ila
@@ -913,6 +914,7 @@ Rabba ben Isi
 Rabba from the school of Rav Sheila
 Rabba son of Rav Huna the Short
 Rabba the Younger
+Rabba Tosefa’a
 Rabba Tosfa’a
 Rabba, son of Mari
 Rabba, son of Rav Huna
@@ -1391,6 +1393,7 @@ Rabbi Neḥemya, son of Rabbi Ḥanilai
 Rabbi Nehorai
 Rabbi Neḥunya
 Rabbi Neḥunya ben HaKana
+Rabbi Neḥunya ben Hakana
 Rabbi Neḥunya from the valley of Beit Ḥortan
 Rabbi Neḥunya of the valley of Beit Ḥortan
 Rabbi Neḥunya the Great
@@ -3488,6 +3491,7 @@ Toviyya
 Toviyya the doctor
 Trajan
 Turnus Rufus
+Turnus Rufus the wicked
 Tuveya
 Tzafenat bat Peniel
 Tzimtzemai the queen
