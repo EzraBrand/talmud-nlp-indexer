@@ -122,6 +122,7 @@ Eglon, son of Balak
 Eglon, son of Balak
 Eglon, son of the son of Balak, king of Moab
 Eldad and Medad
+Eli
 Eliezer, servant of Abraham
 Eliezer, the servant of Abraham
 Elihu ben Barachel
@@ -182,6 +183,7 @@ Hilkiah
 Ḥiram
 Ḥiram, king of Tyre
 Ḥofni and Pineḥas the sons of Eli
+Hophni
 Hosea
 Hosea, son of Beeri
 Hoshea ben Elah
@@ -225,6 +227,7 @@ Jehoiakim
 Jehoiarib
 Jehoram
 Jehoram, son of Ahab
+Jehosaphat
 Jehoshaphat
 Jehoshaphat, king of Judea
 Jehu
@@ -312,6 +315,7 @@ Menahem, son of Gadi
 Mephibosheth
 Merab
 Mered
+Meriv-Baal
 Mesha, king of Moab
 Meshullam
 Messiah
@@ -471,6 +475,7 @@ the righteous Mordecai
 the son of Manoah
 the sons of Eli
 The sons of Samuel
+the sons of Samuel
 the spies
 the wicked Balak
 the wicked Esau
@@ -505,6 +510,7 @@ Zeresh
 Zerubavel
 Zerubbabel
 Zeruiah
+Ziba
 Zibeon
 Zimri
 Zimri, son of Salu
