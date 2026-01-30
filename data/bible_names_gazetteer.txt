@@ -61,6 +61,7 @@ Asa
 Asahel
 Asaph
 Asher
+Ashhur
 Avishai ben Tzeruya
 Avshalom
 Azubah
@@ -68,6 +69,7 @@ Baal
 Baasa, son of Ahijah
 Balaam
 Balaam the wicked
+Baladan
 Baladan, son of Baladan
 Balak
 Barak
@@ -77,6 +79,7 @@ Barzillai the Gileadite
 Bathsheba
 Bathsheba, daughter of Eliam
 Bedan
+Bela
 Belshazzar
 Benaiah
 Benaiah ben Jehoiada
@@ -203,6 +206,7 @@ Isaac
 Isaac, son of Abraham
 Isaiah
 Iscah
+Ish Boshet
 Ish-bosheth
 Ishbi in Nob
 Ishbibenob
@@ -248,6 +252,7 @@ Jeroboam, son of Joash
 Jeroboam, son of Nebat
 Jeroboam, son of Nevat
 Jerubaal
+Jesher
 Jesse
 Jesse, father of David
 Jezebel
@@ -342,6 +347,7 @@ Naamah the Ammonite
 Naaman
 Naboth
 Naboth the Jezreelite
+Nadav and Avihu
 Nahbi
 Nahor
 Nahshon
@@ -375,6 +381,7 @@ Omri
 On, son of Peleth
 Onan
 Orpah
+Othniel
 Othniel, son of Kenaz
 our Patriarch Abraham
 Palti
@@ -461,6 +468,8 @@ Sisera
 Solomon
 Solomon, son of David
 Son of Amoz
+son of Amram
+son of Bithiah
 son of Salu
 son of the Canaanite woman
 sons of Aaron
@@ -509,6 +518,7 @@ Zedekiah
 Zedekiah, son of Chenaanah
 Zelek the Ammonite
 Zelophehad
+Zelophehad’s daughters
 Zephaniah
 Zeresh
 Zerubavel
