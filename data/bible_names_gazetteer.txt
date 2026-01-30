@@ -96,7 +96,6 @@ Boaz
 Cain
 Caleb
 Caleb, son of Jephunneh
-Canaan
 Chileab, son of David
 Chilion
 Cozbi
@@ -110,6 +109,8 @@ David
 David, son of Yishai
 Deborah
 Delilah
+descendant of Noah
+descendants of Noah
 Dina, the daughter of Jacob
 Doeg
 Doeg the Edomite
@@ -307,6 +308,7 @@ Malachi
 Manasseh
 Manasseh ben Hezekiah
 Manasseh, son of Hezekiah
+Manoah
 matriarchs
 Mefivoshet
 Melchizedek
@@ -363,6 +365,7 @@ Nehemiah, son of Hachaliah
 Neriah
 Nimrod
 Nimrod the wicked
+Noah
 Noah the righteous
 Obadiah
 Obed
@@ -417,6 +420,7 @@ Sarah, Rachel, and Hannah
 Saraph
 Saul
 Saul, son of Kish
+seed of Aaron
 Segub
 Sena’a ben Binyamin
 Sena’av ben Binyamin
@@ -459,7 +463,10 @@ Solomon, son of David
 Son of Amoz
 son of Salu
 son of the Canaanite woman
+sons of Aaron
+sons of Eli
 sons of Korah
+sons of Samuel
 Talmai
 Tamar
 Teresh
@@ -473,9 +480,6 @@ the prophet Habakkuk
 the righteous Esther
 the righteous Mordecai
 the son of Manoah
-the sons of Eli
-The sons of Samuel
-the sons of Samuel
 the spies
 the wicked Balak
 the wicked Esau
