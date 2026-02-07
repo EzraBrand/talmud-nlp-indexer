@@ -4,12 +4,16 @@ Ba’al Shalisha
 Bashan
 Beth-El
 Bethel
+Canaan
+Eden
 Egypt
+Enaim
 Eshtaol
 Garden of Eden
 Gath
 Gilgal
 Kedesh
+Kiryat Arba
 Mamre
 Marah
 Meroz
@@ -27,5 +31,6 @@ Shiloh
 Shushan
 Sinai
 Tarshish
+the Garden
 Zion
 Zorah
