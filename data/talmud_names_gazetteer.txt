@@ -657,6 +657,7 @@ King Shapur
 King Yannai
 Kontrokos the officer
 Laḥman bar Ristak
+Laila
 Large-toothed one
 Levi
 Levi bar Buti
@@ -3602,6 +3603,7 @@ Yona
 Yonatan
 Yonatan ben Amram
 Yonatan ben Uzziel
+Yonatan HaKitoni
 Yonatan the demon
 Yosef bar Ḥanin
 Yosef bar Ḥiyya
