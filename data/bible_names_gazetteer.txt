@@ -261,6 +261,7 @@ Joab
 Joab ben Zeruiah
 Joab, son of Zeruiah
 Joash
+Joash, king of Israel
 Job
 Jochebed
 Joel
@@ -272,6 +273,7 @@ Jonadab ben Rechab
 Jonadab, son of Rechab
 Jonah
 Jonah, son of Amittai
+Jonah’s wife
 Jonathan
 Jonathan, son of Saul
 Joram
@@ -336,6 +338,7 @@ Micah
 Micaiah
 Michael the great ministering angel
 Michal
+Michal, daughter of Kushi
 Michal, the daughter of Saul
 Miriam
 Mishael
@@ -377,7 +380,10 @@ Noah the righteous
 Obadiah
 Obed
 Og
+Og, King of Bashan
 Og, king of the Bashan
+Og, king of the Bashan
+Og, the king of Bashan
 Omri
 On, son of Peleth
 Onan
@@ -396,6 +402,7 @@ Pelatiah, son of Benaiah
 Peninnah
 Perez
 Pharaoh
+Pharaoh Neco
 Pharaoh Nekho
 Pharaoh the lame
 Pharaoh the wicked
@@ -496,11 +503,13 @@ the wicked Esau
 the wicked Haman
 the wicked Nebuchadnezzar
 the wicked Vashti
+Timna
 Tzelelponit
 Uriah the Hittite
 Uzziah
 Vashti
 wicked Balaam
+wife of Potiphar
 Yael
 Yair, son of Manasseh
 Yehoram ben Ahab
