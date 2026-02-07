@@ -10,6 +10,7 @@ a certain disciple from among the disciples of Beit Hillel
 A certain disciple from among the disciples of Beit Shammai
 a certain doctor
 A certain elder
+A certain Elder
 A certain Elder of the disciples of Shammai the Elder
 a certain elderly man
 a certain elderly slave
@@ -45,6 +46,7 @@ A certain noblewoman
 a certain of Meron
 a certain official
 a certain old man
+a certain old woman
 a certain one of the Sages
 a certain orphan
 a certain Persian priest
@@ -310,6 +312,7 @@ bar Kipof
 bar Kippok
 bar Kokheva
 Bar Koziva
+bar Koziva
 bar Leva’i
 Bar Liva’ei
 bar Livai
@@ -3442,6 +3445,7 @@ the sons of Manyomei the doctor
 the sons of Rabbi Akiva
 the sons of Rabbi Ḥalafta of Huna
 The sons of Rabbi Ḥiyya
+the sons of Rabbi Ḥiyya
 The sons of Rabbi Tarfon’s sister
 the sons of Rabbi Yishmael
 the sons of Rabbi Yosei, son of Rabbi Ḥanina
@@ -3513,6 +3517,7 @@ Wise one
 Ya’akov from Karḥina
 Ya’akov Korḥa
 Ya’akov of Kefar Sekhanya
+Ya’akov of Mina
 Ya’akov of the village of Sekhanya
 Ya’akov the heretic
 Yadua the Babylonian
