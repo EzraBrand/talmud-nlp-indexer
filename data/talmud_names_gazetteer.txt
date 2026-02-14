@@ -504,6 +504,7 @@ father of Shmuel bar Avin
 father, Ḥalafta
 Foolish Galilean
 Fuga
+Gamliel
 Gaskalgas
 Geneiva
 Geniva
@@ -580,6 +581,7 @@ Hiyya bar Rav from Difti
 Ḥiyya bar Rav of Difti
 Ḥiyya bar Rava
 Ḥiyya, son of Rav
+Ḥizkiya
 Ḥizkiya, son of Rabbi Parnakh
 Ḥizkiyya
 Ḥizkiyya bar Biluto
@@ -844,6 +846,7 @@ Pappa the ox herder
 Pappas
 Pappos ben Yehuda
 Parva’a the Sorcerer
+Pazi
 Peleimu
 Pelimu
 people Bei Tarbu
@@ -3354,6 +3357,7 @@ the Sages who came from Meḥoza
 the school Mar bar Rav Adda
 The school of Elijah
 The school of Eliyahu
+the school of Ḥizkiya
 the school of Ḥizkiyya
 the school of Karna
 the school of Levi
