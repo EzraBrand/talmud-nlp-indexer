@@ -4,6 +4,26 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Talmud Glossary</title>
+  <meta name="description" content="Talmud glossary database with canonical terms, variants, corpus counts, and English/Hebrew Wikipedia mappings." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://ezrabrand.github.io/talmud-nlp-indexer/glossary/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Talmud Glossary" />
+  <meta property="og:description" content="Canonicalized glossary of Talmudic and Biblical terms with variants, counts, and Wikipedia links." />
+  <meta property="og:url" content="https://ezrabrand.github.io/talmud-nlp-indexer/glossary/" />
+  <meta property="og:site_name" content="Talmud NLP Indexer" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Talmud Glossary" />
+  <meta name="twitter:description" content="Canonicalized glossary of Talmudic and Biblical terms with variants, counts, and Wikipedia links." />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Talmud Glossary",
+      "url": "https://ezrabrand.github.io/talmud-nlp-indexer/glossary/",
+      "description": "Canonicalized glossary of Talmudic and Biblical terms with variants, corpus counts, and Wikipedia links."
+    }
+  </script>
   <style>
     :root {
       --bg: #f6f7fb;
@@ -94,6 +114,14 @@
       border-bottom: 1px solid var(--line);
       padding: 10px 10px;
     }
+    thead th.sortable { cursor: pointer; user-select: none; }
+    thead th.sortable::after {
+      content: " \2195";
+      color: #6b7aa1;
+      font-size: 0.75rem;
+    }
+    thead th.sortable.sorted-asc::after { content: " \2191"; color: #0b5fff; }
+    thead th.sortable.sorted-desc::after { content: " \2193"; color: #0b5fff; }
     tbody td {
       border-bottom: 1px solid #eef1f7;
       padding: 8px 10px;
@@ -152,13 +180,13 @@
         <thead>
           <tr>
             <th>#</th>
-            <th>Term</th>
-            <th>Categories</th>
-            <th>Variant Names</th>
-            <th>Count</th>
-            <th>Wikipedia EN</th>
-            <th>Wikipedia HE</th>
-            <th>Hebrew Term</th>
+            <th class="sortable" data-sort-key="term">Term</th>
+            <th class="sortable" data-sort-key="categories">Categories</th>
+            <th class="sortable" data-sort-key="variant_names">Variant Names</th>
+            <th class="sortable" data-sort-key="talmud_corpus_count">Count</th>
+            <th class="sortable" data-sort-key="wikipedia_en">Wikipedia EN</th>
+            <th class="sortable" data-sort-key="wikipedia_he">Wikipedia HE</th>
+            <th class="sortable" data-sort-key="hebrew_term">Hebrew Term</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -172,6 +200,9 @@
     const searchInput = document.querySelector('#search');
     const categoryFilter = document.querySelector('#categoryFilter');
     const meta = document.querySelector('#meta');
+    const sortableHeaders = Array.from(document.querySelectorAll('th.sortable'));
+    let sortKey = 'term';
+    let sortDir = 'asc';
 
     function parseCsv(text) {
       const rows = [];
@@ -267,10 +298,11 @@
         const categoryOk = category ? r.__categories.includes(category) : true;
         return textOk && categoryOk;
       });
+      const sorted = filtered.slice().sort((a, b) => compareRows(a, b, sortKey, sortDir));
 
-      meta.textContent = `${filtered.length.toLocaleString()} / ${data.length.toLocaleString()} rows`;
+      meta.textContent = `${sorted.length.toLocaleString()} / ${data.length.toLocaleString()} rows`;
 
-      tbody.innerHTML = filtered.map((r, idx) => {
+      tbody.innerHTML = sorted.map((r, idx) => {
         const cats = (r.categories || '')
           .split(';')
           .map(x => x.trim())
@@ -289,6 +321,30 @@
           <td>${r.hebrew_term || '<span class="muted">-</span>'}</td>
         </tr>`;
       }).join('');
+    }
+
+    function compareRows(a, b, key, dir) {
+      const sign = dir === 'asc' ? 1 : -1;
+      if (key === 'talmud_corpus_count') {
+        const av = parseInt(a.talmud_corpus_count || '0', 10) || 0;
+        const bv = parseInt(b.talmud_corpus_count || '0', 10) || 0;
+        if (av !== bv) return (av - bv) * sign;
+        return a.term.localeCompare(b.term) * sign;
+      }
+      const ax = (a[key] || '').toString().toLowerCase();
+      const bx = (b[key] || '').toString().toLowerCase();
+      const cmp = ax.localeCompare(bx, undefined, { numeric: true, sensitivity: 'base' });
+      if (cmp !== 0) return cmp * sign;
+      return a.term.localeCompare(b.term) * sign;
+    }
+
+    function updateSortHeaderState() {
+      for (const th of sortableHeaders) {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        if (th.dataset.sortKey === sortKey) {
+          th.classList.add(sortDir === 'asc' ? 'sorted-asc' : 'sorted-desc');
+        }
+      }
     }
 
     async function main() {
@@ -344,7 +400,22 @@
       }
 
       function rerender() {
+        updateSortHeaderState();
         render(data, searchInput.value, categoryFilter.value);
+      }
+
+      for (const th of sortableHeaders) {
+        th.addEventListener('click', () => {
+          const key = th.dataset.sortKey;
+          if (!key) return;
+          if (sortKey === key) {
+            sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+          } else {
+            sortKey = key;
+            sortDir = key === 'talmud_corpus_count' ? 'desc' : 'asc';
+          }
+          rerender();
+        });
       }
 
       rerender();

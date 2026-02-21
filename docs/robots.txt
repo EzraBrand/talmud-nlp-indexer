@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://ezrabrand.github.io/talmud-nlp-indexer/sitemap.xml
