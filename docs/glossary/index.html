@@ -97,8 +97,10 @@
       padding: 8px 10px;
       vertical-align: top;
     }
-    tbody tr:hover { background: #fbfcff; }
-    #grid tbody tr.selected { background: #e8efff; }
+    tbody tr:nth-child(odd) { background: #fcfdff; }
+    tbody tr:nth-child(even) { background: #f4f8ff; }
+    tbody tr:hover { background: #dfeaff; }
+    #grid tbody tr.selected { background: #9fc0ff; }
     #grid th:nth-child(1), #grid td:nth-child(1) { width: 5%; text-align: right; color: var(--muted); }
     #grid th:nth-child(2), #grid td:nth-child(2) { width: 14%; }
     #grid th:nth-child(3), #grid td:nth-child(3) { width: 11%; }
@@ -133,6 +135,7 @@
   <div class="wrap">
     <h1>Talmud Glossary</h1>
     <p class="sub">Data source: <a href="https://github.com/EzraBrand/talmud-nlp-indexer/tree/main/data/glossary_initial" target="_blank" rel="noopener noreferrer">talmud-nlp-indexer/data/glossary_initial</a> (current table from <code>glossary_initial_v4.csv</code>).</p>
+    <p class="sub">Read more at <a href="https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/glossary_initial/README.md" target="_blank" rel="noopener noreferrer">data/glossary_initial/README.md</a>.</p>
 
     <div class="toolbar">
       <input id="search" type="search" placeholder="Filter terms, variants, categories, Hebrew, or Wikipedia title..." />
