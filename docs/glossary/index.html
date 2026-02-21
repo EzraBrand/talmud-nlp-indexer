@@ -40,7 +40,7 @@
     }
     .toolbar {
       display: grid;
-      grid-template-columns: 1fr auto;
+      grid-template-columns: 1fr auto auto;
       gap: 10px;
       margin-bottom: 12px;
     }
@@ -51,6 +51,15 @@
       border-radius: 8px;
       background: var(--surface);
       font-size: 0.95rem;
+    }
+    select {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      font-size: 0.95rem;
+      color: var(--text);
+      min-width: 210px;
     }
     .meta {
       align-self: center;
@@ -71,6 +80,7 @@
       width: 100%;
       min-width: 1250px;
       font-size: 0.9rem;
+      table-layout: fixed;
     }
     thead th {
       position: sticky;
@@ -88,6 +98,19 @@
       vertical-align: top;
     }
     tbody tr:hover { background: #fbfcff; }
+    #grid th:nth-child(1), #grid td:nth-child(1) { width: 16%; }
+    #grid th:nth-child(2), #grid td:nth-child(2) { width: 12%; }
+    #grid th:nth-child(3), #grid td:nth-child(3) {
+      width: 14%;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    #grid th:nth-child(4), #grid td:nth-child(4) { width: 7%; }
+    #grid th:nth-child(5), #grid td:nth-child(5) { width: 15%; }
+    #grid th:nth-child(6), #grid td:nth-child(6) { width: 15%; }
+    #grid th:nth-child(7), #grid td:nth-child(7) { width: 10%; }
+    #grid th:nth-child(8), #grid td:nth-child(8) { width: 11%; }
     .muted { color: var(--muted); }
     .cats {
       display: inline-block;
@@ -111,6 +134,9 @@
 
     <div class="toolbar">
       <input id="search" type="search" placeholder="Filter terms, variants, categories, Hebrew, or Wikipedia title..." />
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+      </select>
       <div id="meta" class="meta">Loading...</div>
     </div>
 
@@ -137,6 +163,7 @@
     const CSV_URL = './glossary_initial_v4.csv';
     const tbody = document.querySelector('#grid tbody');
     const searchInput = document.querySelector('#search');
+    const categoryFilter = document.querySelector('#categoryFilter');
     const meta = document.querySelector('#meta');
 
     function parseCsv(text) {
@@ -204,11 +231,13 @@
       return `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a>`;
     }
 
-    function render(data, q = '') {
+    function render(data, q = '', category = '') {
       const needle = q.trim().toLowerCase();
-      const filtered = needle
-        ? data.filter(r => r.__search.includes(needle))
-        : data;
+      const filtered = data.filter(r => {
+        const textOk = needle ? r.__search.includes(needle) : true;
+        const categoryOk = category ? r.__categories.includes(category) : true;
+        return textOk && categoryOk;
+      });
 
       meta.textContent = `${filtered.length.toLocaleString()} / ${data.length.toLocaleString()} rows`;
 
@@ -255,6 +284,10 @@
             chavrutai_search_url: r[cols.chavrutai_search_url] || '',
             wiki_match_source: r[cols.wiki_match_source] || ''
           };
+          obj.__categories = (obj.categories || '')
+            .split(';')
+            .map(x => x.trim())
+            .filter(Boolean);
           obj.__search = [
             obj.term,
             obj.categories,
@@ -270,8 +303,24 @@
           return obj;
         });
 
-      render(data);
-      searchInput.addEventListener('input', () => render(data, searchInput.value));
+      const cats = new Set();
+      for (const row of data) {
+        for (const c of row.__categories) cats.add(c);
+      }
+      for (const c of Array.from(cats).sort()) {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        categoryFilter.appendChild(opt);
+      }
+
+      function rerender() {
+        render(data, searchInput.value, categoryFilter.value);
+      }
+
+      rerender();
+      searchInput.addEventListener('input', rerender);
+      categoryFilter.addEventListener('change', rerender);
     }
 
     main().catch(err => {

@@ -80,3 +80,4 @@ Use extension `Edit csv` by `janisdd`:
 - `2026-02-21 12:49` Added GitHub Pages browser table (`docs/glossary/index.html`) with clickable Wikipedia anchors.
 - `2026-02-21 13:22` Added `talmud_corpus_count` to `glossary_initial_v4.csv` using tokenized counting over `data/talmud_full_english.txt`; surfaced the same column on GitHub Pages.
 - `2026-02-21 13:24` Added `update_corpus_counts.py` and refreshed counts with explicit normalization for dotted transliteration letters and apostrophe variants.
+- `2026-02-21 13:30` Added `enrich_he_from_en_langlinks.py` and refreshed `wikipedia_he` where programmatically available from EN Wikipedia `langlinks`; updated page UI with wrapped narrower `Variant Names` and a category filter.
