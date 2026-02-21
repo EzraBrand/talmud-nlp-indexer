@@ -121,6 +121,7 @@
             <th>Term</th>
             <th>Categories</th>
             <th>Variant Names</th>
+            <th>Count</th>
             <th>Wikipedia EN</th>
             <th>Wikipedia HE</th>
             <th>Hebrew Term</th>
@@ -223,6 +224,7 @@
           <td>${r.term || ''}</td>
           <td>${cats || '<span class="muted">-</span>'}</td>
           <td class="small">${r.variant_names || '<span class="muted">-</span>'}</td>
+          <td>${r.talmud_corpus_count || '0'}</td>
           <td>${link(r.wikipedia_en, wikiTitleFromUrl(r.wikipedia_en))}</td>
           <td>${link(r.wikipedia_he, wikiTitleFromUrl(r.wikipedia_he))}</td>
           <td>${r.hebrew_term || '<span class="muted">-</span>'}</td>
@@ -246,6 +248,7 @@
             term: r[cols.term] || '',
             categories: r[cols.categories] || '',
             variant_names: r[cols.variant_names] || '',
+            talmud_corpus_count: r[cols.talmud_corpus_count] || '0',
             wikipedia_en: r[cols.wikipedia_en] || '',
             wikipedia_he: r[cols.wikipedia_he] || '',
             hebrew_term: r[cols.hebrew_term] || '',
@@ -256,6 +259,7 @@
             obj.term,
             obj.categories,
             obj.variant_names,
+            obj.talmud_corpus_count,
             obj.wikipedia_en,
             obj.wikipedia_he,
             wikiTitleFromUrl(obj.wikipedia_en),
@@ -273,7 +277,7 @@
     main().catch(err => {
       console.error(err);
       meta.textContent = 'Failed to load data';
-      tbody.innerHTML = `<tr><td colspan="7" class="muted">${err.message}</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="8" class="muted">${err.message}</td></tr>`;
     });
   </script>
 </body>
