@@ -8,6 +8,7 @@ This folder contains iterative glossary database builds for the ChavrutAI glossa
 - `glossary_initial_v3.csv`: strict Wikipedia verification pass for biblical names.
 - `glossary_initial_v4.csv`: current canonical dataset with deduped entities.
 - `biblical_names_wikipedia_review.csv`: biblical-name verification audit table.
+- `missing_he_wiki_after_langlinks.csv`: entries that still have EN Wikipedia but no HE `langlink` after automated enrichment.
 
 ## Current Canonical Dataset
 
@@ -81,3 +82,4 @@ Use extension `Edit csv` by `janisdd`:
 - `2026-02-21 13:22` Added `talmud_corpus_count` to `glossary_initial_v4.csv` using tokenized counting over `data/talmud_full_english.txt`; surfaced the same column on GitHub Pages.
 - `2026-02-21 13:24` Added `update_corpus_counts.py` and refreshed counts with explicit normalization for dotted transliteration letters and apostrophe variants.
 - `2026-02-21 13:30` Added `enrich_he_from_en_langlinks.py` and refreshed `wikipedia_he` where programmatically available from EN Wikipedia `langlinks`; updated page UI with wrapped narrower `Variant Names` and a category filter.
+- `2026-02-21 13:57` Continued HE-enrichment in smaller passes, fixed remaining canonical Hebrew-term fallback case, and exported unresolved EN-without-HE list to `missing_he_wiki_after_langlinks.csv`.

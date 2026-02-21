@@ -54,7 +54,6 @@ def fetch_langlinks(titles):
 def main():
     with CSV_PATH.open('r', encoding='utf-8-sig', newline='') as f:
         rows = list(csv.DictReader(f))
-        fieldnames = f.readline
 
     titles = []
     for r in rows:
@@ -66,10 +65,49 @@ def main():
     uniq_titles = sorted(set(titles))
     title_to_he = {}
 
-    batch_size = 50
+    batch_size = 10
     for i in range(0, len(uniq_titles), batch_size):
         batch = uniq_titles[i:i + batch_size]
         data = fetch_langlinks(batch)
+        alias = {t: t for t in batch}
+        for n in data.get('query', {}).get('normalized', []) or []:
+            frm = (n.get('from') or '').strip()
+            to = (n.get('to') or '').strip()
+            if frm and to:
+                alias[frm] = to
+        for r in data.get('query', {}).get('redirects', []) or []:
+            frm = (r.get('from') or '').strip()
+            to = (r.get('to') or '').strip()
+            if frm and to:
+                alias[frm] = to
+
+        pages = data.get('query', {}).get('pages', {})
+        page_he = {}
+        for page in pages.values():
+            title = page.get('title', '')
+            links = page.get('langlinks') or []
+            if title and links:
+                he_title = links[0].get('*', '').strip()
+                if he_title:
+                    page_he[title] = he_title
+
+        for source in batch:
+            cur = source
+            for _ in range(5):
+                nxt = alias.get(cur)
+                if not nxt or nxt == cur:
+                    break
+                cur = nxt
+            if cur in page_he:
+                title_to_he[source] = page_he[cur]
+            elif source in page_he:
+                title_to_he[source] = page_he[source]
+        time.sleep(0.2)
+
+    # Fallback for unresolved titles (handles any residual API/batch edge cases).
+    unresolved = [t for t in uniq_titles if t not in title_to_he]
+    for t in unresolved:
+        data = fetch_langlinks([t])
         pages = data.get('query', {}).get('pages', {})
         for page in pages.values():
             title = page.get('title', '')
@@ -77,8 +115,9 @@ def main():
             if title and links:
                 he_title = links[0].get('*', '').strip()
                 if he_title:
-                    title_to_he[title] = he_title
-        time.sleep(0.2)
+                    title_to_he[t] = he_title
+                    break
+        time.sleep(0.05)
 
     updated = 0
     for r in rows:
