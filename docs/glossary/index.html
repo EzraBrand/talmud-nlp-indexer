@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Talmud NLP Glossary (Initial v4)</title>
+  <title>Talmud Glossary</title>
   <style>
     :root {
       --bg: #f6f7fb;
@@ -101,14 +101,13 @@
     }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .lang { color: var(--muted); font-size: 0.78rem; margin-left: 4px; }
     .small { font-size: 0.82rem; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Glossary Initial v4</h1>
-    <p class="sub">Canonicalized glossary DB generated from Talmud NLP gazetteers + curated Wikipedia mappings.</p>
+    <h1>Talmud Glossary</h1>
+    <p class="sub">Data source: <a href="https://github.com/EzraBrand/talmud-nlp-indexer/tree/main/data/glossary_initial" target="_blank" rel="noopener noreferrer">talmud-nlp-indexer/data/glossary_initial</a> (current table from <code>glossary_initial_v4.csv</code>).</p>
 
     <div class="toolbar">
       <input id="search" type="search" placeholder="Filter terms, variants, categories, Hebrew, or Wikipedia title..." />
@@ -125,8 +124,7 @@
             <th>Wikipedia EN</th>
             <th>Wikipedia HE</th>
             <th>Hebrew Term</th>
-            <th>Search</th>
-            <th>Match Source</th>
+            <th>ChavrutAI Search</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -225,11 +223,10 @@
           <td>${r.term || ''}</td>
           <td>${cats || '<span class="muted">-</span>'}</td>
           <td class="small">${r.variant_names || '<span class="muted">-</span>'}</td>
-          <td>${link(r.wikipedia_en, wikiTitleFromUrl(r.wikipedia_en))}<span class="lang">EN</span></td>
-          <td>${link(r.wikipedia_he, wikiTitleFromUrl(r.wikipedia_he))}<span class="lang">HE</span></td>
+          <td>${link(r.wikipedia_en, wikiTitleFromUrl(r.wikipedia_en))}</td>
+          <td>${link(r.wikipedia_he, wikiTitleFromUrl(r.wikipedia_he))}</td>
           <td>${r.hebrew_term || '<span class="muted">-</span>'}</td>
           <td>${link(r.chavrutai_search_url, 'Search')}</td>
-          <td class="small">${r.wiki_match_source || '<span class="muted">-</span>'}</td>
         </tr>`;
       }).join('');
     }
@@ -276,7 +273,7 @@
     main().catch(err => {
       console.error(err);
       meta.textContent = 'Failed to load data';
-      tbody.innerHTML = `<tr><td colspan="8" class="muted">${err.message}</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="7" class="muted">${err.message}</td></tr>`;
     });
   </script>
 </body>
