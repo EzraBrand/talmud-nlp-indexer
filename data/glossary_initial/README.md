@@ -55,8 +55,11 @@ screenshot of the current csv / DB, human readable:
 <img width="643" height="486" alt="image" src="https://github.com/user-attachments/assets/d952314f-48a4-4872-a7f5-fbe2ae82c03d" />
 
 (Using extension Edit csv , by janisdd.
+
 Do this in VS Code, to view csv as grid:
 
 Press Ctrl+Shift+P
+
 Type Edit csv: Edit
+
 Press Enter)
