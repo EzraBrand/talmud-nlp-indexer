@@ -9,6 +9,7 @@ This folder contains iterative glossary database builds for the ChavrutAI glossa
 - `glossary_initial_v4.csv`: current canonical dataset with deduped entities.
 - `biblical_names_wikipedia_review.csv`: biblical-name verification audit table.
 - `missing_he_wiki_after_langlinks.csv`: entries that still have EN Wikipedia but no HE `langlink` after automated enrichment.
+- `recanonicalize_terms_by_corpus.py`: script that re-selects canonical term names from alias sets using corpus frequency.
 
 ## Current Canonical Dataset
 
@@ -16,7 +17,7 @@ Use `glossary_initial_v4.csv` as the working DB.
 
 Each row is a canonical entry with:
 
-- `term`: canonical entry name (Wikipedia title when available)
+- `term`: canonical entry name selected from `term + variant_names` by highest corpus frequency (to prefer Steinsaltz-style transliteration where available)
 - `categories`: one or more gazetteer categories (`;` separated)
 - `variant_names`: alternate gazetteer names merged into the canonical row
 - `talmud_corpus_count`: tokenized occurrence count in `data/talmud_full_english.txt` (canonical term + variants), with normalization for transliteration diacritics (for example `ḥ -> h`) and apostrophe variants (`'`, `’`, `‘`, etc.)
@@ -83,3 +84,4 @@ Use extension `Edit csv` by `janisdd`:
 - `2026-02-21 13:24` Added `update_corpus_counts.py` and refreshed counts with explicit normalization for dotted transliteration letters and apostrophe variants.
 - `2026-02-21 13:30` Added `enrich_he_from_en_langlinks.py` and refreshed `wikipedia_he` where programmatically available from EN Wikipedia `langlinks`; updated page UI with wrapped narrower `Variant Names` and a category filter.
 - `2026-02-21 13:57` Continued HE-enrichment in smaller passes, fixed remaining canonical Hebrew-term fallback case, and exported unresolved EN-without-HE list to `missing_he_wiki_after_langlinks.csv`.
+- `2026-02-21 14:09` Recanonicalized terms by corpus frequency across aliases (for example `Abba Shaul` over `Abba Saul`) and added `recanonicalize_terms_by_corpus.py`.
