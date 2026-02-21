@@ -158,6 +158,21 @@
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
     .small { font-size: 0.82rem; }
+    .tip {
+      display: inline-block;
+      margin-left: 4px;
+      color: #5a6c97;
+      font-size: 0.75rem;
+      border: 1px solid #b8c4e0;
+      border-radius: 999px;
+      width: 14px;
+      height: 14px;
+      line-height: 12px;
+      text-align: center;
+      vertical-align: middle;
+      cursor: help;
+      background: #f6f8ff;
+    }
   </style>
 </head>
 <body>
@@ -179,14 +194,14 @@
       <table id="grid">
         <thead>
           <tr>
-            <th>#</th>
-            <th class="sortable" data-sort-key="term">Term</th>
-            <th class="sortable" data-sort-key="categories">Categories</th>
-            <th class="sortable" data-sort-key="variant_names">Variant Names</th>
-            <th class="sortable" data-sort-key="talmud_corpus_count">Count</th>
-            <th class="sortable" data-sort-key="wikipedia_en">Wikipedia EN</th>
-            <th class="sortable" data-sort-key="wikipedia_he">Wikipedia HE</th>
-            <th class="sortable" data-sort-key="hebrew_term">Hebrew Term</th>
+            <th>#<span class="tip" title="Row number in the current filtered and sorted view." aria-label="Row number tooltip">?</span></th>
+            <th class="sortable" data-sort-key="term">Term<span class="tip" title="Term name. Clicking a term opens a new tab searching that term in ChavrutAI." aria-label="Term tooltip">?</span></th>
+            <th class="sortable" data-sort-key="categories">Categories<span class="tip" title="Gazetteer category tags for this entry." aria-label="Categories tooltip">?</span></th>
+            <th class="sortable" data-sort-key="variant_names">Variant Names<span class="tip" title="Alternate spellings or names for the same canonical entry. Each variant links to a ChavrutAI search." aria-label="Variant names tooltip">?</span></th>
+            <th class="sortable" data-sort-key="talmud_corpus_count">Count<span class="tip" title="Approximate number of occurrences in the Steinsaltz English corpus, counted across the term and its variants." aria-label="Count tooltip">?</span></th>
+            <th class="sortable" data-sort-key="wikipedia_en">Wikipedia EN<span class="tip" title="Mapped English Wikipedia page for this entry, if available." aria-label="Wikipedia EN tooltip">?</span></th>
+            <th class="sortable" data-sort-key="wikipedia_he">Wikipedia HE<span class="tip" title="Mapped Hebrew Wikipedia page for this entry, if available." aria-label="Wikipedia HE tooltip">?</span></th>
+            <th class="sortable" data-sort-key="hebrew_term">Hebrew Term<span class="tip" title="Hebrew label for the entry, usually from the mapped Hebrew Wikipedia title." aria-label="Hebrew term tooltip">?</span></th>
           </tr>
         </thead>
         <tbody></tbody>
