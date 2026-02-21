@@ -18,7 +18,7 @@ Each row is a canonical entry with:
 - `term`: canonical entry name (Wikipedia title when available)
 - `categories`: one or more gazetteer categories (`;` separated)
 - `variant_names`: alternate gazetteer names merged into the canonical row
-- `talmud_corpus_count`: tokenized occurrence count in `data/talmud_full_english.txt` (canonical term + variants)
+- `talmud_corpus_count`: tokenized occurrence count in `data/talmud_full_english.txt` (canonical term + variants), with normalization for transliteration diacritics (for example `ḥ -> h`) and apostrophe variants (`'`, `’`, `‘`, etc.)
 - `wikipedia_en`: verified/best-mapped English Wikipedia URL
 - `wikipedia_he`: Hebrew Wikipedia URL when available
 - `selected_anchor_text`: anchor text used in earlier mapping steps
@@ -79,3 +79,4 @@ Use extension `Edit csv` by `janisdd`:
 - `2026-02-21 12:46` Updated schema docs: removed `category_count`, moved `variant_names` after `categories`, set `v4` as canonical.
 - `2026-02-21 12:49` Added GitHub Pages browser table (`docs/glossary/index.html`) with clickable Wikipedia anchors.
 - `2026-02-21 13:22` Added `talmud_corpus_count` to `glossary_initial_v4.csv` using tokenized counting over `data/talmud_full_english.txt`; surfaced the same column on GitHub Pages.
+- `2026-02-21 13:24` Added `update_corpus_counts.py` and refreshed counts with explicit normalization for dotted transliteration letters and apostrophe variants.
