@@ -69,6 +69,7 @@ Use extension `Edit csv` by `janisdd`:
 - Page source: `docs/glossary/index.html`
 - Data file used by the page: `docs/glossary/glossary_initial_v4.csv`
 - If GitHub Pages is configured from `main`/`docs`, this page is available at `/glossary/`.
+- Live URL: `https://ezrabrand.github.io/talmud-nlp-indexer/glossary/`
 
 ## Changelog
 
