@@ -1,4 +1,4 @@
-﻿# Initial Glossary Database (v2)
+﻿# Initial Glossary Database
 
 This folder contains an initial glossary database for the ChavrutAI glossary sprint.
 
@@ -49,3 +49,10 @@ Each row is a term (English transliteration/source spelling) with:
 - Add Sefaria term/page mappings.
 - Add sampled Talmud occurrences/snippets per term.
 - Add automated QA checks (invalid URLs, duplicate canonical entities, category conflicts).
+
+<img width="643" height="486" alt="image" src="https://github.com/user-attachments/assets/d952314f-48a4-4872-a7f5-fbe2ae82c03d" />
+(Do this in VS Code, to view csv as grid:
+
+Press Ctrl+Shift+P
+Type Edit csv: Edit
+Press Enter)
