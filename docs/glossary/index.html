@@ -139,6 +139,18 @@
     #grid th:nth-child(1), #grid td:nth-child(1) { width: 4%; text-align: right; color: var(--muted); }
     #grid tbody td:nth-child(1) { font-weight: 700; }
     #grid th:nth-child(2), #grid td:nth-child(2) { width: 16%; }
+    #grid th:nth-child(2),
+    #grid td:nth-child(2) {
+      position: sticky;
+      left: 0;
+      z-index: 2;
+      background: #eef3ff;
+      box-shadow: 1px 0 0 #d9dfeb;
+    }
+    #grid thead th:nth-child(2) {
+      z-index: 4;
+      background: #e7efff;
+    }
     #grid th:nth-child(3), #grid td:nth-child(3) { width: 10.5%; }
     #grid th:nth-child(4), #grid td:nth-child(4) {
       width: 14%;
