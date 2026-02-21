@@ -92,7 +92,10 @@
     .table-wrap {
       border: 1px solid var(--line);
       border-radius: 10px;
-      overflow: auto;
+      overflow-x: auto;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x pan-y;
       background: var(--surface);
       box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
       max-height: 78vh;
@@ -100,7 +103,7 @@
     table {
       border-collapse: collapse;
       width: 100%;
-      min-width: 1250px;
+      min-width: 1450px;
       font-size: 0.9rem;
       table-layout: fixed;
     }
