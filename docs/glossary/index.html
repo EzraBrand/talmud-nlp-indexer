@@ -96,9 +96,10 @@
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-x pan-y;
+      scrollbar-gutter: stable both-edges;
       background: var(--surface);
       box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
-      max-height: 78vh;
+      max-height: 60vh;
     }
     table {
       border-collapse: collapse;
@@ -216,6 +217,7 @@
   <script>
     const CSV_URL = './glossary_initial_v4.csv';
     const tbody = document.querySelector('#grid tbody');
+    const tableWrap = document.querySelector('.table-wrap');
     const searchInput = document.querySelector('#search');
     const categoryFilter = document.querySelector('#categoryFilter');
     const meta = document.querySelector('#meta');
@@ -423,6 +425,12 @@
         render(data, searchInput.value, categoryFilter.value);
       }
 
+      function fitTableHeight() {
+        const rect = tableWrap.getBoundingClientRect();
+        const available = window.innerHeight - rect.top - 12;
+        tableWrap.style.maxHeight = `${Math.max(220, Math.floor(available))}px`;
+      }
+
       for (const th of sortableHeaders) {
         th.addEventListener('click', () => {
           const key = th.dataset.sortKey;
@@ -438,6 +446,8 @@
       }
 
       rerender();
+      fitTableHeight();
+      window.addEventListener('resize', fitTableHeight);
       searchInput.addEventListener('input', rerender);
       categoryFilter.addEventListener('change', rerender);
       tbody.addEventListener('click', (e) => {
