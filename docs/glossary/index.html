@@ -120,12 +120,13 @@
     }
     thead th.sortable { cursor: pointer; user-select: none; }
     thead th.sortable::after {
-      content: " \2195";
+      content: "\2195";
       color: #6b7aa1;
       font-size: 0.75rem;
+      margin-left: 8px;
     }
-    thead th.sortable.sorted-asc::after { content: " \2191"; color: #0b5fff; }
-    thead th.sortable.sorted-desc::after { content: " \2193"; color: #0b5fff; }
+    thead th.sortable.sorted-asc::after { content: "\2191"; color: #0b5fff; }
+    thead th.sortable.sorted-desc::after { content: "\2193"; color: #0b5fff; }
     tbody td {
       border-bottom: 1px solid #eef1f7;
       padding: 8px 10px;
@@ -135,9 +136,10 @@
     tbody tr:nth-child(even) { background: #f4f8ff; }
     tbody tr:hover { background: #dfeaff; }
     #grid tbody tr.selected { background: #9fc0ff; }
-    #grid th:nth-child(1), #grid td:nth-child(1) { width: 5%; text-align: right; color: var(--muted); }
+    #grid th:nth-child(1), #grid td:nth-child(1) { width: 4%; text-align: right; color: var(--muted); }
+    #grid tbody td:nth-child(1) { font-weight: 700; }
     #grid th:nth-child(2), #grid td:nth-child(2) { width: 16%; }
-    #grid th:nth-child(3), #grid td:nth-child(3) { width: 12%; }
+    #grid th:nth-child(3), #grid td:nth-child(3) { width: 10.5%; }
     #grid th:nth-child(4), #grid td:nth-child(4) {
       width: 14%;
       white-space: normal;
@@ -164,7 +166,7 @@
     .small { font-size: 0.82rem; }
     .tip {
       display: inline-block;
-      margin-left: 4px;
+      margin-left: 7px;
       color: #5a6c97;
       font-size: 0.75rem;
       border: 1px solid #b8c4e0;
