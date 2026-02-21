@@ -1,0 +1,283 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Talmud NLP Glossary (Initial v4)</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --surface: #ffffff;
+      --text: #1a1d29;
+      --muted: #56607a;
+      --line: #d9dfeb;
+      --accent: #0b5fff;
+      --accent-soft: #e8efff;
+      --tag: #edf2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f8f9fd 0%, #eef2f9 100%);
+    }
+    .wrap {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+    .sub {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    input[type="search"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      font-size: 0.95rem;
+    }
+    .meta {
+      align-self: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+    .table-wrap {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      overflow: auto;
+      background: var(--surface);
+      box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+      max-height: 78vh;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 1250px;
+      font-size: 0.9rem;
+    }
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #f2f6ff;
+      color: #243354;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      padding: 10px 10px;
+    }
+    tbody td {
+      border-bottom: 1px solid #eef1f7;
+      padding: 8px 10px;
+      vertical-align: top;
+    }
+    tbody tr:hover { background: #fbfcff; }
+    .muted { color: var(--muted); }
+    .cats {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--tag);
+      color: #2b3f7a;
+      margin: 1px 4px 1px 0;
+      font-size: 0.78rem;
+      white-space: nowrap;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lang { color: var(--muted); font-size: 0.78rem; margin-left: 4px; }
+    .small { font-size: 0.82rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Glossary Initial v4</h1>
+    <p class="sub">Canonicalized glossary DB generated from Talmud NLP gazetteers + curated Wikipedia mappings.</p>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Filter terms, variants, categories, Hebrew, or Wikipedia title..." />
+      <div id="meta" class="meta">Loading...</div>
+    </div>
+
+    <div class="table-wrap">
+      <table id="grid">
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Categories</th>
+            <th>Variant Names</th>
+            <th>Wikipedia EN</th>
+            <th>Wikipedia HE</th>
+            <th>Hebrew Term</th>
+            <th>Search</th>
+            <th>Match Source</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const CSV_URL = './glossary_initial_v4.csv';
+    const tbody = document.querySelector('#grid tbody');
+    const searchInput = document.querySelector('#search');
+    const meta = document.querySelector('#meta');
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let cell = '';
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i++) {
+        const ch = text[i];
+
+        if (inQuotes) {
+          if (ch === '"') {
+            if (text[i + 1] === '"') {
+              cell += '"';
+              i++;
+            } else {
+              inQuotes = false;
+            }
+          } else {
+            cell += ch;
+          }
+          continue;
+        }
+
+        if (ch === '"') {
+          inQuotes = true;
+        } else if (ch === ',') {
+          row.push(cell);
+          cell = '';
+        } else if (ch === '\n') {
+          row.push(cell);
+          rows.push(row);
+          row = [];
+          cell = '';
+        } else if (ch !== '\r') {
+          cell += ch;
+        }
+      }
+
+      if (cell.length || row.length) {
+        row.push(cell);
+        rows.push(row);
+      }
+      return rows;
+    }
+
+    function wikiTitleFromUrl(url) {
+      if (!url) return '';
+      try {
+        const u = new URL(url);
+        const i = u.pathname.indexOf('/wiki/');
+        if (i < 0) return url;
+        const raw = u.pathname.slice(i + 6).split('#')[0].replace(/_/g, ' ');
+        return decodeURIComponent(raw);
+      } catch {
+        return url;
+      }
+    }
+
+    function link(url, text) {
+      if (!url) return '<span class="muted">-</span>';
+      const safeText = (text || url).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const safeUrl = url.replace(/"/g, '&quot;');
+      return `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a>`;
+    }
+
+    function render(data, q = '') {
+      const needle = q.trim().toLowerCase();
+      const filtered = needle
+        ? data.filter(r => r.__search.includes(needle))
+        : data;
+
+      meta.textContent = `${filtered.length.toLocaleString()} / ${data.length.toLocaleString()} rows`;
+
+      tbody.innerHTML = filtered.map(r => {
+        const cats = (r.categories || '')
+          .split(';')
+          .map(x => x.trim())
+          .filter(Boolean)
+          .map(c => `<span class="cats">${c}</span>`)
+          .join('');
+
+        return `<tr>
+          <td>${r.term || ''}</td>
+          <td>${cats || '<span class="muted">-</span>'}</td>
+          <td class="small">${r.variant_names || '<span class="muted">-</span>'}</td>
+          <td>${link(r.wikipedia_en, wikiTitleFromUrl(r.wikipedia_en))}<span class="lang">EN</span></td>
+          <td>${link(r.wikipedia_he, wikiTitleFromUrl(r.wikipedia_he))}<span class="lang">HE</span></td>
+          <td>${r.hebrew_term || '<span class="muted">-</span>'}</td>
+          <td>${link(r.chavrutai_search_url, 'Search')}</td>
+          <td class="small">${r.wiki_match_source || '<span class="muted">-</span>'}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    async function main() {
+      const res = await fetch(CSV_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Failed to load CSV (${res.status})`);
+      const text = await res.text();
+      const matrix = parseCsv(text);
+      const [header, ...body] = matrix;
+      const cols = Object.fromEntries(header.map((h, i) => [h, i]));
+
+      const data = body
+        .filter(r => r.length && r.some(c => c && c.trim()))
+        .map(r => {
+          const obj = {
+            term: r[cols.term] || '',
+            categories: r[cols.categories] || '',
+            variant_names: r[cols.variant_names] || '',
+            wikipedia_en: r[cols.wikipedia_en] || '',
+            wikipedia_he: r[cols.wikipedia_he] || '',
+            hebrew_term: r[cols.hebrew_term] || '',
+            chavrutai_search_url: r[cols.chavrutai_search_url] || '',
+            wiki_match_source: r[cols.wiki_match_source] || ''
+          };
+          obj.__search = [
+            obj.term,
+            obj.categories,
+            obj.variant_names,
+            obj.wikipedia_en,
+            obj.wikipedia_he,
+            wikiTitleFromUrl(obj.wikipedia_en),
+            wikiTitleFromUrl(obj.wikipedia_he),
+            obj.hebrew_term,
+            obj.wiki_match_source
+          ].join(' ').toLowerCase();
+          return obj;
+        });
+
+      render(data);
+      searchInput.addEventListener('input', () => render(data, searchInput.value));
+    }
+
+    main().catch(err => {
+      console.error(err);
+      meta.textContent = 'Failed to load data';
+      tbody.innerHTML = `<tr><td colspan="8" class="muted">${err.message}</td></tr>`;
+    });
+  </script>
+</body>
+</html>

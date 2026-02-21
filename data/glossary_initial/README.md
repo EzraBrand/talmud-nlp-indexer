@@ -1,24 +1,29 @@
 ﻿# Initial Glossary Database
 
-This folder contains an initial glossary database for the ChavrutAI glossary sprint.
+This folder contains iterative glossary database builds for the ChavrutAI glossary sprint.
 
-## File
+## Files
 
-- `glossary_initial_v2.csv`
+- `glossary_initial_v2.csv`: initial merged/enriched dataset.
+- `glossary_initial_v3.csv`: strict Wikipedia verification pass for biblical names.
+- `glossary_initial_v4.csv`: current canonical dataset with deduped entities.
+- `biblical_names_wikipedia_review.csv`: biblical-name verification audit table.
 
-## What It Is
+## Current Canonical Dataset
 
-A first-pass merged glossary table built from Talmud NLP gazetteers, enriched with best-effort Wikipedia mappings and basic variant grouping.
+Use `glossary_initial_v4.csv` as the working DB.
 
-Each row is a term (English transliteration/source spelling) with:
+Each row is a canonical entry with:
 
-- one or more gazetteer categories
-- optional English and Hebrew Wikipedia URLs
-- selected anchor text used for matching
-- optional Hebrew term (from Hebrew Wikipedia title)
-- ChavrutAI search URL
-- match-source metadata
-- `variant_names` for known alternate spellings/names mapped to the same underlying entry
+- `term`: canonical entry name (Wikipedia title when available)
+- `categories`: one or more gazetteer categories (`;` separated)
+- `variant_names`: alternate gazetteer names merged into the canonical row
+- `wikipedia_en`: verified/best-mapped English Wikipedia URL
+- `wikipedia_he`: Hebrew Wikipedia URL when available
+- `selected_anchor_text`: anchor text used in earlier mapping steps
+- `hebrew_term`: Hebrew label (from Hebrew Wikipedia title when available)
+- `chavrutai_search_url`: `https://chavrutai.com/search?q=...`
+- `wiki_match_source`: short provenance/status note for mapping path
 
 ## Primary Sources
 
@@ -30,36 +35,44 @@ Each row is a term (English transliteration/source spelling) with:
   - `bible_places_gazetteer.txt`
   - `talmud_toponyms_gazetteer.txt`
 - Curated/derived Wikipedia links from:
-  - blog HTML hyperlink extraction (deduplicated to `wikipedia_links_fixed.csv`)
+  - blog HTML hyperlink extraction (deduplicated into `wikipedia_links_fixed.csv`)
   - `comparative_topic_tree_hyperlinked.html` from `jewish-law-tree`
-- Additional EN->HE Wikipedia expansion via MediaWiki `langlinks` API for matched EN pages.
+- Wikipedia API enrichment:
+  - EN->HE `langlinks`
+  - strict biblical-name title verification (exact/redirect/disambiguation/missing)
 
 ## Important Limitations
 
-- This is intentionally an initial database, not a final curated mapping.
-- Wikipedia matches are partial and may include false positives/false negatives.
-- `variant_names` currently relies mainly on shared Wikipedia mapping; unmatched aliases may still be separate rows.
-- Sefaria links and Talmud in-context examples are not yet included here.
+- This is still an initial DB, not final manual curation.
+- Some entities remain unmatched to Wikipedia.
+- Some `variant_names` groupings are conservative and may miss deeper aliases.
+- Sefaria mappings and Talmud in-context examples are not included yet.
 
 ## Future Improvements
 
-- Manual curation pass for high-value terms and ambiguous entries.
-- Stronger alias normalization (apostrophes, ben/bar variants, transliteration variants, singular/plural).
-- Add confidence score and provenance per mapping decision.
+- Manual curation for ambiguous and high-frequency terms.
+- Stronger alias normalization (apostrophes, ben/bar, spelling variants).
+- Confidence scoring per mapping decision.
 - Add Sefaria term/page mappings.
 - Add sampled Talmud occurrences/snippets per term.
 - Add automated QA checks (invalid URLs, duplicate canonical entities, category conflicts).
 
-screenshot of the current csv / DB, human readable:
+## View CSV As Grid In VS Code
 
-<img width="643" height="486" alt="image" src="https://github.com/user-attachments/assets/d952314f-48a4-4872-a7f5-fbe2ae82c03d" />
+Use extension `Edit csv` by `janisdd`:
 
-(Using extension Edit csv , by janisdd.
+1. Press `Ctrl+Shift+P`
+2. Run `Edit csv: Edit`
 
-Do this in VS Code, to view csv as grid:
+## Browser Page (GitHub Pages)
 
-Press Ctrl+Shift+P
+- Page source: `docs/glossary/index.html`
+- Data file used by the page: `docs/glossary/glossary_initial_v4.csv`
+- If GitHub Pages is configured from `main`/`docs`, this page is available at `/glossary/`.
 
-Type Edit csv: Edit
+## Changelog
 
-Press Enter)
+- `2026-02-21 12:35` Added `biblical_names_wikipedia_review.csv` and strict biblical-name verification (`v3`).
+- `2026-02-21 12:42` Added `glossary_initial_v4.csv` with deduped canonical entries and expanded `variant_names`.
+- `2026-02-21 12:46` Updated schema docs: removed `category_count`, moved `variant_names` after `categories`, set `v4` as canonical.
+- `2026-02-21 12:49` Added GitHub Pages browser table (`docs/glossary/index.html`) with clickable Wikipedia anchors.
