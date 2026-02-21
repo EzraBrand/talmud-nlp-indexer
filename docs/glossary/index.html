@@ -98,19 +98,21 @@
       vertical-align: top;
     }
     tbody tr:hover { background: #fbfcff; }
-    #grid th:nth-child(1), #grid td:nth-child(1) { width: 16%; }
-    #grid th:nth-child(2), #grid td:nth-child(2) { width: 12%; }
-    #grid th:nth-child(3), #grid td:nth-child(3) {
+    #grid tbody tr.selected { background: #e8efff; }
+    #grid th:nth-child(1), #grid td:nth-child(1) { width: 5%; text-align: right; color: var(--muted); }
+    #grid th:nth-child(2), #grid td:nth-child(2) { width: 14%; }
+    #grid th:nth-child(3), #grid td:nth-child(3) { width: 11%; }
+    #grid th:nth-child(4), #grid td:nth-child(4) {
       width: 14%;
       white-space: normal;
       overflow-wrap: anywhere;
       word-break: break-word;
     }
-    #grid th:nth-child(4), #grid td:nth-child(4) { width: 7%; }
-    #grid th:nth-child(5), #grid td:nth-child(5) { width: 15%; }
+    #grid th:nth-child(5), #grid td:nth-child(5) { width: 7%; }
     #grid th:nth-child(6), #grid td:nth-child(6) { width: 15%; }
-    #grid th:nth-child(7), #grid td:nth-child(7) { width: 10%; }
-    #grid th:nth-child(8), #grid td:nth-child(8) { width: 11%; }
+    #grid th:nth-child(7), #grid td:nth-child(7) { width: 15%; }
+    #grid th:nth-child(8), #grid td:nth-child(8) { width: 10%; }
+    #grid th:nth-child(9), #grid td:nth-child(9) { width: 9%; }
     .muted { color: var(--muted); }
     .cats {
       display: inline-block;
@@ -144,6 +146,7 @@
       <table id="grid">
         <thead>
           <tr>
+            <th>#</th>
             <th>Term</th>
             <th>Categories</th>
             <th>Variant Names</th>
@@ -241,7 +244,7 @@
 
       meta.textContent = `${filtered.length.toLocaleString()} / ${data.length.toLocaleString()} rows`;
 
-      tbody.innerHTML = filtered.map(r => {
+      tbody.innerHTML = filtered.map((r, idx) => {
         const cats = (r.categories || '')
           .split(';')
           .map(x => x.trim())
@@ -249,7 +252,8 @@
           .map(c => `<span class="cats">${c}</span>`)
           .join('');
 
-        return `<tr>
+        return `<tr data-row="${idx + 1}">
+          <td>${idx + 1}</td>
           <td>${r.term || ''}</td>
           <td>${cats || '<span class="muted">-</span>'}</td>
           <td class="small">${r.variant_names || '<span class="muted">-</span>'}</td>
@@ -321,12 +325,19 @@
       rerender();
       searchInput.addEventListener('input', rerender);
       categoryFilter.addEventListener('change', rerender);
+      tbody.addEventListener('click', (e) => {
+        const tr = e.target.closest('tr');
+        if (!tr) return;
+        const selected = tbody.querySelector('tr.selected');
+        if (selected && selected !== tr) selected.classList.remove('selected');
+        tr.classList.toggle('selected');
+      });
     }
 
     main().catch(err => {
       console.error(err);
       meta.textContent = 'Failed to load data';
-      tbody.innerHTML = `<tr><td colspan="8" class="muted">${err.message}</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="9" class="muted">${err.message}</td></tr>`;
     });
   </script>
 </body>
