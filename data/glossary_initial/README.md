@@ -6,14 +6,14 @@ This folder contains iterative glossary database builds for the ChavrutAI glossa
 
 - `glossary_initial_v2.csv`: initial merged/enriched dataset.
 - `glossary_initial_v3.csv`: strict Wikipedia verification pass for biblical names.
-- `glossary_initial_v4.csv`: current canonical dataset with deduped entities.
+- `docs/glossary/glossary_initial_v4.csv`: current canonical dataset with deduped entities.
 - `biblical_names_wikipedia_review.csv`: biblical-name verification audit table.
 - `missing_he_wiki_after_langlinks.csv`: entries that still have EN Wikipedia but no HE `langlink` after automated enrichment.
 - `recanonicalize_terms_by_corpus.py`: script that re-selects canonical term names from alias sets using corpus frequency.
 
 ## Current Canonical Dataset
 
-Use `glossary_initial_v4.csv` as the working DB.
+Use `docs/glossary/glossary_initial_v4.csv` as the working DB.
 
 Each row is a canonical entry with:
 

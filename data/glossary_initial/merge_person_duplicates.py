@@ -6,8 +6,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 REPO = Path(__file__).resolve().parents[2]
-CSV_PATH = REPO / "data" / "glossary_initial" / "glossary_initial_v4.csv"
-DOCS_CSV_PATH = REPO / "docs" / "glossary" / "glossary_initial_v4.csv"
+CSV_PATH = REPO / "docs" / "glossary" / "glossary_initial_v4.csv"
 REVIEW_DIR = REPO / "data" / "glossary_initial"
 
 NON_PERSON_HINTS = (
@@ -234,11 +233,10 @@ def run(args: argparse.Namespace) -> None:
 
     if args.write:
         fields = list(new_rows[0].keys())
-        for out in (CSV_PATH, DOCS_CSV_PATH):
-            with out.open("w", encoding="utf-8-sig", newline="") as f:
-                w = csv.DictWriter(f, fieldnames=fields)
-                w.writeheader()
-                w.writerows(new_rows)
+        with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fields)
+            w.writeheader()
+            w.writerows(new_rows)
 
     print(f"review={review_path}")
     print(f"clusters_total={len(review)} merged={merged_count} skipped={skipped_count}")

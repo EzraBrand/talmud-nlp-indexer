@@ -5,8 +5,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 REPO = Path(__file__).resolve().parents[2]
-CSV_PATH = REPO / 'data' / 'glossary_initial' / 'glossary_initial_v4.csv'
-DOCS_CSV_PATH = REPO / 'docs' / 'glossary' / 'glossary_initial_v4.csv'
+CSV_PATH = REPO / 'docs' / 'glossary' / 'glossary_initial_v4.csv'
 CORPUS_PATH = REPO / 'data' / 'talmud_full_english.txt'
 
 APOSTROPHES = {
@@ -149,11 +148,10 @@ def main():
         r['talmud_corpus_count'] = str(sum(alias_counts.get(a, 0) for a in aliases))
 
     fieldnames = list(rows[0].keys())
-    for out_path in (CSV_PATH, DOCS_CSV_PATH):
-        with out_path.open('w', encoding='utf-8-sig', newline='') as f:
-            w = csv.DictWriter(f, fieldnames=fieldnames)
-            w.writeheader()
-            w.writerows(rows)
+    with CSV_PATH.open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(rows)
 
     print(f'rows={len(rows)}')
     print(f'canonical_changed={changed}')

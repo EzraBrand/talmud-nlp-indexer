@@ -9,8 +9,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 REPO = Path(__file__).resolve().parents[2]
-CSV_PATH = REPO / "data" / "glossary_initial" / "glossary_initial_v4.csv"
-DOCS_CSV_PATH = REPO / "docs" / "glossary" / "glossary_initial_v4.csv"
+CSV_PATH = REPO / "docs" / "glossary" / "glossary_initial_v4.csv"
 SEED_PATH = REPO / "data" / "glossary_initial" / "personality_index_seed.csv"
 REVIEW_DIR = REPO / "data" / "glossary_initial"
 
@@ -313,11 +312,10 @@ def run(args: argparse.Namespace) -> None:
 
     if args.write:
         fieldnames = list(rows[0].keys()) if rows else []
-        for out in (CSV_PATH, DOCS_CSV_PATH):
-            with out.open("w", encoding="utf-8-sig", newline="") as f:
-                w = csv.DictWriter(f, fieldnames=fieldnames)
-                w.writeheader()
-                w.writerows(rows)
+        with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fieldnames)
+            w.writeheader()
+            w.writerows(rows)
 
     status_counts = {}
     for rr in review_rows:

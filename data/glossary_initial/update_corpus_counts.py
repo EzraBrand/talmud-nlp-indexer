@@ -5,8 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-CSV_PATH = REPO / 'data' / 'glossary_initial' / 'glossary_initial_v4.csv'
-DOCS_CSV_PATH = REPO / 'docs' / 'glossary' / 'glossary_initial_v4.csv'
+CSV_PATH = REPO / 'docs' / 'glossary' / 'glossary_initial_v4.csv'
 CORPUS_PATH = REPO / 'data' / 'talmud_full_english.txt'
 
 APOSTROPHES = {
@@ -118,15 +117,13 @@ def main():
 
     count_rows(rows, corpus_tokens)
 
-    for out_path in (CSV_PATH, DOCS_CSV_PATH):
-        with out_path.open('w', encoding='utf-8-sig', newline='') as f:
-            w = csv.DictWriter(f, fieldnames=fieldnames)
-            w.writeheader()
-            w.writerows(rows)
+    with CSV_PATH.open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(rows)
 
     print(f'Updated {len(rows)} rows with talmud_corpus_count.')
     print(f'Wrote: {CSV_PATH}')
-    print(f'Wrote: {DOCS_CSV_PATH}')
 
 
 if __name__ == '__main__':

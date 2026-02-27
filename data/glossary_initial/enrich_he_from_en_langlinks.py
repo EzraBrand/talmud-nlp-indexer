@@ -6,8 +6,7 @@ import urllib.request
 from pathlib import Path
 
 REPO = Path(r'c:\Users\ezrab\Downloads\talmud-nlp-indexer')
-CSV_PATH = REPO / 'data' / 'glossary_initial' / 'glossary_initial_v4.csv'
-DOCS_CSV_PATH = REPO / 'docs' / 'glossary' / 'glossary_initial_v4.csv'
+CSV_PATH = REPO / 'docs' / 'glossary' / 'glossary_initial_v4.csv'
 API = 'https://en.wikipedia.org/w/api.php'
 UA = 'codex-he-langlink-enricher/1.0'
 
@@ -135,11 +134,10 @@ def main():
     if not rows:
         return
     out_fields = list(rows[0].keys())
-    for out_path in (CSV_PATH, DOCS_CSV_PATH):
-        with out_path.open('w', encoding='utf-8-sig', newline='') as f:
-            w = csv.DictWriter(f, fieldnames=out_fields)
-            w.writeheader()
-            w.writerows(rows)
+    with CSV_PATH.open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=out_fields)
+        w.writeheader()
+        w.writerows(rows)
 
     print(f'rows={len(rows)}')
     print(f'updated_he_links={updated}')
