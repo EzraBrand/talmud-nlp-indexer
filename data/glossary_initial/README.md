@@ -60,6 +60,37 @@ Each row is a canonical entry with:
 - Add sampled Talmud occurrences/snippets per term.
 - Add automated QA checks (invalid URLs, duplicate canonical entities, category conflicts).
 
+## Person-Entity Validation Workflow (Iterative)
+
+Use the personality PDF as a seed, then validate/enrich in small API batches:
+
+1. Build seed from PDF (`QID + EN/HE names`):
+   ```bash
+   python data/glossary_initial/extract_personality_seed_from_pdf.py
+   ```
+   Output: `data/glossary_initial/personality_index_seed.csv`
+
+2. Validate missing-EN `names` rows using seeded QIDs first:
+   ```bash
+   python data/glossary_initial/validate_person_entities_wikipedia.py --only-missing-en --seed-exact-only --limit 50 --write
+   ```
+
+3. Validate already-linked EN rows (canonical title, QID, HE langlink):
+   ```bash
+   python data/glossary_initial/validate_person_entities_wikipedia.py --only-existing-en --offset 0 --limit 120 --write
+   ```
+
+4. Continue by increasing `--offset` in small chunks to avoid timeout/rate-limit issues.
+
+Each run writes an audit log:
+- `data/glossary_initial/person_entity_validation_review_YYYYMMDD_HHMMSS.csv`
+
+5. Merge duplicate person rows that share the same EN Wikipedia page:
+   ```bash
+   python data/glossary_initial/merge_person_duplicates.py --write
+   ```
+   This performs high-precision merges for `names` rows using `wikipedia_en` as the merge key, writes a review file, and skips obvious non-person pages (for example `dynasty`, `Chaldea`).
+
 ## View CSV As Grid In VS Code
 
 Use extension `Edit csv` by `janisdd`:
