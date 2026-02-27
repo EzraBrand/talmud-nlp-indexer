@@ -25,7 +25,7 @@ Each row is a canonical entry with:
 - `wikipedia_he`: Hebrew Wikipedia URL when available
 - `selected_anchor_text`: anchor text used in earlier mapping steps
 - `hebrew_term`: Hebrew label (from Hebrew Wikipedia title when available)
-- `chavrutai_search_url`: `https://chavrutai.com/search?q=...`
+- `chavrutai_search_url`: `https://chavrutai.com/search?q=...&type=talmud`
 - `wiki_match_source`: short provenance/status note for mapping path
 
 ## Primary Sources

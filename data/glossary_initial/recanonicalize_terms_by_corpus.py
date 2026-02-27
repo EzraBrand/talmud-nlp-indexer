@@ -142,7 +142,7 @@ def main():
 
         r['term'] = new_term
         r['variant_names'] = '; '.join(new_variants)
-        r['chavrutai_search_url'] = 'https://chavrutai.com/search?q=' + quote(new_term, safe='')
+        r['chavrutai_search_url'] = 'https://chavrutai.com/search?q=' + quote(new_term, safe='') + '&type=talmud'
 
         # Keep row count as combined alias frequency under current alias set.
         r['talmud_corpus_count'] = str(sum(alias_counts.get(a, 0) for a in aliases))

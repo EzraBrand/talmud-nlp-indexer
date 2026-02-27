@@ -138,7 +138,7 @@ def merge_cluster(rows: List[Dict[str, str]]) -> Dict[str, str]:
 
     merged_sources = unique_preserve(source_parts + ["merge_same_enwiki"])
     keep["wiki_match_source"] = "; ".join(merged_sources)
-    keep["chavrutai_search_url"] = "https://chavrutai.com/search?q=" + urllib.parse.quote(canonical, safe="")
+    keep["chavrutai_search_url"] = "https://chavrutai.com/search?q=" + urllib.parse.quote(canonical, safe="") + "&type=talmud"
 
     if not (keep.get("selected_anchor_text") or "").strip():
         keep["selected_anchor_text"] = canonical

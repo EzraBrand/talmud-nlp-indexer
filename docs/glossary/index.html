@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Talmud Glossary</title>
+  <title>Index of Personal Names, Place Names, and Key Terms in the Talmud</title>
   <meta name="description" content="Talmud glossary database with canonical terms, variants, corpus counts, and English/Hebrew Wikipedia mappings." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://ezrabrand.github.io/talmud-nlp-indexer/glossary/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Talmud Glossary" />
+  <meta property="og:title" content="Index of Personal Names, Place Names, and Key Terms in the Talmud" />
   <meta property="og:description" content="Canonicalized glossary of Talmudic and Biblical terms with variants, counts, and Wikipedia links." />
   <meta property="og:url" content="https://ezrabrand.github.io/talmud-nlp-indexer/glossary/" />
   <meta property="og:site_name" content="Talmud NLP Indexer" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Talmud Glossary" />
+  <meta name="twitter:title" content="Index of Personal Names, Place Names, and Key Terms in the Talmud" />
   <meta name="twitter:description" content="Canonicalized glossary of Talmudic and Biblical terms with variants, counts, and Wikipedia links." />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Talmud Glossary",
+      "name": "Index of Personal Names, Place Names, and Key Terms in the Talmud",
       "url": "https://ezrabrand.github.io/talmud-nlp-indexer/glossary/",
       "description": "Canonicalized glossary of Talmudic and Biblical terms with variants, corpus counts, and Wikipedia links."
     }
@@ -195,7 +195,7 @@
 </head>
 <body>
   <div class="wrap">
-    <h1>Talmud Glossary</h1>
+    <h1>Index of Personal Names, Place Names, and Key Terms in the Talmud</h1>
     <p class="sub">Data source: <a href="https://github.com/EzraBrand/talmud-nlp-indexer/tree/main/data/glossary_initial" target="_blank" rel="noopener noreferrer">talmud-nlp-indexer/data/glossary_initial</a> (current table from <code>glossary_initial_v4.csv</code>).</p>
     <p class="sub">Read more about this at <a href="https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/glossary_initial/README.md" target="_blank" rel="noopener noreferrer">data/glossary_initial/README.md</a>.</p>
     <p class="sub">Re names in general, see my <a href="https://www.academia.edu/94788129/From_Abba_to_Zebedee_A_Comprehensive_Survey_of_Naming_Conventions_in_the_Mishnah_Talmud_and_Late_Antique_Midrash" target="_blank" rel="noopener noreferrer">From Abba to Zebedee: A Comprehensive Survey of Naming Conventions in the Mishnah, Talmud, and Late Antique Midrash</a>.</p>
@@ -321,7 +321,7 @@
         .filter(Boolean);
       if (!items.length) return '<span class="muted">-</span>';
       return items.map(v => {
-        const url = `https://chavrutai.com/search?q=${encodeURIComponent(v)}`;
+        const url = `https://chavrutai.com/search?q=${encodeURIComponent(v)}&type=talmud`;
         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(v)}</a>`;
       }).join('; ');
     }
@@ -347,7 +347,7 @@
 
         return `<tr data-row="${idx + 1}">
           <td>${idx + 1}</td>
-          <td>${r.term ? link(`https://chavrutai.com/search?q=${encodeURIComponent(r.term)}`, r.term) : '<span class="muted">-</span>'}</td>
+          <td>${r.term ? link(`https://chavrutai.com/search?q=${encodeURIComponent(r.term)}&type=talmud`, r.term) : '<span class="muted">-</span>'}</td>
           <td>${cats || '<span class="muted">-</span>'}</td>
           <td class="small">${renderVariantLinks(r.variant_names)}</td>
           <td>${(r.talmud_corpus_count === '0' || r.talmud_corpus_count === 0) ? '-' : (r.talmud_corpus_count || '-')}</td>
