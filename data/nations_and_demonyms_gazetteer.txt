@@ -1,4 +1,5 @@
 Africa
+Alexandrian
 Amalek
 Ammon
 Ammon and Moab
@@ -21,6 +22,7 @@ Edomite
 Egypt
 Egyptian
 Eilamitic
+Elam
 Elamite
 Eretz Yisrael
 Galilean
