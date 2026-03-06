@@ -4,6 +4,7 @@ Adiabene
 Aforayim
 Africa
 Afrikei
+Afriki
 Afrikiya
 Agma
 Akhbaria
@@ -325,6 +326,7 @@ Karkuza
 Karna deShizavta
 Kartigna
 Kartignin
+Katfei
 Katrazya
 Kavul
 Kayar
