@@ -28,6 +28,7 @@ a certain girl
 a certain guarantor
 a certain herdsman
 a certain heretic
+A certain heretic
 A certain heretic named Sason
 a certain High Priest
 a certain imbecile
@@ -74,6 +75,7 @@ a king and queen
 a leading authority of generation
 a maidservant of Rabbi
 a maidservant of the household of Rabbi
+a particular pious man
 a passerby from the Galilee
 a pious man
 a poor person of noble descent
@@ -1263,6 +1265,7 @@ Rabbi Ḥanina of Ono
 Rabbi Ḥanina of Sura
 Rabbi Ḥanina of Tirna’a
 Rabbi Ḥanina the Great
+Rabbi Ḥanina Tirata
 Rabbi Ḥanina, son of Rabbi Abbahu
 Rabbi Ḥanina, son of Rabbi Yosei
 Rabbi Ḥanina, son of Rabbi Yosei HaGelili
@@ -3362,6 +3365,7 @@ the school of Ḥizkiyya
 the school of Karna
 the school of Levi
 the school of Menashe
+the school of Rabba bar Avuh
 the school of Rabbi
 the school of Rabbi Aḥa
 the school of Rabbi Akiva
@@ -3574,6 +3578,7 @@ Yehudit, wife of Rabbi Ḥiyya
 Yeimar bar Ḥashu
 Yeimar permits firstborn
 Yeiva, the father-in-law of Ashyan bar Nidbakh
+Yishmael
 Yishmael ben Elisha
 Yishmael ben Pavi
 Yishmael ben Piakhi
