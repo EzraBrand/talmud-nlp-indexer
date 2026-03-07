@@ -38,7 +38,7 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
 - Merge obvious duplicate canonical rows when they refer to the same entity.
 - When merging:
   - keep the best canonical term already in the table
-  - sum `talmud_corpus_count`
+  - do not sum `talmud_corpus_count`
   - move the removed term into `variant_names`
   - preserve or combine valid wiki fields
   - note the merge in `wiki_match_source`
