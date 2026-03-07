@@ -16,8 +16,9 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
 - Prefer manual curation for high-count rows first.
 - Only add Wikipedia links when the match is genuinely relevant to the rabbinic/Talmudic entity.
 - Use the actual Wikipedia page titles:
-  - `selected_anchor_text` should match the EN page title used.
+  - `selected_anchor_text` should match the resolved canonical EN Wikipedia page title exactly, not a local label or redirect label.
   - `hebrew_term` should match the HE page title used.
+  - If an EN URL is a redirect, normalize the URL and anchor text to the canonical target title.
 - Do not force links for ambiguous generic names if multiple rabbis or entities are plausible.
 - Remove clearly non-entity fragments or relationship stubs rather than linking them.
 - Remove incorrect semantic matches even if they are technically valid pages.
