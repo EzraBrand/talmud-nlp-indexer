@@ -19,6 +19,7 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
   - `hebrew_term` is the Hebrew label intended for the glossary row as the term appears in the Talmud.
   - `wikipedia_he` is the Hebrew Wikipedia page actually chosen for that row.
   - `wikidata_id` is a derived field, filled programmatically from the mapped EN/HE Wikipedia page and not manually invented.
+  - person metadata columns such as `student_of`, `student`, `affiliation`, `date_of_birth`, `place_of_birth`, `date_of_death`, `place_of_death`, and `father` are derived from Wikidata using the row's `wikidata_id`.
   - These can differ when the desired glossary label is not identical to the HE article title.
   - Do not assume `hebrew_term` should just copy the HE Wikipedia title; prefer the Talmudic form when known from the corpus.
 - Use the actual Wikipedia page titles:
@@ -62,6 +63,7 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
 - For HE pages, prefer the corresponding HE article for the exact EN entity when it exists.
 - If the EN and HE pages reflect different rabbis or scopes, do not pair them.
 - If both `wikipedia_en` and `wikipedia_he` exist but resolve to different Wikidata items, prefer the HE-linked item in `wikidata_id`.
+- When refreshing person metadata from Wikidata, resolve linked entities to English labels and store semicolon-separated values when multiple values exist.
 - For concept rows derived from the Steinsaltz corpus:
   - use the English Steinsaltz CSV to locate the term in context
   - align by citation with the Hebrew Steinsaltz CSV

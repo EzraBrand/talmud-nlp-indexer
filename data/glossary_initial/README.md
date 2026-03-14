@@ -19,6 +19,14 @@ Each row is a canonical entry with:
 - `chavrutai_search_url`: `https://chavrutai.com/search?q=...&type=talmud`
 - `wiki_match_source`: short provenance/status note for the mapping path
 - `wikidata_id`: Wikidata item ID (`Q...`) derived from the mapped Wikipedia page, preferring the HE-linked item when EN and HE differ
+- `student_of`: Wikidata `student of` values, when available
+- `student`: Wikidata `student` values, when available
+- `affiliation`: Wikidata `affiliation` values, when available
+- `date_of_birth`: Wikidata date of birth, when available
+- `place_of_birth`: Wikidata place of birth, when available
+- `date_of_death`: Wikidata date of death, when available
+- `place_of_death`: Wikidata place of death, when available
+- `father`: Wikidata father values, when available
 
 ## Primary Sources
 

@@ -104,7 +104,7 @@
     table {
       border-collapse: collapse;
       width: 100%;
-      min-width: 1580px;
+      min-width: 2580px;
       font-size: 0.9rem;
       table-layout: fixed;
     }
@@ -163,6 +163,14 @@
     #grid th:nth-child(7), #grid td:nth-child(7) { width: 17%; }
     #grid th:nth-child(8), #grid td:nth-child(8) { width: 11%; }
     #grid th:nth-child(9), #grid td:nth-child(9) { width: 8.5%; }
+    #grid th:nth-child(10), #grid td:nth-child(10) { width: 12%; }
+    #grid th:nth-child(11), #grid td:nth-child(11) { width: 12%; }
+    #grid th:nth-child(12), #grid td:nth-child(12) { width: 12%; }
+    #grid th:nth-child(13), #grid td:nth-child(13) { width: 9%; }
+    #grid th:nth-child(14), #grid td:nth-child(14) { width: 12%; }
+    #grid th:nth-child(15), #grid td:nth-child(15) { width: 9%; }
+    #grid th:nth-child(16), #grid td:nth-child(16) { width: 12%; }
+    #grid th:nth-child(17), #grid td:nth-child(17) { width: 12%; }
     .muted { color: var(--muted); }
     .cats {
       display: inline-block;
@@ -203,7 +211,7 @@
     <p class="sub"><strong>How to use this page:</strong> This table groups Talmud terms into canonical entries with variants, categories, and rough corpus counts. Use the text filter plus category dropdown to narrow results, click column headers to sort (especially <em>Term</em> and <em>Count</em>), and read the tooltip icons in the column headers for behavior details.</p>
 
     <div class="toolbar">
-      <input id="search" type="search" placeholder="Filter terms, variants, categories, Hebrew, Wikipedia title, or Wikidata ID..." />
+      <input id="search" type="search" placeholder="Filter terms, variants, categories, Hebrew, Wikipedia title, Wikidata ID, or person fields..." />
       <select id="categoryFilter">
         <option value="">All Categories</option>
       </select>
@@ -223,6 +231,14 @@
             <th class="sortable" data-sort-key="wikipedia_he">Wikipedia HE<span class="tip" title="Mapped Hebrew Wikipedia page for this entry, if available." aria-label="Wikipedia HE tooltip">?</span></th>
             <th class="sortable" data-sort-key="hebrew_term">Hebrew Term<span class="tip" title="Hebrew label for the entry as it appears in the Talmud. This may differ from the mapped Hebrew Wikipedia page title." aria-label="Hebrew term tooltip">?</span></th>
             <th class="sortable" data-sort-key="wikidata_id">Wikidata ID<span class="tip" title="Wikidata item ID derived programmatically from the mapped Wikipedia page. If EN and HE pages disagree, the HE-linked item is preferred." aria-label="Wikidata ID tooltip">?</span></th>
+            <th class="sortable" data-sort-key="student_of">Student Of<span class="tip" title="Wikidata student-of values for the mapped entity, when available." aria-label="Student of tooltip">?</span></th>
+            <th class="sortable" data-sort-key="student">Student<span class="tip" title="Wikidata student values for the mapped entity, when available." aria-label="Student tooltip">?</span></th>
+            <th class="sortable" data-sort-key="affiliation">Affiliation<span class="tip" title="Wikidata affiliation values for the mapped entity, when available." aria-label="Affiliation tooltip">?</span></th>
+            <th class="sortable" data-sort-key="date_of_birth">Birth Date<span class="tip" title="Wikidata date of birth for the mapped entity, when available." aria-label="Birth date tooltip">?</span></th>
+            <th class="sortable" data-sort-key="place_of_birth">Birth Place<span class="tip" title="Wikidata place of birth for the mapped entity, when available." aria-label="Birth place tooltip">?</span></th>
+            <th class="sortable" data-sort-key="date_of_death">Death Date<span class="tip" title="Wikidata date of death for the mapped entity, when available." aria-label="Death date tooltip">?</span></th>
+            <th class="sortable" data-sort-key="place_of_death">Death Place<span class="tip" title="Wikidata place of death for the mapped entity, when available." aria-label="Death place tooltip">?</span></th>
+            <th class="sortable" data-sort-key="father">Father<span class="tip" title="Wikidata father values for the mapped entity, when available." aria-label="Father tooltip">?</span></th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -357,6 +373,14 @@
           <td>${link(r.wikipedia_he, wikiTitleFromUrl(r.wikipedia_he))}</td>
           <td>${r.hebrew_term || '<span class="muted">-</span>'}</td>
           <td>${r.wikidata_id ? link(`https://www.wikidata.org/wiki/${encodeURIComponent(r.wikidata_id)}`, r.wikidata_id) : '<span class="muted">-</span>'}</td>
+          <td>${r.student_of || '<span class="muted">-</span>'}</td>
+          <td>${r.student || '<span class="muted">-</span>'}</td>
+          <td>${r.affiliation || '<span class="muted">-</span>'}</td>
+          <td>${r.date_of_birth || '<span class="muted">-</span>'}</td>
+          <td>${r.place_of_birth || '<span class="muted">-</span>'}</td>
+          <td>${r.date_of_death || '<span class="muted">-</span>'}</td>
+          <td>${r.place_of_death || '<span class="muted">-</span>'}</td>
+          <td>${r.father || '<span class="muted">-</span>'}</td>
         </tr>`;
       }).join('');
     }
@@ -406,7 +430,15 @@
             hebrew_term: r[cols.hebrew_term] || '',
             chavrutai_search_url: r[cols.chavrutai_search_url] || '',
             wiki_match_source: r[cols.wiki_match_source] || '',
-            wikidata_id: r[cols.wikidata_id] || ''
+            wikidata_id: r[cols.wikidata_id] || '',
+            student_of: r[cols.student_of] || '',
+            student: r[cols.student] || '',
+            affiliation: r[cols.affiliation] || '',
+            date_of_birth: r[cols.date_of_birth] || '',
+            place_of_birth: r[cols.place_of_birth] || '',
+            date_of_death: r[cols.date_of_death] || '',
+            place_of_death: r[cols.place_of_death] || '',
+            father: r[cols.father] || ''
           };
           obj.__categories = (obj.categories || '')
             .split(';')
@@ -423,7 +455,15 @@
             wikiTitleFromUrl(obj.wikipedia_he),
             obj.hebrew_term,
             obj.wiki_match_source,
-            obj.wikidata_id
+            obj.wikidata_id,
+            obj.student_of,
+            obj.student,
+            obj.affiliation,
+            obj.date_of_birth,
+            obj.place_of_birth,
+            obj.date_of_death,
+            obj.place_of_death,
+            obj.father
           ].join(' ').toLowerCase();
           return obj;
         });
@@ -481,7 +521,7 @@
     main().catch(err => {
       console.error(err);
       meta.textContent = 'Failed to load data';
-      tbody.innerHTML = `<tr><td colspan="9" class="muted">${err.message}</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="17" class="muted">${err.message}</td></tr>`;
     });
   </script>
 </body>
