@@ -10,6 +10,7 @@ This folder contains iterative glossary database builds for the ChavrutAI glossa
 - `biblical_names_wikipedia_review.csv`: biblical-name verification audit table.
 - `missing_he_wiki_after_langlinks.csv`: entries that still have EN Wikipedia but no HE `langlink` after automated enrichment.
 - `recanonicalize_terms_by_corpus.py`: script that re-selects canonical term names from alias sets using corpus frequency.
+- `update_wikidata_ids.py`: fills the trailing `wikidata_id` column from the mapped EN/HE Wikipedia pages using the MediaWiki API.
 
 ## Current Canonical Dataset
 
@@ -27,6 +28,7 @@ Each row is a canonical entry with:
 - `hebrew_term`: Hebrew label intended to reflect how the term appears in the Talmud. At present many values were filled programmatically from Hebrew Wikipedia titles, so this column still needs corpus-based review and normalization against the Steinsaltz Hebrew text.
 - `chavrutai_search_url`: `https://chavrutai.com/search?q=...&type=talmud`
 - `wiki_match_source`: short provenance/status note for mapping path
+- `wikidata_id`: Wikidata item ID (`Q...`) derived programmatically from the mapped Wikipedia page. When both EN and HE pages exist but resolve to different Wikidata items, prefer the HE-linked item.
 
 ## Primary Sources
 
@@ -59,6 +61,7 @@ Each row is a canonical entry with:
 - Add Sefaria term/page mappings.
 - Add sampled Talmud occurrences/snippets per term.
 - Add automated QA checks (invalid URLs, duplicate canonical entities, category conflicts).
+- Review EN/HE rows whose mapped Wikipedia pages resolve to different Wikidata items.
 
 ## Person-Entity Validation Workflow (Iterative)
 
@@ -116,3 +119,4 @@ Use extension `Edit csv` by `janisdd`:
 - `2026-02-21 13:30` Added `enrich_he_from_en_langlinks.py` and refreshed `wikipedia_he` where programmatically available from EN Wikipedia `langlinks`; updated page UI with wrapped narrower `Variant Names` and a category filter.
 - `2026-02-21 13:57` Continued HE-enrichment in smaller passes, fixed remaining canonical Hebrew-term fallback case, and exported unresolved EN-without-HE list to `missing_he_wiki_after_langlinks.csv`.
 - `2026-02-21 14:09` Recanonicalized terms by corpus frequency across aliases (for example `Abba Shaul` over `Abba Saul`) and added `recanonicalize_terms_by_corpus.py`.
+- `2026-03-14` Added a trailing `wikidata_id` column to `glossary_initial_v4.csv` and added `update_wikidata_ids.py` to derive QIDs from the mapped Wikipedia pages.

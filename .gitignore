@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local glossary curation helpers
+data/glossary_initial/concepts_wikipedia_enrichment_review.csv
+data/glossary_initial/enrich_concepts_wikipedia_from_corpus.py
+data/glossary_initial/update_wikidata_ids.py
