@@ -15,9 +15,13 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
 ## Editing Rules
 - Prefer manual curation for high-count rows first.
 - Only add Wikipedia links when the match is genuinely relevant to the rabbinic/Talmudic entity.
+- Treat `hebrew_term` and `wikipedia_he` as separate fields:
+  - `hebrew_term` is the Hebrew label intended for the glossary row.
+  - `wikipedia_he` is the Hebrew Wikipedia page actually chosen for that row.
+  - These can differ when the desired glossary label is not identical to the HE article title.
 - Use the actual Wikipedia page titles:
   - `selected_anchor_text` should match the resolved canonical EN Wikipedia page title exactly, not a local label or redirect label.
-  - `hebrew_term` should match the HE page title used.
+  - `hebrew_term` should usually match the HE page title used, unless the maintainer explicitly distinguishes between the row's Hebrew label and the HE article title.
   - If an EN URL is a redirect, normalize the URL and anchor text to the canonical target title.
 - Do not force links for ambiguous generic names if multiple rabbis or entities are plausible.
 - Remove clearly non-entity fragments or relationship stubs rather than linking them.
@@ -54,11 +58,19 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
 - Check both EN and HE Wikipedia directly before adding links.
 - For HE pages, prefer the corresponding HE article for the exact EN entity when it exists.
 - If the EN and HE pages reflect different rabbis or scopes, do not pair them.
+- For concept rows derived from the Steinsaltz corpus:
+  - use the English Steinsaltz CSV to locate the term in context
+  - align by citation with the Hebrew Steinsaltz CSV
+  - infer the intended Hebrew expression from the aligned Hebrew passage
+  - then verify the HE Wikipedia target from that Hebrew expression
+- In the Steinsaltz English CSV, translation/base text is often bolded and commentary is unbolded; use that signal when deciding whether an English term reflects the underlying base term or only commentary phrasing.
+- If the maintainer approves only a small list of rows, edit only those rows and leave broader enrichment proposals uncommitted.
 
 ## Output Hygiene
 - Keep CSV formatting stable.
 - Avoid broad rewrites that change unrelated fields or URL encoding across the whole file.
 - Make focused diffs.
+- When proposing more glossary enrichments, prioritize the highest `talmud_corpus_count` rows still missing `wikipedia_he` unless the maintainer asks otherwise.
 
 ## Git Workflow
 - Commit glossary edits directly to the tracked CSV.

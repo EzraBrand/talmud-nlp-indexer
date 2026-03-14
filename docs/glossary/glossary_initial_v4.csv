@@ -314,7 +314,7 @@ Antoninus,names,,8,,,,,https://chavrutai.com/search?q=Antoninus&type=talmud,
 Antoninus the son of Asveirus,names,,1,,,,,https://chavrutai.com/search?q=Antoninus+the+son+of+Asveirus&type=talmud,
 "Antoninus, son of Asveirus",names,,1,,,,,https://chavrutai.com/search?q=Antoninus%2C+son+of+Asveirus&type=talmud,
 Aphrodite,names,,7,https://en.wikipedia.org/wiki/Aphrodite,https://he.wikipedia.org/wiki/%D7%90%D7%A4%D7%A8%D7%95%D7%93%D7%99%D7%98%D7%94,Aphrodite,אפרודיטה,https://chavrutai.com/search?q=Aphrodite&type=talmud,blog
-apostate,concepts,,67,,,,,https://chavrutai.com/search?q=apostate&type=talmud,
+apostate,concepts,,67,,https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%95%D7%9E%D7%93,,משומד,https://chavrutai.com/search?q=apostate&type=talmud,
 Apostemos,names,,2,,,,,https://chavrutai.com/search?q=Apostemos&type=talmud,
 Appamya,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Appamya&type=talmud,
 Apsetaya,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Apsetaya&type=talmud,
@@ -461,7 +461,7 @@ bar Kaza,names,,2,,,,,https://chavrutai.com/search?q=bar+Kaza&type=talmud,
 bar Kidri,names,,1,,,,,https://chavrutai.com/search?q=bar+Kidri&type=talmud,
 bar Kipof,names,,1,,,,,https://chavrutai.com/search?q=bar+Kipof&type=talmud,
 bar Kippok,names,,2,,,,,https://chavrutai.com/search?q=bar+Kippok&type=talmud,
-Bar Kochba rebellion,concepts,,0,,,,,https://chavrutai.com/search?q=Bar+Kochba+rebellion&type=talmud,
+Bar Kochba rebellion,concepts,,0,https://en.wikipedia.org/wiki/Bar_Kokhba_revolt,https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%93_%D7%91%D7%A8_%D7%9B%D7%95%D7%9B%D7%91%D7%90,,מרד בר כוכבא,https://chavrutai.com/search?q=Bar+Kochba+rebellion&type=talmud,
 bar Kokheva,names,,1,,,,,https://chavrutai.com/search?q=bar+Kokheva&type=talmud,
 Bar Koziva,names,,2,,,,,https://chavrutai.com/search?q=Bar+Koziva&type=talmud,
 bar Leva’i,names,,0,,,,,https://chavrutai.com/search?q=bar+Leva%E2%80%99i&type=talmud,
@@ -690,8 +690,8 @@ Cain,biblicalNames,,8,https://en.wikipedia.org/wiki/Cain,https://he.wikipedia.or
 Caleb,biblicalNames,"Caleb, son of Jephunneh",24,https://en.wikipedia.org/wiki/Caleb,https://he.wikipedia.org/wiki/%D7%9B%D7%9C%D7%91_%D7%91%D7%9F_%D7%99%D7%A4%D7%95%D7%A0%D7%94,Caleb,כלב בן יפונה,https://chavrutai.com/search?q=Caleb&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Canaan,biblicalPlaces,,24,https://en.wikipedia.org/wiki/Canaan,https://he.wikipedia.org/wiki/%D7%9B%D7%A0%D7%A2%D7%9F,Canaan,כנען,https://chavrutai.com/search?q=Canaan&type=talmud,blog
 Canaanite,concepts,,68,,,,,https://chavrutai.com/search?q=Canaanite&type=talmud,
-Candelabrum,concepts,,80,,,,,https://chavrutai.com/search?q=Candelabrum&type=talmud,
-capital law,concepts,,69,,,,,https://chavrutai.com/search?q=capital+law&type=talmud,
+Candelabrum,concepts,,80,https://en.wikipedia.org/wiki/Temple_menorah,https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A0%D7%95%D7%A8%D7%94,,המנורה,https://chavrutai.com/search?q=Candelabrum&type=talmud,
+capital law,concepts,,69,,https://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%A0%D7%A9_%D7%9E%D7%95%D7%95%D7%AA_%D7%91%D7%99%D7%94%D7%93%D7%95%D7%AA,,דיני נפשות,https://chavrutai.com/search?q=capital+law&type=talmud,
 Cappadocia,talmudToponyms,,15,https://en.wikipedia.org/wiki/Cappadocia,https://he.wikipedia.org/wiki/%D7%A7%D7%A4%D7%93%D7%95%D7%A7%D7%99%D7%94,Cappadocia,קפדוקיה,https://chavrutai.com/search?q=Cappadocia&type=talmud,blog
 Carmanians,names,,2,,,,,https://chavrutai.com/search?q=Carmanians&type=talmud,
 Carmel,talmudToponyms,,7,,,,,https://chavrutai.com/search?q=Carmel&type=talmud,
@@ -876,7 +876,7 @@ Esther,biblicalNames,,47,https://en.wikipedia.org/wiki/Esther,https://he.wikiped
 Euphrates,talmudToponyms,,32,https://en.wikipedia.org/wiki/Euphrates#Etymology,https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%AA,Euphrates,פרת,https://chavrutai.com/search?q=Euphrates&type=talmud,blog
 Euphrates River,talmudToponyms,,4,,,,,https://chavrutai.com/search?q=Euphrates+River&type=talmud,
 Evil eye,concepts,,15,https://en.wikipedia.org/wiki/Evil_eye,https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%9F_%D7%94%D7%A8%D7%A2,Evil eye,עין הרע,https://chavrutai.com/search?q=Evil+eye&type=talmud,blog
-evil inclination,concepts,,41,,,,,https://chavrutai.com/search?q=evil+inclination&type=talmud,
+evil inclination,concepts,,41,https://en.wikipedia.org/wiki/Yetzer_hara,https://he.wikipedia.org/wiki/%D7%99%D7%A6%D7%A8_%D7%94%D7%A8%D7%A2,,יצר הרע,https://chavrutai.com/search?q=evil+inclination&type=talmud,
 Exilarch,concepts;names,The Exilarch,142,https://en.wikipedia.org/wiki/Exilarch,https://he.wikipedia.org/wiki/%D7%A8%D7%90%D7%A9_%D7%94%D7%92%D7%95%D7%9C%D7%94,Exilarch,ראש הגולה,https://chavrutai.com/search?q=Exilarch&type=talmud,blog
 Exilarch’s household,names,,5,,,,,https://chavrutai.com/search?q=Exilarch%E2%80%99s+household&type=talmud,
 Exile,concepts,the exile,125,https://en.wikipedia.org/wiki/Exile,https://he.wikipedia.org/wiki/%D7%92%D7%9C%D7%95%D7%AA,Exile,גלות,https://chavrutai.com/search?q=Exile&type=talmud,blog+en_langlink_he
@@ -967,7 +967,7 @@ Goliath,biblicalNames,,4,https://en.wikipedia.org/wiki/Goliath,https://he.wikipe
 Gomorrah,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Gomorrah&type=talmud,
 Gova’ai,names,,1,,,,,https://chavrutai.com/search?q=Gova%E2%80%99ai&type=talmud,
 Goza River,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Goza+River&type=talmud,
-Grace after Meals,concepts,,32,,,,,https://chavrutai.com/search?q=Grace+after+Meals&type=talmud,
+Grace after Meals,concepts,,32,https://en.wikipedia.org/wiki/Birkat_Hamazon,https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%9B%D7%AA_%D7%94%D7%9E%D7%96%D7%95%D7%9F,,ברכת המזון,https://chavrutai.com/search?q=Grace+after+Meals&type=talmud,
 grandson of Rabbi Avtolus,names,,0,,,,,https://chavrutai.com/search?q=grandson+of+Rabbi+Avtolus&type=talmud,
 Great Assembly,names,the Great Assembly,22,https://en.wikipedia.org/wiki/Great_Assembly,https://he.wikipedia.org/wiki/%D7%9B%D7%A0%D7%A1%D7%AA_%D7%94%D7%92%D7%93%D7%95%D7%9C%D7%94,Great Assembly,כנסת הגדולה,https://chavrutai.com/search?q=Great+Assembly&type=talmud,blog
 Great Sea,talmudToponyms,,21,,,,,https://chavrutai.com/search?q=Great+Sea&type=talmud,
@@ -1044,7 +1044,7 @@ Hanani,biblicalNames,,3,https://en.wikipedia.org/wiki/Hanani,,Hanani,,https://ch
 "Ḥanina, son of Rabbi Yehoshua",names,,0,,,,,https://chavrutai.com/search?q=%E1%B8%A4anina%2C+son+of+Rabbi+Yehoshua&type=talmud,
 "Ḥanina, son of Rabbi Yehoshua’s brother",names,,2,,,,,https://chavrutai.com/search?q=%E1%B8%A4anina%2C+son+of+Rabbi+Yehoshua%E2%80%99s+brother&type=talmud,
 Hannah,biblicalNames,,19,https://en.wikipedia.org/wiki/Hannah_(biblical_figure),https://he.wikipedia.org/wiki/%D7%97%D7%A0%D7%94,Hannah (biblical figure),חנה,https://chavrutai.com/search?q=Hannah&type=talmud,biblical_names_api_review:disambiguation_only; manual_biblical_top30
-Hanukkah,concepts,,52,,,,,https://chavrutai.com/search?q=Hanukkah&type=talmud,
+Hanukkah,concepts,,52,https://en.wikipedia.org/wiki/Hanukkah,https://he.wikipedia.org/wiki/%D7%97%D7%A0%D7%95%D7%9B%D7%94,,חנוכה,https://chavrutai.com/search?q=Hanukkah&type=talmud,
 Har HaBarzel,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Har+HaBarzel&type=talmud,
 Har HaMelekh,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Har+HaMelekh&type=talmud,
 Har HaMishḥa,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Har+HaMish%E1%B8%A5a&type=talmud,
@@ -1066,7 +1066,7 @@ he household of Guryon,names,,0,,,,,https://chavrutai.com/search?q=he+household+
 Hebrew calendar,concepts,,0,https://en.wikipedia.org/wiki/Hebrew_calendar#Months,https://he.wikipedia.org/wiki/%D7%94%D7%9C%D7%95%D7%97_%D7%94%D7%A2%D7%91%D7%A8%D7%99,Hebrew calendar,הלוח העברי,https://chavrutai.com/search?q=Hebrew+calendar&type=talmud,blog
 Hebron,talmudToponyms,,21,https://en.wikipedia.org/wiki/Hebron,https://he.wikipedia.org/wiki/%D7%97%D7%91%D7%A8%D7%95%D7%9F,Hebron,חברון,https://chavrutai.com/search?q=Hebron&type=talmud,blog
 Ḥeger,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=%E1%B8%A4eger&type=talmud,
-heifer whose neck is broken,concepts,,57,,,,,https://chavrutai.com/search?q=heifer+whose+neck+is+broken&type=talmud,
+heifer whose neck is broken,concepts,,57,,https://he.wikipedia.org/wiki/%D7%A2%D7%92%D7%9C%D7%94_%D7%A2%D7%A8%D7%95%D7%A4%D7%94,,עגלה ערופה,https://chavrutai.com/search?q=heifer+whose+neck+is+broken&type=talmud,
 Heker Well,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Heker+Well&type=talmud,
 Queen Helene,names,Helena of Adiabene,4,https://en.wikipedia.org/wiki/Helena_of_Adiabene,https://he.wikipedia.org/wiki/%D7%94%D7%9C%D7%A0%D7%99_%D7%94%D7%9E%D7%9C%D7%9B%D7%94,Helena of Adiabene,הלני המלכה,https://chavrutai.com/search?q=Queen+Helene&type=talmud,blog
 Helene,names,,6,,,,,https://chavrutai.com/search?q=Helene&type=talmud,
@@ -1302,7 +1302,7 @@ Karddu,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Karddu&type=talmud,
 Karduyim,names,,4,,,,,https://chavrutai.com/search?q=Karduyim&type=talmud,
 karet,concepts,Kareth,505,https://en.wikipedia.org/wiki/Kareth,https://he.wikipedia.org/wiki/%D7%9B%D7%A8%D7%AA,Kareth,כרת,https://chavrutai.com/search?q=karet&type=talmud,blog
 Karkuza,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Karkuza&type=talmud,
-karmelit,concepts,,69,,,,,https://chavrutai.com/search?q=karmelit&type=talmud,
+karmelit,concepts,,69,,https://he.wikipedia.org/wiki/%D7%9B%D7%A8%D7%9E%D7%9C%D7%99%D7%AA_(%D7%A9%D7%91%D7%AA),,כרמלית (שבת),https://chavrutai.com/search?q=karmelit&type=talmud,
 Karna deShizavta,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Karna+deShizavta&type=talmud,
 Karna’s father,names,,1,,,,,https://chavrutai.com/search?q=Karna%E2%80%99s+father&type=talmud,
 Kartigna,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Kartigna&type=talmud,
@@ -1421,7 +1421,7 @@ Mahlon and Chilion,biblicalNames,Chilion,4,https://en.wikipedia.org/wiki/Mahlon_
 Mahseiah,biblicalNames,,2,,,,,https://chavrutai.com/search?q=Mahseiah&type=talmud,biblical_names_api_review:no_exact_page
 Makhnis,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Makhnis&type=talmud,
 Malachi,biblicalNames,,18,https://en.wikipedia.org/wiki/Malachi,https://he.wikipedia.org/wiki/%D7%9E%D7%9C%D7%90%D7%9B%D7%99,Malachi,מלאכי,https://chavrutai.com/search?q=Malachi&type=talmud,biblical_names_api_review:verified_exact_or_redirect
-malicious speech,concepts,,46,,,,,https://chavrutai.com/search?q=malicious+speech&type=talmud,
+malicious speech,concepts,,46,https://en.wikipedia.org/wiki/Lashon_Hara,https://he.wikipedia.org/wiki/%D7%9C%D7%A9%D7%95%D7%9F_%D7%94%D7%A8%D7%A2,,לשון הרע,https://chavrutai.com/search?q=malicious+speech&type=talmud,
 Malka River,talmudToponyms,,4,,,,,https://chavrutai.com/search?q=Malka+River&type=talmud,
 Malla’ai,names,,1,,,,,https://chavrutai.com/search?q=Malla%E2%80%99ai&type=talmud,
 Malokh the Arab,names,,1,,,,,https://chavrutai.com/search?q=Malokh+the+Arab&type=talmud,
@@ -1589,7 +1589,7 @@ mitzvot,concepts,Mitzvah,399,https://en.wikipedia.org/wiki/Mitzvah#Categories_of
 Moab,biblicalNames;biblicalNations;biblicalPlaces,,30,https://en.wikipedia.org/wiki/Moab,https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%90%D7%91,Moab,מואב,https://chavrutai.com/search?q=Moab&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Moabite,biblicalNations,,34,,,,,https://chavrutai.com/search?q=Moabite&type=talmud,
 Modi’im,talmudToponyms,,12,,,,,https://chavrutai.com/search?q=Modi%E2%80%99im&type=talmud,
-monetary law,concepts,,82,,,,,https://chavrutai.com/search?q=monetary+law&type=talmud,
+monetary law,concepts,,82,,https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%A0%D7%99_%D7%9E%D7%9E%D7%95%D7%A0%D7%95%D7%AA,,דיני ממונות,https://chavrutai.com/search?q=monetary+law&type=talmud,
 Mordecai,biblicalNames,Mordecai and Esther,37,https://en.wikipedia.org/wiki/Mordecai,https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%93%D7%9B%D7%99_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99,Mordecai,מרדכי היהודי,https://chavrutai.com/search?q=Mordecai&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Moses,biblicalNames,,561,https://en.wikipedia.org/wiki/Moses,https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%94,Moses,משה,https://chavrutai.com/search?q=Moses&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Moshe bar Atzari,names,,1,,,,,https://chavrutai.com/search?q=Moshe+bar+Atzari&type=talmud,
@@ -1694,7 +1694,7 @@ Nimos HaGardi,names,,1,,,,,https://chavrutai.com/search?q=Nimos+HaGardi&type=tal
 "Nimos, the brother of Rabbi Yehoshua HaGarsi",names,,1,,,,,https://chavrutai.com/search?q=Nimos%2C+the+brother+of+Rabbi+Yehoshua+HaGarsi&type=talmud,
 Nimrod,biblicalNames,Nimrod the wicked,10,https://en.wikipedia.org/wiki/Nimrod,https://he.wikipedia.org/wiki/%D7%A0%D7%9E%D7%A8%D7%95%D7%93,Nimrod,נמרוד,https://chavrutai.com/search?q=Nimrod&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Nineveh,talmudToponyms,,11,https://en.wikipedia.org/wiki/Nineveh,https://he.wikipedia.org/wiki/%D7%A0%D7%99%D7%A0%D7%95%D7%94,Nineveh,נינוה,https://chavrutai.com/search?q=Nineveh&type=talmud,blog
-Ninth of Av,concepts,,59,,,,,https://chavrutai.com/search?q=Ninth+of+Av&type=talmud,
+Ninth of Av,concepts,,59,https://en.wikipedia.org/wiki/Tisha_B%27Av,https://he.wikipedia.org/wiki/%D7%AA%D7%A9%D7%A2%D7%94_%D7%91%D7%90%D7%91,,תשעה באב,https://chavrutai.com/search?q=Ninth+of+Av&type=talmud,
 Nitai HaArbeli,names,,1,,,,,https://chavrutai.com/search?q=Nitai+HaArbeli&type=talmud,
 Nit’za,names,Nitza,4,,,,,https://chavrutai.com/search?q=Nit%E2%80%99za&type=talmud,
 Noah,biblicalNames,Noah the righteous,92,https://en.wikipedia.org/wiki/Noah,https://he.wikipedia.org/wiki/%D7%A0%D7%97,Noah,נח,https://chavrutai.com/search?q=Noah&type=talmud,biblical_names_api_review:verified_exact_or_redirect
@@ -1760,7 +1760,7 @@ Pappa the ox herder,names,,1,,,,,https://chavrutai.com/search?q=Pappa+the+ox+her
 Pappas,names,,2,,,,,https://chavrutai.com/search?q=Pappas&type=talmud,
 Pappos ben Yehuda,names,,5,,,,,https://chavrutai.com/search?q=Pappos+ben+Yehuda&type=talmud,
 Pappunya,talmudToponyms,,6,,,,,https://chavrutai.com/search?q=Pappunya&type=talmud,
-Parable,concepts,,90,https://en.wikipedia.org/wiki/Parable,,Parable,,https://chavrutai.com/search?q=Parable&type=talmud,blog
+Parable,concepts,,90,https://en.wikipedia.org/wiki/Mashal_(allegory),https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A9%D7%9C_%D7%91%D7%A1%D7%A4%D7%A8%D7%95%D7%AA_%D7%97%D7%96%22%D7%9C,Parable,"המשל בספרות חז""ל",https://chavrutai.com/search?q=Parable&type=talmud,blog
 Paran,biblicalPlaces,,3,,,,,https://chavrutai.com/search?q=Paran&type=talmud,
 Parhatya,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Parhatya&type=talmud,
 Parod,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Parod&type=talmud,
@@ -1822,7 +1822,7 @@ port of Akko,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=port+of+Akko&t
 positive mitzva,concepts,,248,https://en.wikipedia.org/wiki/Mitzvah,https://he.wikipedia.org/wiki/%D7%9E%D7%A6%D7%95%D7%95%D7%94,Mitzvah,מצווה,https://chavrutai.com/search?q=positive+mitzva&type=talmud,manual_concepts_top_missing_he_pass2
 Potiphar,biblicalNames,,3,https://en.wikipedia.org/wiki/Potiphar,https://he.wikipedia.org/wiki/%D7%A4%D7%95%D7%98%D7%99%D7%A4%D7%A8,Potiphar,פוטיפר,https://chavrutai.com/search?q=Potiphar&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 priest,concepts,,1861,https://en.wikipedia.org/wiki/Kohen,https://he.wikipedia.org/wiki/%D7%9B%D7%94%D7%9F,Kohen,כהן,https://chavrutai.com/search?q=priest&type=talmud,manual_concepts_top_missing_he
-Priestly Benediction,concepts,,13,,,,,https://chavrutai.com/search?q=Priestly+Benediction&type=talmud,
+Priestly Benediction,concepts,,13,https://en.wikipedia.org/wiki/Priestly_Blessing,https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%9B%D7%AA_%D7%9B%D7%94%D7%A0%D7%99%D7%9D,,ברכת כהנים,https://chavrutai.com/search?q=Priestly+Benediction&type=talmud,
 frontplate,concepts,Priestly golden head plate,87,https://en.wikipedia.org/wiki/Priestly_golden_head_plate,https://he.wikipedia.org/wiki/%D7%A6%D7%99%D7%A5,Priestly golden head plate,ציץ,https://chavrutai.com/search?q=frontplate&type=talmud,blog
 priestly vestments,concepts,,18,,,,,https://chavrutai.com/search?q=priestly+vestments&type=talmud,
 priestly watches,concepts,,21,,,,,https://chavrutai.com/search?q=priestly+watches&type=talmud,
@@ -3999,7 +3999,7 @@ Setada,names,,4,,,,,https://chavrutai.com/search?q=Setada&type=talmud,
 Seth,biblicalNames,,2,https://en.wikipedia.org/wiki/Seth,https://he.wikipedia.org/wiki/%D7%A9%D7%AA,Seth,שת,https://chavrutai.com/search?q=Seth&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Sethur the son of Michael,biblicalNames,,0,,,,,https://chavrutai.com/search?q=Sethur+the+son+of+Michael&type=talmud,biblical_names_api_review:no_exact_page
 Setini,names,,1,,,,,https://chavrutai.com/search?q=Setini&type=talmud,
-Seven Noahide Commandments,concepts,,0,,,,,https://chavrutai.com/search?q=Seven+Noahide+Commandments&type=talmud,
+Seven Noahide Commandments,concepts,,0,https://en.wikipedia.org/wiki/Seven_Laws_of_Noah,https://he.wikipedia.org/wiki/%D7%A9%D7%91%D7%A2_%D7%9E%D7%A6%D7%95%D7%95%D7%AA_%D7%91%D7%A0%D7%99_%D7%A0%D7%97,,שבע מצוות בני נח,https://chavrutai.com/search?q=Seven+Noahide+Commandments&type=talmud,
 seventeenth of Tammuz,concepts,,9,,,,,https://chavrutai.com/search?q=seventeenth+of+Tammuz&type=talmud,
 Sha’azrak,names,,0,,,,,https://chavrutai.com/search?q=Sha%E2%80%99azrak&type=talmud,
 Shabbat,concepts,,2485,https://en.wikipedia.org/wiki/Shabbat,https://he.wikipedia.org/wiki/%D7%A9%D7%91%D7%AA,Shabbat,שבת,https://chavrutai.com/search?q=Shabbat&type=talmud,curated_tree
@@ -4283,7 +4283,7 @@ the elders of the south,names,,6,,,,,https://chavrutai.com/search?q=the+elders+o
 "the elders, of the school of Athens",names,,1,,,,,https://chavrutai.com/search?q=the+elders%2C+of+the+school+of+Athens&type=talmud,
 the emperor,names,,28,,,,,https://chavrutai.com/search?q=the+emperor&type=talmud,
 the emperor’s daughter,names,,1,,,,,https://chavrutai.com/search?q=the+emperor%E2%80%99s+daughter&type=talmud,
-the Entrance Hall,concepts,,62,,,,,https://chavrutai.com/search?q=the+Entrance+Hall&type=talmud,
+the Entrance Hall,concepts,,62,,https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%9C%D7%9D_(%D7%91%D7%99%D7%AA_%D7%94%D7%9E%D7%A7%D7%93%D7%A9),,אולם (בית המקדש),https://chavrutai.com/search?q=the+Entrance+Hall&type=talmud,
 the evil kingdom,names,,5,,,,,https://chavrutai.com/search?q=the+evil+kingdom&type=talmud,
 Exodus,concepts,The Exodus,50,https://en.wikipedia.org/wiki/The_Exodus,https://he.wikipedia.org/wiki/%D7%99%D7%A6%D7%99%D7%90%D7%AA_%D7%9E%D7%A6%D7%A8%D7%99%D7%9D,The Exodus,יציאת מצרים,https://chavrutai.com/search?q=Exodus&type=talmud,blog
 the family of Abba of Sura,names,,0,,,,,https://chavrutai.com/search?q=the+family+of+Abba+of+Sura&type=talmud,
@@ -4583,7 +4583,7 @@ The students of Rabbi Shimon ben Yoḥai,names,,1,,,,,https://chavrutai.com/sear
 the students of Rabbi Yishmael,names,,4,,,,,https://chavrutai.com/search?q=the+students+of+Rabbi+Yishmael&type=talmud,
 the students of Rav,names,,10,,,,,https://chavrutai.com/search?q=the+students+of+Rav&type=talmud,
 The students of Shammai the Elder,names,,1,,,,,https://chavrutai.com/search?q=The+students+of+Shammai+the+Elder&type=talmud,
-the Tent of Meeting,concepts,,71,,,,,https://chavrutai.com/search?q=the+Tent+of+Meeting&type=talmud,
+the Tent of Meeting,concepts,,71,,https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A9%D7%9B%D7%9F,,אוהל מועד,https://chavrutai.com/search?q=the+Tent+of+Meeting&type=talmud,
 The vatikin,names,,0,,,,,https://chavrutai.com/search?q=The+vatikin&type=talmud,
 the West,talmudToponyms,,231,,,,,https://chavrutai.com/search?q=the+West&type=talmud,
 the wicked Balak,biblicalNames,,1,,,,,https://chavrutai.com/search?q=the+wicked+Balak&type=talmud,biblical_names_api_review:no_exact_page
@@ -4888,7 +4888,7 @@ Ziba,biblicalNames,,1,,,Ziba,,https://chavrutai.com/search?q=Ziba&type=talmud,bi
 Zibeon,biblicalNames,,2,https://en.wikipedia.org/wiki/Zibeon,,Zibeon,,https://chavrutai.com/search?q=Zibeon&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Zigud,names,,4,,,,,https://chavrutai.com/search?q=Zigud&type=talmud,
 Zilai,names,,2,,,,,https://chavrutai.com/search?q=Zilai&type=talmud,
-zimmun,concepts,,56,,,,,https://chavrutai.com/search?q=zimmun&type=talmud,
+zimmun,concepts,,56,https://en.wikipedia.org/wiki/Zimun,https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%9E%D7%95%D7%9F,,זימון,https://chavrutai.com/search?q=zimmun&type=talmud,
 Zimri,biblicalNames,,14,https://en.wikipedia.org/wiki/Zimri_(prince),https://he.wikipedia.org/wiki/%D7%96%D7%9E%D7%A8%D7%99_%D7%91%D7%9F_%D7%A1%D7%9C%D7%95%D7%90,Zimri (prince),זמרי בן סלוא,https://chavrutai.com/search?q=Zimri&type=talmud,biblical_names_api_review:disambiguation_only; manual_biblical_top30
 "Zimri, son of Salu",biblicalNames,,0,,,,,https://chavrutai.com/search?q=Zimri%2C+son+of+Salu&type=talmud,biblical_names_api_review:no_exact_page
 Zion,biblicalPlaces,,11,,,,,https://chavrutai.com/search?q=Zion&type=talmud,
