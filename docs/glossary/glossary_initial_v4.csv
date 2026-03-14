@@ -715,7 +715,7 @@ city of Rome,talmudToponyms,,7,,,,,https://chavrutai.com/search?q=city+of+Rome&t
 "Cleopatra, Queen of Alexandria",names,,1,,,,,https://chavrutai.com/search?q=Cleopatra%2C+Queen+of+Alexandria&type=talmud,
 "Cleopatra, the Greek queen",names,,1,,,,,https://chavrutai.com/search?q=Cleopatra%2C+the+Greek+queen&type=talmud,
 communal offering,concepts,,22,,,,,https://chavrutai.com/search?q=communal+offering&type=talmud,
-consecration,concepts,,194,https://en.wikipedia.org/wiki/Sacredness,https://he.wikipedia.org/wiki/%D7%A7%D7%93%D7%95%D7%A9%D7%94_(%D7%93%D7%AA),Sacredness,קדושה (דת),https://chavrutai.com/search?q=consecration&type=talmud,manual_concepts_top_missing_he_pass2
+consecration,concepts,,194,,,,קדושה (דת),https://chavrutai.com/search?q=consecration&type=talmud,
 Coptic,biblicalNations,Coptic language,4,https://en.wikipedia.org/wiki/Coptic_language,https://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%A4%D7%98%D7%99%D7%AA,Coptic language,קופטית,https://chavrutai.com/search?q=Coptic&type=talmud,blog
 court of the Hasmoneans,names,the court of the Hasmoneans,8,,,,,https://chavrutai.com/search?q=court+of+the+Hasmoneans&type=talmud,
 Cozbi,biblicalNames,,3,https://en.wikipedia.org/wiki/Cozbi,https://he.wikipedia.org/wiki/%D7%9B%D7%96%D7%91%D7%99_%D7%91%D7%AA_%D7%A6%D7%95%D7%A8,Cozbi,כזבי בת צור,https://chavrutai.com/search?q=Cozbi&type=talmud,biblical_names_api_review:verified_exact_or_redirect
@@ -769,7 +769,7 @@ Difti,talmudToponyms,,80,,,,,https://chavrutai.com/search?q=Difti&type=talmud,
 Diglat,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Diglat&type=talmud,
 Dihavat,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Dihavat&type=talmud,
 Dimhorya,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Dimhorya&type=talmud,
-Rav Dimi,names,Dimi (rabbi),258,https://en.wikipedia.org/wiki/Dimi_(rabbi),https://he.wikipedia.org/wiki/%D7%A8%D7%91_%D7%93%D7%99%D7%9E%D7%99,Dimi (rabbi),?? ????,https://chavrutai.com/search?q=Rav+Dimi&type=talmud,blog; manual_top_count_review_20260307
+Rav Dimi,names,Dimi (rabbi),258,https://en.wikipedia.org/wiki/Dimi_(rabbi),https://he.wikipedia.org/wiki/%D7%A8%D7%91_%D7%93%D7%99%D7%9E%D7%99,Dimi (rabbi),רב דימי,https://chavrutai.com/search?q=Rav+Dimi&type=talmud,blog; manual_top_count_review_20260307
 Dimi bar Kakuzta,names,,1,,,,,https://chavrutai.com/search?q=Dimi+bar+Kakuzta&type=talmud,
 "Dina, the daughter of Jacob",biblicalNames,,1,https://en.wikipedia.org/wiki/Dina,,Dina,,https://chavrutai.com/search?q=Dina%2C+the+daughter+of+Jacob&type=talmud,biblical_names_api_review:no_exact_page; enwiki_api_exact
 dinarius,concepts,,0,,,,,https://chavrutai.com/search?q=dinarius&type=talmud,
@@ -879,7 +879,7 @@ Evil eye,concepts,,15,https://en.wikipedia.org/wiki/Evil_eye,https://he.wikipedi
 evil inclination,concepts,,41,https://en.wikipedia.org/wiki/Yetzer_hara,https://he.wikipedia.org/wiki/%D7%99%D7%A6%D7%A8_%D7%94%D7%A8%D7%A2,,יצר הרע,https://chavrutai.com/search?q=evil+inclination&type=talmud,
 Exilarch,concepts;names,The Exilarch,142,https://en.wikipedia.org/wiki/Exilarch,https://he.wikipedia.org/wiki/%D7%A8%D7%90%D7%A9_%D7%94%D7%92%D7%95%D7%9C%D7%94,Exilarch,ראש הגולה,https://chavrutai.com/search?q=Exilarch&type=talmud,blog
 Exilarch’s household,names,,5,,,,,https://chavrutai.com/search?q=Exilarch%E2%80%99s+household&type=talmud,
-Exile,concepts,the exile,125,https://en.wikipedia.org/wiki/Exile,https://he.wikipedia.org/wiki/%D7%92%D7%9C%D7%95%D7%AA,Exile,גלות,https://chavrutai.com/search?q=Exile&type=talmud,blog+en_langlink_he
+Exile,concepts,the exile,125,,,,גלות,https://chavrutai.com/search?q=Exile&type=talmud,
 Ezekiel,biblicalNames,"Ezekiel ben Buzi; Ezekiel, son of Buzi",64,https://en.wikipedia.org/wiki/Ezekiel,https://he.wikipedia.org/wiki/%D7%99%D7%97%D7%96%D7%A7%D7%90%D7%9C,Ezekiel,יחזקאל,https://chavrutai.com/search?q=Ezekiel&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Ezra,biblicalNames,,65,https://en.wikipedia.org/wiki/Ezra,https://he.wikipedia.org/wiki/%D7%A2%D7%96%D7%A8%D7%90_%D7%94%D7%A1%D7%95%D7%A4%D7%A8,Ezra,עזרא הסופר,https://chavrutai.com/search?q=Ezra&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 father Ḥalafta,names,"father, Ḥalafta",8,,,,,https://chavrutai.com/search?q=father+%E1%B8%A4alafta&type=talmud,
@@ -887,7 +887,7 @@ father of Ravin bar Ḥinnana,names,,1,,,,,https://chavrutai.com/search?q=father
 father of Shmuel bar Avin,names,,1,,,,,https://chavrutai.com/search?q=father+of+Shmuel+bar+Avin&type=talmud,
 First Fruits,concepts,,145,https://en.wikipedia.org/wiki/Bikkurim_(first-fruits),https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%9B%D7%95%D7%A8%D7%99%D7%9D,Bikkurim (first-fruits),ביכורים,https://chavrutai.com/search?q=First+Fruits&type=talmud,blog; manual_concepts_top_missing_he_pass2
 First tithe,concepts,,75,https://en.wikipedia.org/wiki/First_tithe,https://he.wikipedia.org/wiki/%D7%9E%D7%A2%D7%A9%D7%A8_%D7%A8%D7%90%D7%A9%D7%95%D7%9F,First tithe,מעשר ראשון,https://chavrutai.com/search?q=First+tithe&type=talmud,blog
-firstborn,concepts,Firstborn (Judaism),813,https://en.wikipedia.org/wiki/Firstborn_(Judaism),https://he.wikipedia.org/wiki/%D7%91%D7%9B%D7%95%D7%A8,Firstborn (Judaism),בכור,https://chavrutai.com/search?q=firstborn&type=talmud,blog
+firstborn,concepts,Firstborn (Judaism),813,https://en.wikipedia.org/wiki/Firstborn_(Judaism),,,בכור,https://chavrutai.com/search?q=firstborn&type=talmud,
 Foolish Galilean,names,,2,,,,,https://chavrutai.com/search?q=Foolish+Galilean&type=talmud,
 fortress [<i>ḥakra</i>] of Gush Ḥalav,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=fortress+%5B%3Ci%3E%E1%B8%A5akra%3C%2Fi%3E%5D+of+Gush+%E1%B8%A4alav&type=talmud,
 fortress of Shanvata,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=fortress+of+Shanvata&type=talmud,
@@ -923,8 +923,8 @@ Gehenna,concepts,,116,https://en.wikipedia.org/wiki/Gehenna,https://he.wikipedia
 Geihazi,biblicalNames,,1,,,,,https://chavrutai.com/search?q=Geihazi&type=talmud,biblical_names_api_review:no_exact_page
 Gematria,concepts,,0,https://en.wikipedia.org/wiki/Gematria#Related_transformations,https://he.wikipedia.org/wiki/%D7%92%D7%99%D7%9E%D7%98%D7%A8%D7%99%D7%94,Gematria,גימטריה,https://chavrutai.com/search?q=Gematria&type=talmud,blog
 Geneiva,names,,10,,,,,https://chavrutai.com/search?q=Geneiva&type=talmud,
-Generation of the Flood,biblicalNames;concepts,the generation of the flood,37,https://en.wikipedia.org/wiki/Generation,https://he.wikipedia.org/wiki/%D7%93%D7%95%D7%A8,Generation,דור,https://chavrutai.com/search?q=Generation+of+the+Flood&type=talmud,enwiki_api_exact
-descendants of Noah,biblicalNames;concepts,Generations of Noah,47,https://en.wikipedia.org/wiki/Generations_of_Noah,https://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%9C%D7%93%D7%95%D7%AA_%D7%91%D7%A0%D7%99_%D7%A0%D7%97,Generations of Noah,תולדות בני נח,https://chavrutai.com/search?q=descendants+of+Noah&type=talmud,biblical_names_api_review:verified_exact_or_redirect
+Generation of the Flood,biblicalNames;concepts,the generation of the flood,37,,,,דור,https://chavrutai.com/search?q=Generation+of+the+Flood&type=talmud,
+descendants of Noah,biblicalNames;concepts,Generations of Noah,47,,,,תולדות בני נח,https://chavrutai.com/search?q=descendants+of+Noah&type=talmud,
 Creation,concepts,Genesis creation narrative,91,https://en.wikipedia.org/wiki/Genesis_creation_narrative,https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%99%D7%90%D7%AA_%D7%94%D7%A2%D7%95%D7%9C%D7%9D_%D7%91%D7%AA%D7%A0%22%D7%9A,Genesis creation narrative,"בריאת העולם בתנ""ך",https://chavrutai.com/search?q=Creation&type=talmud,blog
 Flood,concepts,Genesis flood narrative,51,https://en.wikipedia.org/wiki/Genesis_flood_narrative,https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%91%D7%95%D7%9C,Genesis flood narrative,המבול,https://chavrutai.com/search?q=Flood&type=talmud,blog
 Geniva,names,,3,,https://he.wikipedia.org/wiki/%D7%92%D7%A0%D7%99%D7%91%D7%90,,גניבא,https://chavrutai.com/search?q=Geniva&type=talmud,wikidata_seed_qid
@@ -1159,7 +1159,7 @@ Ibzan,biblicalNames,,1,https://en.wikipedia.org/wiki/Ibzan,https://he.wikipedia.
 Iddo,biblicalNames,,3,,,,,https://chavrutai.com/search?q=Iddo&type=talmud,biblical_names_api_review:disambiguation_only
 Iddo the prophet,biblicalNames,,1,,,,,https://chavrutai.com/search?q=Iddo+the+prophet&type=talmud,biblical_names_api_review:no_exact_page
 Rav Idi bar Avin,names,Idi b. Abin Naggara,63,https://en.wikipedia.org/wiki/Idi_b._Abin_Naggara,https://he.wikipedia.org/wiki/%D7%A8%D7%91_%D7%90%D7%99%D7%93%D7%99_%D7%91%D7%A8_%D7%90%D7%91%D7%99%D7%9F,Idi b. Abin Naggara,רב אידי בר אבין,https://chavrutai.com/search?q=Rav+Idi+bar+Avin&type=talmud,blog
-idol worship,concepts,,508,https://en.wikipedia.org/wiki/Idolatry,https://he.wikipedia.org/wiki/%D7%A2%D7%91%D7%95%D7%93%D7%AA_%D7%90%D7%9C%D7%99%D7%9C%D7%99%D7%9D,Idolatry,עבודת אלילים,https://chavrutai.com/search?q=idol+worship&type=talmud,manual_concepts_top_missing_he
+idol worship,concepts,,508,https://en.wikipedia.org/wiki/Idolatry,,,עבודת אלילים,https://chavrutai.com/search?q=idol+worship&type=talmud,
 idolatrous worship,concepts,,15,,,,,https://chavrutai.com/search?q=idolatrous+worship&type=talmud,
 Ifera Hurmiz,names,,3,,,,,https://chavrutai.com/search?q=Ifera+Hurmiz&type=talmud,
 "Ifera Hurmiz, the mother of King Shapur",names,,3,,,,,https://chavrutai.com/search?q=Ifera+Hurmiz%2C+the+mother+of+King+Shapur&type=talmud,
@@ -1206,7 +1206,7 @@ Isi ben Yehuda,names,,29,,,,,https://chavrutai.com/search?q=Isi+ben+Yehuda&type=
 "Isi, father of Rabbi Zeira",names,,1,,,,,https://chavrutai.com/search?q=Isi%2C+father+of+Rabbi+Zeira&type=talmud,
 islands [nissin] that are in the sea,talmudToponyms,,0,,,,,https://chavrutai.com/search?q=islands+%5Bnissin%5D+that+are+in+the+sea&type=talmud,
 Israel,biblicalNations,,473,https://en.wikipedia.org/wiki/Israel,https://he.wikipedia.org/wiki/%D7%99%D7%A9%D7%A8%D7%90%D7%9C,Israel,ישראל,https://chavrutai.com/search?q=Israel&type=talmud,blog
-Israelite,biblicalNations,,301,https://en.wikipedia.org/wiki/Israelites,https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%99_%D7%99%D7%A9%D7%A8%D7%90%D7%9C,Israelites,??? ?????,https://chavrutai.com/search?q=Israelite&type=talmud,manual_top_count_review_20260307
+Israelite,biblicalNations,,301,https://en.wikipedia.org/wiki/Israelites,https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%99_%D7%99%D7%A9%D7%A8%D7%90%D7%9C,Israelites,בני ישראל,https://chavrutai.com/search?q=Israelite&type=talmud,manual_top_count_review_20260307
 Israelites,concepts,,114,https://en.wikipedia.org/wiki/Israelites,https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%99_%D7%99%D7%A9%D7%A8%D7%90%D7%9C,Israelites,בני ישראל,https://chavrutai.com/search?q=Israelites&type=talmud,blog; manual_concepts_he_first_pass
 Issachar,biblicalNames,,5,https://en.wikipedia.org/wiki/Issachar,https://he.wikipedia.org/wiki/%D7%99%D7%A9%D7%A9%D7%9B%D7%A8,Issachar,יששכר,https://chavrutai.com/search?q=Issachar&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Issur,names,,6,,,,,https://chavrutai.com/search?q=Issur&type=talmud,
@@ -1287,7 +1287,7 @@ Yehuda ben Bava,names,Judah ben Bava,31,https://en.wikipedia.org/wiki/Judah_ben_
 Yehuda ben Tabbai,names,Judah ben Tabbai,8,https://en.wikipedia.org/wiki/Judah_ben_Tabbai,https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%91%D7%9F_%D7%98%D7%91%D7%90%D7%99,Judah ben Tabbai,יהודה בן טבאי,https://chavrutai.com/search?q=Yehuda+ben+Tabbai&type=talmud,blog
 Judea,biblicalNations;talmudToponyms,,108,https://en.wikipedia.org/wiki/Judea,https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%95%D7%93%D7%94_(%D7%97%D7%91%D7%9C_%D7%90%D7%A8%D7%A5),Judea,יהודה (חבל ארץ),https://chavrutai.com/search?q=Judea&type=talmud,blog
 Judean,biblicalNations,,2,,,,,https://chavrutai.com/search?q=Judean&type=talmud,
-judgment,concepts,,339,https://en.wikipedia.org/wiki/Last_Judgment,https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%9D_%D7%94%D7%93%D7%99%D7%9F,Last Judgment,יום הדין,https://chavrutai.com/search?q=judgment&type=talmud,manual_concepts_top_missing_he
+judgment,concepts,,339,,,,יום הדין,https://chavrutai.com/search?q=judgment&type=talmud,
 juxtaposition,concepts,,76,,,,,https://chavrutai.com/search?q=juxtaposition&type=talmud,
 Kabul,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Kabul&type=talmud,
 Kadesh,talmudToponyms,Kadesh (biblical),6,https://en.wikipedia.org/wiki/Kadesh_(biblical),https://he.wikipedia.org/wiki/%D7%A7%D7%93%D7%A9_%D7%91%D7%A8%D7%A0%D7%A2,Kadesh (biblical),קדש ברנע,https://chavrutai.com/search?q=Kadesh&type=talmud,blog
@@ -1541,7 +1541,7 @@ Menashya bar Yirmeya,names,,4,,,,,https://chavrutai.com/search?q=Menashya+bar+Yi
 Menashya ben Menaḥem,names,,4,,,,,https://chavrutai.com/search?q=Menashya+ben+Mena%E1%B8%A5em&type=talmud,
 Mephibosheth,biblicalNames,,3,https://en.wikipedia.org/wiki/Mephibosheth,https://he.wikipedia.org/wiki/%D7%9E%D7%A4%D7%99%D7%91%D7%95%D7%A9%D7%AA,Mephibosheth,מפיבושת,https://chavrutai.com/search?q=Mephibosheth&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Merab,biblicalNames,,4,https://en.wikipedia.org/wiki/Merab,https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%91_%D7%91%D7%AA_%D7%A9%D7%90%D7%95%D7%9C,Merab,מרב בת שאול,https://chavrutai.com/search?q=Merab&type=talmud,biblical_names_api_review:verified_exact_or_redirect
-Mercy,concepts,,228,https://en.wikipedia.org/wiki/Mercy,https://he.wikipedia.org/wiki/%D7%A8%D7%97%D7%9E%D7%99%D7%9D,Mercy,רחמים,https://chavrutai.com/search?q=Mercy&type=talmud,manual_concepts_top_missing_he_pass2
+Mercy,concepts,,228,,,,רחמים,https://chavrutai.com/search?q=Mercy&type=talmud,
 Mered,biblicalNames,,3,https://en.wikipedia.org/wiki/Mered,,Mered,,https://chavrutai.com/search?q=Mered&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Meriv-Baal,biblicalNames,,1,,,,,https://chavrutai.com/search?q=Meriv-Baal&type=talmud,biblical_names_api_review:no_exact_page
 Meron,talmudToponyms,,3,,,,,https://chavrutai.com/search?q=Meron&type=talmud,
@@ -1794,7 +1794,7 @@ Perat of Bursif,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Perat+of+Bu
 Perat of Meishan,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Perat+of+Meishan&type=talmud,
 "Perata, son of Rabbi Elazar ben Perata, grandson of Rabbi Perata the Great",names,,2,,,,,https://chavrutai.com/search?q=Perata%2C+son+of+Rabbi+Elazar+ben+Perata%2C+grandson+of+Rabbi+Perata+the+Great&type=talmud,
 Perez,biblicalNames,,4,https://en.wikipedia.org/wiki/Perez_(son_of_Judah),https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A5_%D7%91%D7%9F_%D7%99%D7%94%D7%95%D7%93%D7%94,Perez (son of Judah),פרץ בן יהודה,https://chavrutai.com/search?q=Perez&type=talmud,biblical_names_api_review:verified_exact_or_redirect; manual_fix
-Persian,biblicalNations;concepts;talmudToponyms,Persia,35,https://en.wikipedia.org/wiki/Iran,https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%A8%D7%90%D7%9F,Iran,איראן,https://chavrutai.com/search?q=Persian&type=talmud,blog
+Persian,biblicalNations;concepts;talmudToponyms,Persia,35,,,,איראן,https://chavrutai.com/search?q=Persian&type=talmud,
 Persians,names,,32,,,,,https://chavrutai.com/search?q=Persians&type=talmud,
 Pharaoh,biblicalNames,Pharaoh the lame; Pharaoh the wicked,25,https://en.wikipedia.org/wiki/Pharaoh,https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A2%D7%94,Pharaoh,פרעה,https://chavrutai.com/search?q=Pharaoh&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Pharaoh Neco,biblicalNames,,1,,,,,https://chavrutai.com/search?q=Pharaoh+Neco&type=talmud,biblical_names_api_review:no_exact_page
@@ -1842,7 +1842,7 @@ Rabba bar Ahilai,names,,1,,,,,https://chavrutai.com/search?q=Rabba+bar+Ahilai&ty
 Rabba bar Aivu,names,,1,,,,,https://chavrutai.com/search?q=Rabba+bar+Aivu&type=talmud,
 Rabba bar Ashabi,names,,1,,,,,https://chavrutai.com/search?q=Rabba+bar+Ashabi&type=talmud,
 Rabba bar Avin,names,,1,,,,,https://chavrutai.com/search?q=Rabba+bar+Avin&type=talmud,
-Rabba bar Avuh,names,,178,https://en.wikipedia.org/wiki/Rabbah_bar_Abuha,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%94_%D7%91%D7%A8_%D7%90%D7%91%D7%95%D7%94,Rabbah bar Abuha,??? ?? ????,https://chavrutai.com/search?q=Rabba+bar+Avuh&type=talmud,manual_top_count_review_20260307
+Rabba bar Avuh,names,,178,https://en.wikipedia.org/wiki/Rabbah_bar_Abuha,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%94_%D7%91%D7%A8_%D7%90%D7%91%D7%95%D7%94,Rabbah bar Abuha,רבה בר אבוה,https://chavrutai.com/search?q=Rabba+bar+Avuh&type=talmud,manual_top_count_review_20260307
 Rabba bar bar Ḥanan,names,,1,,,,,https://chavrutai.com/search?q=Rabba+bar+bar+%E1%B8%A4anan&type=talmud,
 Rabba bar bar Ḥanna,names,,11,,,,,https://chavrutai.com/search?q=Rabba+bar+bar+%E1%B8%A4anna&type=talmud,
 Rabba bar Beruna,names,,1,,,,,https://chavrutai.com/search?q=Rabba+bar+Beruna&type=talmud,
@@ -1990,7 +1990,7 @@ Rabbi Akiva bar Yosef,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Akiva+ba
 Rabbi Akiva’s daughter,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Akiva%E2%80%99s+daughter&type=talmud,
 Rabbi Akiva’s student,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Akiva%E2%80%99s+student&type=talmud,
 Rabbi Alexandri,names,,16,,,,,https://chavrutai.com/search?q=Rabbi+Alexandri&type=talmud,
-Rabbi Ami,names,,359,https://en.wikipedia.org/wiki/Rabbi_Ammi,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%9E%D7%99,Rabbi Ammi,??? ???,https://chavrutai.com/search?q=Rabbi+Ami&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Ami,names,,359,https://en.wikipedia.org/wiki/Rabbi_Ammi,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%9E%D7%99,Rabbi Ammi,רבי אמי,https://chavrutai.com/search?q=Rabbi+Ami&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Ami bar Abba,names,,3,,,,,https://chavrutai.com/search?q=Rabbi+Ami+bar+Abba&type=talmud,
 Rabbi Ami bar Ahava,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Ami+bar+Ahava&type=talmud,
 Rabbi Ami bar Ḥama,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Ami+bar+%E1%B8%A4ama&type=talmud,
@@ -2003,7 +2003,7 @@ Rabbi Appetoriki,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Appetoriki&ty
 Rabbi Aptoriki,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Aptoriki&type=talmud,
 Rabbi Aptoriki’s father,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Aptoriki%E2%80%99s+father&type=talmud,
 Rabbi Ashi,names,,0,,,,,https://chavrutai.com/search?q=Rabbi+Ashi&type=talmud,
-Rabbi Asi,names,,252,https://en.wikipedia.org/wiki/Rabbi_Assi,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%A1%D7%99,Rabbi Assi,??? ???,https://chavrutai.com/search?q=Rabbi+Asi&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Asi,names,,252,https://en.wikipedia.org/wiki/Rabbi_Assi,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%A1%D7%99,Rabbi Assi,רבי אסי,https://chavrutai.com/search?q=Rabbi+Asi&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Asi bar Ḥanina,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Asi+bar+%E1%B8%A4anina&type=talmud,
 Rabbi Asi ben Shaul,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Asi+ben+Shaul&type=talmud,
 Rabbi Asi of Neharbil,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Asi+of+Neharbil&type=talmud,
@@ -2081,7 +2081,7 @@ Rabbi Elazar ben Antigonos,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Ela
 Rabbi Elazar ben Antigonus,names,,3,,,,,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Antigonus&type=talmud,
 Rabbi Elazar ben Arakh,names,,7,,,,,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Arakh&type=talmud,
 Rabbi Elazar ben Azaria,names,,3,,,,,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Azaria&type=talmud,
-Rabbi Elazar ben Azarya,names,,163,https://en.wikipedia.org/wiki/Eleazar_ben_Azariah,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%9C%D7%A2%D7%96%D7%A8_%D7%91%D7%9F_%D7%A2%D7%96%D7%A8%D7%99%D7%94,Eleazar ben Azariah,??? ????? ?? ?????,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Azarya&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Elazar ben Azarya,names,,163,https://en.wikipedia.org/wiki/Eleazar_ben_Azariah,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%9C%D7%A2%D7%96%D7%A8_%D7%91%D7%9F_%D7%A2%D7%96%D7%A8%D7%99%D7%94,Eleazar ben Azariah,רבי אלעזר בן עזריה,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Azarya&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Elazar ben Diglai,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Diglai&type=talmud,
 Rabbi Elazar ben Durdayya,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Elazar+ben+Durdayya&type=talmud,
 Rabbi Elazar ben HaKappar,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Elazar+ben+HaKappar&type=talmud,
@@ -2132,7 +2132,7 @@ Rabbi Eliezer ben Perata,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Eliez
 Rabbi Eliezer ben Rabbi Tzadok,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Eliezer+ben+Rabbi+Tzadok&type=talmud,
 Rabbi Eliezer ben Taddai,names,,4,,,,,https://chavrutai.com/search?q=Rabbi+Eliezer+ben+Taddai&type=talmud,
 Rabbi Eliezer ben Tzadok,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Eliezer+ben+Tzadok&type=talmud,
-Rabbi Eliezer ben Ya’akov,names,Rabbi Eliezer ben Yaakov,270,https://en.wikipedia.org/wiki/Eliezer_ben_Jacob_I,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8_%D7%91%D7%9F_%D7%99%D7%A2%D7%A7%D7%91,Eliezer ben Jacob I,??? ?????? ?? ????,https://chavrutai.com/search?q=Rabbi+Eliezer+ben+Ya%E2%80%99akov&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Eliezer ben Ya’akov,names,Rabbi Eliezer ben Yaakov,270,https://en.wikipedia.org/wiki/Eliezer_ben_Jacob_I,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8_%D7%91%D7%9F_%D7%99%D7%A2%D7%A7%D7%91,Eliezer ben Jacob I,רבי אליעזר בן יעקב,https://chavrutai.com/search?q=Rabbi+Eliezer+ben+Ya%E2%80%99akov&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Eliezer HaKappar,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Eliezer+HaKappar&type=talmud,
 Rabbi Eliezer HaModa’i,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Eliezer+HaModa%E2%80%99i&type=talmud,
 Rabbi Eliezer the Great,names,,13,,,,,https://chavrutai.com/search?q=Rabbi+Eliezer+the+Great&type=talmud,
@@ -2202,7 +2202,7 @@ Rabbi Ḥanin,names,,11,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anin&t
 Rabbi Ḥanin bar Abaye,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anin+bar+Abaye&type=talmud,
 Rabbi Ḥanin bar Ami,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anin+bar+Ami&type=talmud,
 Rabbi Ḥanin bar Pappa,names,,0,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anin+bar+Pappa&type=talmud,
-Rabbi Ḥanina,names,,861,https://en.wikipedia.org/wiki/Rabbi_%E1%B8%A4anina,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%97%D7%A0%D7%99%D7%A0%D7%90_%D7%91%D7%A8_%D7%97%D7%9E%D7%90,Rabbi Ḥanina,??? ????? ?? ???,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anina&type=talmud,manual_top_count_review_20260307
+Rabbi Ḥanina,names,,861,https://en.wikipedia.org/wiki/Rabbi_%E1%B8%A4anina,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%97%D7%A0%D7%99%D7%A0%D7%90_%D7%91%D7%A8_%D7%97%D7%9E%D7%90,Rabbi Ḥanina,רבי חנינא בר חמא,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anina&type=talmud,manual_top_count_review_20260307
 Rabbi Ḥanina bar Avdimi,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anina+bar+Avdimi&type=talmud,
 Rabbi Ḥanina bar Avin,names,,5,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anina+bar+Avin&type=talmud,
 Rabbi Ḥanina bar Ḥama,names,,9,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4anina+bar+%E1%B8%A4ama&type=talmud,
@@ -2250,7 +2250,7 @@ Rabbi Ḥinnana bar Pappa,names,,6,,,,,https://chavrutai.com/search?q=Rabbi+%E1%
 Rabbi Ḥisda,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4isda&type=talmud,
 Rabbi Ḥiyya,names,,880,https://en.wikipedia.org/wiki/Hiyya_the_Great,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99%20%D7%97%D7%99%D7%99%D7%90,Hiyya the Great,רבי חייא,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya&type=talmud,manual_top_count_review_20260307
 "Rabbi Ḥiyya Arikha, of the school of Rabbi Aḥa",names,,1,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya+Arikha%2C+of+the+school+of+Rabbi+A%E1%B8%A5a&type=talmud,
-Rabbi Ḥiyya bar Abba,names,,300,https://en.wikipedia.org/wiki/Hiyya_bar_Abba,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%97%D7%99%D7%99%D7%90_%D7%91%D7%A8_%D7%90%D7%91%D7%90,Hiyya bar Abba,??? ???? ?? ???,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya+bar+Abba&type=talmud,manual_top_count_review_20260307
+Rabbi Ḥiyya bar Abba,names,,300,https://en.wikipedia.org/wiki/Hiyya_bar_Abba,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%97%D7%99%D7%99%D7%90_%D7%91%D7%A8_%D7%90%D7%91%D7%90,Hiyya bar Abba,רבי חייא בר אבא,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya+bar+Abba&type=talmud,manual_top_count_review_20260307
 Rabbi Ḥiyya bar Ami,names,,9,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya+bar+Ami&type=talmud,
 Rabbi Ḥiyya bar Ami’s slave,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya+bar+Ami%E2%80%99s+slave&type=talmud,
 Rabbi Ḥiyya bar Ashi,names,,14,,,,,https://chavrutai.com/search?q=Rabbi+%E1%B8%A4iyya+bar+Ashi&type=talmud,
@@ -2347,7 +2347,7 @@ Rabbi Naḥman bar Yitzḥak,names,,4,,,,,https://chavrutai.com/search?q=Rabbi+N
 Rabbi Naḥum,names,,4,,,,,https://chavrutai.com/search?q=Rabbi+Na%E1%B8%A5um&type=talmud,
 Rabbi Naḥum bar Pappa,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Na%E1%B8%A5um+bar+Pappa&type=talmud,
 Rabbi Naḥumi,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Na%E1%B8%A5umi&type=talmud,
-Rabbi Natan,names,,272,https://en.wikipedia.org/wiki/Nathan_the_Babylonian,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%A0%D7%AA%D7%9F,Nathan the Babylonian,??? ???,https://chavrutai.com/search?q=Rabbi+Natan&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Natan,names,,272,https://en.wikipedia.org/wiki/Nathan_the_Babylonian,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%A0%D7%AA%D7%9F,Nathan the Babylonian,רבי נתן,https://chavrutai.com/search?q=Rabbi+Natan&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Natan bar Abba,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Natan+bar+Abba&type=talmud,
 Rabbi Natan bar Ami,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Natan+bar+Ami&type=talmud,
 Rabbi Natan bar Hoshaya,names,,3,,,,,https://chavrutai.com/search?q=Rabbi+Natan+bar+Hoshaya&type=talmud,
@@ -2359,7 +2359,7 @@ Rabbi Natan ben Amram,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Natan+be
 Rabbi Natan ben Avishalom,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Natan+ben+Avishalom&type=talmud,
 Rabbi Natan ben Avtolemos,names,,0,,,,,https://chavrutai.com/search?q=Rabbi+Natan+ben+Avtolemos&type=talmud,
 "Rabbi Natan, son of Rabbi Oshaya",names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Natan%2C+son+of+Rabbi+Oshaya&type=talmud,
-Rabbi Neḥemya,names,,184,https://en.wikipedia.org/wiki/Rabbi_Nehemiah,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%A0%D7%97%D7%9E%D7%99%D7%94,Rabbi Nehemiah,??? ?????,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5emya&type=talmud,manual_top_count_review_20260307
+Rabbi Neḥemya,names,,184,https://en.wikipedia.org/wiki/Rabbi_Nehemiah,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%A0%D7%97%D7%9E%D7%99%D7%94,Rabbi Nehemiah,רבי נחמיה,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5emya&type=talmud,manual_top_count_review_20260307
 "Rabbi Neḥemya, son of Rabbi Ḥanilai",names,,0,,,,,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5emya%2C+son+of+Rabbi+%E1%B8%A4anilai&type=talmud,
 Rabbi Nehorai,names,,23,,,,,https://chavrutai.com/search?q=Rabbi+Nehorai&type=talmud,
 Rabbi Neḥunya,names,,27,,,,,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5unya&type=talmud,
@@ -2368,7 +2368,7 @@ Rabbi Neḥunya from the valley of Beit Ḥortan,names,,1,,,,,https://chavrutai.
 Rabbi Neḥunya of the valley of Beit Ḥortan,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5unya+of+the+valley+of+Beit+%E1%B8%A4ortan&type=talmud,
 Rabbi Neḥunya the Great,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5unya+the+Great&type=talmud,
 "Rabbi Neḥunya, a man of the valley of Beit Ḥortan",names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Ne%E1%B8%A5unya%2C+a+man+of+the+valley+of+Beit+%E1%B8%A4ortan&type=talmud,
-Rabbi Oshaya,names,,192,https://en.wikipedia.org/wiki/Hoshaiah_Rabbah,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%95%D7%A9%D7%A2%D7%99%D7%90,Hoshaiah Rabbah,??? ??????,https://chavrutai.com/search?q=Rabbi+Oshaya&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Oshaya,names,,192,https://en.wikipedia.org/wiki/Hoshaiah_Rabbah,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%95%D7%A9%D7%A2%D7%99%D7%90,Hoshaiah Rabbah,רבי אושעיא,https://chavrutai.com/search?q=Rabbi+Oshaya&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Oshaya bar Rabbi,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Oshaya+bar+Rabbi&type=talmud,
 Rabbi Oshaya the Distinguished,names,,5,,,,,https://chavrutai.com/search?q=Rabbi+Oshaya+the+Distinguished&type=talmud,
 "Rabbi Oshaya, son of Rabbi Ḥama bar Bisa",names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Oshaya%2C+son+of+Rabbi+%E1%B8%A4ama+bar+Bisa&type=talmud,
@@ -2424,7 +2424,7 @@ Rabbi Shimon ben Avishalom,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shi
 Rabbi Shimon ben Avshalom,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Avshalom&type=talmud,
 Rabbi Shimon ben Azzai,names,,4,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Azzai&type=talmud,
 Rabbi Shimon ben Beteira,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Beteira&type=talmud,
-Rabbi Shimon ben Elazar,names,,285,https://en.wikipedia.org/wiki/Shimon_ben_Eleazar,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%A9%D7%9E%D7%A2%D7%95%D7%9F_%D7%91%D7%9F_%D7%90%D7%9C%D7%A2%D7%96%D7%A8,Shimon ben Eleazar,??? ????? ?? ?????,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Elazar&type=talmud,manual_top_count_review_20260307
+Rabbi Shimon ben Elazar,names,,285,https://en.wikipedia.org/wiki/Shimon_ben_Eleazar,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%A9%D7%9E%D7%A2%D7%95%D7%9F_%D7%91%D7%9F_%D7%90%D7%9C%D7%A2%D7%96%D7%A8,Shimon ben Eleazar,רבי שמעון בן אלעזר,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Elazar&type=talmud,manual_top_count_review_20260307
 Rabbi Shimon ben Eliezer,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Eliezer&type=talmud,
 Rabbi Shimon ben Elyakim,names,,10,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Elyakim&type=talmud,
 Rabbi Shimon ben Elyakum,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Elyakum&type=talmud,
@@ -2433,7 +2433,7 @@ Rabbi Shimon ben Ḥalafta,names,,5,,,,,https://chavrutai.com/search?q=Rabbi+Shi
 Rabbi Shimon ben Ḥananya,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+%E1%B8%A4ananya&type=talmud,
 Rabbi Shimon ben Isi ben Lakonya,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Isi+ben+Lakonya&type=talmud,
 Rabbi Shimon ben Kisma,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Kisma&type=talmud,
-Rabbi Shimon ben Lakish,names,,247,https://en.wikipedia.org/wiki/Shimon_ben_Lakish,https://he.wikipedia.org/wiki/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F_%D7%91%D7%9F_%D7%9C%D7%A7%D7%99%D7%A9,Shimon ben Lakish,????? ?? ????,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Lakish&type=talmud,manual_top_count_review_20260307
+Rabbi Shimon ben Lakish,names,,247,https://en.wikipedia.org/wiki/Shimon_ben_Lakish,https://he.wikipedia.org/wiki/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F_%D7%91%D7%9F_%D7%9C%D7%A7%D7%99%D7%A9,Shimon ben Lakish,שמעון בן לקיש,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Lakish&type=talmud,manual_top_count_review_20260307
 Rabbi Shimon ben Levi,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Levi&type=talmud,
 Rabbi Shimon ben Menasya,names,,42,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Menasya&type=talmud,
 Rabbi Shimon ben Nannas,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Shimon+ben+Nannas&type=talmud,
@@ -2637,7 +2637,7 @@ Rabbi Yehuda the Keen,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Yehuda+t
 Rabbi Yehuda’s wife,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yehuda%E2%80%99s+wife&type=talmud,
 Rabbi Yeimar bar Shelamya,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yeimar+bar+Shelamya&type=talmud,
 Rabbi Yeshevav,names,,13,,,,,https://chavrutai.com/search?q=Rabbi+Yeshevav&type=talmud,
-Rabbi Yirmeya,names,,434,https://en.wikipedia.org/wiki/Jeremiah_(III),https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%A8%D7%9E%D7%99%D7%94,Jeremiah (III),??? ?????,https://chavrutai.com/search?q=Rabbi+Yirmeya&type=talmud,manual_top_count_review_20260307
+Rabbi Yirmeya,names,,434,https://en.wikipedia.org/wiki/Jeremiah_(III),https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%A8%D7%9E%D7%99%D7%94,Jeremiah (III),רבי ירמיה,https://chavrutai.com/search?q=Rabbi+Yirmeya&type=talmud,manual_top_count_review_20260307
 Rabbi Yirmeya bar Abba,names,,52,,,,,https://chavrutai.com/search?q=Rabbi+Yirmeya+bar+Abba&type=talmud,
 Rabbi Yirmeya bar Elazar,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yirmeya+bar+Elazar&type=talmud,
 Rabbi Yirmeya bar Taḥlifa,names,,9,,,,,https://chavrutai.com/search?q=Rabbi+Yirmeya+bar+Ta%E1%B8%A5lifa&type=talmud,
@@ -2672,7 +2672,7 @@ Rabbi Yishmael son of Rabbi Yochanan ben Berokah,names,,0,,,,,https://chavrutai.
 "Rabbi Yishmael, son of Rabbi Yosef",names,,0,,,,,https://chavrutai.com/search?q=Rabbi+Yishmael%2C+son+of+Rabbi+Yosef&type=talmud,
 "Rabbi Yishmael, son of Rabbi Yosei",names,,74,,,,,https://chavrutai.com/search?q=Rabbi+Yishmael%2C+son+of+Rabbi+Yosei&type=talmud,
 "Rabbi Yishmael, son of Yoḥanan ben Beroka",names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yishmael%2C+son+of+Yo%E1%B8%A5anan+ben+Beroka&type=talmud,
-Rabbi Yitzḥak,names,,564,https://en.wikipedia.org/wiki/Rabbi_Yitzchak,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%A6%D7%97%D7%A7,Rabbi Yitzchak,??? ????,https://chavrutai.com/search?q=Rabbi+Yitz%E1%B8%A5ak&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Yitzḥak,names,,564,https://en.wikipedia.org/wiki/Rabbi_Yitzchak,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%A6%D7%97%D7%A7,Rabbi Yitzchak,רבי יצחק,https://chavrutai.com/search?q=Rabbi+Yitz%E1%B8%A5ak&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Yitzḥak bar Abba,names,,4,,,,,https://chavrutai.com/search?q=Rabbi+Yitz%E1%B8%A5ak+bar+Abba&type=talmud,
 Rabbi Yitzḥak bar Adda,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Yitz%E1%B8%A5ak+bar+Adda&type=talmud,
 Rabbi Yitzḥak bar Ami,names,,3,,,,,https://chavrutai.com/search?q=Rabbi+Yitz%E1%B8%A5ak+bar+Ami&type=talmud,
@@ -2750,7 +2750,7 @@ Rabbi Yoḥanan’s son,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yo%E1%
 Rabbi Yona,names,,32,,,,,https://chavrutai.com/search?q=Rabbi+Yona&type=talmud,
 Rabbi Yona bar Taḥlifa,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yona+bar+Ta%E1%B8%A5lifa&type=talmud,
 "Rabbi Yona, the father of Rabbi Mani",names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yona%2C+the+father+of+Rabbi+Mani&type=talmud,
-Rabbi Yonatan,names,,193,https://en.wikipedia.org/wiki/Rabbi_Jonathan,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%95%D7%A0%D7%AA%D7%9F,Rabbi Jonathan,??? ?????,https://chavrutai.com/search?q=Rabbi+Yonatan&type=talmud,he_wiki_then_langlink_20260307
+Rabbi Yonatan,names,,193,https://en.wikipedia.org/wiki/Rabbi_Jonathan,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%95%D7%A0%D7%AA%D7%9F,Rabbi Jonathan,רבי יונתן,https://chavrutai.com/search?q=Rabbi+Yonatan&type=talmud,he_wiki_then_langlink_20260307
 Rabbi Yonatan ben Akhinai,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yonatan+ben+Akhinai&type=talmud,
 Rabbi Yonatan ben Amram,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yonatan+ben+Amram&type=talmud,
 Rabbi Yonatan ben Asmai,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yonatan+ben+Asmai&type=talmud,
@@ -2812,7 +2812,7 @@ Rabbi Yosei ben Yosei ben Yasiyyan,names,,1,,,,,https://chavrutai.com/search?q=R
 Rabbi Yosei ben Zimra,names,,11,,,,,https://chavrutai.com/search?q=Rabbi+Yosei+ben+Zimra&type=talmud,
 Rabbi Yosei from Caesarea,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yosei+from+Caesarea&type=talmud,
 Rabbi Yosei from Yokrat,names,,2,,,,,https://chavrutai.com/search?q=Rabbi+Yosei+from+Yokrat&type=talmud,
-Rabbi Yosei HaGelili,names,,261,https://en.wikipedia.org/wiki/Rabbi_Yose_HaGelili,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%95%D7%A1%D7%99_%D7%94%D7%92%D7%9C%D7%99%D7%9C%D7%99,Rabbi Yose HaGelili,??? ???? ??????,https://chavrutai.com/search?q=Rabbi+Yosei+HaGelili&type=talmud,manual_top_count_review_20260307
+Rabbi Yosei HaGelili,names,,261,https://en.wikipedia.org/wiki/Rabbi_Yose_HaGelili,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%95%D7%A1%D7%99_%D7%94%D7%92%D7%9C%D7%99%D7%9C%D7%99,Rabbi Yose HaGelili,רבי יוסי הגלילי,https://chavrutai.com/search?q=Rabbi+Yosei+HaGelili&type=talmud,manual_top_count_review_20260307
 Rabbi Yosei HaḤorem,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yosei+Ha%E1%B8%A4orem&type=talmud,
 Rabbi Yosei of Hutzal,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yosei+of+Hutzal&type=talmud,
 Rabbi Yosei of Medea,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Yosei+of+Medea&type=talmud,
@@ -2895,7 +2895,7 @@ Rav Abba bar Ya’akov,names,,0,,,,,https://chavrutai.com/search?q=Rav+Abba+bar+
 Rav Abbahu,names,,0,,,,,https://chavrutai.com/search?q=Rav+Abbahu&type=talmud,
 Rav Adda bar Abba,names,,12,,,,,https://chavrutai.com/search?q=Rav+Adda+bar+Abba&type=talmud,
 Rav Adda bar Aḥa,names,,2,,,,,https://chavrutai.com/search?q=Rav+Adda+bar+A%E1%B8%A5a&type=talmud,
-Rav Adda bar Ahava,names,,185,https://en.wikipedia.org/wiki/Adda_bar_Ahavah,https://he.wikipedia.org/wiki/%D7%A8%D7%91_%D7%90%D7%93%D7%90_%D7%91%D7%A8_%D7%90%D7%94%D7%91%D7%94,Adda bar Ahavah,?? ??? ?? ????,https://chavrutai.com/search?q=Rav+Adda+bar+Ahava&type=talmud,manual_top_count_review_20260307
+Rav Adda bar Ahava,names,,185,https://en.wikipedia.org/wiki/Adda_bar_Ahavah,https://he.wikipedia.org/wiki/%D7%A8%D7%91_%D7%90%D7%93%D7%90_%D7%91%D7%A8_%D7%90%D7%94%D7%91%D7%94,Adda bar Ahavah,רב אדא בר אהבה,https://chavrutai.com/search?q=Rav+Adda+bar+Ahava&type=talmud,manual_top_count_review_20260307
 Rav Adda bar Ahava’s attendant,names,,1,,,,,https://chavrutai.com/search?q=Rav+Adda+bar+Ahava%E2%80%99s+attendant&type=talmud,
 Rav Adda bar Ahava’s host,names,,2,,,,,https://chavrutai.com/search?q=Rav+Adda+bar+Ahava%E2%80%99s+host&type=talmud,
 Rav Adda bar Avimi,names,,2,,,,,https://chavrutai.com/search?q=Rav+Adda+bar+Avimi&type=talmud,
@@ -4216,7 +4216,7 @@ tereifa,concepts,,449,https://en.wikipedia.org/wiki/Terefah,https://he.wikipedia
 Teresh,biblicalNames,,2,,,,,https://chavrutai.com/search?q=Teresh&type=talmud,biblical_names_api_review:disambiguation_only
 teruma gedola,concepts,,21,,,,,https://chavrutai.com/search?q=teruma+gedola&type=talmud,
 teruma,concepts,Terumah (offering),1393,https://en.wikipedia.org/wiki/Terumah_(offering),https://he.wikipedia.org/wiki/%D7%AA%D7%A8%D7%95%D7%9E%D7%94_%D7%92%D7%93%D7%95%D7%9C%D7%94,Terumah (offering),תרומה גדולה,https://chavrutai.com/search?q=teruma&type=talmud,blog
-thanks offering,concepts,thanks-offering,536,https://en.wikipedia.org/wiki/Korban,https://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%A8%D7%91%D7%9F_(%D7%99%D7%94%D7%93%D7%95%D7%AA),Korban,קורבן (יהדות),https://chavrutai.com/search?q=thanks+offering&type=talmud,manual_concepts_top_missing_he
+thanks offering,concepts,thanks-offering,536,https://en.wikipedia.org/wiki/Korban,,,קורבן (יהדות),https://chavrutai.com/search?q=thanks+offering&type=talmud,
 Tiphsah,talmudToponyms,Thapsacus,6,https://en.wikipedia.org/wiki/Thapsacus#Biblical_references,https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%A1%D7%97,Thapsacus,תפסח,https://chavrutai.com/search?q=Tiphsah&type=talmud,blog
 that Galilean,names,,1,,,,,https://chavrutai.com/search?q=that+Galilean&type=talmud,
 the <i>tumtum</i> of Biri,names,,1,,,,,https://chavrutai.com/search?q=the+%3Ci%3Etumtum%3C%2Fi%3E+of+Biri&type=talmud,
@@ -4308,7 +4308,7 @@ the father of Rav Pappa,names,,1,,,,,https://chavrutai.com/search?q=the+father+o
 The father of Rav Yosef bar Ḥama,names,,1,,,,,https://chavrutai.com/search?q=The+father+of+Rav+Yosef+bar+%E1%B8%A4ama&type=talmud,
 "the father of the mother of Rav Aḥai, son of Rabbi Ḥanina",names,,1,,,,,https://chavrutai.com/search?q=the+father+of+the+mother+of+Rav+A%E1%B8%A5ai%2C+son+of+Rabbi+%E1%B8%A4anina&type=talmud,
 the Garden,biblicalPlaces,,46,,,,,https://chavrutai.com/search?q=the+Garden&type=talmud,
-the generation of the dispersion,biblicalNames;concepts,,9,https://en.wikipedia.org/wiki/The,,The,,https://chavrutai.com/search?q=the+generation+of+the+dispersion&type=talmud,biblical_names_api_review:no_exact_page; enwiki_api_exact
+the generation of the dispersion,biblicalNames;concepts,,9,,,,,https://chavrutai.com/search?q=the+generation+of+the+dispersion&type=talmud,
 The governor,names,,8,,,,,https://chavrutai.com/search?q=The+governor&type=talmud,
 the governor of Meishan,names,,0,,,,,https://chavrutai.com/search?q=the+governor+of+Meishan&type=talmud,
 the governor of Pumbedita,names,,1,,,,,https://chavrutai.com/search?q=the+governor+of+Pumbedita&type=talmud,
@@ -4733,7 +4733,7 @@ Ya’ei,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Ya%E2%80%99ei&type=
 Yadua the Babylonian,names,,1,https://en.wikipedia.org/wiki/Yadua_the_Babylonian,https://he.wikipedia.org/wiki/%D7%99%D7%93%D7%95%D7%A2_%D7%94%D7%91%D7%91%D7%9C%D7%99,Yadua the Babylonian,ידוע הבבלי,https://chavrutai.com/search?q=Yadua+the+Babylonian&type=talmud,wikidata_seed_qid
 "Yair, son of Manasseh",biblicalNames,,3,,,,,https://chavrutai.com/search?q=Yair%2C+son+of+Manasseh&type=talmud,biblical_names_api_review:no_exact_page
 Yalta,names,Yalta (Talmudic character),8,https://en.wikipedia.org/wiki/Yalta_(Talmudic_character),https://he.wikipedia.org/wiki/%D7%99%D7%9C%D7%AA%D7%90,Yalta (Talmudic character),ילתא,https://chavrutai.com/search?q=Yalta&type=talmud,blog
-Yannai,names,,276,https://en.wikipedia.org/wiki/Rabbi_Yannai,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%A0%D7%90%D7%99,Rabbi Yannai,??? ????,https://chavrutai.com/search?q=Yannai&type=talmud,he_wiki_then_langlink_20260307
+Yannai,names,,276,https://en.wikipedia.org/wiki/Rabbi_Yannai,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%99%D7%A0%D7%90%D7%99,Rabbi Yannai,רבי ינאי,https://chavrutai.com/search?q=Yannai&type=talmud,he_wiki_then_langlink_20260307
 Yannai father,names,,1,,,,,https://chavrutai.com/search?q=Yannai+father&type=talmud,
 Yannai the king,names,,3,,,,,https://chavrutai.com/search?q=Yannai+the+king&type=talmud,
 "Yannai, son of Rabbi Ami",names,,1,,,,,https://chavrutai.com/search?q=Yannai%2C+son+of+Rabbi+Ami&type=talmud,
@@ -4888,7 +4888,7 @@ Ziba,biblicalNames,,1,,,Ziba,,https://chavrutai.com/search?q=Ziba&type=talmud,bi
 Zibeon,biblicalNames,,2,https://en.wikipedia.org/wiki/Zibeon,,Zibeon,,https://chavrutai.com/search?q=Zibeon&type=talmud,biblical_names_api_review:verified_exact_or_redirect
 Zigud,names,,4,,,,,https://chavrutai.com/search?q=Zigud&type=talmud,
 Zilai,names,,2,,,,,https://chavrutai.com/search?q=Zilai&type=talmud,
-zimmun,concepts,,56,https://en.wikipedia.org/wiki/Zimun,https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%9E%D7%95%D7%9F,,זימון,https://chavrutai.com/search?q=zimmun&type=talmud,
+zimmun,concepts,,56,,https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%9E%D7%95%D7%9F,,זימון,https://chavrutai.com/search?q=zimmun&type=talmud,
 Zimri,biblicalNames,,14,https://en.wikipedia.org/wiki/Zimri_(prince),https://he.wikipedia.org/wiki/%D7%96%D7%9E%D7%A8%D7%99_%D7%91%D7%9F_%D7%A1%D7%9C%D7%95%D7%90,Zimri (prince),זמרי בן סלוא,https://chavrutai.com/search?q=Zimri&type=talmud,biblical_names_api_review:disambiguation_only; manual_biblical_top30
 "Zimri, son of Salu",biblicalNames,,0,,,,,https://chavrutai.com/search?q=Zimri%2C+son+of+Salu&type=talmud,biblical_names_api_review:no_exact_page
 Zion,biblicalPlaces,,11,,,,,https://chavrutai.com/search?q=Zion&type=talmud,

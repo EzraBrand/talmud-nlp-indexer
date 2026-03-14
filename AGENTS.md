@@ -16,12 +16,14 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
 - Prefer manual curation for high-count rows first.
 - Only add Wikipedia links when the match is genuinely relevant to the rabbinic/Talmudic entity.
 - Treat `hebrew_term` and `wikipedia_he` as separate fields:
-  - `hebrew_term` is the Hebrew label intended for the glossary row.
+  - `hebrew_term` is the Hebrew label intended for the glossary row as the term appears in the Talmud.
   - `wikipedia_he` is the Hebrew Wikipedia page actually chosen for that row.
   - These can differ when the desired glossary label is not identical to the HE article title.
+  - Do not assume `hebrew_term` should just copy the HE Wikipedia title; prefer the Talmudic form when known from the corpus.
 - Use the actual Wikipedia page titles:
   - `selected_anchor_text` should match the resolved canonical EN Wikipedia page title exactly, not a local label or redirect label.
-  - `hebrew_term` should usually match the HE page title used, unless the maintainer explicitly distinguishes between the row's Hebrew label and the HE article title.
+  - `wikipedia_he` should point to the correct Hebrew Wikipedia article, i.e. the article whose title is the intended HE wiki value for that row.
+  - `hebrew_term` does not need to match that HE Wikipedia article title. If the Talmud-facing Hebrew form differs from the Wikipedia title, keep the Talmud-facing form in `hebrew_term` and use the correct article URL in `wikipedia_he`.
   - If an EN URL is a redirect, normalize the URL and anchor text to the canonical target title.
 - Do not force links for ambiguous generic names if multiple rabbis or entities are plausible.
 - Remove clearly non-entity fragments or relationship stubs rather than linking them.
@@ -63,6 +65,7 @@ These instructions apply to work on the Talmud glossary data and the GitHub Page
   - align by citation with the Hebrew Steinsaltz CSV
   - infer the intended Hebrew expression from the aligned Hebrew passage
   - then verify the HE Wikipedia target from that Hebrew expression
+- When reviewing `hebrew_term`, treat the Steinsaltz Hebrew CSV as the authority for Talmud-facing phrasing, even if the current value came from a Wikipedia title.
 - In the Steinsaltz English CSV, translation/base text is often bolded and commentary is unbolded; use that signal when deciding whether an English term reflects the underlying base term or only commentary phrasing.
 - If the maintainer approves only a small list of rows, edit only those rows and leave broader enrichment proposals uncommitted.
 
