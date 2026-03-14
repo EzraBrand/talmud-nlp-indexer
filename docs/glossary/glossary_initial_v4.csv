@@ -261,7 +261,7 @@ Alexandria of Egypt,talmudToponyms,,11,,,,,https://chavrutai.com/search?q=Alexan
 Alexandrians,names,,4,,,,,https://chavrutai.com/search?q=Alexandrians&type=talmud,
 Meḥoza,talmudToponyms,Al-Mada'in,72,https://en.wikipedia.org/wiki/Al-Mada'in,https://he.wikipedia.org/wiki/%D7%9E%D7%97%D7%95%D7%96%D7%90,Al-Mada'in,מחוזא,https://chavrutai.com/search?q=Me%E1%B8%A5oza&type=talmud,blog
 Almin,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Almin&type=talmud,
-altar,concepts,Altar (Bible),933,https://en.wikipedia.org/wiki/Altar,https://he.wikipedia.org/wiki/%D7%9E%D7%96%D7%91%D7%97,Altar,מזבח,https://chavrutai.com/search?q=altar&type=talmud,blog; manual_concepts_top_missing_he
+altar,concepts,Altar (Bible),933,,https://he.wikipedia.org/wiki/%D7%9E%D7%96%D7%91%D7%97,,מזבח,https://chavrutai.com/search?q=altar&type=talmud,
 golden altar,concepts,Altar (Bible),16,https://en.wikipedia.org/wiki/Altar_(Bible)#Altar_of_incense,,Altar (Bible),,https://chavrutai.com/search?q=golden+altar&type=talmud,blog
 Alush,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Alush&type=talmud,
 am ha’aretz,concepts,,90,https://en.wikipedia.org/wiki/Am_ha'aretz,https://he.wikipedia.org/wiki/%D7%A2%D7%9D_%D7%94%D7%90%D7%A8%D7%A5,Am ha'aretz,עם הארץ,https://chavrutai.com/search?q=am+ha%E2%80%99aretz&type=talmud,manual_concepts_top_missing_he_pass2
@@ -764,7 +764,7 @@ desert of Gaza,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=desert+of+Ga
 destruction of Jerusalem,concepts,,2,,,,,https://chavrutai.com/search?q=destruction+of+Jerusalem&type=talmud,
 Destruction of the Temple,concepts,,8,,,,,https://chavrutai.com/search?q=Destruction+of+the+Temple&type=talmud,
 Deyomset,talmudToponyms,,3,,,,,https://chavrutai.com/search?q=Deyomset&type=talmud,
-Diaspora,talmudToponyms,,29,https://en.wikipedia.org/wiki/Diaspora,https://he.wikipedia.org/wiki/%D7%A4%D7%96%D7%95%D7%A8%D7%94,Diaspora,פזורה,https://chavrutai.com/search?q=Diaspora&type=talmud,blog
+Diaspora,talmudToponyms,,29,,https://he.wikipedia.org/wiki/%D7%A4%D7%96%D7%95%D7%A8%D7%94,,פזורה,https://chavrutai.com/search?q=Diaspora&type=talmud,
 Difti,talmudToponyms,,80,,,,,https://chavrutai.com/search?q=Difti&type=talmud,
 Diglat,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Diglat&type=talmud,
 Dihavat,talmudToponyms,,2,,,,,https://chavrutai.com/search?q=Dihavat&type=talmud,
@@ -1397,9 +1397,9 @@ Levi the Elder,names,,2,,,,,https://chavrutai.com/search?q=Levi+the+Elder&type=t
 Levirate marriage,concepts,,447,https://en.wikipedia.org/wiki/Yibbum,https://he.wikipedia.org/wiki/%D7%99%D7%99%D7%91%D7%95%D7%9D,Yibbum,ייבום,https://chavrutai.com/search?q=Levirate+marriage&type=talmud,blog; manual_concepts_top_missing_he
 Levites,concepts,,171,https://en.wikipedia.org/wiki/Levite,https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%99_(%D7%99%D7%94%D7%93%D7%95%D7%AA),Levite,לוי (יהדות),https://chavrutai.com/search?q=Levites&type=talmud,blog
 Likhlukhit,names,,0,,,,,https://chavrutai.com/search?q=Likhlukhit&type=talmud,
-Joiarib,biblicalNames,"Eglah; Elpaal; Harim; Hatach; Ishbibenob; Jephunneh; Jerioth; Jesher; Johanan; Johanan, son of Kareah; List of minor Hebrew Bible figures, A–K",31,"https://en.wikipedia.org/wiki/List_of_minor_Hebrew_Bible_figures,_A%E2%80%93K",,"List of minor Hebrew Bible figures, A–K",,https://chavrutai.com/search?q=Joiarib&type=talmud,biblical_names_api_review:verified_exact_or_redirect
-Tekoa,talmudToponyms,"List of minor Hebrew Bible figures, L–Z",6,"https://en.wikipedia.org/wiki/List_of_minor_Hebrew_Bible_figures,_L%E2%80%93Z#Tekoa",,"List of minor Hebrew Bible figures, L–Z",,https://chavrutai.com/search?q=Tekoa&type=talmud,blog
-Nebat,biblicalNames,"List of minor Hebrew Bible figures, L–Z; Nahbi; Nebuzaradan; Saph; Segub; Shimshai",22,"https://en.wikipedia.org/wiki/List_of_minor_Hebrew_Bible_figures,_L%E2%80%93Z",,"List of minor Hebrew Bible figures, L–Z",,https://chavrutai.com/search?q=Nebat&type=talmud,biblical_names_api_review:verified_exact_or_redirect
+Joiarib,biblicalNames,"Eglah; Elpaal; Harim; Hatach; Ishbibenob; Jephunneh; Jerioth; Jesher; Johanan; Johanan, son of Kareah",31,,,,,https://chavrutai.com/search?q=Joiarib&type=talmud,
+Tekoa,talmudToponyms,,6,,,,,https://chavrutai.com/search?q=Tekoa&type=talmud,
+Nebat,biblicalNames,"Nahbi; Nebuzaradan; Saph; Segub; Shimshai",22,,,,,https://chavrutai.com/search?q=Nebat&type=talmud,
 Lod,talmudToponyms,,38,https://en.wikipedia.org/wiki/Lod,https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%93,Lod,לוד,https://chavrutai.com/search?q=Lod&type=talmud,blog
 Lodites,names,,1,,,,,https://chavrutai.com/search?q=Lodites&type=talmud,
 Long-toothed one,names,,3,,,,,https://chavrutai.com/search?q=Long-toothed+one&type=talmud,
@@ -1525,7 +1525,7 @@ Medea,talmudToponyms,,6,,,,,https://chavrutai.com/search?q=Medea&type=talmud,
 Medes,names,,3,,,,,https://chavrutai.com/search?q=Medes&type=talmud,
 Media,talmudToponyms,Media (region),6,https://en.wikipedia.org/wiki/Media_(region),,Media (region),,https://chavrutai.com/search?q=Media&type=talmud,blog
 Median,biblicalNations,,10,,,,,https://chavrutai.com/search?q=Median&type=talmud,
-Roman,biblicalNations,Medieval French literature,30,https://en.wikipedia.org/wiki/Medieval_French_literature#The_Roman,,Medieval French literature,,https://chavrutai.com/search?q=Roman&type=talmud,blog
+Roman,biblicalNations,Medieval French literature,30,,,,,https://chavrutai.com/search?q=Roman&type=talmud,
 Mediterranean Sea,talmudToponyms,,3,https://en.wikipedia.org/wiki/Mediterranean_Sea,https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F,Mediterranean Sea,הים התיכון,https://chavrutai.com/search?q=Mediterranean+Sea&type=talmud,blog
 Mefivoshet,biblicalNames,,5,https://en.wikipedia.org/wiki/Mephibosheth,https://he.wikipedia.org/wiki/%D7%9E%D7%A4%D7%99%D7%91%D7%95%D7%A9%D7%AA,Mephibosheth,מפיבושת,https://chavrutai.com/search?q=Mefivoshet&type=talmud,biblical_names_api_review:no_exact_page; manual_biblical_top30
 Meishan,talmudToponyms,,8,,,,,https://chavrutai.com/search?q=Meishan&type=talmud,
@@ -1581,7 +1581,7 @@ Miriam of Tarmod,names,,2,,,,,https://chavrutai.com/search?q=Miriam+of+Tarmod&ty
 "Miriam, raiser of babies",names,,1,,,,,https://chavrutai.com/search?q=Miriam%2C+raiser+of+babies&type=talmud,
 "Miriam, raiser women’s hair",names,,2,,,,,https://chavrutai.com/search?q=Miriam%2C+raiser+women%E2%80%99s+hair&type=talmud,
 "Miriam, who braided women’s hair",names,,2,,,,,https://chavrutai.com/search?q=Miriam%2C+who+braided+women%E2%80%99s+hair&type=talmud,
-Mishael,biblicalNames,,26,https://en.wikipedia.org/wiki/Mishael,https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%A9%D7%90%D7%9C,Mishael,מישאל,https://chavrutai.com/search?q=Mishael&type=talmud,biblical_names_api_review:verified_exact_or_redirect
+Mishael,biblicalNames,,26,,https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%A9%D7%90%D7%9C,,מישאל,https://chavrutai.com/search?q=Mishael&type=talmud,
 Mishon,talmudToponyms,,3,,,,,https://chavrutai.com/search?q=Mishon&type=talmud,
 Mitatron,names,,2,,,,,https://chavrutai.com/search?q=Mitatron&type=talmud,
 mitzva,concepts,,1464,https://en.wikipedia.org/wiki/Mitzvah,https://he.wikipedia.org/wiki/%D7%9E%D7%A6%D7%95%D7%95%D7%94,Mitzvah,מצווה,https://chavrutai.com/search?q=mitzva&type=talmud,manual_concepts_top_missing_he
@@ -1682,7 +1682,7 @@ Nesibin,talmudToponyms,,0,,,,,https://chavrutai.com/search?q=Nesibin&type=talmud
 Netzer,names,,7,,,,,https://chavrutai.com/search?q=Netzer&type=talmud,
 Netzivin,talmudToponyms,,7,,,,,https://chavrutai.com/search?q=Netzivin&type=talmud,
 Neviraya,talmudToponyms,,1,,,,,https://chavrutai.com/search?q=Neviraya&type=talmud,
-New moon,concepts,,135,https://en.wikipedia.org/wiki/New_moon,https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%9C%D7%93_%D7%94%D7%9C%D7%91%D7%A0%D7%94,New moon,מולד הלבנה,https://chavrutai.com/search?q=New+moon&type=talmud,blog
+New moon,concepts,,135,,https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%9C%D7%93_%D7%94%D7%9C%D7%91%D7%A0%D7%94,,מולד הלבנה,https://chavrutai.com/search?q=New+moon&type=talmud,
 Nakdimon ben Guryon,names,Nicodemus ben Gurion,13,https://en.wikipedia.org/wiki/Nicodemus_ben_Gurion,https://he.wikipedia.org/wiki/%D7%A0%D7%A7%D7%93%D7%99%D7%9E%D7%95%D7%9F_%D7%91%D7%9F_%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%9F,Nicodemus ben Gurion,נקדימון בן גוריון,https://chavrutai.com/search?q=Nakdimon+ben+Guryon&type=talmud,blog
 Niddah,concepts,,0,https://en.wikipedia.org/wiki/Niddah,https://he.wikipedia.org/wiki/%D7%A0%D7%99%D7%93%D7%94,Niddah,נידה,https://chavrutai.com/search?q=Niddah&type=talmud,curated_tree
 Niftayim the convert,names,,1,,,,,https://chavrutai.com/search?q=Niftayim+the+convert&type=talmud,
@@ -1914,8 +1914,8 @@ Rabbana Ukva the orphan,names,,1,,,,,https://chavrutai.com/search?q=Rabbana+Ukva
 Rabbeinu,names,,7,,,,,https://chavrutai.com/search?q=Rabbeinu&type=talmud,
 Rabbenai,names,,12,,,,,https://chavrutai.com/search?q=Rabbenai&type=talmud,
 "Rabbenai, the brother Rabbi Ḥiyya bar Abba",names,,1,,,,,https://chavrutai.com/search?q=Rabbenai%2C+the+brother+Rabbi+%E1%B8%A4iyya+bar+Abba&type=talmud,
-Rabbi,concepts,rabbinic,34716,https://en.wikipedia.org/wiki/Rabbi,https://he.wikipedia.org/wiki/%D7%A8%D7%91,Rabbi,רב,https://chavrutai.com/search?q=Rabbi&type=talmud,blog
-Rabbi,names,,34129,https://en.wikipedia.org/wiki/Rabbi,https://he.wikipedia.org/wiki/%D7%A8%D7%91,Rabbi,רב,https://chavrutai.com/search?q=Rabbi&type=talmud,blog
+Rabbi,concepts,rabbinic,34716,,,,,https://chavrutai.com/search?q=Rabbi&type=talmud,
+Rabbi,names,,34129,,,,,https://chavrutai.com/search?q=Rabbi&type=talmud,
 Rabbi Abahu,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Abahu&type=talmud,
 Rabbi Abba,names,,437,https://en.wikipedia.org/wiki/Rabbi_Abba,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99_%D7%90%D7%91%D7%90,Rabbi Abba,רבי אבא,https://chavrutai.com/search?q=Rabbi+Abba&type=talmud,wikidata_seed_qid
 Rabbi Abba bar Avina,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Abba+bar+Avina&type=talmud,
@@ -2855,7 +2855,7 @@ Rabbi Zerika,names,,28,,,,,https://chavrutai.com/search?q=Rabbi+Zerika&type=talm
 Rabbi Zilai,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Zilai&type=talmud,
 Rabbi Zivai,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Zivai&type=talmud,
 Rabbi Zutra bar Toviya,names,,1,,,,,https://chavrutai.com/search?q=Rabbi+Zutra+bar+Toviya&type=talmud,
-rabbinic law,concepts,,339,https://en.wikipedia.org/wiki/Rabbinic_authority,https://he.wikipedia.org/wiki/%D7%93%D7%A2%D7%AA_%D7%AA%D7%95%D7%A8%D7%94,Rabbinic authority,דעת תורה,https://chavrutai.com/search?q=rabbinic+law&type=talmud,manual_concepts_top_missing_he
+rabbinic law,concepts,,339,https://en.wikipedia.org/wiki/Rabbinic_authority,,,,https://chavrutai.com/search?q=rabbinic+law&type=talmud,
 "Rabena’a, brother of Rabbi Ḥiyya bar Abba",names,,1,,,,,https://chavrutai.com/search?q=Rabena%E2%80%99a%2C+brother+of+Rabbi+%E1%B8%A4iyya+bar+Abba&type=talmud,
 Ravin,names,Rabin (amora),207,https://en.wikipedia.org/wiki/Rabin_(amora),https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%99%D7%9F_(%D7%90%D7%9E%D7%95%D7%A8%D7%90),Rabin (amora),רבין (אמורא),https://chavrutai.com/search?q=Ravin&type=talmud,blog
 Rabshakeh,biblicalNames,,1,https://en.wikipedia.org/wiki/Rabshakeh,https://he.wikipedia.org/wiki/%D7%A8%D7%91%D7%A9%D7%A7%D7%94,Rabshakeh,רבשקה,https://chavrutai.com/search?q=Rabshakeh&type=talmud,biblical_names_api_review:verified_exact_or_redirect
