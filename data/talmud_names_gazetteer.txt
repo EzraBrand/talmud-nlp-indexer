@@ -823,11 +823,14 @@ Nit’za
 Nitai HaArbeli
 Nitza
 of Neharbela
+of the students of Jesus the Nazarene
 Okvan, son of Neḥemya the Exilarch
 one High Priest
 one man
 one of the Sages
 one of the sons of so-and-so
+one of the students of Rabbi Akiva
+one of the students of Rabbi Yishmael
 one prostitute
 one Sadducee
 one weaver
@@ -1476,6 +1479,7 @@ Rabbi Shimon ben Ḥananya
 Rabbi Shimon ben Isi ben Lakonya
 Rabbi Shimon ben Kisma
 Rabbi Shimon ben Lakish
+Rabbi Shimon Ben Lakish
 Rabbi Shimon ben Levi
 Rabbi Shimon ben Menasya
 Rabbi Shimon ben Nannas
@@ -3178,6 +3182,7 @@ the elders, of the school of Athens
 the emperor
 the emperor’s daughter
 the evil kingdom
+the exacting scribes of the study hall of Rav
 The Exilarch
 the family of Abba of Sura
 the family of Dorketi
@@ -3217,6 +3222,7 @@ The host of Rava, son of Rav Ḥanan
 the house of Avtinas
 the house of Baitos
 the house of bar Maryon
+the house of ben Ḥavu
 the house of Binyamin the doctor
 the house of Caesar
 the house of Dushai
@@ -3365,6 +3371,7 @@ the school of Ḥizkiyya
 the school of Karna
 the school of Levi
 the school of Menashe
+the school of Menashiya
 the school of Rabba bar Avuh
 the school of Rabbi
 the school of Rabbi Aḥa
