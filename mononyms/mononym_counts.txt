@@ -1,0 +1,61 @@
+Mononymic Rabbinic Figure Counts in the Talmud
+==============================================
+
+Corpus: C:\Users\ezrab\Ezra Brandt\Codex\talmud-nlp-indexer\data\talmud_full_english.txt
+Gazetteer: C:\Users\ezrab\Ezra Brandt\Codex\talmud-nlp-indexer\data\talmud_names_gazetteer.txt
+
+Method:
+- Tokenize the English Talmud corpus into alphabetic word tokens.
+- Tokenize all gazetteer entries the same way.
+- Keep all gazetteer names except the exact one-word targets: Rabbi, Rav, Shmuel.
+- Match other gazetteer names greedily from longest token-length to shortest at each token position.
+- Mark matched spans as removed so shorter names cannot double count inside longer names.
+- Count the remaining standalone target tokens and print up to 10 concordance lines for review.
+
+Corpus token count: 2587408
+Non-target gazetteer entries used for removal: 3677
+Tokens removed as part of non-target name spans: 158999
+
+Counts:
+- Rabbi: 1733
+- Rav: 3460
+- Shmuel: 2655
+
+Rabbi concordance (up to 10 results)
+---------------------------------------
+1. vows follow the language of people And most years And <<Rabbi>> also holds in accordance with Rav Huna As it is taught incident Rabbi established nine deficient and the new moon
+2. in accordance with Rav Huna As it is taught incident <<Rabbi>> established nine deficient and the new moon was sighted in its time And Rabbi expressed astonishment and said We made
+3. and the new moon was sighted in its time And <<Rabbi>> expressed astonishment and said We made nine deficient and the new moon was sighted in its time Rabbi Shimon son
+4. destitute was a wealthy brings the offering of a wealthy <<Rabbi>> says I say Even with regard to valuations so For what does a destitute person who valuated a wealthy person
+5. this is also so the verse states But according to <<Rabbi>> As he says I say even with regard to valuations so Evidently says We follow the obligation of person And
+6. person takes a vow enter your mind to say since <<Rabbi>> says We follow the obligation of the person teaches us he was destitute and he became wealthy he was wealthy
+7. is it birds But why do I he According to <<Rabbi>> in accordance with his And according to the Rabbis in accordance with their If that is so the Merciful One
+8. us say that the mishna is not in accordance with <<Rabbi>> as if Rabbi doesn t he say until and including As it is taught from the first day until the
+9. the mishna is not in accordance with Rabbi as if <<Rabbi>> doesn t he say until and including As it is taught from the first day until the seventh day might
+10. the twenty first day of the month in the evening <<Rabbi>> says It is not necessary first and first is included seventh and seventh is included You even say Rabbi the
+
+Rav concordance (up to 10 results)
+-------------------------------------
+1. In accordance with whose is that which Rav Giddel says <<Rav>> says One who says upon me valuation of utensil give its assessment in accordance with Rabbi Meir obvious that is
+2. accordance with whose is that which Rabba bar Yosef says <<Rav>> says and some say Rav Yeiva bar Yosei says Rav says One who consecrates the animal of another give its
+3. Rav says and some say Rav Yeiva bar Yosei says <<Rav>> says One who consecrates the animal of another give its assessment In accordance with whom in accordance with Rabbi Meir
+4. with whom in accordance with Rabbi Meir But didn t <<Rav>> say once As Rav Giddel says Rav says One who says upon me valuation of a utensil give its assessment
+5. But didn t Rav say once As Rav Giddel says <<Rav>> says One who says upon me valuation of a utensil give its assessment lest you say there as knows that
+6. the value of ox to its owner Rabbi Ila said <<Rav>> said where stood trial But it is taught killed him Rav Adda bar Ahava said that it rendered him as
+7. But why are items from which deriving benefit is prohibited <<Rav>> said where she says Give my hair to my daughter Were she to say Give my hand to my daughter
+8. my hand to my daughter would we give to her <<Rav>> said to a wig i pe a nokhrit i reason that said give But did not say give it is
+9. it to be forbidden Levi teaches in accordance with of <<Rav>> Levi teaches in accordance with of Rav Na man bar Yitz ak Levi teaches in accordance with of Rav a
+10. man bar Yitz ak Levi teaches in accordance with of <<Rav>> a woman who was being taken to be killed and said Give my hair to my daughter one gives died
+
+Shmuel concordance (up to 10 results)
+----------------------------------------
+1. Once uproots it is an independent body Rav Yehuda says <<Shmuel>> says woman who is taken to be executed one strikes her opposite the womb so that the fetus dies first
+2. tail of the lizard which jerks Rav Na man says <<Shmuel>> says a woman who sat on the travailing chair and died on Shabbat one brings a knife and tears her
+3. thirty years Since not every year did not account And <<Shmuel>> also holds in accordance with Rav Huna as Shmuel says The year a lunar no less than days and no
+4. And Shmuel also holds in accordance with Rav Huna as <<Shmuel>> says The year a lunar no less than days and no more than days How so two full six two
+5. burnished brass And with regard to it states Rav and <<Shmuel>> One said Each and every one was valuable as two from gold And one said The two of them were
+6. disrupts the melody Rava bar Sheila said Rav Mattana said <<Shmuel>> said There was i magreifa i in the Temple There were ten holes in it each and every one emit
+7. day so too song during the day Rav Yehuda said <<Shmuel>> said From where basic song by Torah law As it is stated What is service with the name You must
+8. when Rav Huna and iyya bar Rav were sitting before <<Shmuel>> iyya bar Rav said to See Master that is afflicting me accepted upon himself that he would not afflict anymore
+9. of me Until where rebuke Rav says Until hitting And <<Shmuel>> says Until cursing And Rabbi Yo anan says Until reprimand like i tanna im i Rabbi Eliezer says Until hitting
+10. should not change his lodging Rav says Until hitting And <<Shmuel>> says Until clothes places them on back where hits himself everyone agrees clothes places them on back everyone also agrees
