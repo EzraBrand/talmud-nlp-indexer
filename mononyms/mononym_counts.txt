@@ -7,19 +7,22 @@ Gazetteer: C:\Users\ezrab\Ezra Brandt\Codex\talmud-nlp-indexer\data\talmud_names
 Method:
 - Tokenize the English Talmud corpus into alphabetic word tokens.
 - Tokenize all gazetteer entries the same way.
-- Keep all gazetteer names except the exact one-word targets: Rabbi, Rav, Shmuel.
+- Keep all gazetteer names except the exact one-word targets: Rabbi, Rav, Shmuel, Rava, Abaye, Rabba.
 - Match other gazetteer names greedily from longest token-length to shortest at each token position.
 - Mark matched spans as removed so shorter names cannot double count inside longer names.
 - Count the remaining standalone target tokens and print up to 10 concordance lines for review.
 
 Corpus token count: 2587408
-Non-target gazetteer entries used for removal: 3677
+Non-target gazetteer entries used for removal: 3674
 Tokens removed as part of non-target name spans: 158999
 
 Counts:
 - Rabbi: 1733
 - Rav: 3460
 - Shmuel: 2655
+- Rava: 4350
+- Abaye: 2533
+- Rabba: 978
 
 Rabbi concordance (up to 10 results)
 ---------------------------------------
@@ -59,3 +62,42 @@ Shmuel concordance (up to 10 results)
 8. when Rav Huna and iyya bar Rav were sitting before <<Shmuel>> iyya bar Rav said to See Master that is afflicting me accepted upon himself that he would not afflict anymore
 9. of me Until where rebuke Rav says Until hitting And <<Shmuel>> says Until cursing And Rabbi Yo anan says Until reprimand like i tanna im i Rabbi Eliezer says Until hitting
 10. should not change his lodging Rav says Until hitting And <<Shmuel>> says Until clothes places them on back where hits himself everyone agrees clothes places them on back everyone also agrees
+
+Rava concordance (up to 10 results)
+--------------------------------------
+1. valuations not in the ram of the guilt offering Rather <<Rava>> said and some say Rav Ashi was necessary it might enter your mind to say Since it is written then
+2. were say The assessment of tree is he not give <<Rava>> said to say that assessed by significance enter your mind to say it is written anyone who is in valuations
+3. a cow not in valuations and not assessed by significance <<Rava>> said to And according to your reasoning a slave should pose a difficulty for you is in valuations and not
+4. altar that assessed by significance shall stand i teiku i <<Rava>> raised dilemma upon me my valuation for the altar what is determined based on affordability Or not determined based on
+5. and a hermaphrodite take valuation but they are not valuated <<Rava>> says Rabbi Meir s i halakha i is reasonable his explanation is not reasonable Rabbi Yehuda s explanation is reasonable
+6. with regard to consecrations for Temple maintenance from misuse Rather <<Rava>> said it due to weakening of the hands As it is written It was taught in one a gentile who
+7. Yosei holds a loan by oral collect from the heirs <<Rava>> says everyone a loan by oral cannot collect from the heirs and here disagree with regard to a loan that
+8. raised a dilemma hair of righteous women what is And <<Rava>> said he raised dilemma with regard to a wig When Rabbi Yosei son of Rabbi anina raised dilemma where hanging
+9. the day of waving Rav Adda bar Ahava said to <<Rava>> i A erim i come to teach us the number This teaches us that we do not need a mitzva
+10. Na man says The reading of is i hallel i <<Rava>> says Granted there and not servants of Pharaoh here and not servants of Ahasuerus we are still the servants of
+
+Abaye concordance (up to 10 results)
+---------------------------------------
+1. not in shekels they are not in valuations teaches us <<Abaye>> said to this so too anyone is in valuations is in the ram of the guilt offering a i tumtum
+2. is not in valuations is not in assessed by significance <<Abaye>> said to And is it true is not in valuations is assessed by significance But isn t it taught head
+3. reason Rav Yosef said because may not afflict his judgment <<Abaye>> said to If so even first clause as well where his offering slaughtered at that time his offering not slaughtered
+4. i in the Temple What is a i hirdolim i <<Abaye>> said hydraulic organ because its sound is pleasant but it disrupts the melody Rava bar Sheila said Rav Mattana said
+5. they theirs they are not with death rather a prohibition <<Abaye>> said We hold a singer who served in another as a gatekeeper to death as it is stated What is
+6. intercourse with the daughter of ordinary i hedyotot i fifty <<Abaye>> said to If so with regard to a slave will also say a slave who pierces pearls i margalit i
+7. intercourse a tainted fifty engaged in intercourse an untainted fifty <<Abaye>> said to If so with regard to a slave will say a healthy slave thirty a slave afflicted with boils
+8. healthy slave thirty a slave afflicted with boils thirty Rather <<Abaye>> said the verse states because he tormented her may be inferred that there are humiliation and degradation Rava says that
+9. says There is fire at so and so s home <<Abaye>> said to What did do is merely revealing facts Rather expressed in a slanderous if he says Where find fire
+10. we assess him Rava said assesses him assessment of damages <<Abaye>> said to Are these comparable There the person has depreciated Here the person has good Abaye said One assesses how
+
+Rabba concordance (up to 10 results)
+---------------------------------------
+1. one limb we also raised a dilemma one limb As <<Rabba>> raised a dilemma consecrated a limb for its value what is We raised dilemma in unblemished here to a blemished
+2. similar to donkey we also raised a dilemma blemished As <<Rabba>> raised a dilemma value of my head to on the altar what is We raised dilemma before hearing this i
+3. heard this i baraita i we no raise dilemma the <<Rabba>> raised a dilemma value of my head to on the altar what is assessed by significance Or not assessed by
+4. Rabbi Shimon ben Elazar holds cannot collect from the heirs <<Rabba>> said everyone a loan by oral cannot collect from the heirs and here disagree with regard to a loan that
+5. the fetus obvious what is doing It is cutting flesh <<Rabba>> said No necessary to bring a knife by way of the public thoroughfare And what this teach us that of
+6. mountains who could withstand Your judgments like the great deep <<Rabba>> says Your benevolence is like the mighty mountains because Your judgments are like the great deep With regard to what
+7. away Rabbi Yosei son of Rabbi anina says He lifts <<Rabba>> in accordance with Rabbi Elazar And Rav Yehuda in accordance with Rabbi Yosei son of Rabbi anina No fewer than
+8. were the owner cannot remove His utensils from there Rather <<Rabba>> says Reish Lakish says the verse states teaches that the Jews were rebellious at that time and they said Just
+9. Where find fire except at so and so s home <<Rabba>> says Any statement that is said in the presence of its master does not have due to malicious speech said
+10. for the sake of favor But a creditor not And <<Rabba>> Rav Na man says Even a creditor And if you are concerned for a receipt there as well let us

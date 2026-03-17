@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 WORD_RE = re.compile(r"[A-Za-z]+")
-TARGETS = ("rabbi", "rav", "shmuel")
+TARGETS = ("rabbi", "rav", "shmuel", "rava", "abaye", "rabba")
 CONCORDANCE_BEFORE = 10
 CONCORDANCE_AFTER = 20
 MAX_CONCORDANCE = 10
@@ -114,6 +114,7 @@ def render_report(
     results: dict[str, dict[str, object]],
 ) -> str:
     removed_token_count = sum(1 for flag in occupied if flag)
+    target_label = ", ".join(target.title() for target in TARGETS)
     lines: list[str] = [
         "Mononymic Rabbinic Figure Counts in the Talmud",
         "==============================================",
@@ -124,7 +125,7 @@ def render_report(
         "Method:",
         "- Tokenize the English Talmud corpus into alphabetic word tokens.",
         "- Tokenize all gazetteer entries the same way.",
-        "- Keep all gazetteer names except the exact one-word targets: Rabbi, Rav, Shmuel.",
+        f"- Keep all gazetteer names except the exact one-word targets: {target_label}.",
         "- Match other gazetteer names greedily from longest token-length to shortest at each token position.",
         "- Mark matched spans as removed so shorter names cannot double count inside longer names.",
         "- Count the remaining standalone target tokens and print up to 10 concordance lines for review.",
