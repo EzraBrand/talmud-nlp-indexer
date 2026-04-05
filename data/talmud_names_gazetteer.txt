@@ -1,9 +1,11 @@
 A certain apostate
 a certain Arab
+a certain Arab merchant woman
 a certain army
 a certain blind man
 a certain butcher
 a certain child
+A certain deaf-mute
 a certain demon
 a certain disciple
 a certain disciple from among the disciples of Beit Hillel
@@ -17,6 +19,7 @@ a certain elderly slave
 A certain elderly woman
 a certain emperor
 a certain eulogizer
+A certain eulogizer
 A certain eunuch
 a certain family in Jerusalem
 a certain female convert
@@ -64,6 +67,7 @@ A certain Roman
 A certain Roman officer
 a certain Sadducee
 A certain Sage
+a certain slave
 a certain student
 a certain tanner
 a certain teacher of children
@@ -79,9 +83,6 @@ a particular pious man
 a passerby from the Galilee
 a pious man
 a poor person of noble descent
-a resident of Meḥoza
-A resident of Naresh
-a resident of Pappunya
 a Samaritan woman
 a son of a Levite
 a young girl
@@ -208,6 +209,7 @@ Ameimar
 Ami bar Avin
 Ami bar Natan
 Ami of Vardina
+Ami Shappir Na’e
 Ami the oven maker
 Amram the dyer
 an armed bandit
@@ -282,6 +284,7 @@ Bar Adda the surveyor
 Bar Adi the Arab
 Bar Ahina
 bar Avin
+Bar Avin
 bar Avuh
 bar bar Ḥana
 bar Binittos
@@ -308,6 +311,7 @@ bar Ḥiyya
 bar Kalba Savua
 bar Kamtza
 bar Kappara
+Bar Kappara
 bar Kaza
 bar Kidri
 bar Kipof
@@ -1264,6 +1268,7 @@ Rabbi Ḥanina ben Gamla
 Rabbi Ḥanina ben Gamliel
 Rabbi Ḥanina ben Teradyon
 Rabbi Ḥanina from Sura
+Rabbi Ḥanina Kara
 Rabbi Ḥanina of Ono
 Rabbi Ḥanina of Sura
 Rabbi Ḥanina of Tirna’a
@@ -1665,6 +1670,7 @@ Rabbi Yehuda Gelostera
 Rabbi Yehuda HaNasi
 Rabbi Yehuda Ḥayyata
 Rabbi Yehuda Nesia
+Rabbi Yehuda Nesia, son of Rabban Gamliel
 Rabbi Yehuda Nesia, son of Rabban Gamliel son of Rabbi
 Rabbi Yehuda of the village of Neviraya
 Rabbi Yehuda of the West
@@ -2988,6 +2994,9 @@ Ravnai, brother of Rabbi Ḥiyya bar Abba
 Ravya bar Kisi
 Reḥava
 Reish Lakish
+resident of Meḥoza
+resident of Naresh
+resident of Pappunya
 residents of Bei Mikhsi
 Ridya
 Roman notables
@@ -3272,7 +3281,10 @@ the interpreter of Rav Ḥisda
 The Jewish Sages
 the judges of Caesarea
 the judges of Neharde’a
+The judges of Neharde’a
 The judges of Pumbedita
+The judges of the Diaspora
+the judges of the Diaspora
 The landlord of Rami bar Ḥama
 The lord of my place
 the maidservant of a certain violent person in Rimon
@@ -3573,6 +3585,7 @@ Yehuda ben Nekosa
 Yehuda ben Shammua
 Yehuda ben Tabbai
 Yehuda ben Teima
+Yehuda Ḥayyata
 Yehuda Mar bar Mareimar
 Yehuda the swindler
 Yehuda, my brother
