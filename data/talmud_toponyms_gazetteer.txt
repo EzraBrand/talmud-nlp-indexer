@@ -201,6 +201,7 @@ Ein Bul
 Ein Eitam
 Ein Gedi
 Ein Kushi
+Ein Sokher
 Ein Tav
 Eina Demayim
 Eitan River
@@ -249,6 +250,7 @@ Ginzak
 Gizma
 Golan
 Gomorrah
+Gova’ei
 Goza River
 Great Sea
 great spring of Beiram
@@ -398,6 +400,7 @@ Meḥoza
 Meishan
 Meishon
 Meron
+Mezigat Caesarea
 Miashan
 Migdal
 Migdal Eder
@@ -541,6 +544,7 @@ Simoni
 Siva’a
 Sodom
 Sodom Sea
+Sokher Ayin
 Spain
 Spring of Eitam
 Sura
@@ -582,6 +586,7 @@ Tzaidan
 Tzalmon
 Tzeidan
 Tzerifa
+Tzerifin Gaggot
 Tzikuneya
 Tzinta
 Tzippori
