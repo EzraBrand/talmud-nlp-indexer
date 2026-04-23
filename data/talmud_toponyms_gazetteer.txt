@@ -1,6 +1,7 @@
 a certain place
 Abei Givar
 Adiabene
+Afarayim
 Aforayim
 Africa
 Afrikei
@@ -69,6 +70,7 @@ Barnish
 Bartota
 Bashkar
 Baskar
+Batzra
 Bav River
 Beersheba
 Bei Abiyonei
@@ -406,6 +408,7 @@ Migdal
 Migdal Eder
 Migdal Gedor
 Migdal Nunaya
+Mikhmar
 Mikhvar
 Mishon
 Modi’im
