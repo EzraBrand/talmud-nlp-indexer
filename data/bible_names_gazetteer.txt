@@ -14,6 +14,7 @@ Abishai, son of Zeruiah
 Abner
 Abner ben Ner
 Abraham
+Abraham our forefather
 Abraham, Isaac, and Jacob
 Absalom
 Achan
@@ -314,6 +315,7 @@ Mahalath, the daughter of Ishmael
 Mahlon
 Mahseiah
 Malachi
+Mamre
 Manasseh
 Manasseh ben Hezekiah
 Manasseh, son of Hezekiah
@@ -520,6 +522,7 @@ Yishai
 Yishai, father of David
 Yitro
 Yoav
+Yoḥana
 Zadok
 Zadok the priest
 Zebulun
