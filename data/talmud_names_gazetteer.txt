@@ -55,6 +55,8 @@ a certain one of the Sages
 a certain orphan
 a certain Persian priest
 a certain person
+a certain person from Judea
+a certain person from the Galilee
 A certain philosopher
 a certain pious
 a certain pious man
@@ -215,6 +217,7 @@ Amram the dyer
 an armed bandit
 an examiner
 an important woman
+An old man
 Anan bar Ḥiyya
 Anan bar Ḥiyya Neharde’a
 Anan bar Ḥiyya of Ḥagra
@@ -499,6 +502,7 @@ Eliezer ben Yehuda of Evlayim
 Eliezer of Biriyya
 Eliezer Ze’eira
 Elijah
+Elijah and his court
 Elisha ben Avuya
 Elisha, Man of Wings
 Elishama ben Pikai
@@ -707,6 +711,7 @@ Mar Shmuel
 Mar son of Ravina
 Mar the Elder, son of Rav Ḥisda
 Mar Ukva
+Mar Ukva and his court
 Mar Ukva bar Ḥama
 Mar Ukva bar Ḥiyya
 Mar Yanuka
@@ -939,6 +944,7 @@ Rabba, son of Rava
 Rabba, the son of Rava
 Rabba’s mother
 Rabban Gamliel
+Rabban Gamliel and his court
 Rabban Gamliel bar Rabbi
 Rabban Gamliel the Elder
 Rabban Gamliel, son of Rabbi
@@ -950,6 +956,7 @@ Rabban Ukva and Rabban Neḥemya, the sons of Rav’s daughters
 Rabban Yoḥanan
 Rabban Yoḥanan ben Nuri
 Rabban Yoḥanan ben Zakkai
+Rabbana Ashi
 Rabbana Neḥemya, brother of the Exilarch
 Rabbana Ukva the orphan
 Rabbeinu
@@ -2528,6 +2535,7 @@ Rav Pappa bar Ya’akov
 Rav Pappa son of Rav Aḥa
 Rav Pappa son of Rav Aḥa bar Adda
 Rav Pappa the Elder
+Rav Pappa the elder
 Rav Pappa, son of Rav Aḥa
 Rav Pappa, son of Rav Aḥa bar Adda
 Rav Pappa, son of Rav Ḥanin
@@ -3123,6 +3131,7 @@ Tavut the bird hunter
 Tavut the hunter
 Tavyumei
 Teḥina ben Perisha
+that Edomite
 that Galilean
 the <i>tumtum</i> of Biri
 the agent of the Angel of Death
@@ -3135,6 +3144,11 @@ the brother of Rabbi Zeira
 the Chaldeans
 The colleagues of Rabbi Abba
 the colleagues of Rabbi Zeira
+the court of priests
+the court of Rabban Gamliel
+the court of Rabbana Ashi
+the court of Rav Huna
+the court of the Exilarch
 the court of the Hasmoneans
 the daughter of Abba of Sura
 the daughter of bar Kalba Savua
@@ -3204,6 +3218,7 @@ the farmers of Rav Zevid
 the father of bar Abuveram
 the father of Rabbi Aptoriki
 the father of Rabbi Avin
+The father of Rabbi Avin
 the father of Rabbi Tzadok
 the father of Rabbi Yirmeya bar Abba
 the father of Rabbi Yitzḥak
@@ -3226,6 +3241,7 @@ the great men of the Galilee
 the Great Sanhedrin
 the Greeks
 The groats makers of Tzippori
+the Head of the Kenesset of Batzra
 the holy Sages of Eretz Yisrael
 The host of Rava, son of Rav Ḥanan
 the house of Avtinas
@@ -3313,6 +3329,7 @@ the mother-in-law of Rav Ḥiyya Arikha
 the nephews of Rabban Yoḥanan ben Zakkai
 the noblemen of Rome
 the nobles of Rome
+the offspring of Nahshon
 the people of Afrikiya
 the people of Akistefon
 the people of Alexandria
@@ -3347,6 +3364,7 @@ the powerful men of Eretz Yisrael
 the prominent men of Rome
 the prominent of Rome
 The prominent women of Jerusalem
+the rabbis of the court of Rav Ashi
 The relative of Rabbi Asi
 The relatives of Rabbi Yoḥanan
 The resident of Pappunya
@@ -3423,6 +3441,7 @@ the school of Rav Sheila
 the school of Rav Yehuda
 the school of Rav Zevid
 the school of Rava
+the seed of Abba bar Abba
 the servant of Rav Yehuda bar Yeḥezkel
 the short one with singed legs
 The sister of Rami bar Ḥama
@@ -3489,11 +3508,13 @@ the sons of the High Priests
 The sons of Yudan the maidservant
 The stableman [<i>ahuriyareih</i>] of the house of Rabbi
 The steward [<i>apotropos</i>] of King Agrippas
+the students of Hillel and Shammai
 the students of Rabbi Akiva
 The students of Rabbi Elazar
 The students of Rabbi Shimon ben Yoḥai
 the students of Rabbi Yishmael
 the students of Rav
+the students of Shammai and Hillel
 The students of Shammai the Elder
 The vatikin
 The wife of Abaye
@@ -3513,6 +3534,7 @@ the wife of Yosef the Priest
 the women of Bei Meḥoza
 Theodosius of Rome
 Theodosius the doctor
+these people of the Galilee
 this woman
 those three cattle herders
 Tibbuaḥ
