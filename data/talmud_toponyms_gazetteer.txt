@@ -232,6 +232,7 @@ gardens of Tzerifin
 Gaza
 Geder
 Gedod
+Gei HeḤarashim
 Genosar
 Genosar Valley
 Gerar
@@ -275,6 +276,7 @@ Haifa
 Ḥaifa
 Ḥamadan
 Ḥamatan
+Ḥamtan
 Har HaBarzel
 Har HaMelekh
 Har HaMishḥa
@@ -554,6 +556,7 @@ Sura
 Suvara
 Syria
 Tabor
+Tadmor
 Talbush
 Tamduria
 Tamud
@@ -597,6 +600,7 @@ Tzitzora
 Tzoar
 Tzoar, the city of date palms
 upper Galilee
+Upper Galilee
 Ur of the Chaldeans
 Usha
 valley of Aravot
