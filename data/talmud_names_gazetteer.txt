@@ -75,7 +75,9 @@ a certain tanner
 a certain teacher of children
 a certain widow
 a certain woman
+A certain young girl
 a certain young woman
+A colleague of R' Zeira
 A Galilean
 a king and queen
 a leading authority of generation
@@ -447,6 +449,7 @@ certain hooligans
 Certain porters
 certain residents Bei Ḥarmakh
 certain thieves
+certain zealots
 Chaldean
 Cleopatra, Queen of Alexandria
 Cleopatra, the Greek queen
@@ -611,7 +614,6 @@ Huna Mar bar Mareimar
 Huna Mar, grandson of Rav Neḥemya
 Huna Mar, son of Rav Idi
 Huna Mar, son of Rav Neḥemya
-Huna Mar, son of Rava, from Parzakya
 Huna Mar, son of Rava, from Parzakya
 Huna, son of Mar
 Huna, son of Mar Zutra
@@ -820,6 +822,7 @@ Neḥemya HaAmmassoni
 Neḥemya of Beit D’li
 Neḥemya, son of Rav Ḥanilai
 Neḥemya, the son-in-law of the <i>Nasi</i>
+Neḥemya, the son-in-law of the Nasi
 Neḥunya the digger of pits, ditches, and caves
 Nero
 Nero Caesar
@@ -2856,7 +2859,6 @@ Rav Yosef bar Manyumi
 Rav Yosef bar Minyumi
 Rav Yosef bar Shemaya
 Rav Yosef Tzidoni
-Rav Yosef Tzidoni
 Rav Yosef, son of Rabba
 Rav Yosef, son of Rabbi Shemaya
 Rav Yosef, son of Rabbi Yehoshua ben Levi
@@ -3229,6 +3231,7 @@ the father of Rav Oshaya
 the father of Rav Pappa
 The father of Rav Yosef bar Ḥama
 the father of the mother of Rav Aḥai, son of Rabbi Ḥanina
+The female slave in the house of Rabbi
 The governor
 the governor of Meishan
 the governor of Pumbedita
@@ -3241,6 +3244,7 @@ the great men of the Galilee
 the Great Sanhedrin
 the Greeks
 The groats makers of Tzippori
+the Hasmonean monarchy
 the Head of the Kenesset of Batzra
 the holy Sages of Eretz Yisrael
 The host of Rava, son of Rav Ḥanan
@@ -3353,18 +3357,23 @@ the people of Meḥoza
 the people of Nineveh
 the people of Sekhavta
 the people of the Galilee
+The people of the Galilee
 the people of the household of Rav Amram the pious
 the people of the household, of Rabena’a, brother of Rabbi Ḥiyya
 the people of the household, of Rav Amram the pious
 the people of the Upper Galilee
+the people of the West
 the people of Tiberias
+The people of Tiberias
 the people of Tivonin
 the people of Tzippori
 the powerful men of Eretz Yisrael
 the prominent men of Rome
 the prominent of Rome
 The prominent women of Jerusalem
+the rabbis of Caesarea
 the rabbis of the court of Rav Ashi
+the Rabbis of the court of Rav Ashi
 The relative of Rabbi Asi
 The relatives of Rabbi Yoḥanan
 The resident of Pappunya
@@ -3372,6 +3381,8 @@ The residents of Akhbaria
 The residents of Akra De’Agma
 the residents of Asia
 The residents of Biri
+the residents of Geder
+the residents of Ḥamtan
 The residents of Jericho
 the residents of Jerusalem
 the residents of Judea
