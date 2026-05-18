@@ -10,6 +10,7 @@ a certain demon
 a certain disciple
 a certain disciple from among the disciples of Beit Hillel
 A certain disciple from among the disciples of Beit Shammai
+A certain disciple from the Upper Galilee
 a certain doctor
 A certain elder
 A certain Elder
@@ -29,6 +30,7 @@ a certain gentile
 a certain gentile woman
 a certain girl
 a certain guarantor
+a certain guarantor for orphans
 a certain herdsman
 a certain heretic
 A certain heretic
@@ -37,6 +39,7 @@ a certain High Priest
 a certain imbecile
 a certain individual
 a certain Jew
+a certain Jew and gentile
 a certain judge
 a certain launderer
 a certain Madonite
@@ -53,6 +56,8 @@ a certain old man
 a certain old woman
 a certain one of the Sages
 a certain orphan
+a certain orphan boy and orphan girl
+a certain orphan, son of a widow
 a certain Persian priest
 a certain person
 a certain person from Judea
@@ -69,6 +74,7 @@ A certain Roman
 A certain Roman officer
 a certain Sadducee
 A certain Sage
+a certain slaughterer
 a certain slave
 a certain student
 a certain tanner
@@ -220,6 +226,7 @@ an armed bandit
 an examiner
 an important woman
 An old man
+An old man from the inhabitants of Jerusalem
 Anan bar Ḥiyya
 Anan bar Ḥiyya Neharde’a
 Anan bar Ḥiyya of Ḥagra
@@ -861,6 +868,7 @@ Pandeira
 Pappa bar Abba
 Pappa the ox herder
 Pappas
+Pappi Sheila bar Summakei
 Pappos ben Yehuda
 Parva’a the Sorcerer
 Pazi
@@ -1894,6 +1902,7 @@ Rabbi Yosei the Galilean
 Rabbi Yosei the Great
 Rabbi Yosei the Ḥasid
 Rabbi Yosei the priest
+Rabbi Yosei the Priest
 Rabbi Yosei the Small
 Rabbi Yosei, son of Rabbi Avin
 Rabbi Yosei, son of Rabbi Elazar, son of Rabbi Shimon
@@ -3205,6 +3214,8 @@ the elders of the Negev
 the elders of the south
 the elders, of the school of Athens
 the emperor
+the emperor Hadrian
+the emperor Vespasian
 the emperor’s daughter
 the evil kingdom
 the exacting scribes of the study hall of Rav
@@ -3528,6 +3539,7 @@ the students of Rav
 the students of Shammai and Hillel
 The students of Shammai the Elder
 The vatikin
+the wicked kingdom
 The wife of Abaye
 the wife of Abba Mari, the Exilarch
 the wife of Rabba bar bar Ḥana
