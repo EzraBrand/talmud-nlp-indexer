@@ -140,6 +140,7 @@ Abba Mar
 Abba Mar bar Rav Ashi
 Abba Mar, son of Rav Pappa
 Abba Mari, the Exilarch
+Abba of Sura
 Abba Sala the Great
 Abba Shaul
 Abba Shaul bar Nash
@@ -258,6 +259,8 @@ Avimei, son of Rabbi Abbahu
 Avimi
 Avimi bar Nazi, the father-in-law of Ravina
 Avimi bar Pappi
+Avimi from Bei Ḥozai
+Avimi from Hagronya
 Avimi of Hagron-ya
 Avimi of Hagronya
 Avimi of Nota
@@ -612,6 +615,8 @@ Hiyya bar Rav from Difti
 Hon, son of Rav Naḥman
 Ḥoni HaMe’aggel
 host [ushpizikhnei] of Rabbi Tavla
+house of R' Yannai
+house of Rav Yosef bar Ḥama
 Ḥova
 Hugras ben Levi
 Ḥulfana
@@ -1424,6 +1429,7 @@ Rabbi Natan bar Yosef
 Rabbi Natan ben Amram
 Rabbi Natan ben Avishalom
 Rabbi Natan ben Avtolemos
+Rabbi Natan Bira’a
 Rabbi Natan, son of Rabbi Oshaya
 Rabbi Neḥemya
 Rabbi Neḥemya, son of Rabbi Ḥanilai
@@ -1530,7 +1536,10 @@ Rabbi Shimon ben Zoma
 Rabbi Shimon HaMeḥozi
 Rabbi Shimon HaNasi
 Rabbi Shimon HaShikmoni
+Rabbi Shimon HaShiloni
 Rabbi Shimon Ḥasida
+Rabbi Shimon HaTimni
+Rabbi Shimon HeḤasid
 Rabbi Shimon Ish HaMitzpa
 Rabbi Shimon of the village of Akko
 Rabbi Shimon Shezuri
@@ -2550,6 +2559,7 @@ Rav Pappa the Elder
 Rav Pappa the elder
 Rav Pappa, son of Rav Aḥa
 Rav Pappa, son of Rav Aḥa bar Adda
+Rav Pappa, son of Rav Ḥanan, from Bei Keloḥit
 Rav Pappa, son of Rav Ḥanin
 Rav Pappa, son of Rav Naḥman
 Rav Pappa, son of Rav Yosef
@@ -2732,6 +2742,7 @@ Rav Ya’akov bar Idi
 Rav Ya’akov from Nehar Pekod
 Rav Ya’akov of Nehar Pekod
 Rav Ya’akov of Pekod
+Rav Ya’akov of Pekod River
 Rav Ya’akov, son of Rav Aḥa bar Ya’akov
 Rav Ya’akov, son of Shmuel
 Rav Ya’akov, son of Shmuel’s daughter
@@ -2970,6 +2981,7 @@ Rava of Parzika
 Rava of Parzikiyya
 Rava of Pirkin
 Rava the Younger
+Rava Tosfa’a
 Rava Zuti
 Rava, from Parzakya
 Rava, son of Rabba
@@ -3279,6 +3291,7 @@ the house of Pappa bar Abba
 the house of Parzak
 the house of Parzak, the general
 the house of Pegarim
+the house of R' Yannai
 the house of Rabba
 the house of Rabban Gamliel
 the house of Rav Neḥemya, the Exilarch
@@ -3463,6 +3476,7 @@ the school of Rav Sheila
 the school of Rav Yehuda
 the school of Rav Zevid
 the school of Rava
+the school of Shmuel
 the seed of Abba bar Abba
 the servant of Rav Yehuda bar Yeḥezkel
 the short one with singed legs
@@ -3722,6 +3736,7 @@ Ze’eira’s wife
 Ze’eiri
 Ze’iri
 Ze’iri from Dihavat
+Zefer
 Zefer, the head of Geder
 Zeira
 Zeira, of the residents of Jerusalem
