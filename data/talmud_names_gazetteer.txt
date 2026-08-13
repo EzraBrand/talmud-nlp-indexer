@@ -70,6 +70,7 @@ A certain pregnant woman
 a certain priest
 a certain priest’s daughter
 a certain prostitute
+a certain Roman
 A certain Roman
 A certain Roman officer
 a certain Sadducee
@@ -556,6 +557,7 @@ Hadrian
 Ḥama, son of Rabba
 Ḥama, son of Rabba bar Abbahu
 Ḥama, son of Rabba bar Avuh
+HaModa’i
 Ḥana
 Ḥana bar Isak
 Ḥanan ben Avishalom
@@ -3217,6 +3219,7 @@ the descendants of Zattu ben Yehuda
 the disciples of Rabbi Ḥanina
 the Distinguished 
 the Distinguished One
+The Distinguished One
 the distinguished Rabbi Elazar HaKappar
 the Elders of Beit Hillel
 the elders of Beit Shammai
