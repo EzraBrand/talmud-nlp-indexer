@@ -70,13 +70,14 @@ A certain pregnant woman
 a certain priest
 a certain priest’s daughter
 a certain prostitute
-a certain Roman
 A certain Roman
+a certain Roman
 A certain Roman officer
 a certain Sadducee
 A certain Sage
 a certain slaughterer
 a certain slave
+a certain son of a demon
 a certain student
 a certain tanner
 a certain teacher of children
@@ -458,6 +459,7 @@ Caesar
 Carmanians
 certain hooligans
 Certain porters
+certain porters
 certain residents Bei Ḥarmakh
 certain thieves
 certain zealots
@@ -3347,6 +3349,7 @@ the members of the household of Memel
 the members of the households, of Rav Pappa and of Rav Huna, son of Rav Yehoshua
 the merchants of Lod
 The merchants of Tiberias
+the ministering angel of poverty
 the mother of ben Zaza
 the mother of Mar, son of Ravina
 The mother of Rami bar Ḥama
