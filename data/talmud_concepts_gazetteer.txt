@@ -114,6 +114,7 @@ marriage contract
 mashal
 meal offering
 meal-offering
+menorah
 Mercy
 Messiah
 metzora
@@ -197,9 +198,9 @@ Shavuot
 Shekhina
 Shema
 shewbread
-showbread
 Shmita
 shofar
+showbread
 Simchat Beit HaShoeivah
 sin
 sin offering
@@ -227,6 +228,7 @@ the exile
 the generation of the dispersion
 the generation of the flood
 the Messiah
+the messianic era
 the private domain
 the public domain
 the Sanctuary
@@ -240,6 +242,7 @@ the Temple Mount
 the Tent of Meeting
 the two loaves
 the wilderness
+this world
 Throne of Glory
 tithes
 to Moses from Sinai
