@@ -42,6 +42,7 @@ a certain Jew
 a certain Jew and gentile
 a certain judge
 a certain launderer
+a certain Levite
 a certain Madonite
 A certain magus
 a certain maiden
@@ -75,6 +76,7 @@ a certain Roman
 A certain Roman officer
 a certain Sadducee
 A certain Sage
+a certain sharecropper
 a certain slaughterer
 a certain slave
 a certain son of a demon
@@ -568,6 +570,7 @@ HaModa’i
 Ḥanan the Egyptian
 Ḥanan the tailor
 Ḥanan the wicked
+Ḥanan the Wicked
 Ḥananya
 Ḥananya ben Akavya
 Ḥananya ben Ḥakhinai
@@ -674,6 +677,7 @@ Karduyim
 Karna
 Karna’s father
 Kartuyim
+Kaylil
 Keen scholar
 Ketia bar Shalom
 Ketia, son of Shalom
@@ -764,6 +768,7 @@ Marei bar Mar
 Marei, son of Rav Huna, son of Rav Yirmeya bar Abba
 Mareimar
 Mareimar bar Ḥanina
+Mari bar Avuh
 Mari bar Isak
 Mari bar Mar
 Mari bar Mar Ukva
@@ -3094,6 +3099,7 @@ Shimon the Timnite
 Shimon the Yemenite
 Shimon, brother of Azarya
 Shinnana
+Shivta
 Shmuel
 Shmuel bar Aḥa
 Shmuel bar Avin
@@ -3687,6 +3693,7 @@ Yoḥanan Ḥakuka’a
 Yoḥanan HaNazuf
 Yoḥanan HaSandlar
 Yoḥanan the High Priest
+Yoḥanan, eater of ḥallot
 Yoḥanan, son of Rabbi Elai
 Yoḥanan, son of Rabbi Yehonatan
 Yoḥanan, son of Rabbi Yehonatan, the lion from the village Shiḥayya
