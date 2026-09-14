@@ -289,6 +289,7 @@ Baha
 Baitos ben Zonin
 Baitos ben Zunen
 Baitos ben Zunin
+Bala
 Balei
 Bali
 Balla’ai
@@ -621,6 +622,7 @@ Hiyya bar Rav from Difti
 Ḥoma, Abaye’s wife
 Hon, son of Rav Naḥman
 Ḥoni HaMe’aggel
+host [ushpizikhnei] of R' Tavla
 host [ushpizikhnei] of Rabbi Tavla
 house of R' Yannai
 house of Rav Yosef bar Ḥama
@@ -682,6 +684,7 @@ Keen scholar
 Ketia bar Shalom
 Ketia, son of Shalom
 Kharkemit, an emancipated maidservant in Jerusalem
+Kidor
 King Agrippa
 King Agrippas
 King Izgur
@@ -973,6 +976,7 @@ Rabban Gamliel and his court
 Rabban Gamliel bar Rabbi
 Rabban Gamliel the Elder
 Rabban Gamliel, son of Rabbi
+Rabban Gamliel’s daughter
 Rabban Gamliel’s son
 Rabban Shimon
 Rabban Shimon ben Gamliel
@@ -3150,6 +3154,7 @@ Sumakhos
 Sumakhus
 Summakhos
 Surḥav bar Pappa
+Suriel
 Talla’ai
 Tanḥum, son of Rabbi Ami
 Tarfon
@@ -3353,6 +3358,7 @@ the master of Eretz Yisrael
 the members of the Great Assembly
 the members of the household of Memel
 the members of the households, of Rav Pappa and of Rav Huna, son of Rav Yehoshua
+the men of Vardina
 the merchants of Lod
 The merchants of Tiberias
 the ministering angel of poverty
@@ -3389,6 +3395,7 @@ the people of Kefar Temarta
 the people of Laodicea
 the people of Mata Meḥasya
 the people of Medea
+the people of Media
 the people of Meḥoza
 the people of Nineveh
 the people of Sekhavta
@@ -3424,6 +3431,7 @@ the residents of Jerusalem
 the residents of Judea
 the residents of Mashronya
 The residents of Mata Meḥasya
+the residents of Mata Meḥasya
 the residents of Mavrakhta
 the residents of Meḥoza
 the residents of the Diaspora
@@ -3449,6 +3457,7 @@ the school of Karna
 the school of Levi
 the school of Menashe
 the school of Menashiya
+The school of R' Eliezer ben Yaakov
 the school of Rabba bar Avuh
 the school of Rabbi
 the school of Rabbi Aḥa
@@ -3489,6 +3498,7 @@ the school of Rav Yehuda
 the school of Rav Zevid
 the school of Rava
 the school of Shmuel
+the school R' Yishmael
 the seed of Abba bar Abba
 the servant of Rav Yehuda bar Yeḥezkel
 the short one with singed legs
