@@ -11,6 +11,7 @@ am ha’aretz
 an ancestral field
 an idolatrous city
 an unslaughtered carcass
+ancestral field
 Anger
 animal carcass
 anointed priest
@@ -40,6 +41,7 @@ daily afternoon offering
 daily morning offering
 daily offering
 descendants of Noah
+designated female slave
 destruction of Jerusalem
 Destruction of the Temple
 dinarius
@@ -52,6 +54,7 @@ Exilarch
 Exodus
 First fruits
 first fruits
+first sheared
 First Temple
 First Temple
 first tithe
@@ -130,6 +133,7 @@ monetary law
 morning prayer
 Nasi
 nazirite
+nazirite’s ram
 New Moon
 niddah
 Ninth of Av
@@ -171,6 +175,7 @@ purity
 rabbinic
 rabbinic law
 red heifer
+redemption of the firstborn donkey
 repented
 resurrection of the dead
 returning to Eretz Yisrael
@@ -178,6 +183,7 @@ righteous
 ritual impurity
 ritually impure
 rival wife
+robbery of a convert
 Rosh Chodesh
 Rosh HaShana
 Sabbatical
@@ -220,7 +226,9 @@ Temple
 Ten Lost Tribes
 tereifa
 teruma
+Teruma
 teruma gedola
+teruma of the tithe
 thanks offering
 thanks-offering
 the Chamber of Hewn Stone
