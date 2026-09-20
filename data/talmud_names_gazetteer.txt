@@ -862,7 +862,8 @@ of Neharbela
 of the students of Jesus the Nazarene
 Okvan, son of Neḥemya the Exilarch
 one High Priest
-one man
+one of the rabbis
+One of the Rabbis
 one of the Sages
 one of the sons of so-and-so
 one of the students of Rabbi Akiva
@@ -2559,6 +2560,7 @@ Rav Neḥumi bar Zekharya
 Rav Neḥunya
 Rav Nittai
 Rav Oshaya
+Rav Oshaya’s father
 Rav Ovadya
 Rav Padda
 Rav Pappa
@@ -3479,6 +3481,7 @@ The school of Rabbi Ya’akov
 The school of Rabbi Yannai
 the school of Rabbi Yishmael
 The school of Rabbi Yishmael
+the school of Rabbi Yishmael, son of Rabbi Yosei
 the school of Rabbi Yitzḥak bar Marta
 the school of Rabbi Yoḥanan
 the school of Rabbi Yoḥanan ben Zakkai
