@@ -14,6 +14,7 @@ Babylon
 Babylonia
 Babylonian
 Chaldean
+children of Ammon
 Coptic
 Cush
 Cushite
@@ -29,6 +30,8 @@ Galilean
 Gibeonite
 Greece
 Greek
+Greeks
+Hasmonean
 Hodu
 Israel
 Israelite
@@ -48,7 +51,6 @@ Roman
 Rome
 Samaria
 Samaritan
-the children of Ammon
 the land of Canaan
 the seed of Amalek
 the Seven Nations
