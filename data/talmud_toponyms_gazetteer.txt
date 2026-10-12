@@ -147,6 +147,7 @@ Birei DeNeresh
 Bireka
 Bireta DeSatya
 Biri
+Birta
 Bnei Brak
 Bozrah
 bridge of Babylonia
@@ -301,6 +302,7 @@ Homanya
 Ḥosekei
 hot springs of Tiberias
 house of Natzrefei
+House of the Swallowed
 Hurmiz Ardeshid
 Hutzal
 Hutzal deVinyamin
@@ -528,6 +530,7 @@ Shanvata
 Sharon
 Shechem
 Shefaram
+Shekhantziv
 Shelaniya
 Sheshakh
 Sheviri
@@ -641,6 +644,7 @@ village of Tavi
 village of Timarta
 village Shiḥayya
 Ya’ei
+Yadayim Valley
 Yavne
 Yehu water trough
 Yodfat
