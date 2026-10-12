@@ -479,6 +479,7 @@ Daru
 Daru bar Pappa
 Daughter of Ḥakhinai
 daughter of Nakdimon ben Guryon
+daughter of Rav Ḥisda
 daughter-in-law of Rabbi Oshaya
 daughter-in-law of the house of the son of Elyashiv
 descendants of Joab, son of Zeruiah
@@ -565,6 +566,7 @@ Hadrian
 HaModa’i
 Ḥana
 Ḥana bar Isak
+Ḥanan
 Ḥanan ben Avishalom
 Ḥanan ben Pineḥas
 Ḥanan HaNeḥba
@@ -621,6 +623,7 @@ Hiyya bar Rav from Difti
 Ḥoma
 Ḥoma, Abaye’s wife
 Hon, son of Rav Naḥman
+Ḥoni
 Ḥoni HaMe’aggel
 host [ushpizikhnei] of R' Tavla
 host [ushpizikhnei] of Rabbi Tavla
@@ -648,6 +651,7 @@ Hyrcanus, the son of Rabbi Eliezer ben Hyrcanus
 Ifera Hurmiz
 Ifera Hurmiz, the mother of King Shapur
 Ifra Hormiz, mother of King Shapur
+Ikku
 Ila
 Ilfa
 Ilfai
@@ -674,6 +678,7 @@ Iyya
 Izgadar, king
 Jesus
 Jesus the Nazarene
+Kala
 Kamtza
 Karduyim
 Karna
@@ -881,6 +886,8 @@ orphan Ravina the younger, was his sister’s son
 Oshaya bar Zavda
 Oshaya the Distinguished
 Oshaya, the youngest of the company
+Our Rabbis that are in Babylonia
+Our Rabbis that are in Eretz Yisrael
 Palaimo
 Pandeira
 Pappa bar Abba
@@ -1301,6 +1308,7 @@ Rabbi Ḥanina ben Akiva
 Rabbi Ḥanina ben Antigenos
 Rabbi Ḥanina ben Antigonus
 Rabbi Ḥanina ben Dosa
+Rabbi Ḥanina ben Dosa’s wife
 Rabbi Ḥanina ben Gamla
 Rabbi Ḥanina ben Gamliel
 Rabbi Ḥanina ben Teradyon
@@ -1309,6 +1317,7 @@ Rabbi Ḥanina Kara
 Rabbi Ḥanina of Ono
 Rabbi Ḥanina of Sura
 Rabbi Ḥanina of Tirna’a
+Rabbi Ḥanina Terita’a
 Rabbi Ḥanina the Great
 Rabbi Ḥanina Tirata
 Rabbi Ḥanina, son of Rabbi Abbahu
@@ -1607,6 +1616,7 @@ Rabbi Tanḥum, son of Rabbi Ḥiyya, man of Akko village
 Rabbi Tanḥum, son of Rabbi Ḥiyya, of the village of Akko
 Rabbi Tanḥum, son of Rabbi Ḥiyya, the man of Akko village
 Rabbi Tanḥum, son of Rav Ḥiyya
+Rabbi Tanḥum, son of Rav Ḥiyya, of the village of Akko
 Rabbi Tanḥuma
 Rabbi Tarfon
 Rabbi Tavi
@@ -3051,6 +3061,7 @@ Ronya
 Sabbeta ben Alas
 Sadducee
 Sadducees
+Safra
 Sages of Caesarea
 Samaritans
 Samma bar Ḥilkai
@@ -3078,6 +3089,7 @@ Sheila bar Summakei
 Sheila of Kefar Temarta
 Shel Tziyyon the queen
 Shemaya
+Shevna
 Shevna of Jerusalem
 Shikhḥat
 Shila, a man of K’far Temarta
@@ -3097,6 +3109,7 @@ Shimon Efrati
 Shimon HaAmasoni
 Shimon HaAmmassoni
 Shimon HaPakuli
+Shimon HaShikmoni
 Shimon HaShiloni
 Shimon HaTimni
 Shimon HaTzaddik
@@ -3105,6 +3118,7 @@ Shimon the Timnite
 Shimon the Yemenite
 Shimon, brother of Azarya
 Shinnana
+Shivḥat
 Shivta
 Shmuel
 Shmuel bar Aḥa
@@ -3175,6 +3189,8 @@ that Edomite
 that Galilean
 the <i>tumtum</i> of Biri
 the agent of the Angel of Death
+The amora’im of Neharde’a
+The amora’im of Pumbedita
 the Angel of Death
 The attendant of Rabbi Ḥanina
 The attendant of Rav Ḥilkiya bar Tovi
@@ -3240,7 +3256,9 @@ the Elders of Beit Hillel
 the elders of Beit Shammai
 The elders of Mata Meḥasya
 The elders of Pumbedita
+The Elders of the court
 the elders of the Negev
+the Elders of the priesthood
 the elders of the south
 the elders, of the school of Athens
 the emperor
@@ -3290,6 +3308,7 @@ the Head of the Kenesset of Batzra
 the holy Sages of Eretz Yisrael
 The host of Rava, son of Rav Ḥanan
 the house of Avtinas
+the House of Avtinas
 the house of Baitos
 the house of bar Maryon
 the house of ben Ḥavu
@@ -3301,6 +3320,7 @@ the house of Ḥanin
 the house of Ḥasa
 the house of Hasmonean
 the house of Ḥivvai
+the house of Judea
 the house of Katros
 the house of King Shapur
 the house of Mari bar Isak
@@ -3320,6 +3340,7 @@ the house of the governor Parzak
 the house of the Hasmonean
 the house of the Hasmonean kings
 the house of the Hasmoneans
+the house of the Nasi
 the house of Tzippara
 the house of Yishmael ben Piakhi
 the household of bar Maryon, son of Ravin
@@ -3342,6 +3363,7 @@ the inhabitants of Tiberias
 the interpreter of Rav Ḥisda
 The Jewish Sages
 the judges of Caesarea
+The judges of Eretz Yisrael
 the judges of Neharde’a
 The judges of Neharde’a
 The judges of Pumbedita
@@ -3412,8 +3434,10 @@ the people of Tiberias
 The people of Tiberias
 the people of Tivonin
 the people of Tzippori
+the pious men of Babylonia
 the powerful men of Eretz Yisrael
 the prominent men of Rome
+the prominent of Jerusalem
 the prominent of Rome
 The prominent women of Jerusalem
 the rabbis of Caesarea
@@ -3476,9 +3500,11 @@ The school of Rabbi Natan
 the school of Rabbi Oshaya
 the school of Rabbi Samuel
 The school of Rabbi Sheila
+the school of Rabbi Sheila
 the school of Rabbi Shimon ben Yoḥai
 The school of Rabbi Ya’akov
 The school of Rabbi Yannai
+the school of Rabbi Yannai
 the school of Rabbi Yishmael
 The school of Rabbi Yishmael
 the school of Rabbi Yishmael, son of Rabbi Yosei
@@ -3504,6 +3530,7 @@ the school of Shmuel
 the school R' Yishmael
 the seed of Abba bar Abba
 the servant of Rav Yehuda bar Yeḥezkel
+The sharp ones of Pumbedita
 the short one with singed legs
 The sister of Rami bar Ḥama
 The sister of Rami bar Pappa
@@ -3566,6 +3593,7 @@ the sons of Reish Lakish
 the sons of Rokhel
 The sons of the father-in-law of Mar Ukva
 the sons of the High Priests
+The sons of Yudan the female slave
 The sons of Yudan the maidservant
 The stableman [<i>ahuriyareih</i>] of the house of Rabbi
 The steward [<i>apotropos</i>] of King Agrippas
@@ -3594,6 +3622,7 @@ the wife of Shimon the Priest
 the wife of Turnus Rufus
 the wife of Yosef the Priest
 the women of Bei Meḥoza
+the zealots [biryonei] of Jerusalem
 Theodosius of Rome
 Theodosius the doctor
 these people of the Galilee
@@ -3690,6 +3719,7 @@ Yishmael the priest
 Yishmael, a man of Kefar Yamma
 Yishmael, son of Rabbi Yosei
 Yissakhar from the village of Barkai
+Yissakhar of Kfar Barkai
 Yissakhar of the village of Barkai
 Yitzḥak from the school of Rabbi Yannai
 Yitzḥak the Exilarch, son of the sister of Rav Beivai
@@ -3711,6 +3741,7 @@ Yoḥanan, son of Rabbi Elai
 Yoḥanan, son of Rabbi Yehonatan
 Yoḥanan, son of Rabbi Yehonatan, the lion from the village Shiḥayya
 Yoḥanan, son of Yonatan
+Yoḥanan, son of Yonatan, the lion from the village Shiḥayya
 Yoḥanan, that scribe
 Yoḥani bat Retivi
 Yona
@@ -3768,6 +3799,7 @@ Zeira
 Zeira, of the residents of Jerusalem
 Zekharya ben HaKatzav
 Zekharya ben Kevutal
+Zekharya, son of Kevutal
 Zevulun ben Dan
 Zigud
 Zilai
