@@ -52,6 +52,7 @@ Amnon, son of David
 Amon
 Amos
 Amoz
+Amram
 Amram, father of Moses
 Amraphel
 Anah
@@ -88,6 +89,7 @@ Benaiah
 Benaiah ben Jehoiada
 Benaiah the son of Jehoiada
 Benaiah, son of Jehoiada
+Benayahu ben Yehoyada
 Benayahu, son of Jehoiada
 Benjamin
 Benjamin the righteous
@@ -111,6 +113,7 @@ Daniel
 Darius
 Dathan
 Daughters of Zelophehad
+daughters of Zelophehad
 David
 David, son of Yishai
 Deborah
@@ -146,8 +149,10 @@ Ephron
 Er
 Er and Onan
 Esau
+Esau the wicked
 Esther
 Evil-merodach
+Evyatar
 Ezekiel
 Ezekiel ben Buzi
 Ezekiel, son of Buzi
@@ -351,12 +356,14 @@ Mordecai
 Mordecai and Esther
 Mordekhai
 Moses
+Moses our teacher
 Na’ama the Ammonite
 Naamah the Ammonite
 Naaman
 Naboth
 Naboth the Jezreelite
 Nadav and Avihu
+Naftali
 Nahbi
 Nahor
 Nahshon
@@ -413,6 +420,7 @@ Pharaoh Neco
 Pharaoh Nekho
 Pharaoh the lame
 Pharaoh the wicked
+Pharaoh’s astrologers
 Pharaoh’s daughter
 Philistines
 Pinehas
@@ -539,6 +547,7 @@ Zelophehad
 Zelophehad’s daughters
 Zephania
 Zephaniah
+Zerah, king of Kush
 Zeresh
 Zerubavel
 Zerubbabel
