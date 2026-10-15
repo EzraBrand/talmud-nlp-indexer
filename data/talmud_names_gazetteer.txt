@@ -1,7 +1,9 @@
 A certain apostate
 a certain Arab
 a certain Arab merchant woman
+a certain Arab woman
 a certain army
+a certain betrothed man
 a certain blind man
 a certain butcher
 a certain child
@@ -52,6 +54,7 @@ A certain matron
 a certain matron
 A certain noblewoman
 a certain of Meron
+a certain officer
 a certain official
 a certain old man
 a certain old woman
@@ -69,11 +72,13 @@ a certain pious man
 a certain poor person
 A certain pregnant woman
 a certain priest
+A certain priest
 a certain priest’s daughter
 a certain prostitute
 A certain Roman
 a certain Roman
 A certain Roman officer
+a certain royal officer
 a certain Sadducee
 A certain Sage
 a certain sharecropper
@@ -85,6 +90,7 @@ a certain tanner
 a certain teacher of children
 a certain widow
 a certain woman
+A certain woman
 A certain young girl
 a certain young woman
 A colleague of R' Zeira
@@ -99,6 +105,7 @@ a pious man
 a poor person of noble descent
 a Samaritan woman
 a son of a Levite
+a student of Rabbi Meir
 a young girl
 a youth
 Abaye
@@ -221,6 +228,7 @@ Alexander of Macedonia
 Alexander the king
 Alexandrians
 Ameimar
+Ami
 Ami bar Avin
 Ami bar Natan
 Ami of Vardina
@@ -236,6 +244,7 @@ Anan bar Ḥiyya
 Anan bar Ḥiyya Neharde’a
 Anan bar Ḥiyya of Ḥagra
 Angel of Death
+Antoninos
 Antoninos ben Asveiros
 Antoninus
 Antoninus the son of Asveirus
@@ -282,6 +291,7 @@ Avtolos ben Reuven
 Avuh bar Geneiva
 Avuh bar Ihi
 Ayo
+Ayvu
 Ayya Mari
 Babylonian
 Babylonians
@@ -315,6 +325,7 @@ bar Giyorei
 bar Hadaya
 Bar Haddaya
 bar Ḥama
+bar Hamdudei
 Bar Hamdurei
 Bar Hamduri
 bar Hamedurei
@@ -372,11 +383,13 @@ bar Yirmeya
 bar Yitzḥak
 bar Yoḥai
 bar Yokhani
+Bardela
 Barukh ben Levi
 Bati
 Bati bar Tuvi
 Bati bar Tuviyya
 Bava ben Buta
+Beira
 Beit HaTzerifa
 Beit Hillel
 Beit Kofai
@@ -450,6 +463,7 @@ Billak
 Binyamin the doctor
 Binyamin the righteous
 Binyamin the shepherd
+Bira’a
 Boethus ben Zunen
 Boethusian
 Boethusians
@@ -558,6 +572,7 @@ Guryon ben Asteyon
 Guryon of Asporak
 Guryon of Aspork
 Hadrian
+Ḥagga
 Ḥama bar Adda
 Ḥama bar Adda, emissary of Zion
 Ḥama, son of Rabba
@@ -592,7 +607,9 @@ HaModa’i
 Ḥanina, son of Rabbi Ḥama
 Ḥanina, son of Rabbi Yehoshua
 Ḥanina, son of Rabbi Yehoshua’s brother
+Ḥanina’s daughter-in-law
 Ḥaruta
+Ḥasa’s wife
 Hasmoneans
 Ḥavai bar Nanai
 he household of Guryon
@@ -625,6 +642,7 @@ Hiyya bar Rav from Difti
 Hon, son of Rav Naḥman
 Ḥoni
 Ḥoni HaMe’aggel
+Ḥoni HaMe’aggel’s daughter
 host [ushpizikhnei] of R' Tavla
 host [ushpizikhnei] of Rabbi Tavla
 house of R' Yannai
@@ -813,6 +831,7 @@ Minyamin Saksana
 Minyamin the Egyptian convert
 Minyamin, Rav Ashi’s slave
 Minyamin, the servant of Rav Ashi
+Minyumi
 Minyumi the physician
 Miriam of Tarmod
 Miriam, daughter of Bilga
@@ -864,6 +883,7 @@ Nit’za
 Nitai HaArbeli
 Nitza
 of Neharbela
+of the South
 of the students of Jesus the Nazarene
 Okvan, son of Neḥemya the Exilarch
 one High Priest
@@ -905,9 +925,11 @@ Persians
 Pharisees
 Pili Bereish
 Pineḥas the Dresser
+Pineḥas, brother of Mar Shmuel
 Pineḥas, the brother of Mar Shmuel
 Pinkai
 Piruz the Evil
+Pishon the camel driver
 Proclus ben Plospus
 Queen Cleopatra
 Queen Helene
@@ -923,6 +945,7 @@ Rabba bar Avuh
 Rabba bar bar Ḥana
 Rabba bar bar Ḥanan
 Rabba bar bar Ḥanna
+Rabba bar bar Sheila
 Rabba bar Beruna
 Rabba bar Ḥana
 Rabba bar Ḥanan
@@ -974,6 +997,7 @@ Rabba son of Rav Huna the Short
 Rabba the Younger
 Rabba Tosefa’a
 Rabba Tosfa’a
+Rabba Zuti
 Rabba, son of Mari
 Rabba, son of Rav Huna
 Rabba, son of Rava
@@ -1783,6 +1807,7 @@ Rabbi Yishmael, son of Rabbi Yoḥanan ben Beroka
 Rabbi Yishmael, son of Rabbi Yosef
 Rabbi Yishmael, son of Rabbi Yosei
 Rabbi Yishmael, son of Yoḥanan ben Beroka
+Rabbi Yishmael’s daughter
 Rabbi Yitzḥak
 Rabbi Yitzḥak bar Abba
 Rabbi Yitzḥak bar Adda
@@ -2127,6 +2152,7 @@ Rav Anan bar Taḥlifa
 Rav Ashi
 Rav Ashi bar Avin
 Rav Ashi of Avireya
+Rav Ashi’s wife
 Rav Asi
 Rav Asi bar Ḥama
 Rav Asi bar Ḥiyya
@@ -2330,6 +2356,7 @@ Rav Ḥisda bar Avdimi
 Rav Ḥisda’s daughter
 Rav Ḥisda’s interpreter
 Rav Ḥisda’s slave
+Rav Ḥisda’s wife
 Rav Ḥiyya
 Rav Ḥiyya bar Abba
 Rav Ḥiyya bar Adda
@@ -2554,6 +2581,7 @@ Rav Natan bar Manyumi
 Rav Natan bar Mar Ukva
 Rav Natan bar Minyumi
 Rav Natan bar Oshaya
+Rav Natan, father of Rav Huna
 Rav Natan, father of Rav Huna bar Natan
 Rav Natan, father of Rav Huna, son of Rav Natan
 Rav Natan, son of Rabbi Hoshaya
@@ -2589,7 +2617,9 @@ Rav Pappa, son of Rav Ḥanin
 Rav Pappa, son of Rav Naḥman
 Rav Pappa, son of Rav Yosef
 Rav Pappa’s household
+Rav Pappa’s wife
 Rav Pappi
+Rav Pappi’s wife
 Rav Pineḥas
 Rav Pineḥas bar Ami
 Rav Pineḥas, son of Rav Ami
@@ -2680,6 +2710,7 @@ Rav Shmuel bar Naḥman
 Rav Shmuel bar Naḥmani
 Rav Shmuel bar Natan
 Rav Shmuel bar Pappa
+Rav Shmuel bar Rav Ketina
 Rav Shmuel bar Rav Yehuda
 Rav Shmuel bar Rav Yitzḥak
 Rav Shmuel bar Sasrati
@@ -2920,6 +2951,7 @@ Rav Yosef, son of Rav Salla the Pious
 Rav Yosef, son of Rav Shemaya
 Rav Yosef, son of Rav Shmuel
 Rav Yosef, son of Rava
+Rav Yosef’s wife
 Rav Yosei
 Rav Yosei bar Abba
 Rav Yosei bar Avin
@@ -2982,6 +3014,7 @@ Rava bar Rav Ḥanan
 Rava bar Rav Ḥanin
 Rava bar Rav Huna
 Rava bar Rav Huna the Short
+Rava bar Rav Naḥman
 Rava bar Rav Sheila
 Rava bar Rav Ulla
 Rava bar Rav Yitzḥak
@@ -3045,6 +3078,7 @@ Ravina from Parzakya
 Ravina, son of Rav Sheila
 Ravina, son of Rav Ulla
 Ravina’s wife
+Ravnai
 Ravnai Ḥoza’a
 Ravnai, brother of Rabbi Ḥiyya bar Abba
 Ravya bar Kisi
@@ -3171,6 +3205,7 @@ Sumakhus
 Summakhos
 Surḥav bar Pappa
 Suriel
+Taḥlifa
 Talla’ai
 Tanḥum, son of Rabbi Ami
 Tarfon
@@ -3207,6 +3242,7 @@ the court of Rav Huna
 the court of the Exilarch
 the court of the Hasmoneans
 the daughter of Abba of Sura
+The daughter of Aḥer
 the daughter of bar Kalba Savua
 the daughter of King Shapur
 the daughter of King Yannai’s crown weaver
@@ -3260,11 +3296,13 @@ The Elders of the court
 the elders of the Negev
 the Elders of the priesthood
 the elders of the south
+the Elders of the South
 the elders, of the school of Athens
 the emperor
 the emperor Hadrian
 the emperor Vespasian
 the emperor’s daughter
+the entire Jewish Diaspora
 the evil kingdom
 the exacting scribes of the study hall of Rav
 The Exilarch
@@ -3289,6 +3327,10 @@ the father of Rav Mari bar Raḥel
 the father of Rav Oshaya
 the father of Rav Pappa
 The father of Rav Yosef bar Ḥama
+the father of Shmuel
+The father of Shmuel
+the father of Shmuel bar Avin
+the father of Shmuel bar Rav Yitzḥak
 the father of the mother of Rav Aḥai, son of Rabbi Ḥanina
 The female slave in the house of Rabbi
 The governor
@@ -3423,11 +3465,14 @@ the people of Media
 the people of Meḥoza
 the people of Nineveh
 the people of Sekhavta
+the people of the Diaspora in Babylonia
 the people of the Galilee
 The people of the Galilee
 the people of the household of Rav Amram the pious
 the people of the household, of Rabena’a, brother of Rabbi Ḥiyya
 the people of the household, of Rav Amram the pious
+the people of the Lower Galilee
+the people of the South
 the people of the Upper Galilee
 the people of the West
 the people of Tiberias
@@ -3440,6 +3485,7 @@ the prominent men of Rome
 the prominent of Jerusalem
 the prominent of Rome
 The prominent women of Jerusalem
+The rabbis in Yavne
 the rabbis of Caesarea
 the rabbis of the court of Rav Ashi
 the Rabbis of the court of Rav Ashi
@@ -3512,6 +3558,7 @@ the school of Rabbi Yitzḥak bar Marta
 the school of Rabbi Yoḥanan
 the school of Rabbi Yoḥanan ben Zakkai
 the school of Rav
+The school of Rav
 the school of Rav Adda
 the school of Rav Anan
 the school of Rav Ashi
@@ -3638,6 +3685,7 @@ Toviyya the doctor
 Trajan
 Turnus Rufus
 Turnus Rufus the wicked
+Tutai
 Tuveya
 Tzafenat bat Peniel
 Tzimtzemai the queen
@@ -3675,6 +3723,7 @@ Yehoshua ben Peraḥya
 Yehoshua ben Uza’a
 Yehoshua ben Zeiruz
 Yehoshua ben Zeiruz, son of the father-in-law of Rabbi Meir
+Yehoshua of Uzza
 Yehoshua, son of Rabbi Akiva
 Yehuda
 Yehuda and Hillel, sons of Rabban Gamliel
@@ -3711,6 +3760,7 @@ Yehudit, wife of Rabbi Ḥiyya
 Yeimar bar Ḥashu
 Yeimar permits firstborn
 Yeiva, the father-in-law of Ashyan bar Nidbakh
+Yirmeya Bira’a
 Yishmael
 Yishmael ben Elisha
 Yishmael ben Pavi
@@ -3793,6 +3843,7 @@ Ze’eira’s wife
 Ze’eiri
 Ze’iri
 Ze’iri from Dihavat
+Ze’iri’s wife
 Zefer
 Zefer, the head of Geder
 Zeira
