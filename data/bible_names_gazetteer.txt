@@ -67,6 +67,7 @@ Asher
 Ashhur
 Avishai ben Tzeruya
 Avshalom
+Azael
 Azubah
 Baal
 Baasa, son of Ahijah
@@ -79,6 +80,7 @@ Balak king of Moab
 Barak
 Baruch ben Neriah
 Baruch, the son of Neriah
+Barzilai the Gileadite
 Barzillai the Gileadite
 Bathsheba
 Bathsheba, daughter of Eliam
@@ -89,6 +91,7 @@ Benaiah
 Benaiah ben Jehoiada
 Benaiah the son of Jehoiada
 Benaiah, son of Jehoiada
+Benayahu
 Benayahu ben Yehoyada
 Benayahu, son of Jehoiada
 Benjamin
@@ -264,6 +267,7 @@ Jerubaal
 Jesher
 Jesse
 Jesse, father of David
+Jethro
 Jezebel
 Joab
 Joab ben Zeruiah
@@ -314,6 +318,7 @@ Korah
 Laban
 Laban the Aramean
 Leah
+Lot’s wife
 Maachah
 Machir, son of Manasseh
 Madon
@@ -503,14 +508,21 @@ Talmai
 Tamar
 Teresh
 The astrologers of Pharaoh
+the daughter of Nebuchadnezzar
 the daughter of Pharaoh
 the generation of the dispersion
 the generation of the flood
 the Matriarchs
+The mother of Abraham
+The mother of David
+The mother of Haman
+The mother of Samson
+the mother of Sisera
 the Patriarchs
 the prophet Habakkuk
 the righteous Esther
 the righteous Mordecai
+the son of Bithiah
 the son of Manoah
 the spies
 the wicked Balak
@@ -518,9 +530,11 @@ the wicked Esau
 the wicked Haman
 the wicked Nebuchadnezzar
 the wicked Vashti
+the wife of Korah
 Timna
 Tzelelponit
 Uriah the Hittite
+Uzza
 Uzziah
 Vashti
 wicked Balaam
