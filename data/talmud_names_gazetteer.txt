@@ -1,4 +1,5 @@
 A certain apostate
+a certain apostate
 a certain Arab
 a certain Arab merchant woman
 a certain Arab woman
@@ -284,6 +285,7 @@ Avin bar Huna
 Avin from Nashikiya
 Avin from Tzippori
 Avin the fool
+Avin Toran
 Avitul the scribe
 Avtalyon
 Avtolemos
@@ -574,6 +576,7 @@ Gurya
 Guryon ben Asteyon
 Guryon of Asporak
 Guryon of Aspork
+Ḥabbarin
 Hadrian
 Ḥagga
 Ḥama bar Adda
@@ -581,6 +584,7 @@ Hadrian
 Ḥama, son of Rabba
 Ḥama, son of Rabba bar Abbahu
 Ḥama, son of Rabba bar Avuh
+Ḥamat
 HaModa’i
 Ḥana
 Ḥana bar Isak
@@ -669,6 +673,7 @@ Hurmiz
 Hyrcanus
 Hyrcanus, son of Rabbi Eliezer ben Hyrcanus
 Hyrcanus, the son of Rabbi Eliezer ben Hyrcanus
+Ifa
 Ifera Hurmiz
 Ifera Hurmiz, the mother of King Shapur
 Ifra Hormiz, mother of King Shapur
@@ -678,6 +683,7 @@ Ilfa
 Ilfai
 Imma Shalom
 Imma Shalom, the wife of Rabbi Eliezer
+Imrata bat Talei
 In the West
 Ishmaelites
 Isi
@@ -711,6 +717,7 @@ Ketia bar Shalom
 Ketia, son of Shalom
 Kharkemit, an emancipated maidservant in Jerusalem
 Kidor
+Kimḥit
 King Agrippa
 King Agrippas
 King Izgur
@@ -722,6 +729,7 @@ Kontrokos the officer
 Laḥman bar Ristak
 Laila
 Large-toothed one
+Lemedin
 Levi
 Levi bar Buti
 Levi bar Darga
@@ -875,6 +883,7 @@ Neḥemya, son of Rav Ḥanilai
 Neḥemya, the son-in-law of the <i>Nasi</i>
 Neḥemya, the son-in-law of the Nasi
 Neḥunya the digger of pits, ditches, and caves
+Neḥunya the ditch digger
 Nero
 Nero Caesar
 Netzer
@@ -1341,6 +1350,7 @@ Rabbi Ḥanina ben Gamla
 Rabbi Ḥanina ben Gamliel
 Rabbi Ḥanina ben Teradyon
 Rabbi Ḥanina from Sura
+Rabbi Ḥanina Ḥoza’a
 Rabbi Ḥanina Kara
 Rabbi Ḥanina of Ono
 Rabbi Ḥanina of Sura
@@ -2619,6 +2629,7 @@ Rav Pappa, son of Rav Ḥanan, from Bei Keloḥit
 Rav Pappa, son of Rav Ḥanin
 Rav Pappa, son of Rav Naḥman
 Rav Pappa, son of Rav Yosef
+Rav Pappa’s host
 Rav Pappa’s household
 Rav Pappa’s wife
 Rav Pappi
@@ -3091,6 +3102,7 @@ resident of Meḥoza
 resident of Naresh
 resident of Pappunya
 residents of Bei Mikhsi
+residents of Ḥozai
 Ridya
 Roman notables
 Romans
@@ -3274,6 +3286,7 @@ The daughters of Master Shmuel
 The daughters of Shmuel’s father
 The daughters-in-law of Abdan
 The descendants of Adin ben Yehuda
+the descendants of Adin ben Yehuda
 the descendants of Araḥ ben Yehuda
 the descendants of David ben Yehuda
 the descendants of Hillel
@@ -3282,6 +3295,8 @@ the descendants of Joab, son of Zeruiah
 the descendants of Jonadab ben Rechab
 the descendants of Keturah
 the descendants of Paḥat Moav ben Yehuda
+the descendants of Pahath Moab ben Yehuda
+The descendants of Pahath Moab ben Yehuda
 the descendants of Parosh
 the descendants of Parosh ben Yehuda
 the descendants of Salmai of Netophat
@@ -3298,7 +3313,9 @@ the Elders of Beit Hillel
 the elders of Beit Shammai
 The elders of Mata Meḥasya
 The elders of Pumbedita
+the elders of Pumbedita
 The Elders of the court
+the elders of the Jews
 the elders of the Negev
 the Elders of the priesthood
 the elders of the south
@@ -3407,6 +3424,7 @@ The inhabitants of Alexandria
 The inhabitants of Bashkar
 the inhabitants of Jerusalem
 the inhabitants of Meḥoza
+The inhabitants of Nineveh
 the inhabitants of Pumbedita
 the inhabitants of Tiberias
 the interpreter of Rav Ḥisda
@@ -3515,6 +3533,7 @@ The residents of Mata Meḥasya
 the residents of Mata Meḥasya
 the residents of Mavrakhta
 the residents of Meḥoza
+The residents of Pum Nahara
 the residents of the Diaspora
 the residents of the fortress of Shanvata
 the residents of the West
@@ -3531,6 +3550,7 @@ the Sages of the school of Rav Ashi
 the Sages of the study hall of Rav
 the Sages who came from Meḥoza
 the school Mar bar Rav Adda
+the school of Ayo
 The school of Elijah
 The school of Eliyahu
 the school of Ḥizkiya
@@ -3710,9 +3730,12 @@ Ulla bar Menashya
 Ulla bar Rav
 Ulla bar Yishmael
 Ulla Bira’a
+Ulla the Great
 Ulla, son of Rav Ilai
 Vardimas
 Vardimus, son of Rabbi Yosei
+Vatikin
+vatikin
 Vespasian Caesar
 Wise one
 Ya’akov from Karḥina
