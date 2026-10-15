@@ -1,5 +1,7 @@
 Ai
 Ammon
+Ashterot Karnayim
+Ashur
 Ba’al Shalisha
 Bashan
 Beth-El
@@ -11,7 +13,9 @@ Enaim
 Eshtaol
 Garden of Eden
 Gath
+Gibeah of Benjamin
 Gilgal
+Givon
 Horeb
 Kedesh
 Kiryat Arba
@@ -26,6 +30,7 @@ Ophel
 Paran
 Pithom
 Ramoth
+Ramoth Gilead
 Ramoth-Gilead
 Samaria
 Sheol
