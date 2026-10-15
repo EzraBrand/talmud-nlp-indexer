@@ -256,6 +256,7 @@ Golan
 Gomorrah
 Gova’ei
 Goza River
+Gozen
 Great Sea
 great spring of Beiram
 Greece
@@ -277,6 +278,7 @@ Hagrunya
 Haifa
 Ḥaifa
 Ḥakuk
+Ḥalzon
 Ḥamadan
 Ḥamatan
 Ḥamtan
@@ -305,6 +307,7 @@ Homanya
 hot springs of Tiberias
 house of Natzrefei
 House of the Swallowed
+Ḥozai
 Hurmiz Ardeshid
 Hutzal
 Hutzal deVinyamin
@@ -313,6 +316,7 @@ Ihi Dekira
 Inbal
 Inbul
 India
+Iron Mountain
 Ishtetit River
 islands [nissin] that are in the sea
 Italy of Greece
@@ -332,6 +336,7 @@ Kan Nishrayya
 Kandiya
 Kapotekiyya
 Karddu
+Karḥina
 Karkuza
 Karna deShizavta
 Kartigna
@@ -390,6 +395,7 @@ Leshem
 Lod
 Lower Appamya
 Luz
+Ma’ale Adumim
 Macedon
 Macedonia
 Makhnis
@@ -570,12 +576,14 @@ Tamud
 Tarmod
 Tatlefush
 Tavakh
+Teiman
 Tekoa
 Tel Arza
 Temple Mount
 the bridge over the Euphrates
 the Negev
 the sea towns
+the village of Shiḥin
 the West
 Tiberias
 Tiberius
@@ -611,6 +619,7 @@ Upper Galilee
 Ur of the Chaldeans
 Usha
 Uzza
+Va’ad
 valley of Aravot
 valley of Beit Ḥortan
 valley of Beit Mikle
