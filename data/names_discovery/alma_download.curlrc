@@ -1,0 +1,20 @@
+# Alma place-name map (ArcGIS, owner idowachtel_hugis; no licence stated, so not committed here).
+# Main records layer in pages of 2,000, plus the archaeology layer. Run from this folder:
+#   curl.exe -K alma_download.curlrc
+location
+create-dirs
+output-dir = "alma"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_all_records_web_mercator25_2_24/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=0"
+output = "alma_records_0.geojson"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_all_records_web_mercator25_2_24/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=2000"
+output = "alma_records_2000.geojson"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_all_records_web_mercator25_2_24/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=4000"
+output = "alma_records_4000.geojson"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_all_records_web_mercator25_2_24/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=6000"
+output = "alma_records_6000.geojson"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_all_records_web_mercator25_2_24/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=8000"
+output = "alma_records_8000.geojson"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_all_records_web_mercator25_2_24/FeatureServer/0/query?where=1%3D1&outFields=*&orderByFields=OBJECTID&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=10000"
+output = "alma_records_10000.geojson"
+url = "https://services1.arcgis.com/mPH9o04hKi8EZj1o/arcgis/rest/services/Alma_Arc_TAVO/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson"
+output = "alma_archaeology.geojson"

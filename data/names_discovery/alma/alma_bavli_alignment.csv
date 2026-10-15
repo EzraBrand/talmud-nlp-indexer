@@ -1,0 +1,207 @@
+﻿alma_place_english,alma_place_hebrew,alma_place_type,alma_bavli_records,aligned_records,existing_gazetteer_match,english_form_1,share_1,bavli_segments_with_form_1,translit_similarity_1,form_on_lists_1,english_form_2,share_2,bavli_segments_with_form_2,translit_similarity_2,form_on_lists_2,english_form_3,share_3,bavli_segments_with_form_3,translit_similarity_3,form_on_lists_3,confidence,status
+Jerusalem,ירושלים,city,373,351,talmud_toponyms,Jerusalem,0.99,984,1.0,talmud_toponyms,Jeremiah,0.08,363,0.67,bible_names,Psalms,0.11,975,0.67,,high,already_toponym
+Erets Yisrael,ארץ ישראל,country,279,266,nations:Eretz Yisrael; talmud_toponyms:Eretz Yisrael,Eretz Yisrael,1.0,1702,1.0,nations_and_demonyms; talmud_toponyms,Israel,0.09,1494,0.75,nations_and_demonyms,Babylonia,0.33,791,0.25,nations_and_demonyms; talmud_toponyms,high,already_toponym
+Babylon,בבל,city,177,175,nations,Babylonia,0.97,791,0.88,nations_and_demonyms; talmud_toponyms,Eretz Yisrael,0.62,1702,0.4,nations_and_demonyms; talmud_toponyms,Babel,0.01,7,1.0,,high,already_toponym
+Mitsrayim,מצרים,country,151,150,,Egypt,0.99,414,0.31,bible_places; nations_and_demonyms,Mitzrayim,0.01,1,1.0,,Mizraim,0.01,3,1.0,,high,already_toponym
+Sinai,סיני,region,146,145,bible_places,Sinai,1.0,358,1.0,bible_places,Moses,0.53,1160,0.5,bible_names,Mount,0.43,330,0.4,,high,already_toponym
+Tiberias,טבריה,city,89,89,talmud_toponyms,Tiberias,0.94,93,1.0,talmud_toponyms,Tzippori,0.36,89,0.53,talmud_toponyms,Gerar,0.17,4,0.46,talmud_toponyms,high,already_toponym
+Galil,גליל,region,80,78,,Galilee,0.99,106,1.0,talmud_toponyms,Judea,0.77,168,0.2,nations_and_demonyms; talmud_toponyms,HaGelili,0.08,380,1.0,,high,already_toponym
+Yehudah,יהודה,country,80,80,,Judea,0.86,168,1.0,nations_and_demonyms; talmud_toponyms,Yehuda,0.82,8847,1.0,talmud_names,Galilee,0.59,106,0.17,talmud_toponyms,high,already_toponym
+Yarden,ירדן,river,74,69,,Jordan,0.87,118,1.0,talmud_toponyms,River,0.55,128,0.36,,Transjordan,0.22,18,0.6,talmud_toponyms,high,already_toponym
+Tsippori,ציפורי,city,66,66,talmud_toponyms:Tzippori,Tzippori,1.0,89,1.0,talmud_toponyms,Tiberias,0.29,93,0.53,talmud_toponyms,Zeira,0.08,942,0.8,talmud_names,high,already_toponym
+Rome,רומא,city,56,47,talmud_toponyms; nations,Rome,0.87,91,1.0,nations_and_demonyms; talmud_toponyms,Roman,0.36,100,0.8,nations_and_demonyms,Romi,0.02,1,1.0,,high,already_toponym
+Har ha-Bayit,הר הבית,mountain,45,45,,Temple Mount,0.96,112,0.33,talmud_toponyms,Hearth,0.11,23,0.8,,Raḥava,0.07,43,0.8,talmud_names,high,already_toponym
+Yavneh,יבנה,village,44,42,talmud_toponyms:Yavne,Yavne,0.98,75,1.0,talmud_toponyms,Yoḥanan,0.31,5224,0.67,,Bnei,0.02,7,1.0,,high,already_toponym
+Shiloh,שילה,village,39,38,bible_places,Shiloh,0.92,76,1.0,bible_places,Eternal House,0.47,7,0.67,,Tabernacle,0.82,368,0.25,,high,already_toponym
+Jericho,יריחו,city,39,37,talmud_toponyms,Jericho,0.97,59,1.0,talmud_toponyms,Abiram,0.16,13,0.4,bible_names,Eretz,0.3,1713,0.5,,high,already_toponym
+Usha,אושה,city,36,35,talmud_toponyms,Usha,0.94,57,1.0,talmud_toponyms,Yosei,0.4,3313,1.0,,Sar,0.09,7,0.67,,high,already_toponym
+Lod,לוד,city,29,29,talmud_toponyms,Lod,0.97,49,1.0,talmud_toponyms,Lud,0.03,1,1.0,,Elders,0.14,186,0.67,,high,already_toponym
+Syria,סוריה,country,25,25,talmud_toponyms,Syria,1.0,42,1.0,talmud_toponyms,Yisrael,0.76,1707,0.8,,Eretz,0.76,1713,0.5,,high,already_toponym
+Tsidon,צידון,city,24,22,,Tzaidan,0.68,22,1.0,talmud_toponyms,Sidon,0.27,10,0.73,talmud_toponyms,Shimon,0.73,4995,0.55,,high,already_toponym
+Akko,עכו,city,24,24,talmud_toponyms,Akko,1.0,49,1.0,talmud_toponyms,Ashkelon,0.21,15,0.6,talmud_toponyms,Rekem,0.17,9,0.5,talmud_toponyms,high,already_toponym
+Dead Sea,ים המלח,sea_lake,24,23,talmud_toponyms,Dead Sea,1.0,52,1.0,talmud_toponyms,HaMelaḥ,0.04,1,0.8,,Yam,0.04,2,0.5,,high,already_toponym
+Hebron,חברון,city,22,22,talmud_toponyms,Hebron,1.0,39,1.0,talmud_toponyms,Absalom,0.45,55,0.31,bible_names,Canaan,0.41,63,0.33,bible_places,high,already_toponym
+Alexandria,אלכסנדריה,city,21,21,talmud_toponyms,Alexandria,1.0,34,1.0,talmud_toponyms,Egypt,0.81,414,0.27,bible_places; nations_and_demonyms,Nicanor,0.14,18,0.6,,high,already_toponym
+Nob,נוב,city,20,20,talmud_toponyms,Nov,0.75,29,1.0,talmud_toponyms,Eternal House,0.5,7,0.29,,Gibeon,0.5,28,0.4,talmud_toponyms,high,already_toponym
+Neapolis,שכם,city,16,16,,Shechem,1.0,25,1.0,talmud_toponyms,Mount Judea,0.31,1,0.33,talmud_toponyms,Mount Naphtali,0.31,1,0.4,talmud_toponyms,high,already_toponym
+Perat,פרת,river,16,16,,Euphrates,0.81,45,0.86,talmud_toponyms,Waters,0.38,1,0.36,,Ashur,0.38,2,0.4,,high,already_toponym
+Givon,גיבעון,village,15,14,,Gibeon,0.86,28,1.0,talmud_toponyms,Eternal House,0.64,7,0.25,,Nov,0.64,29,0.4,talmud_toponyms,high,already_toponym
+Galgala,גלגלה,city,14,12,,Gilgal,1.0,35,1.0,bible_places,Tent of Meeting,0.58,234,0.25,,Tabernacle,0.5,368,0.24,,high,already_toponym
+Gaza,עזה,city,13,13,talmud_toponyms,Gaza,1.0,18,1.0,talmud_toponyms,Uzziah,0.31,9,1.0,bible_names,Gehazi,0.31,22,0.67,bible_names,high,already_toponym
+Moab,מואב,country,13,13,bible_places; nations,Moab,1.0,93,1.0,bible_names; bible_places; nations_and_demonyms,Ammon,0.38,37,0.5,bible_places; nations_and_demonyms,Moses,0.62,1160,0.5,bible_names,high,already_toponym
+Red Sea,ים סוף,sea_lake,13,13,,Red Sea,1.0,34,1.0,,Messiah,0.38,118,0.8,bible_names,Sheizvi,0.38,20,0.36,,high,new_toponym_candidate
+Bashan,בשן,region,13,13,bible_places,Bashan,1.0,23,1.0,bible_places,Og,0.85,18,0.0,bible_names,Did Rabbi Shimon,0.15,4,0.75,,high,already_toponym
+Bethphage,בית פגיא,village,12,0,,,,,,,,,,,,,,,,,low,no_alignment
+Bethther,ביתר,city,12,12,,Beitar,1.0,14,1.0,talmud_toponyms,Yavne,0.5,75,0.4,talmud_toponyms,Hadrian,0.33,9,0.33,talmud_names,high,already_toponym
+Sereda,צרדה,village,11,11,,Yo’ezer of Tzereida,1.0,13,1.0,,Yoḥanan of Jerusalem,0.45,3,0.29,,Earlier the Gemara,0.27,1,0.38,,high,new_toponym_candidate
+Gedur,גדור,city,10,5,,Geder,0.8,9,1.0,talmud_toponyms,Gader,0.2,2,1.0,talmud_toponyms,Ḥamtan,0.4,8,0.0,talmud_toponyms,high,already_toponym
+Har Gerizim,הר גריזים,mountain,10,10,,Mount Gerizim,1.0,26,0.89,talmud_toponyms,Mount Ebal,0.5,22,0.2,talmud_toponyms,Samaritans,0.5,118,0.3,talmud_names,high,already_toponym
+Caesarea,קיסריה,city,10,9,talmud_toponyms,Caesarea,1.0,24,1.0,talmud_toponyms,Because Tyre,0.44,2,0.75,,Shir,0.44,2,0.8,,high,already_toponym
+Tsor,צור,country,10,10,,Tyre,0.7,31,0.5,talmud_toponyms,Tzerifin,0.2,4,0.67,,Sokher,0.2,7,0.44,,high,already_toponym
+Antiochia,אנטיוכיה,city,10,9,,Antioch,0.78,9,1.0,talmud_toponyms,Antokhya,0.22,2,1.0,talmud_toponyms,HaBira,0.22,5,0.43,,high,already_toponym
+Upper Beth Horon,בית חורון עליון,village,9,6,,Beit Ḥoron,1.0,11,0.78,talmud_toponyms,King of Bashan,0.17,2,0.4,,Arnon,0.17,7,0.44,,high,already_toponym
+Medea,מדי,country,9,9,talmud_toponyms,Media,0.67,21,1.0,talmud_toponyms,Ḥamadan,0.22,2,0.8,talmud_toponyms,Medes,0.22,8,0.8,talmud_names,high,already_toponym
+Modiin,מודיעין,village,9,1,,Modi’im,1.0,9,0.8,talmud_toponyms,Indeed,1.0,470,0.4,,Consequently,1.0,2056,0.24,,high,already_toponym
+Shushan,שושן,city,9,9,bible_places,Shushan,1.0,22,1.0,bible_places,Ahasuerus,0.44,84,0.43,bible_names,Joshua,0.33,332,0.67,bible_names,high,already_toponym
+Shikhin,שיחין,village,9,9,,Shiḥin,0.89,8,0.8,talmud_toponyms,Ḥananya,0.56,239,0.5,talmud_names,Metal,0.33,2,0.0,,high,already_toponym
+Borsippa,בורסיפה,city,9,4,,Bursif,1.0,4,1.0,talmud_toponyms,Resen,0.5,1,0.57,,Rehoboth-ir,0.5,1,0.5,,high,already_toponym
+Beth She'arim,בית שערים,village,9,8,,Beit She’arim,1.0,8,1.0,talmud_toponyms,Tzippori,0.88,89,0.38,talmud_toponyms,Shefaram,0.25,3,0.67,talmud_toponyms,high,already_toponym
+Asya,אסיא,village,8,3,talmud_toponyms,Asya,1.0,9,1.0,talmud_toponyms,Asia,0.67,6,1.0,talmud_toponyms,Minor,0.67,11,0.22,,high,already_toponym
+Cappadocia,קפדוקיה,country,8,4,talmud_toponyms,Cappadocia,1.0,12,1.0,talmud_toponyms,Shimon the Priest,0.25,1,0.25,,Alexandria,0.25,34,0.53,talmud_toponyms,high,already_toponym
+Nineveh,ננוה,city,8,6,talmud_toponyms,Nineveh,0.83,15,1.0,talmud_toponyms,Jonah,0.5,29,1.0,bible_names,Perat of Meishan,0.33,1,0.5,talmud_toponyms,high,already_toponym
+Pameyas,פיניאס,city,8,4,,Meir the Jordan,1.0,1,0.44,,Cave of Pamyas,1.0,4,0.67,talmud_toponyms,Lake Hula,1.0,1,0.4,,high,new_toponym_candidate
+Ono,אונו,village,8,7,talmud_toponyms,Ono,0.71,13,1.0,talmud_toponyms,Nun,0.29,66,1.0,,Yoḥanan,0.43,5224,1.0,,high,already_toponym
+Zion,ציון,location,8,8,bible_places,Zion,1.0,85,1.0,bible_places,Psalm of Asaph,0.62,2,0.13,,Out,0.62,35,0.29,,high,already_toponym
+Elam,עילם,country,8,8,nations,Eilam,0.75,8,1.0,talmud_toponyms,Song of Songs,0.62,107,0.0,,Media,0.38,21,0.5,talmud_toponyms,high,already_toponym
+Kefar Hanania,כפר חנניה,village,8,8,,Ḥananya,0.75,239,0.67,talmud_names,Shiḥin,0.5,8,0.29,talmud_toponyms,Kefar Hino,0.25,1,0.89,talmud_toponyms,high,on_names_list_only
+Arabia,ערביא,country,7,7,talmud_toponyms; nations,Arabia,1.0,8,1.0,nations_and_demonyms; talmud_toponyms,Bekhi,0.14,1,0.5,,Nashra,0.14,1,0.55,,high,already_toponym
+Ascalon,אשקלון,city,7,7,,Ashkelon,1.0,15,1.0,talmud_toponyms,Netina,0.43,8,0.29,,HaKatzav,0.43,13,0.29,,high,already_toponym
+Gennesar,גינוסר,city,7,7,,Ginnosar,0.43,2,1.0,talmud_toponyms,Ginosar,0.29,2,1.0,talmud_toponyms,Genosar,0.29,5,1.0,talmud_toponyms,medium,already_toponym
+Gibeah,גבעה,city,7,7,,Gibeah,0.86,14,1.0,,Benjamin,0.57,80,0.73,bible_names,Judges,0.57,161,0.4,,high,new_toponym_candidate
+Kedesh,קדש,city,7,7,bible_places,Kadesh,1.0,9,1.0,talmud_toponyms,Mount Judea,0.57,1,0.5,talmud_toponyms,Mount Naphtali,0.57,1,0.0,talmud_toponyms,high,already_toponym
+Scythopolis/Nysa,בית שאן,city,7,7,,Beit She’an,1.0,14,1.0,talmud_toponyms,Eretz Yisrael,0.57,1702,0.31,nations_and_demonyms; talmud_toponyms,Jew’s,0.29,87,0.67,,high,already_toponym
+Har Eval,הר עיבל,mountain,6,6,,Ebal,0.83,22,0.8,,Mount Gerizim,0.83,26,0.29,talmud_toponyms,Eival,0.17,2,0.8,,high,new_toponym_candidate
+Har ha-Melekh,הר המלך,mountain,6,6,talmud_toponyms,King’s Mountain,1.0,9,0.25,talmud_toponyms,King Yannai,0.67,14,0.25,talmud_names,Har HaMelekh,0.17,1,1.0,talmud_toponyms,high,already_toponym
+Achziv,אכזיב,village,6,4,,Keziv,1.0,5,1.0,talmud_toponyms,Akko,1.0,49,0.5,talmud_toponyms,Akiva’s,0.5,145,0.73,,high,already_toponym
+Africa,אפריקה,country,6,5,talmud_toponyms; nations,Afriki,0.6,4,1.0,talmud_toponyms,Katfei,0.4,2,0.36,talmud_toponyms,Afrikei,0.2,1,1.0,talmud_toponyms,high,already_toponym
+Carmel,כרמל,mountain,6,6,talmud_toponyms,Carmel,1.0,11,1.0,talmud_toponyms,Mount,0.83,330,0.29,,Miriam’s,0.33,12,0.5,,high,already_toponym
+Sakhnin,סכנין,city,6,6,,Tzippori,0.83,89,0.15,talmud_toponyms,Ya’akov of Kefar Sekhanya,0.33,1,1.0,talmud_names,Sikhni,0.33,3,1.0,,high,already_toponym
+Nisibis,נציבין,city,6,6,,Netzivin,1.0,9,1.0,talmud_toponyms,Beteira,0.83,197,0.29,,Romans,0.5,63,0.31,talmud_names,high,already_toponym
+Dan,דן,city,6,6,talmud_toponyms,Dan,1.0,31,1.0,talmud_toponyms,Divine Spirit,0.5,28,0.44,,Bethel,0.5,14,0.0,bible_places,high,already_toponym
+Bene Beraq,בני ברק,village,6,6,talmud_toponyms:Benei Berak,Bnei Brak,0.83,7,1.0,talmud_toponyms,Benei Berak,0.17,2,1.0,talmud_toponyms,Akiva,0.67,2028,0.29,talmud_names,high,already_toponym
+Kefar Shhalim,כפר שחלים,village,6,2,,Kefar Shiḥalayim,1.0,1,0.92,talmud_toponyms,Kefar Bish,1.0,1,0.67,talmud_toponyms,Kefar Dikhrayya,1.0,1,0.64,talmud_toponyms,high,already_toponym
+Beit El,בית אל,village,6,6,bible_places:Beth-El; bible_places:Bethel,Bethel,0.83,14,1.0,bible_places,O Judah,0.5,2,0.0,,Beth-El,0.17,4,1.0,bible_places,high,already_toponym
+Hispania,היספניא,country,5,4,,Spain,0.5,5,1.0,talmud_toponyms,Aspamia,0.25,1,0.67,talmud_toponyms,Apple,0.25,1,0.4,,medium,already_toponym
+Ashur,אשור,country,5,5,,Scribes,0.6,5,0.57,,Asshur,0.2,2,1.0,,Ashur,0.2,2,1.0,,high,new_toponym_candidate
+Badan,בדן,village,5,2,,Badan,1.0,6,1.0,,Different,0.5,7,0.5,,Perekh,0.5,4,0.0,,high,new_toponym_candidate
+Nahal Qidron,נחל קדרון,valley,5,4,,Kidron,1.0,16,0.73,,Maacah,0.5,3,0.27,,River,0.75,128,0.25,,high,new_toponym_candidate
+Nehardea,נהרדעא,city,5,5,talmud_toponyms,Neharde’a,1.0,233,1.0,talmud_toponyms,Androlinai,0.4,1,0.5,,Nesia,0.4,47,0.46,,high,already_toponym
+Samaria,שומרון,region,5,5,bible_places; nations,Samaria,0.6,19,1.0,bible_places; nations_and_demonyms,Maryon,0.4,8,0.86,,Har HaBarzel,0.4,1,0.35,talmud_toponyms,high,already_toponym
+Reqem,רקם,village,5,5,talmud_toponyms:Rekem,Rekem,1.0,9,1.0,talmud_toponyms,Eretz Yisrael,0.8,1702,0.38,nations_and_demonyms; talmud_toponyms,Ashkelon,0.4,15,0.33,talmud_toponyms,high,already_toponym
+Shiloah,שילוח,location,5,3,,Siloam,1.0,11,0.91,talmud_toponyms,Alexandria,0.33,34,0.27,talmud_toponyms,Similarly,0.33,1077,0.57,,high,already_toponym
+Tsofim,צופים,mountain,5,5,,Mount Scopus,1.0,6,0.35,talmud_toponyms,Tzofim,0.6,3,1.0,,Limiting,0.4,1,0.29,,high,already_toponym
+Ammon,עמון,city,5,5,bible_places; nations,Ammon,1.0,37,1.0,bible_places; nations_and_demonyms,Moab,1.0,93,0.5,bible_names; bible_places; nations_and_demonyms,First Temple,0.6,76,0.33,,high,already_toponym
+Antipatris,אנטיפטריס,city,5,2,talmud_toponyms,Antipatris,1.0,6,1.0,talmud_toponyms,Gevat,0.5,3,0.27,talmud_toponyms,Alexander,0.5,23,0.33,talmud_names,high,already_toponym
+Kefar Barkai,כפר ברקאי,village,5,5,,Yissakhar of Kfar Barkai,1.0,4,1.0,talmud_names,Lambs,0.6,20,0.27,,Pardes Rimonim,0.4,1,0.43,,high,on_names_list_only
+Gamla,גמלא,city,4,4,talmud_toponyms,Gamla,1.0,15,1.0,talmud_toponyms,Gedod,1.0,4,0.4,talmud_toponyms,Ḥadid,1.0,4,0.2,talmud_toponyms,high,already_toponym
+Har ha-Barzel,הר הברזל,mountain,4,4,talmud_toponyms,Hinnom,1.0,3,0.13,,Maryon,1.0,8,0.25,,Iron Mountain,0.75,5,0.18,,high,new_toponym_candidate
+Teqo'a,תקוע,village,4,3,talmud_toponyms:Tekoa,Tekoa,1.0,9,1.0,talmud_toponyms,Beit Hini,0.33,4,0.4,talmud_toponyms,Gush Ḥalav,0.33,5,0.17,talmud_toponyms,high,already_toponym
+Cabul,כבול,village,4,4,,Kabul,0.5,2,1.0,talmud_toponyms,Kavul,0.5,4,1.0,talmud_toponyms,Kings,0.75,460,0.29,,medium,already_toponym
+Moriah,מוריה,mountain,4,4,,Moriah,1.0,8,1.0,,Mount,1.0,330,0.4,,Redeemer of Israel,0.5,8,0.4,,high,new_toponym_candidate
+Ganzak,גנזק,city,4,4,,Ginzak,1.0,7,1.0,talmud_toponyms,Gozan,0.5,3,0.57,,Ḥamadan,0.5,2,0.31,talmud_toponyms,high,already_toponym
+Ramah (Benjamin),רמה (בנימין),settlement,4,4,,Saul,1.0,136,0.11,bible_names,Naioth,0.5,1,0.25,,Samuel of Rama,0.5,6,0.5,bible_names,high,on_names_list_only
+Shephar'am,שפרעם,city,4,4,talmud_toponyms:Shefaram,Shefaram,1.0,3,1.0,talmud_toponyms,Usha,1.0,57,0.4,talmud_toponyms,She’arim,0.5,8,0.86,,high,already_toponym
+Thapsacus,תפסאקוס,city,4,4,,Tiphsah,1.0,3,0.75,talmud_toponyms,Gaza,1.0,18,0.33,talmud_toponyms,Solomon,1.0,261,0.22,bible_names,high,already_toponym
+Gaggot Tsrifin,גתות צריפין,village,4,1,,Gaggot Tzerifin,1.0,3,0.96,talmud_toponyms,Gaggot Tzerifim,1.0,2,0.87,talmud_toponyms,Tzerifin Gaggot,1.0,1,0.62,talmud_toponyms,high,already_toponym
+Baalbek,בעלבק,village,3,3,,Ein Bekhi,1.0,1,0.67,,Nadbekha,1.0,1,0.62,,Natbera,1.0,1,0.46,,high,new_toponym_candidate
+Idumaea,אדום,country,3,3,,Edom,0.67,36,1.0,nations_and_demonyms; talmud_toponyms,Talmudic,0.33,1,0.29,,Leshem,0.33,2,0.4,talmud_toponyms,high,already_toponym
+Emmaus,אמאוס,village,3,1,talmud_toponyms,Emma’um,1.0,1,0.8,talmud_toponyms,House of Happegarim,1.0,1,0.33,,House of Tzipperaya,1.0,1,0.29,,high,already_toponym
+Biqat Ein Sychar,בקעת עין סוכר,valley,3,3,,Ein Sokher,1.0,7,0.73,talmud_toponyms,Cursed,1.0,22,0.36,,Gaggot Tzerifim,0.67,2,0.29,talmud_toponyms,high,already_toponym
+Germania,גרמניא,country,3,3,,Germamya,1.0,3,0.88,talmud_toponyms,Beit Teraiki,0.67,1,0.5,talmud_toponyms,Beit Unaiki,0.67,1,0.38,talmud_toponyms,high,already_toponym
+Gischala,גוש חלב,village,3,1,,Gush Ḥalav,1.0,5,0.89,talmud_toponyms,Beit Hini,1.0,4,0.25,talmud_toponyms,Tekoa,1.0,9,0.33,talmud_toponyms,high,already_toponym
+Gamzo,גמזו,village,3,3,,Naḥum of Gam,1.0,13,0.8,,Gam Zu,0.67,7,1.0,,Gam Zo,0.33,5,1.0,,high,new_toponym_candidate
+Kefar Othnai,כפר עותנאי,city,3,3,talmud_toponyms:Kefar Otnai,Otnai,1.0,7,0.62,,Kefar,0.33,23,0.75,,Antipatris,0.33,6,0.36,talmud_toponyms,high,new_toponym_candidate
+Lidqeya,לדקיא,city,3,3,,Laodicea,0.67,6,1.0,talmud_toponyms,Luleyanus,0.33,2,0.5,talmud_names,Trajan’s Day,0.33,6,0.5,,high,already_toponym
+Tadmor,תדמור,city,3,2,talmud_toponyms,Tarmod,1.0,12,0.67,talmud_toponyms,First Temple,1.0,76,0.5,,Elders,1.0,186,0.5,,high,already_toponym
+Tivon,טיבון,village,3,3,,Tivonin,0.33,1,1.0,talmud_toponyms,Tiv’in,0.33,1,1.0,talmud_toponyms,Tivin,0.33,1,1.0,,low,already_toponym
+Tsoar,צוער,city,3,3,talmud_toponyms:Tzoar,Tzoar,0.67,4,1.0,talmud_toponyms,Zoar,0.33,4,1.0,,Judea,0.67,168,0.2,nations_and_demonyms; talmud_toponyms,high,already_toponym
+Lebanon,לבנון,country,3,2,,Lebanon,1.0,20,1.0,,Levanon,0.5,1,1.0,,Toviya,1.0,25,0.4,,high,new_toponym_candidate
+Jaffa,יפו,city,3,3,talmud_toponyms,Jaffa,1.0,7,1.0,talmud_toponyms,Eventually,0.67,21,0.15,,Akko,0.67,49,0.29,talmud_toponyms,high,already_toponym
+Gevat,גבת,village,3,3,talmud_toponyms,Gevat,1.0,3,1.0,talmud_toponyms,Antipatris,0.67,6,0.27,talmud_toponyms,Beersheba,0.33,7,0.33,talmud_toponyms,high,already_toponym
+Galia,גליה,country,3,3,talmud_toponyms,Galia,1.0,3,1.0,talmud_toponyms,Hispania,0.33,1,0.46,,Genesis,0.67,947,0.4,,high,already_toponym
+Cyprus,קפריסין,country,3,3,talmud_toponyms,Cyprus,1.0,2,1.0,talmud_toponyms,Costus,1.0,1,0.5,,Kersannah,1.0,2,0.89,,high,already_toponym
+Kishon,קישון,river,3,3,,Kishon,1.0,5,1.0,,Egyptians,1.0,56,0.29,talmud_names,Sisera’s,0.67,3,0.33,,high,new_toponym_candidate
+Rimon,רימון,village,3,3,talmud_toponyms,Rimon,1.0,3,1.0,talmud_toponyms,Leviticus,0.67,4369,0.14,,Yehuda,0.33,8847,0.18,talmud_names,high,already_toponym
+Hula Lake,אגם החולה,sea_lake,3,3,,Hula,1.0,2,0.67,,Lake,1.0,2,0.67,,Sea of Galilee,1.0,7,0.67,,high,new_toponym_candidate
+Bror Hayil,ברור חיל,village,3,3,,Burni,1.0,1,0.57,talmud_toponyms,Beror Ḥayil,1.0,3,0.93,talmud_toponyms,Romi,1.0,1,0.55,,high,already_toponym
+Har Hamishha,הר המשחה,undefined,3,3,talmud_toponyms,Mount of Olives,1.0,18,0.36,talmud_toponyms,Har HaMishḥa,0.33,1,1.0,talmud_toponyms,Eastern Wall,0.33,2,0.33,,high,already_toponym
+Adiabene,חדייב,country,3,1,talmud_toponyms,Ḥadyab,1.0,3,0.8,talmud_toponyms,Ḥidkei,1.0,1,0.4,talmud_toponyms,Domakya,1.0,1,0.4,talmud_toponyms,high,already_toponym
+Brundisium,ברינדיזיום,city,2,0,,,,,,,,,,,,,,,,,low,no_alignment
+Lower Beth Horon,בית חורון תחתון,village,2,2,,Beit Meron,0.5,1,0.6,talmud_toponyms,Beit Maron,0.5,1,0.6,talmud_toponyms,On Rosh HaShana,0.5,14,0.36,,medium,already_toponym
+Damascus,דמשק,city,2,1,talmud_toponyms,Damascus,1.0,6,1.0,talmud_toponyms,Aram,1.0,15,0.33,nations_and_demonyms,Ahaz,1.0,26,0.33,bible_names,high,already_toponym
+Biqat Bet Kerem (Galil),בקעת בית הכרם,valley,2,2,,Beit Kerem Valley,1.0,3,0.67,talmud_toponyms,Yodfat Valley,1.0,1,0.39,talmud_toponyms,Sikhnei Valley,1.0,1,0.4,talmud_toponyms,high,already_toponym
+Gai Ben Hinnom,גיא בן הינום,region,2,1,,Hinnom,1.0,3,0.67,,Iron Mountain,1.0,5,0.4,,Maryon,1.0,8,0.29,,medium,new_toponym_candidate
+ha-Birah,הבירה,location,2,2,,Your,1.0,723,0.67,,Temple Mount,1.0,112,0.0,talmud_toponyms,Chronicles,1.0,248,0.25,,high,new_toponym_candidate
+Italy,איטליה,country,2,1,,Greek Italy,1.0,1,1.0,talmud_toponyms,Ulla,1.0,765,0.67,talmud_names,Roman,1.0,100,0.2,nations_and_demonyms,high,already_toponym
+Hedud,חדוד,village,2,2,,Ḥadid,1.0,4,0.67,talmud_toponyms,Gedod,1.0,4,0.6,talmud_toponyms,Transjordan,1.0,18,0.22,talmud_toponyms,high,already_toponym
+Kefar Amiqo,כפר עמיקו,village,2,1,,Amiko,1.0,1,0.67,,,,,,,,,,,,medium,new_toponym_candidate
+Mikhvar,מכוור,city,2,2,talmud_toponyms,Kayar,0.5,1,0.8,talmud_toponyms,Ḥarim,0.5,1,0.4,talmud_toponyms,Torches,0.5,2,0.29,,medium,already_toponym
+Mizpeh,מצפה,village,2,2,,Ish HaMitzpa,1.0,5,1.0,,Shimon Ish,1.0,5,0.33,,Yoma,0.5,43,0.5,,high,new_toponym_candidate
+Pegae,פיגיאה,location,2,2,,Piga,0.5,2,1.0,talmud_toponyms,Running,0.5,4,0.33,,Keramiyyon River,0.5,1,0.32,,medium,already_toponym
+Qarmion,קרמיון,location,2,2,,Piga,1.0,2,0.18,talmud_toponyms,Keiromyon,0.5,1,1.0,talmud_toponyms,Keramiyyon,0.5,1,1.0,talmud_toponyms,high,already_toponym
+Sevasti,סבסטיה,city,2,2,,Sebastia,1.0,2,1.0,talmud_toponyms,Both,1.0,543,0.67,,Leviticus,1.0,4369,0.5,,high,already_toponym
+Yavan,יוון,country,2,2,,Italy,1.0,2,0.4,,Dan,0.5,31,0.67,talmud_toponyms,Roman,0.5,100,0.5,nations_and_demonyms,high,new_toponym_candidate
+Pi-Rameses,פי רעמסס,city,2,2,,Raamses,1.0,3,0.86,,Pithom,1.0,3,0.57,bible_places,Because,1.0,823,0.38,,high,new_toponym_candidate
+Ctesiphon,קטסיפון,city,2,0,,,,,,,,,,,,,,,,,low,no_alignment
+Haifa,חיפה,village,2,2,talmud_toponyms; talmud_toponyms,Ḥaifa,0.5,1,1.0,talmud_toponyms,Beit Haifa,0.5,1,0.67,talmud_toponyms,Promontory of Tyre,0.5,1,0.4,talmud_toponyms,medium,already_toponym
+Chorazin,כורזים,village,2,2,,Kerazayim,0.5,1,1.0,talmud_toponyms,Kefar Aḥim,0.5,1,0.75,talmud_toponyms,Gei HeḤarashim,0.5,1,0.57,talmud_toponyms,medium,already_toponym
+Ekron,עקרון,city,2,2,talmud_toponyms,Baal of Ekron,1.0,1,1.0,,Baal Berit,1.0,1,0.33,,Zevuv,1.0,1,0.2,,high,new_toponym_candidate
+Naresh,נרש,city,2,2,,Neresh,1.0,23,1.0,talmud_toponyms,Oh,1.0,8,0.0,,Apropos,1.0,334,0.57,,high,already_toponym
+Kefar Karnos,כפר קרנוס,village,2,0,,,,,,,,,,,,,,,,,low,no_alignment
+Ruma,רומא,village,2,1,,Aroma,1.0,1,1.0,talmud_toponyms,Siḥin,1.0,1,0.0,,Guryon,1.0,18,0.4,,high,already_toponym
+Beit Yerah,בית ירח,village,2,2,,Beit Jericho,1.0,2,0.75,talmud_toponyms,Meir the Jordan River,1.0,1,0.57,,Lake Hula,1.0,1,0.27,,high,already_toponym
+Kefar Bish,כפר ביש,undefined,2,2,talmud_toponyms,Kefar Bish,1.0,1,1.0,talmud_toponyms,Kefar Shiḥalayim,1.0,1,0.73,talmud_toponyms,Kefar Dikhrayya,1.0,1,0.6,talmud_toponyms,high,already_toponym
+Kefar Dachrin,כפר דכרין,village,2,2,,Kefar Dikhrayya,1.0,1,0.92,talmud_toponyms,Kefar Bish,1.0,1,0.63,talmud_toponyms,Kefar Shiḥalayim,1.0,1,0.58,talmud_toponyms,high,already_toponym
+Sulam Zor,סולם צור,mountain,2,1,,Ladder of Tyre,1.0,5,0.42,talmud_toponyms,Gamliel,1.0,1458,0.27,talmud_names,,,,,,medium,already_toponym
+Kefar Tabi,כפר טבי,village,2,2,,Tavi,1.0,35,0.57,talmud_names,Hyrcanus,1.0,16,0.22,talmud_names,Zakkai,1.0,180,0.31,,high,on_names_list_only
+Kefar Samai,כפר סמאי,village,2,0,,,,,,,,,,,,,,,,,low,no_alignment
+Apamea,אפמיאה,city,1,1,,Safra,1.0,176,0.4,talmud_names,Sura,1.0,95,0.2,talmud_toponyms,Once,1.0,802,0.2,,medium,on_names_list_only
+Bozrah,בצרה,city,1,1,talmud_toponyms,Bozrah,1.0,3,1.0,talmud_toponyms,Bezer,1.0,5,1.0,talmud_toponyms,Rome,1.0,91,0.4,nations_and_demonyms; talmud_toponyms,high,already_toponym
+Aqraba,עקרבא,village,1,1,,Akrabat,1.0,2,0.92,talmud_toponyms,Eilat,1.0,2,0.2,talmud_toponyms,Jordan,1.0,118,0.33,talmud_toponyms,high,already_toponym
+Bet Namer,בית נמר,city,1,1,,Namer,1.0,1,0.77,talmud_toponyms,Namori,1.0,1,0.75,talmud_toponyms,Jordan River,1.0,44,0.5,talmud_toponyms,high,already_toponym
+Bartuta,כפר תותא,village,1,1,,Yehuda of Bartota,1.0,2,0.75,,Teruma,1.0,36,0.29,,Passover,1.0,774,0.5,,high,new_toponym_candidate
+Bet Dli,בית דלי,village,1,1,talmud_toponyms:Beit D’li,Beit D’li,1.0,3,1.0,talmud_toponyms,Neḥemya of Beit,1.0,3,0.67,,Gamliel the Elder,1.0,17,0.5,,high,already_toponym
+Elon Moreh,אלון מורה,village,1,1,,Moreh,1.0,4,0.67,,Arabah,1.0,7,0.33,,Mount Ebal,1.0,22,0.35,talmud_toponyms,medium,new_toponym_candidate
+Elat,אילת,village,1,1,talmud_toponyms:Eilat,Eilat,1.0,2,1.0,talmud_toponyms,Akrabat,1.0,2,0.36,talmud_toponyms,Lod,1.0,49,0.5,talmud_toponyms,high,already_toponym
+Golan (of Bashan),גולן (בשן),city,1,1,,Golan,1.0,3,0.67,talmud_toponyms,Mount Judea,1.0,1,0.2,talmud_toponyms,Mount Naphtali,1.0,1,0.2,talmud_toponyms,medium,already_toponym
+ha-Sharon,השרון,region,1,1,,Sharon,1.0,11,1.0,talmud_toponyms,King’s Mountain,1.0,9,0.36,talmud_toponyms,Hebron,1.0,39,0.67,talmud_toponyms,high,already_toponym
+Ged Yavan,גד יוון,location,1,1,,Gadyon,1.0,1,1.0,talmud_toponyms,Zavim,1.0,19,0.31,,Shiloh,1.0,76,0.17,bible_places,high,already_toponym
+Hafarim,חפרים,city,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Holat ha-Makhoz,חולת המרכז,location,1,1,,Close,1.0,3,0.2,,Elyakim,1.0,20,0.4,,Meḥoza,1.0,88,0.44,talmud_toponyms,medium,new_toponym_candidate
+Migdal Eder,מגדל עדר,village,1,1,talmud_toponyms,Migdal Eder,1.0,1,1.0,talmud_toponyms,Females,1.0,2,0.47,,Males,1.0,8,0.53,,high,already_toponym
+Oholiya,אהליה,village,1,1,,Ohalya,1.0,1,1.0,talmud_toponyms,Chamber of Hewn Stone,1.0,29,0.18,,Eduyyot,1.0,44,0.17,,high,already_toponym
+Yarmukh,ירמוך,river,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Nile,נילוס,river,1,1,,Nilus,1.0,1,1.0,,Nile,1.0,3,1.0,,Serah,1.0,3,0.4,,high,new_toponym_candidate
+Jotapata,יודפת,location,1,1,,Yodfat Valley,1.0,1,0.75,talmud_toponyms,Sikhnei Valley,1.0,1,0.22,talmud_toponyms,Genosar Valley,1.0,1,0.1,talmud_toponyms,high,already_toponym
+Sukkot,סוכות,village,1,1,,Aram-naharaim,1.0,2,0.0,,Laban’s,1.0,9,0.29,,Sukkot,1.0,324,1.0,,medium,new_toponym_candidate
+Zalmon,צלמון,village,1,1,,Tzalmon,1.0,5,1.0,talmud_toponyms,Yehuda,1.0,8847,0.17,talmud_names,,,,,,high,already_toponym
+Ai,עי,city,1,1,bible_places,Ai,1.0,6,1.0,bible_places,Bethel,1.0,14,0.0,bible_places,Had,1.0,241,0.5,,high,already_toponym
+Pelusium,פלוסיום,settlement,1,1,talmud_toponyms,Pelusium,1.0,2,1.0,talmud_toponyms,Pilusa,1.0,1,0.86,,Aspamya,1.0,4,0.57,talmud_toponyms,high,already_toponym
+Macedonia,מקדוניה,country,1,1,talmud_toponyms,Macedonia,1.0,2,1.0,talmud_toponyms,Madai,1.0,1,0.67,,Kandiya,1.0,1,0.57,talmud_toponyms,high,already_toponym
+I'billin,"עיבלין, אבלין, אבליים",village,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Barbaria,ברבריה,country,1,1,,Barbarya,1.0,1,1.0,,Ḥabbarim,1.0,2,0.67,,Martenai,1.0,1,0.4,,high,new_toponym_candidate
+Mauretania,מאוריטניה,country,1,1,,Martenai,1.0,1,1.0,,Barbarya,1.0,1,0.56,,Ḥabbarim,1.0,2,0.29,,high,new_toponym_candidate
+Eshtaol,אשתאול,village,1,1,bible_places,Eshtaol,1.0,2,1.0,bible_places,Between Zorah,1.0,1,0.38,,Samson,1.0,50,0.5,bible_names,high,already_toponym
+Neue,נווה,city,1,1,,Nineveh,1.0,15,0.67,talmud_toponyms,None,1.0,47,1.0,,Young,1.0,15,0.67,,medium,already_toponym
+Burgata,בורגתא,village,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Hispia,היספיא,village,1,1,,Fine,1.0,8,0.5,,First Temple,1.0,76,0.44,,Like,1.0,151,0.2,,medium,new_toponym_candidate
+Sura,סורא,city,1,1,talmud_toponyms,Sura,1.0,95,1.0,talmud_toponyms,Sunday,1.0,93,0.6,,So-and-so,1.0,89,0.36,,high,already_toponym
+Thracia,תרקיה,country,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Ein Eitam,עין עיטם,location,1,1,talmud_toponyms,Ein Eitam,1.0,3,1.0,talmud_toponyms,Hall of Parva,1.0,3,0.12,,Gate,1.0,34,0.4,,high,already_toponym
+Ramta,רמתא,village,1,1,,Ramata,1.0,1,1.0,talmud_toponyms,Promontory,1.0,1,0.67,,Ḥaifa,1.0,1,0.44,talmud_toponyms,high,already_toponym
+Mahoz,מעוז,location,1,1,,Sebastia,1.0,2,0.15,talmud_toponyms,Both,1.0,543,0.25,,Naḥman,1.0,2449,0.4,,medium,already_toponym
+Keilah,כלח,village,1,1,talmud_toponyms,Ke’ila,1.0,10,1.0,talmud_toponyms,Shall I,1.0,25,0.4,,Biri,1.0,9,0.0,talmud_toponyms,high,already_toponym
+Gat,גת,city,1,1,bible_places:Gath,Moresheth Gath,1.0,1,1.0,,Achzib,1.0,1,0.25,,Philistine,1.0,13,0.29,nations_and_demonyms,high,new_toponym_candidate
+Engaddai,עין גדי,village,1,1,,Ein Gedi,1.0,2,1.0,talmud_toponyms,Promontory of Tyre,1.0,1,0.17,talmud_toponyms,Ḥaifa,1.0,1,0.4,talmud_toponyms,high,already_toponym
+Kapharsaba,כפר סבא,village,1,1,,Kefar Sava,1.0,1,1.0,talmud_toponyms,Some,1.0,349,0.29,,Meir,1.0,2663,0.29,,high,already_toponym
+Beer Sheva,באר שבע,city,1,1,,Beersheba,1.0,7,1.0,talmud_toponyms,Gevat,1.0,3,0.5,talmud_toponyms,Antipatris,1.0,6,0.4,talmud_toponyms,high,already_toponym
+Kefar Timrata,כפר תמרתא,village,1,1,,Kefar Temarta,1.0,2,1.0,talmud_toponyms,Must,1.0,39,0.2,,Every,1.0,223,0.35,,high,already_toponym
+Ramoth Gilead,רמות גלעד,city,1,1,bible_places:Ramoth-Gilead,Ramoth Gilead,1.0,4,1.0,,Edom I,1.0,2,0.25,,Philistia,1.0,2,0.32,,high,new_toponym_candidate
+Bethlehem,בית לחם,city,1,1,talmud_toponyms,Bethlehem of Judea,1.0,1,0.73,,Jashubi Lehem,1.0,2,0.67,,David My,1.0,1,0.44,,high,new_toponym_candidate
+Capernaum,כפר נחום,village,1,1,,Kefar Aḥim,1.0,1,0.8,talmud_toponyms,Kerazayim,1.0,1,0.6,talmud_toponyms,Jerusalem,1.0,984,0.44,talmud_toponyms,high,already_toponym
+Migdal Gader,מגדל גדר,city,1,1,,Migdal Gedor,1.0,1,1.0,talmud_toponyms,Elazar,1.0,2850,0.4,,Shimon,1.0,4995,0.2,,high,already_toponym
+Adummim,מעלה אדמים,road,1,1,,Ma’ale Adumim,1.0,1,1.0,,,,,,,,,,,,high,new_toponym_candidate
+Irqat Levana,ערקת לבנה,city,1,1,,Arkat Leveina,1.0,1,1.0,talmud_toponyms,Satriel,1.0,3,0.4,,Yishmael,1.0,1254,0.35,talmud_names,high,already_toponym
+Mount Scopus,הר הצופים,mountain,1,1,talmud_toponyms,Mount Scopus,1.0,6,1.0,talmud_toponyms,Temple Mount,1.0,112,0.45,talmud_toponyms,Jerusalem,1.0,984,0.5,talmud_toponyms,high,already_toponym
+Kefar Yama,כפר ימא,village,1,0,talmud_toponyms:Kefar Yamma,,,,,,,,,,,,,,,,low,no_alignment
+Gennesar Lacus,כנרת,sea_lake,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Ashteroth Karnaim,עשתרות קרנים,undefined,1,1,,Ashterot Karnayim,1.0,2,1.0,,Zeira,1.0,942,0.35,talmud_names,,,,,,high,new_toponym_candidate
+Nipur,ניפור,city,1,1,,Nofer,1.0,1,1.0,,Ninefi,1.0,1,0.8,,Orikhut,1.0,1,0.36,talmud_toponyms,high,new_toponym_candidate
+Perat de Meshan,בצרה,city,1,1,,Perat of Bursif,1.0,1,0.57,talmud_toponyms,Perat of Meishan,1.0,1,0.83,talmud_toponyms,Rehovoth-ir,1.0,1,0.57,,medium,already_toponym
+Karkha de Beth Seluk,כירכוך,city,1,1,,Resen,1.0,1,0.4,,Perat of Bursif,1.0,1,0.29,talmud_toponyms,Calah,1.0,1,0.4,,medium,new_toponym_candidate
+Kas(h)kar,כשכר,city,1,1,,Baskar,1.0,1,0.75,talmud_toponyms,Accad,1.0,1,0.33,,Erech,1.0,1,0.33,,high,already_toponym
+Orikut,ארך,city,1,1,talmud_toponyms:Orikhut,Orikhut,1.0,1,1.0,talmud_toponyms,Erech,1.0,1,1.0,,Nofer,1.0,1,0.4,,high,already_toponym
+Scythia,סקיתיה,country,1,0,,,,,,,,,,,,,,,,,low,no_alignment
+Fars,פרס,country,1,1,,Cyrus the Persian,1.0,1,0.86,,Rome’s,1.0,1,0.67,,Japheth’s,1.0,1,0.67,,high,new_toponym_candidate
+Moesia,מוסיה,country,1,1,,Musya,1.0,2,1.0,talmud_toponyms,Meshech,1.0,1,0.8,,Madai,1.0,1,0.5,,high,already_toponym
+Sagistan,סגיסטאן,country,1,0,,,,,,,,,,,,,,,,,low,no_alignment

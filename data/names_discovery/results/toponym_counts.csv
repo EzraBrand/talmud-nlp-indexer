@@ -1,0 +1,740 @@
+﻿entry,count,sources
+Jew,574,nation
+Israel,475,nation
+Jerusalem,455,toponym
+Eretz Yisrael,357,toponym; nation
+Israelite,302,nation
+Babylonia,261,toponym; nation
+the West,231,toponym
+Neharde’a,191,toponym
+Egypt,135,toponym; nation
+Pumbedita,110,toponym
+Judea,108,toponym; nation
+Egyptian,98,nation
+Sinai,94,toponym
+Samaritan,92,nation
+Galilee,89,toponym
+Tzippori,86,toponym
+Sura,83,toponym
+Difti,80,toponym
+Ammonite,73,nation
+Greek,73,nation
+Tiberias,71,toponym
+Meḥoza,69,toponym
+Jordan,66,toponym
+Truth,59,toponym
+Gibeonite,58,nation
+Usha,55,toponym
+Yavne,55,toponym
+Rome,48,toponym; nation
+Babylonian,43,nation; talmud_name
+Aroma,42,toponym
+Temple Mount,41,toponym
+Mount Sinai,40,toponym
+Shiloh,40,toponym
+Jericho,38,toponym
+Lod,38,toponym
+Akko,36,toponym
+Aramean,35,nation
+Syria,35,toponym
+Arab,34,nation
+Moabite,34,nation
+Roman,30,nation
+Diaspora,29,toponym
+Dead Sea,26,toponym
+Euphrates,26,toponym
+Tyrian,26,nation
+Persian,25,nation
+Garden of Eden,24,toponym
+Shechem,24,toponym
+the Garden,24,toponym
+Caesarea,23,toponym
+Mata Meḥasya,23,toponym
+Sodom,23,toponym
+Dan,22,toponym
+Great Sea,21,toponym
+Hebron,21,toponym
+Neresh,20,toponym
+Bei Ḥozai,19,toponym
+Edomite,19,nation
+Moab,19,toponym; nation; bible_name
+Ai,18,toponym
+Beitar,18,toponym
+Nehar Pekod,18,toponym
+Gibeon,17,toponym
+land of the nations,17,toponym
+Tzaidan,17,toponym
+a certain place,16,toponym
+Cushite,16,nation
+Gamla,16,toponym
+Gilgal,15,toponym
+Nov,15,toponym
+Ashkelon,14,toponym
+Baghdad,14,toponym
+Cappadocia,14,toponym
+Hasmonean,14,nation
+hot springs of Tiberias,14,toponym
+Tarmod,14,toponym
+Greeks,13,nation
+Hagronya,13,toponym
+Ono,13,toponym
+Pum Nahara,13,toponym
+the land of Canaan,13,nation
+Tyre,13,toponym
+Beit Pagei,12,toponym
+Edom,12,toponym; nation
+Modi’im,12,toponym
+Tigris,12,toponym
+Alexandria of Egypt,11,toponym
+Ammon and Moab,11,nation; bible_name
+Bashan,11,toponym
+Canaan,11,toponym
+Nineveh,11,toponym
+Zion,11,toponym
+Beit She’arim,10,toponym
+Beit Ḥoron,10,toponym
+Gaza,10,toponym
+Median,10,nation
+Persia,10,toponym; nation
+Rekem,10,toponym
+Transjordan,10,toponym
+Beit She’an,9,toponym
+Huzal,9,toponym
+King’s Mountain,9,toponym
+Mount Gerizim,9,toponym
+Peki’in,9,toponym
+Sea of Tiberias,9,toponym
+Alexandrian,8,nation
+Asya,8,toponym
+Barnish,8,toponym
+cities overseas,8,toponym
+Diskarta,8,toponym
+Eden,8,toponym
+Galilean,8,nation
+Harpanya,8,toponym
+Ke’ila,8,toponym
+Macedon,8,toponym
+Midian,8,nation
+Mushekanei,8,toponym
+Shushan,8,toponym
+Sidon,8,toponym
+upper Galilee,8,toponym
+Alexandria in Egypt,7,toponym
+Ammon,7,toponym; nation
+Babylon,7,nation
+Biri,7,toponym
+Cave of Pamyas,7,toponym
+city of Rome,7,toponym
+Hini,7,toponym
+Meishan,7,toponym
+Netzivin,7,toponym
+Sea of Sodom,7,toponym
+Sharon,7,toponym
+Sikhra,7,toponym
+village of Akko,7,toponym
+Antipatris,6,toponym
+Arabia,6,toponym; nation
+Asia,6,toponym
+Bethel,6,toponym
+Bursif,6,toponym
+Chaldean,6,nation; talmud_name
+Cush,6,toponym; nation
+Eilam,6,toponym
+Ginzak,6,toponym
+Greece,6,toponym; nation
+India,6,toponym
+Ivrit,6,nation
+Kadesh,6,toponym
+Medea,6,toponym
+Media,6,toponym
+Migdal,6,toponym
+Mount Moriah,6,toponym
+Pappunya,6,toponym
+Samaria,6,toponym; nation
+Sheviri,6,toponym
+Shiḥin,6,toponym
+Tekoa,6,toponym
+Tiphsah,6,toponym
+Zoan,6,toponym
+Akra,5,toponym
+Amalek,5,nation
+Antioch,5,toponym
+Aram,5,nation
+Bei Ila’ei,5,toponym
+Bei Kuvei,5,toponym
+Beit Hini,5,toponym
+Bnei Brak,5,toponym
+Carthage,5,toponym
+Dura Valley,5,toponym
+Gedod,5,toponym
+Horeb,5,toponym
+Hutzal,5,toponym
+Luz,5,toponym
+Maon,5,toponym
+Mount Ebal,5,toponym
+Neharbela,5,toponym
+Nob,5,toponym
+Pappa River,5,toponym
+Parzakya,5,toponym
+Scopus,5,toponym
+Shili,5,toponym
+Ḥaveil Yamma,5,toponym
+Afriki,4,toponym
+Agma,4,toponym
+Avna,4,toponym
+Bei Katil,4,toponym
+Beit Baltin,4,toponym
+Beit Unyaki,4,toponym
+Biram,4,toponym
+Coptic,4,nation
+Euphrates River,4,toponym
+Gilead,4,toponym
+Ginnosar,4,toponym
+Haifa,4,toponym
+Hodu,4,toponym; nation
+Kalnevo,4,toponym
+Kavul,4,toponym
+Ladder of Tyre,4,toponym
+Malka River,4,toponym
+Meishon,4,toponym
+Mount Carmel,4,toponym
+Mount of Olives,4,toponym
+Ophir,4,toponym
+Paphunya,4,toponym
+Pashronya,4,toponym
+Pekod River,4,toponym
+Rephidim,4,toponym
+Shushan the capital,4,toponym
+Siloam,4,toponym
+Spain,4,toponym
+Tavakh,4,toponym
+valley of Beit Ḥortan,4,toponym
+valley of Ein Sokher,4,toponym
+village of Otnai,4,toponym
+village Shiḥayya,4,toponym
+Akteisfon,3,toponym
+Alexandria,3,toponym
+Arav,3,toponym
+Aspamya,3,toponym
+Assyria,3,toponym; nation
+Bei Meḥoza,3,toponym
+Bei Mikhsei,3,toponym
+Bei Ḥoza’a,3,toponym
+Beit Gilgul,3,toponym
+Beit Kerem Valley,3,toponym
+Beit Ya’zek,3,toponym
+Beror Ḥayil,3,toponym
+Biran River,3,toponym
+Bozrah,3,toponym
+Carmel,3,toponym
+Cyprus,3,toponym
+Deyomset,3,toponym
+Gaggot Tzerifin,3,toponym
+Gath,3,toponym
+Genosar,3,toponym
+Germamya,3,toponym
+Gevat,3,toponym
+Gush Ḥalav,3,toponym
+Homanya,3,toponym
+House of the Swallowed,3,toponym
+Jaffa,3,toponym
+Kefar Temarta,3,toponym
+Kidron River,3,toponym
+Laodicea,3,toponym
+Leshem,3,toponym
+Mavrakhta,3,toponym
+Mediterranean Sea,3,toponym
+Mishon,3,toponym
+Motza,3,toponym
+Mushekhei,3,toponym
+Musya,3,toponym
+Namer,3,toponym
+Pelandarsin,3,toponym
+Rakhis River,3,toponym
+river Malka Sava,3,toponym
+Sea of Sivkhi,3,toponym
+Shefaram,3,toponym
+Shinar,3,toponym
+Shittim,3,toponym
+the seed of Amalek,3,nation
+Turei Amnon,3,toponym
+village of Barkai,3,toponym
+village of Sisai,3,toponym
+Ḥadid,3,toponym
+Ḥamatan,3,toponym
+Africa,2,toponym; nation
+Akistefon,2,toponym
+Akra De’agma,2,toponym
+Akra DeAgma,2,toponym
+Akrabat,2,toponym
+Almin,2,toponym
+Anpantrin,2,toponym
+Antokhya,2,toponym
+Ardeshir,2,toponym
+Argiza,2,toponym
+Asporak,2,toponym
+Assyrian,2,nation
+Athens,2,toponym
+Atlantic Ocean,2,toponym
+Avel,2,toponym
+Bartota,2,toponym
+Bav River,2,toponym
+Bei Akhborei,2,toponym
+Bei Ardeshir,2,toponym
+Bei Dura,2,toponym
+Bei Keifei,2,toponym
+Bei Keloḥit,2,toponym
+Bei Ketil,2,toponym
+Bei Khatil,2,toponym
+Bei Kutai,2,toponym
+Beit Jericho,2,toponym
+Beit Yazek,2,toponym
+Beityoni,2,toponym
+Benei Berak,2,toponym
+Bethlehem,2,toponym
+Bezer,2,toponym
+Birei,2,toponym
+Bridge of Shabistana,2,toponym
+Burni,2,toponym
+Bursi,2,toponym
+D’vil,2,toponym
+Damascus,2,toponym
+Dihavat,2,toponym
+Dimhorya,2,toponym
+Drokart,2,toponym
+Dura,2,toponym
+Eilat,2,toponym
+Ein Eitam,2,toponym
+Eina Demayim,2,toponym
+Elam,2,nation
+Elamite,2,nation
+Gaggot Tzerifim,2,toponym
+Galia,2,toponym
+Gamda River,2,toponym
+Gerofina,2,toponym
+Gihon,2,toponym
+Gizma,2,toponym
+Gomorrah,2,toponym
+Guvya,2,toponym
+Habor,2,toponym
+Hadyav,2,toponym
+Heker Well,2,toponym
+Ihi Dekira,2,toponym
+Inbal,2,toponym
+Jordan River,2,toponym
+Judean,2,nation
+Kabul,2,toponym
+Katfei,2,toponym
+Kedar,2,toponym
+Kefar Akko,2,toponym
+Kefar Bish,2,toponym
+Kefar Darom,2,toponym
+Kefar Dikhrayya,2,toponym
+Kefar Hino,2,toponym
+Kefar Otnai,2,toponym
+Kefar Shiḥalayim,2,toponym
+Keilah,2,toponym
+Keren Ophel,2,toponym
+Keziv,2,toponym
+Khuta,2,toponym
+Kimḥonya,2,toponym
+Kiryat Arba,2,toponym
+Macedonia,2,toponym
+Mamre,2,toponym; bible_name
+Marah,2,toponym
+Meron,2,toponym
+Meroz,2,toponym
+Migdal Nunaya,2,toponym
+Mount Tabor,2,toponym
+Neharbil,2,toponym
+Pamyas,2,toponym
+Paran,2,toponym
+Parod,2,toponym
+Pelusium,2,toponym
+Philistine,2,nation
+Piga,2,toponym
+Pithom,2,toponym
+port of Akko,2,toponym
+Rakkath,2,toponym
+River of Egypt,2,toponym
+river of Gozan,2,toponym
+Sakistan,2,toponym
+Sartava,2,toponym
+Sebastia,2,toponym
+Selikum,2,toponym
+Shanvata,2,toponym
+Shekhantziv,2,toponym
+Shelaniya,2,toponym
+Sheshakh,2,toponym
+Shot Mishot,2,toponym
+Shunya,2,toponym
+Sikhnei,2,toponym
+Spring of Eitam,2,toponym
+Tamud,2,toponym
+the bridge over the Euphrates,2,toponym
+the Seven Nations,2,nation
+Tiberius,2,toponym
+Tzalmon,2,toponym
+Tzerifa,2,toponym
+Tzitzora,2,toponym
+Tzoar,2,toponym
+Uzza,2,toponym; bible_name
+valley of Aravot,2,toponym
+valley of ben Hinnom,2,toponym
+valley of Megiddon,2,toponym
+village of Kartzum,2,toponym
+village of Ludim,2,toponym
+village of Tavi,2,toponym
+village of Timarta,2,toponym
+village of Ḥananya,2,toponym
+Yokrat,2,toponym
+Ḥadyab,2,toponym
+Ḥamadan,2,toponym
+Ḥamtan,2,toponym
+Ḥavran,2,toponym
+Ḥeger,2,toponym
+Ḥillazon,2,toponym
+Ḥillazon Nihavnad,2,toponym
+Abei Givar,1,toponym
+Afarayim,1,toponym
+Aforayim,1,toponym
+Afrikei,1,toponym
+Afrikiya,1,toponym
+Akhbaria,1,toponym
+Akronya,1,toponym
+Alush,1,toponym
+Anat,1,toponym
+ancient fort [katzra] of Tzippori,1,toponym
+ancient Yodfat,1,toponym
+Appamya,1,toponym
+Apsetaya,1,toponym
+Ardaskeya,1,toponym
+Ardisekis,1,toponym
+Ardiska,1,toponym
+Argob,1,toponym
+Arkat Leveina,1,toponym
+Armon,1,toponym
+Artibbena,1,toponym
+Arva’a,1,toponym
+Aspamia,1,toponym
+Aspork,1,toponym
+Astonia,1,toponym
+Attulin,1,toponym
+Avel Arav,1,toponym
+Avi Govar,1,toponym
+Avireya,1,toponym
+Bagda,1,toponym
+Bar Hamdakh,1,toponym
+Barkata,1,toponym
+Bashkar,1,toponym
+Batzra,1,toponym
+Beersheba,1,toponym
+Bei Abiyonei,1,toponym
+Bei Argiza,1,toponym
+Bei Hedya,1,toponym
+Bei Kovei,1,toponym
+Bei Lefet,1,toponym
+Bei Mikhsi,1,toponym
+Bei Shifei,1,toponym
+Bei Tarbu,1,toponym
+Bei Torta,1,toponym
+Bei Ḥarmakh,1,toponym
+Beit Biri,1,toponym
+Beit Bukya,1,toponym
+Beit D’li,1,toponym
+Beit Garem,1,toponym
+Beit Haifa,1,toponym
+Beit HaYeshimot,1,toponym
+Beit Hino,1,toponym
+Beit Kofai,1,toponym; talmud_name
+Beit Lavan,1,toponym
+Beit Maron,1,toponym
+Beit Meron,1,toponym
+Beit Neresh,1,toponym
+Beit Rima,1,toponym
+Beit Shavor,1,toponym
+Beit Teraiki,1,toponym
+Beit Tzevo’im,1,toponym; talmud_name
+Beit Unaiki,1,toponym
+Beit Ḥiddudo,1,toponym
+Ben Akhmai,1,toponym
+Ben Mekoshesh,1,toponym
+Beth-El,1,toponym
+Birat Serika,1,toponym
+Birei DeNeresh,1,toponym
+Bireka,1,toponym
+Bireta DeSatya,1,toponym
+Birta,1,toponym
+bridge of Babylonia,1,toponym
+Burnitz River,1,toponym
+Carmi,1,toponym
+Cave of Machpelah,1,toponym
+children of Ammon,1,nation
+city of Meḥasya,1,toponym
+Damihareya,1,toponym
+Damḥarya,1,toponym
+Daniel’s synagogue,1,toponym
+Dannak River,1,toponym
+Darshish,1,toponym
+Darumata,1,toponym
+De’iskarta,1,toponym
+desert of Gaza,1,toponym
+Diglat,1,toponym
+Domakya,1,toponym
+Dukeret,1,toponym
+Dumsekanin,1,toponym
+Eilamitic,1,nation
+Ein Bul,1,toponym
+Ein Gedi,1,toponym
+Ein Kushi,1,toponym
+Ein Sokher,1,toponym
+Ein Tav,1,toponym
+Eitan River,1,toponym
+Ekron,1,toponym
+Emaum,1,toponym
+Emma’um,1,toponym
+Emmaus,1,toponym
+Eshel River,1,toponym
+Eshtaol,1,toponym
+fortress [ḥakra] of Gush Ḥalav,1,toponym
+fortress of Shanvata,1,toponym
+fortress of Tulbakni,1,toponym
+fortress Tulbaknei,1,toponym
+Gader,1,toponym
+Gadyon,1,toponym
+Galaḥi,1,toponym
+gardens of Tzerifin,1,toponym
+Geder,1,toponym
+Genosar Valley,1,toponym
+Gerar,1,toponym
+Gerav,1,toponym
+Gifti,1,toponym
+Gilad,1,toponym
+Ginai River,1,toponym
+Gova’ei,1,toponym
+Goza River,1,toponym
+Greek Italy,1,toponym
+Gufnit,1,toponym
+Hadayeiv,1,toponym
+Hadeyyav,1,toponym
+Hagron-ya,1,toponym
+Hagroneya,1,toponym
+Hagrunya,1,toponym
+Har HaBarzel,1,toponym
+Har HaMelekh,1,toponym
+Har HaMishḥa,1,toponym
+Hatzleponi,1,toponym
+Hitlu,1,toponym
+house of Natzrefei,1,toponym
+Hurmiz Ardeshid,1,toponym
+Hutzal deVinyamin,1,toponym
+Inbul,1,toponym
+Ishtetit River,1,toponym
+islands [nissin] that are in the sea,1,toponym
+Italy of Greece,1,toponym
+Jarmuth,1,toponym
+Kafrei,1,toponym
+Kafri,1,toponym
+Kan Nishrayya,1,toponym
+Kandiya,1,toponym
+Kapotekiyya,1,toponym
+Karddu,1,toponym
+Karkuza,1,toponym
+Karna deShizavta,1,toponym
+Kartigna,1,toponym
+Kartignin,1,toponym
+Katpi,1,toponym
+Katrazya,1,toponym
+Kayar,1,toponym
+Kedesh,1,toponym
+Keduḥim,1,toponym
+Kefalorya,1,toponym
+Kefar Aḥim,1,toponym
+Kefar Dima,1,toponym
+Kefar Gibbor Ĥayil,1,toponym
+Kefar Gibboraya,1,toponym
+Kefar Ikos,1,toponym
+Kefar Sava,1,toponym
+Kefar Sekhanya,1,toponym
+Kefar Sekhanya of Egypt,1,toponym
+Kefar Yamma,1,toponym
+Keiromyon,1,toponym
+Kerakh,1,toponym
+Keramiyyon,1,toponym
+Kerazayim,1,toponym
+Kishar,1,toponym
+Kishon Brook,1,toponym
+Kishon River,1,toponym
+Kitron,1,toponym
+Korkoneya,1,toponym
+Kovei,1,toponym
+Kush,1,nation
+land of the deer,1,toponym
+Lavlevu,1,toponym
+Lower Appamya,1,toponym
+Makhnis,1,toponym
+Marguan,1,toponym
+Masgariya,1,toponym
+Mashhig,1,toponym
+Mashronya,1,toponym
+Mata Meḥasseya,1,toponym
+Miashan,1,toponym
+Migdal Eder,1,toponym
+Migdal Gedor,1,toponym
+Mikhmar,1,toponym
+Mikhvar,1,toponym
+Mount Eival,1,toponym
+Mount Horeb,1,toponym
+Mount Paran,1,toponym
+Mount Scopus,1,toponym
+Mount Seir,1,toponym
+Mountains of Darkness,1,toponym
+Mushkhei,1,toponym
+Na’usa,1,toponym
+Naaran,1,toponym
+Naftuḥa,1,toponym
+Namori,1,toponym
+Nashikiya,1,toponym
+Ne’oran,1,toponym
+Nebo,1,toponym
+Nihar,1,toponym
+Nihavnad,1,toponym
+Ohalya,1,toponym
+Ovelin,1,toponym
+Pafunya,1,toponym
+Parhatya,1,toponym
+Parzina,1,toponym
+passage [megizat] of Cappadocia,1,toponym
+Perat of Bursif,1,toponym
+Perat of Meishan,1,toponym
+Phrygia,1,toponym
+Piran of Beit Menaḥem,1,toponym
+Promontory of Tyre,1,toponym
+Puteoli,1,toponym
+Rabat,1,toponym
+Ramata,1,toponym
+Ramoth,1,toponym
+Ramoth-Gilead,1,toponym
+Regev,1,toponym
+Rimon,1,toponym
+River Azak,1,toponym
+River Yo’ani,1,toponym
+Rodya,1,toponym
+Rumekei,1,toponym
+Sabbatyon River,1,toponym
+Sagya River,1,toponym
+Sea of Aspamya,1,toponym
+Sea of Ḥeilat,1,toponym
+Sea of Ḥeilata,1,toponym
+Sekhavta,1,toponym
+Seleucia,1,toponym
+Selug Mountains,1,toponym
+Shakhnetziv,1,toponym
+Shalma’a,1,toponym
+Sheol,1,toponym
+Shosh,1,toponym
+Shosh the second,1,toponym
+Sikhera,1,toponym
+Sikhnei Valley,1,toponym
+Silek,1,toponym
+Simoni,1,toponym
+Siva’a,1,toponym
+Sodom Sea,1,toponym
+Sokher Ayin,1,toponym
+Suvara,1,toponym
+Tabor,1,toponym
+Tadmor,1,toponym
+Talbush,1,toponym
+Tamduria,1,toponym
+Tarshish,1,toponym
+Tatlefush,1,toponym
+Tel Arza,1,toponym
+the Negev,1,toponym
+the sea towns,1,toponym
+Tiv’in,1,toponym
+Tivonin,1,toponym
+Tovyana,1,toponym
+Tulbanki,1,toponym
+Tusneya,1,toponym
+Tuvina,1,toponym
+Tzeidan,1,toponym
+Tzerifin Gaggot,1,toponym
+Tzikuneya,1,toponym
+Tzinta,1,toponym
+"Tzoar, the city of date palms",1,toponym
+Ur of the Chaldeans,1,toponym
+valley of Beit Mikle,1,toponym
+valley of Beit She’an,1,toponym
+valley of Tamrurita,1,toponym
+Vardonia,1,toponym
+Vastanya,1,toponym
+village Eitam,1,toponym
+village of Amiko,1,toponym
+village of ananya,1,toponym
+village of Bartota,1,toponym
+village of Gibeonites,1,toponym
+village of Nefor Ḥayil,1,toponym
+village of Neviraya,1,toponym
+village of Pani,1,toponym
+village of Parshai,1,toponym
+village of Shaleim,1,toponym
+village of She’arim,1,toponym
+village of Signa,1,toponym
+village of Siḥin,1,toponym
+Ya’ei,1,toponym
+Yadayim Valley,1,toponym
+Yehu water trough,1,toponym
+Yodfat Valley,1,toponym
+Yofti River,1,toponym
+Yostiniyya,1,toponym
+Zagdor,1,toponym
+Zateḥa,1,toponym
+Zephirin,1,toponym
+Zerokinya,1,toponym
+Zorah,1,toponym
+Ḥadasha,1,toponym
+Ḥaifa,1,toponym
+Ḥakuk,1,toponym
+Ḥarim,1,toponym
+Ḥarta De’argiz,1,toponym
+Ḥatzdad crossing,1,toponym
+Ḥidekel,1,toponym
+Ḥidkei,1,toponym
+Ḥosekei,1,toponym
+Adiabene,0,toponym
+Ba’al Shalisha,0,toponym
+Baskar,0,toponym
+Bei Varei,0,toponym
+Beit Menaḥem,0,toponym
+Beloa of Gader,0,toponym
+Chaldea,0,toponym
+Cimolia,0,toponym
+Derokera,0,toponym
+Dura that was founded by shepherds,0,toponym
+Enaim,0,toponym
+Gei HeḤarashim,0,toponym
+Gilgul,0,toponym
+Ginosar,0,toponym
+Golan,0,toponym
+great spring of Beiram,0,toponym
+Kfar Barkai,0,toponym
+Koḥalit,0,toponym
+land of the South,0,toponym
+Mezigat Caesarea,0,toponym
+Mount Ephraim,0,toponym
+Mount Judea,0,toponym
+Mount Naphtali,0,toponym
+Nesibin,0,toponym
+Neviraya,0,toponym
+Nile River,0,toponym
+Nofer Ninefi,0,toponym
+Ophel,0,toponym
+Orikhut,0,toponym
+reservoir of Diskim,0,toponym
+Tigris River,0,toponym
+Timnah,0,toponym
+Tulbaknei,0,toponym
+Tulbakni,0,toponym
+village of Sekhanya,0,toponym
+village of Ḥitiyya,0,toponym
+Yodfat,0,toponym

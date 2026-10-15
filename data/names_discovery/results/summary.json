@@ -1,0 +1,65 @@
+{
+  "talmud_entries": 3835,
+  "bible_entries": 571,
+  "toponym_entries": 698,
+  "nation_entries": 57,
+  "combined_known_entries": 4406,
+  "gold_exact_nonoverlapping_mentions": 81266,
+  "general_regex_mentions": 127159,
+  "selected_combined_mentions": 127239,
+  "bible_nonoverlapping_mentions": 4829,
+  "bible_entries_found": 524,
+  "place_nonoverlapping_mentions": 7255,
+  "place_entries_found": 702,
+  "gold_mentions_overlapped_by_general_rules": 81098,
+  "gold_mentions_exact_boundaries_by_general_rules": 78819,
+  "gold_general_rule_overlap_coverage": 0.9979327147884725,
+  "new_candidate_strings": 5353,
+  "new_candidate_occurrences": 40894,
+  "toponym_candidate_strings": 166,
+  "status_counts": {
+    "new_candidate": 40894,
+    "known_talmud": 75384,
+    "known_nation": 1766,
+    "known_toponym": 4137,
+    "known_bible": 4238,
+    "fragment_of_gold_mention": 750,
+    "spelling_variant_of_gold": 11,
+    "known_name_and_place": 59
+  },
+  "sources": {
+    "talmud": "https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/talmud_names_gazetteer.txt",
+    "bible": "https://github.com/EzraBrand/talmud-nlp-indexer/blob/main/data/bible_names_gazetteer.txt",
+    "toponyms": [
+      "talmud_toponyms_gazetteer.txt",
+      "bible_places_gazetteer.txt"
+    ],
+    "nations": "nations_and_demonyms_gazetteer.txt"
+  },
+  "note": "New candidates require validation. General-rule coverage is against both name lists, before adding dictionary detections. Bible-only and place counts are separate views of the same text; do not add them to combined totals. Matching known strings does not disambiguate historical identities. Name metrics exclude spans labelled only as known places.",
+  "mode": "recall",
+  "general_exact_metrics": {
+    "exact_true_positives": 78819,
+    "predicted_mentions": 127159,
+    "precision": 0.6198460195503268,
+    "recall": 0.9698890064725716,
+    "f1": 0.7563296149694135
+  },
+  "combined_exact_metrics": {
+    "exact_true_positives": 79172,
+    "predicted_mentions": 127239,
+    "precision": 0.6222306053961443,
+    "recall": 0.9742327664706028,
+    "f1": 0.759425433442843
+  },
+  "combined_name_metrics_excluding_known_places": {
+    "exact_true_positives": 79172,
+    "predicted_mentions": 121336,
+    "precision": 0.6525021428100481,
+    "recall": 0.9742327664706028,
+    "f1": 0.7815520083710922
+  },
+  "priority_candidate_strings": 1200,
+  "broad_only_candidate_strings": 4153,
+  "candidate_strings_absent_from_previous": 2401
+}

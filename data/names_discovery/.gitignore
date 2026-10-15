@@ -1,0 +1,13 @@
+# Downloaded inputs (see the .curlrc files) and large regenerable outputs.
+sefaria/
+alma/*.geojson
+alma/alma_records.csv
+alma/alma_archaeology.csv
+alma/alma_places.csv
+alma/alma_places_matched.csv
+alma/alma_toponyms_in_corpus.txt
+alma/align_log.txt
+results/all_occurrences.csv
+results/cleaned_text.txt
+results/bible_mentions.csv
+__pycache__/
