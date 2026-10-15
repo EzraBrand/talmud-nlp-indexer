@@ -576,6 +576,7 @@ Gurya
 Guryon ben Asteyon
 Guryon of Asporak
 Guryon of Aspork
+Ḥabbarim
 Ḥabbarin
 Hadrian
 Ḥagga
@@ -3421,8 +3422,10 @@ the household of the Memel
 the household of the Nasi
 The hunters of Akko
 The inhabitants of Alexandria
+the inhabitants of Barbarya
 The inhabitants of Bashkar
 the inhabitants of Jerusalem
+the inhabitants of Martini
 the inhabitants of Meḥoza
 The inhabitants of Nineveh
 the inhabitants of Pumbedita
