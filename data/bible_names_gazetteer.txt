@@ -72,6 +72,7 @@ Azubah
 Baal
 Baasa, son of Ahijah
 Balaam
+Balaam the lame
 Balaam the wicked
 Baladan
 Baladan, son of Baladan
@@ -154,6 +155,7 @@ Er and Onan
 Esau
 Esau the wicked
 Esther
+Ethan the Ezrahite
 Evil-merodach
 Evyatar
 Ezekiel
@@ -163,6 +165,7 @@ Ezra
 Gabriel
 Gad
 Gad the seer
+Gavriel
 Gedaliah ben Ahikam
 Gedaliah, son of Ahikam
 Gehazi
@@ -457,6 +460,7 @@ Saul
 Saul, son of Kish
 seed of Aaron
 Segub
+Seguv
 Sena’a ben Binyamin
 Sena’av ben Binyamin
 Sennacherib
@@ -512,6 +516,8 @@ the daughter of Nebuchadnezzar
 the daughter of Pharaoh
 the generation of the dispersion
 the generation of the flood
+the generation of the wilderness
+the husband of Delilah
 the Matriarchs
 The mother of Abraham
 The mother of David
@@ -540,6 +546,7 @@ Vashti
 wicked Balaam
 wife of Potiphar
 Yael
+Yair
 Yair, son of Manasseh
 Yehoram ben Ahab
 Yishai
@@ -547,6 +554,7 @@ Yishai, father of David
 Yitro
 Yoav
 Yoḥana
+Yoḥani
 Zadok
 Zadok the priest
 Zebulun
