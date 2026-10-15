@@ -10,9 +10,11 @@ Aram
 Aramean
 Assyria
 Assyrian
+Avvim
 Babylon
 Babylonia
 Babylonian
+Caphtorim
 Chaldean
 children of Ammon
 Coptic
@@ -39,6 +41,7 @@ Ivrit
 Jew
 Judea
 Judean
+Kadmonite
 Kush
 Median
 Midian
