@@ -93,6 +93,7 @@ a certain woman
 A certain woman
 A certain young girl
 a certain young woman
+a colleague of R' Abba bar Ḥiyya
 A colleague of R' Zeira
 A Galilean
 a king and queen
@@ -293,6 +294,7 @@ Avuh bar Ihi
 Ayo
 Ayvu
 Ayya Mari
+Ba’aya the tax collector
 Babylonian
 Babylonians
 Baha
@@ -913,6 +915,7 @@ Pandeira
 Pappa bar Abba
 Pappa the ox herder
 Pappas
+Pappei Yona’a
 Pappi Sheila bar Summakei
 Pappos ben Yehuda
 Parva’a the Sorcerer
@@ -2419,7 +2422,6 @@ Rav Huna bar Torta
 Rav Huna bar Yehuda
 Rav Huna ben Rabbi Ḥayon
 Rav Huna from Diskarta
-Rav Huna from Ḥova
 Rav Huna from Sura
 Rav Huna Mar bar Avya
 Rav Huna Mar bar Ḥiyya
@@ -3179,6 +3181,7 @@ Sicarius
 Sikarikon
 Simḥa
 Simlai of Lod
+slave of Rabbi Levi
 son Bohayan
 son of Bonyas
 Son of great men
@@ -3200,6 +3203,7 @@ sons of Raḥava
 sons of the daughter of Rabbi Yoḥanan ben Gudgeda
 sons of the sister of Rabbi Yoḥanan
 Stada
+students of R' Yoḥanan
 Sumakhos
 Sumakhus
 Summakhos
@@ -3271,6 +3275,7 @@ The daughters-in-law of Abdan
 The descendants of Adin ben Yehuda
 the descendants of Araḥ ben Yehuda
 the descendants of David ben Yehuda
+the descendants of Hillel
 the descendants of Ishmael
 the descendants of Joab, son of Zeruiah
 the descendants of Jonadab ben Rechab
@@ -3374,6 +3379,7 @@ the house of Pegarim
 the house of R' Yannai
 the house of Rabba
 the house of Rabban Gamliel
+the house of Rabbi
 the house of Rav Neḥemya, the Exilarch
 the house of Rava
 the house of the <i>Nasi</i>
@@ -3411,6 +3417,7 @@ The judges of Neharde’a
 The judges of Pumbedita
 The judges of the Diaspora
 the judges of the Diaspora
+the judges of Tzippori
 The landlord of Rami bar Ḥama
 The lord of my place
 the maidservant of a certain violent person in Rimon
@@ -3438,6 +3445,7 @@ The mother of Rav Zutra bar Toviyya
 the mother of the sons of Rokhel
 the mother of Ze’eira the orphan
 the mother-in-law of Rav Ḥiyya Arikha
+the Nasi
 the nephews of Rabban Yoḥanan ben Zakkai
 the noblemen of Rome
 the nobles of Rome
@@ -3508,6 +3516,7 @@ the residents of Mavrakhta
 the residents of Meḥoza
 the residents of the Diaspora
 the residents of the fortress of Shanvata
+the residents of the West
 the righteous Priest
 the Romans
 The Sages in Yavne
@@ -3529,6 +3538,7 @@ the school of Karna
 the school of Levi
 the school of Menashe
 the school of Menashiya
+the school of Menashya
 The school of R' Eliezer ben Yaakov
 the school of Rabba bar Avuh
 the school of Rabbi
@@ -3547,6 +3557,7 @@ the school of Rabbi Oshaya
 the school of Rabbi Samuel
 The school of Rabbi Sheila
 the school of Rabbi Sheila
+the school of Rabbi Shimon ben Elazar
 the school of Rabbi Shimon ben Yoḥai
 The school of Rabbi Ya’akov
 The school of Rabbi Yannai
@@ -3705,6 +3716,7 @@ Vespasian Caesar
 Wise one
 Ya’akov from Karḥina
 Ya’akov Korḥa
+Ya’akov of Hadeyyav
 Ya’akov of Kefar Sekhanya
 Ya’akov of Mina
 Ya’akov of the village of Sekhanya
@@ -3782,6 +3794,7 @@ Yoḥanan ben Dehavai
 Yoḥanan ben Gudgeda
 Yoḥanan ben Narbbai
 Yoḥanan ben Nedavai
+Yoḥanan from Ḥakuk
 Yoḥanan Ḥakuka’a
 Yoḥanan HaNazuf
 Yoḥanan HaSandlar
