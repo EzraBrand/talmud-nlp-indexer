@@ -62,9 +62,11 @@ Avi Govar
 Avireya
 Avna
 Babylonia
+Badan
 Bagda
 Baghdad
 Bar Hamdakh
+Barbarya
 Barkata
 Barnish
 Bartota
@@ -402,6 +404,7 @@ Makhnis
 Malka River
 Maon
 Marguan
+Martini
 Masgariya
 Mashhig
 Mashronya
@@ -450,6 +453,7 @@ Naaran
 Naftuḥa
 Namer
 Namori
+Naresh
 Nashikiya
 Ne’oran
 Nebo
@@ -490,6 +494,7 @@ Pelandarsin
 Pelusium
 Perat of Bursif
 Perat of Meishan
+Perekh
 Persia
 Phrygia
 Piga
@@ -581,8 +586,10 @@ Tekoa
 Tel Arza
 Temple Mount
 the bridge over the Euphrates
+the Kidron Valley
 the Negev
 the sea towns
+the spring of Eitam
 the village of Shiḥin
 the West
 Tiberias
