@@ -33,3 +33,7 @@ Outputs are `index.html` and `summary.json`. The summary records corpus SHA-256 
 The published page is https://ezrabrand.github.io/talmud-nlp-indexer/concordance/.
 
 After rebuilding, copy `concordances/talmud-names/index.html` to `docs/concordance/index.html` and commit both HTML files with any builder changes. The existing Pages site publishes `main/docs`.
+
+## Page metadata and credits
+
+The HTML includes author and description metadata, a canonical URL, Open Graph and Twitter summary tags, and Schema.org WebPage structured data. The footer links Ezra Brand’s blog, the MIT license, the methodology, and the glossary, and distinguishes the quoted source text’s rights. The published route is included in `docs/sitemap.xml`.
