@@ -1,3 +1,4 @@
+<i>tumtum</i> of Biri
 A certain apostate
 a certain apostate
 a certain Arab
@@ -203,6 +204,7 @@ Admon
 Admon ben Gaddai
 Adrakan
 Agardamis the Arab merchant
+agent of the Angel of Death
 Agra
 Agra, the father-in-law of Rabbi Abba
 Agrat, daughter of Maḥalat
@@ -236,6 +238,8 @@ Ami bar Natan
 Ami of Vardina
 Ami Shappir Na’e
 Ami the oven maker
+amora’im of Neharde’a
+amora’im of Pumbedita
 Amram the dyer
 an armed bandit
 an examiner
@@ -265,6 +269,8 @@ Ashiyan bar Nadbakh
 Ashyan, the tanna in the school of Rabbi Ami
 Asi bar Hini
 Asveirus, son of Antoninus
+attendant of Rabbi Ḥanina
+attendant of Rav Ḥilkiya bar Tovi
 Avdimi bar Ḥama
 Avdimi bar Ḥama bar Dosa
 Avidan
@@ -475,6 +481,9 @@ Boethusians
 Bonyam ben Nunyam
 Bonyos
 Botnit, son of Abba Shaul ben Botnit
+brother of bar Abuveram
+brother of Rabbi Yehoshua
+brother of Rabbi Zeira
 Buni
 butchers of Huzal
 Caesar
@@ -488,6 +497,13 @@ certain zealots
 Chaldean
 Cleopatra, Queen of Alexandria
 Cleopatra, the Greek queen
+colleagues of Rabbi Abba
+colleagues of Rabbi Zeira
+court of priests
+court of Rabban Gamliel
+court of Rabbana Ashi
+court of Rav Huna
+court of the Exilarch
 court of the Hasmoneans
 Dama
 Dama ben Netina
@@ -496,13 +512,56 @@ Danna’ai
 Dari
 Daru
 Daru bar Pappa
+daughter of Abba of Sura
+daughter of Aḥer
+daughter of bar Kalba Savua
 Daughter of Ḥakhinai
+daughter of King Shapur
+daughter of King Yannai’s crown weaver
 daughter of Nakdimon ben Guryon
+daughter of Neḥunya the ditchdigger
+daughter of Neḥunya the well digger
+daughter of Rabbi
+daughter of Rabbi Ḥiyya
+daughter of Rabbi Yitzḥak Nappaḥa
+daughter of Rami bar Ḥama
+daughter of Rav
+daughter of Rav Ashi
 daughter of Rav Ḥisda
+daughter of Rav Pappa’s father-in-law
+daughter of the emperor
+daughter-in-law of Nakdimon ben Guryon
+daughter-in-law of Nun
 daughter-in-law of Rabbi Oshaya
+daughter-in-law of Rav Zevid
+daughter-in-law of Shammai the Elder
+daughter-in-law of the house of bar Tzitai
+daughter-in-law of the house of Mari bar Isak
+daughter-in-law of the house of Rav Pappa bar Abba
 daughter-in-law of the house of the son of Elyashiv
+daughters of Jerusalem
+daughters of Master Shmuel
+daughters of Shmuel’s father
+daughters-in-law of Abdan
+descendants of Adin ben Yehuda
+descendants of Araḥ ben Yehuda
+descendants of David ben Yehuda
+descendants of Hillel
+descendants of Ishmael
 descendants of Joab, son of Zeruiah
+descendants of Jonadab ben Rechab
+descendants of Keturah
+descendants of Paḥat Moav ben Yehuda
+descendants of Pahath Moab ben Yehuda
+descendants of Parosh
+descendants of Parosh ben Yehuda
+descendants of Salmai of Netophat
+descendants of Sena’a ben Binyamin
+descendants of those who deceived with a pestle
+descendants of those who packed dried figs
+descendants of Zattu ben Yehuda
 Dimi bar Kakuzta
+disciples of Rabbi Ḥanina
 Doeg ben Yosef
 Donag
 Dorenunita
@@ -533,9 +592,16 @@ Elders of Beit Hillel
 Elders of Beit Shammai
 Elders of Hagronya
 Elders of Jerusalem
+elders of Mata Meḥasya
 Elders of Nezonya
 Elders of Pumbedita
 Elders of Sura
+Elders of the court
+elders of the Jews
+elders of the Negev
+Elders of the priesthood
+elders of the south
+elders, of the school of Athens
 Eliezer ben Dinai
 Eliezer ben Yehuda of Evlayim
 Eliezer of Biriyya
@@ -546,11 +612,36 @@ Elisha ben Avuya
 Elisha, Man of Wings
 Elishama ben Pikai
 emperor Hadrian
+exacting scribes of the study hall of Rav
 Exilarch’s household
+family of Abba of Sura
+family of Dorketi
+family of Rabba bar Ulla
+family of Rav Ḥanina
+family of Rav Yitzḥak bar Shmuel bar Marta
+family of the House of Happegarim
+family of the House of Tzipperaya
+farmers of Rav Zevid
 father Ḥalafta
+father of bar Abuveram
+father of Rabbi Aptoriki
+father of Rabbi Avin
+father of Rabbi Tzadok
+father of Rabbi Yirmeya bar Abba
+father of Rabbi Yitzḥak
+father of Rabbi Zeira
+father of Rav Aḥa, son of Rav Ika
+father of Rav Mari bar Raḥel
+father of Rav Oshaya
+father of Rav Pappa
+father of Rav Yosef bar Ḥama
 father of Ravin bar Ḥinnana
+father of Shmuel
 father of Shmuel bar Avin
+father of Shmuel bar Rav Yitzḥak
+father of the mother of Rav Aḥai, son of Rabbi Ḥanina
 father, Ḥalafta
+female slave in the house of Rabbi
 Foolish Galilean
 Fuga
 Gamliel
@@ -570,7 +661,14 @@ Giddul bar Minyumei
 Giddul bar Re’ilai
 Gira
 Gova’ai
+governor of Meishan
+governor of Pumbedita
+grandchildren of Hillel
+grandfather of Rabbi Perida
 grandson of Rabbi Avtolus
+grandson of Zekharya ben Kevutal
+great men of the Galilee
+groats makers of Tzippori
 Gursak bar Darei
 Gurya
 Guryon ben Asteyon
@@ -621,6 +719,7 @@ HaModa’i
 Hasmoneans
 Ḥavai bar Nanai
 he household of Guryon
+Head of the Kenesset of Batzra
 Helene
 Herod
 Herod the slave
@@ -645,6 +744,7 @@ Hiyya bar Rav from Difti
 Ḥizkiyya bar Biluto
 Ḥizkiyya the father of Ikkesh
 Ḥizkiyya, the father of Ikkesh
+holy Sages of Eretz Yisrael
 Ḥoma
 Ḥoma, Abaye’s wife
 Hon, son of Rav Naḥman
@@ -653,8 +753,54 @@ Hon, son of Rav Naḥman
 Ḥoni HaMe’aggel’s daughter
 host [ushpizikhnei] of R' Tavla
 host [ushpizikhnei] of Rabbi Tavla
+host of Rava, son of Rav Ḥanan
+house of Avtinas
+house of Baitos
+house of bar Maryon
+house of ben Ḥavu
+house of Binyamin the doctor
+house of Caesar
+house of Dushai
+house of Garmu
+house of Ḥanin
+house of Ḥasa
+house of Hasmonean
+house of Ḥivvai
+house of Judea
+house of Katros
+house of King Shapur
+house of Mari bar Isak
+house of Menashya bar Menaḥem
+house of Pappa bar Abba
+house of Parzak
+house of Parzak, the general
+house of Pegarim
 house of R' Yannai
+house of Rabba
+house of Rabban Gamliel
+house of Rabbi
+house of Rav Neḥemya, the Exilarch
 house of Rav Yosef bar Ḥama
+house of Rava
+house of the <i>Nasi</i>
+house of the Exilarch
+house of the governor Parzak
+house of the Hasmonean
+house of the Hasmonean kings
+house of the Hasmoneans
+house of the Nasi
+house of Tzippara
+house of Yishmael ben Piakhi
+household of bar Maryon, son of Ravin
+household of King Munbaz
+household of Menaḥem
+household of Rabban Gamliel
+household of Rabbi
+household of Rabbi Ḥiyya
+household of Rabbi Yosei ben Zimra
+household of Rav Pappa
+household of the Memel
+household of the Nasi
 Ḥova
 Hugras ben Levi
 Ḥulfana
@@ -668,6 +814,7 @@ Huna Mar, son of Rava, from Parzakya
 Huna, son of Mar
 Huna, son of Mar Zutra
 Huna, son of Rav Naḥman
+hunters of Akko
 Hurmin, son of Lilith
 Hurmiz
 Ḥutzpit the disseminator
@@ -686,6 +833,16 @@ Imma Shalom
 Imma Shalom, the wife of Rabbi Eliezer
 Imrata bat Talei
 In the West
+inhabitants of Alexandria
+inhabitants of Barbarya
+inhabitants of Bashkar
+inhabitants of Jerusalem
+inhabitants of Martini
+inhabitants of Meḥoza
+inhabitants of Nineveh
+inhabitants of Pumbedita
+inhabitants of Tiberias
+interpreter of Rav Ḥisda
 Ishmaelites
 Isi
 Isi bar Hini
@@ -706,6 +863,12 @@ Iyya
 Izgadar, king
 Jesus
 Jesus the Nazarene
+judges of Caesarea
+judges of Eretz Yisrael
+judges of Neharde’a
+judges of Pumbedita
+judges of the Diaspora
+judges of Tzippori
 Kala
 Kamtza
 Karduyim
@@ -729,6 +892,7 @@ King Yannai
 Kontrokos the officer
 Laḥman bar Ristak
 Laila
+landlord of Rami bar Ḥama
 Large-toothed one
 Lemedin
 Levi
@@ -744,9 +908,16 @@ Levi, son of Rav Huna bar Ḥiyya
 Likhlukhit
 Lodites
 Long-toothed one
+lord of my place
 Luda
 Luleyanus
 Mafsha’a
+maidservant of a certain violent person in Rimon
+maidservant of Master Shmuel
+maidservant of one violent person
+maidservant of Rabban Gamliel
+maidservant of Rabbi
+maidservant of Rabbi Abba bar Zutra
 Malla’ai
 Malokh the Arab
 Manyumin the jug maker
@@ -818,7 +989,9 @@ Markulis
 Marta
 Marta bat Baitos
 Marta, daughter of Baitos
+martyrs of Lod
 Maryon, son of Ravin
+master of Eretz Yisrael
 Master Shmuel
 Mattai
 Mattithiah the High Priest
@@ -831,13 +1004,20 @@ Mavgai
 Mavog
 Me’oret
 Medes
+members of the Great Assembly
+members of the household of Memel
+members of the households, of Rav Pappa and of Rav Huna, son of Rav Yehoshua
 men of Neharde’a
+men of Vardina
 Menaḥem
 Menaḥem ben Ḥizkiyya
 Menaḥem Yodafa
 Menashya bar Yirmeya
 Menashya ben Menaḥem
+merchants of Lod
+merchants of Tiberias
 Metatron
+ministering angel of poverty
 Minyamin bar Ihi
 Minyamin Saksana
 Minyamin the Egyptian convert
@@ -853,6 +1033,16 @@ Miriam, who braided women’s hair
 Mitatron
 Moshe bar Atzari
 Moshe bar Atzrei
+mother of ben Zaza
+mother of Mar, son of Ravina
+mother of Rami bar Ḥama
+mother of Rav Amram the Pious
+mother of Rav Huna bar Seḥora
+mother of Rav Shmuel bar Abba from Hagroneya
+mother of Rav Zutra bar Toviyya
+mother of the sons of Rokhel
+mother of Ze’eira the orphan
+mother-in-law of Rav Ḥiyya Arikha
 Munbaz
 Naḥman bar Abba
 Naḥman the farmer
@@ -885,6 +1075,7 @@ Neḥemya, the son-in-law of the <i>Nasi</i>
 Neḥemya, the son-in-law of the Nasi
 Neḥunya the digger of pits, ditches, and caves
 Neḥunya the ditch digger
+nephews of Rabban Yoḥanan ben Zakkai
 Nero
 Nero Caesar
 Netzer
@@ -895,9 +1086,12 @@ Nimos, the brother of Rabbi Yehoshua HaGarsi
 Nit’za
 Nitai HaArbeli
 Nitza
+noblemen of Rome
+nobles of Rome
 of Neharbela
 of the South
 of the students of Jesus the Nazarene
+offspring of Nahshon
 Okvan, son of Neḥemya the Exilarch
 one High Priest
 one of the rabbis
@@ -934,6 +1128,41 @@ Pazi
 Peleimu
 Pelimu
 people Bei Tarbu
+people of Afrikiya
+people of Akistefon
+people of Alexandria
+people of Ardeshir
+people of Babylonia
+people of Bar Hamdakh
+people of Beit Haifa
+people of Beit She’an
+people of Cappadocia
+people of Egypt
+people of Galilee
+people of Greece
+people of Jericho
+people of Jerusalem
+people of Judea
+people of Kefar Temarta
+people of Laodicea
+people of Mata Meḥasya
+people of Medea
+people of Media
+people of Meḥoza
+people of Nineveh
+people of Sekhavta
+people of the Diaspora in Babylonia
+people of the Galilee
+people of the household of Rav Amram the pious
+people of the household, of Rabena’a, brother of Rabbi Ḥiyya
+people of the household, of Rav Amram the pious
+people of the Lower Galilee
+people of the South
+people of the Upper Galilee
+people of the West
+people of Tiberias
+people of Tivonin
+people of Tzippori
 Perata, son of Rabbi Elazar ben Perata, grandson of Rabbi Perata the Great
 Persians
 Pharisees
@@ -942,9 +1171,15 @@ Pineḥas the Dresser
 Pineḥas, brother of Mar Shmuel
 Pineḥas, the brother of Mar Shmuel
 Pinkai
+pious men of Babylonia
 Piruz the Evil
 Pishon the camel driver
+powerful men of Eretz Yisrael
 Proclus ben Plospus
+prominent men of Rome
+prominent of Jerusalem
+prominent of Rome
+prominent women of Jerusalem
 Queen Cleopatra
 Queen Helene
 R' Meir’s son-in-law
@@ -2008,6 +2243,8 @@ Rabbi Zerika
 Rabbi Zilai
 Rabbi Zivai
 Rabbi Zutra bar Toviya
+rabbis of Caesarea
+rabbis of the court of Rav Ashi
 Rabena’a, brother of Rabbi Ḥiyya bar Abba
 Rafram
 Rafram bar Pappa
@@ -3099,11 +3336,30 @@ Ravnai, brother of Rabbi Ḥiyya bar Abba
 Ravya bar Kisi
 Reḥava
 Reish Lakish
+relative of Rabbi Asi
+relatives of Rabbi Yoḥanan
 resident of Meḥoza
 resident of Naresh
 resident of Pappunya
+residents of Akhbaria
+residents of Akra De’Agma
+residents of Asia
 residents of Bei Mikhsi
+residents of Biri
+residents of Geder
+residents of Ḥamtan
 residents of Ḥozai
+residents of Jericho
+residents of Jerusalem
+residents of Judea
+residents of Mashronya
+residents of Mata Meḥasya
+residents of Mavrakhta
+residents of Meḥoza
+residents of Pum Nahara
+residents of the Diaspora
+residents of the fortress of Shanvata
+residents of the West
 Ridya
 Roman notables
 Romans
@@ -3113,13 +3369,72 @@ Sadducee
 Sadducees
 Safra
 Sages of Caesarea
+Sages of Israel
+Sages of Neharbela
+Sages of Neharde’a
+sages of the nations of the world
+Sages of the school of Rav
+Sages of the school of Rav Ashi
+Sages of the study hall of Rav
 Samaritans
 Samma bar Ḥilkai
 Sandalfon
 Sason
+school of Ayo
+school of Elijah
+school of Eliyahu
+school of Ḥizkiya
+school of Ḥizkiyya
+school of Karna
 school of Levi
 school of Menashe
+school of Menashiya
+school of Menashya
+school of R' Eliezer ben Yaakov
+school of Rabba bar Avuh
+school of Rabbi
+school of Rabbi Aḥa
+school of Rabbi Akiva
+school of Rabbi Ami
+school of Rabbi Elai
+school of Rabbi Elazar ben Shimon
+school of Rabbi Eliezer
+school of Rabbi Eliezer ben Ya’akov
+school of Rabbi Ḥiyya
+school of Rabbi Ḥizkiyya
+school of Rabbi Livai
+school of Rabbi Natan
+school of Rabbi Oshaya
+school of Rabbi Samuel
+school of Rabbi Sheila
+school of Rabbi Shimon ben Elazar
+school of Rabbi Shimon ben Yoḥai
+school of Rabbi Ya’akov
+school of Rabbi Yannai
+school of Rabbi Yishmael
+school of Rabbi Yishmael, son of Rabbi Yosei
+school of Rabbi Yitzḥak bar Marta
+school of Rabbi Yoḥanan
+school of Rabbi Yoḥanan ben Zakkai
+school of Rav
+school of Rav Adda
+school of Rav Anan
+school of Rav Ashi
+school of Rav Hamnuna
+school of Rav Hinak
+school of Rav Ḥisda
+school of Rav Huna
+school of Rav Kahana
+school of Rav Pappa
+school of Rav Pappi
+school of Rav Sheila
+school of Rav Yehuda
+school of Rav Zevid
+school of Rava
+school of Shmuel
+seed of Abba bar Abba
 Semalyon
+servant of Rav Yehuda bar Yeḥezkel
 Setada
 Setini
 Sha’azrak
@@ -3132,6 +3447,7 @@ Shabbu
 Shakud
 Shammai
 Shammai the Elder
+sharp ones of Pumbedita
 Sheila
 Sheila bar Avina
 Sheila bar Mari
@@ -3195,29 +3511,97 @@ Sicarius
 Sikarikon
 Simḥa
 Simlai of Lod
+sister of Rami bar Ḥama
+sister of Rami bar Pappa
+sister of Rav Dimi bar Yosef
+sister of Rav Tovi bar Rav Mattana
 slave of Rabbi Levi
+slave of Yannai the king
+son and the daughter of Rabbi Yishmael ben Elisha
 son Bohayan
+son of Ameimar
+son of Ameimar’s son
 son of Bonyas
 Son of great men
+son of Ḥakhinai
+son of Hananiah
 son of Lakish
+son of Leiva’i
+son of Levi
+son of Mar Ukva’s father-in-law
+son of Marta, daughter of Baitos
+son of Master Shmuel
 son of Nappaḥa
+son of Neḥunya the well digger
+son of Pandeira
 son of Pedat
+son of Rabban Gamliel
 son of Rabbi
+son of Rabbi Aḥiyya
+son of Rabbi Elai
+son of Rabbi Ḥanina ben Antigonus
+son of Rabbi Ḥiyya
 son of Rabbi Yehuda
+son of Rabbi Yehuda bar Ilai
+son of Rabbi Yirmeya
+son of Rabbi Yirmeya’s father-in-law
+son of Rabbi Yosei
+son of Rami bar Abba
+son of Rav
+son of Rav Dimi bar Yosef
 son of Rav Ḥanan
 son of Rav Ḥisda
+son of Rav Ḥiyya bar Avin
+son of Rav Huna bar Avin
+son of Rav Idi bar Avin
 son of Rav Sama, son of Rav Ashi
+son of Rav Yirmeya
+son of Rav Yirmeya bar Abba
 son of Rav Yitzḥak
+son of Rav Yosef bar Ḥama
 son of Rav Zevid, brother of Rabbi Shmuel bar Rav Zevid
+son of Rav Zutra, son of Rav Zeira
 son of Rava
 son of Reish Lakish
+son of the daughter of Rabbi Yannai the Elder
 son of the son of Rabbi Perata the Great
+son of Titus' sister
+son-in-law of Rabbi Yirmeya Bira’a
 sons of Beteira
+sons of Hatzleponi
+sons of High Priests
+sons of Manyomei the doctor
+sons of Rabbi Akiva
+sons of Rabbi Ḥalafta of Huna
+sons of Rabbi Ḥiyya
+sons of Rabbi Tarfon’s sister
+sons of Rabbi Yishmael
+sons of Rabbi Yosei, son of Rabbi Ḥanina
 sons of Raḥava
+sons of Rav Huna bar Avin
+sons of Rav Ilish
+sons of Rav Pappa bar Abba
+sons of Rav Ukva
+sons of Reish Lakish
+sons of Rokhel
 sons of the daughter of Rabbi Yoḥanan ben Gudgeda
+sons of the father-in-law of Mar Ukva
+sons of the High Priests
 sons of the sister of Rabbi Yoḥanan
+sons of Yudan the female slave
+sons of Yudan the maidservant
+stableman [<i>ahuriyareih</i>] of the house of Rabbi
 Stada
+steward [<i>apotropos</i>] of King Agrippas
+students of Hillel and Shammai
 students of R' Yoḥanan
+students of Rabbi Akiva
+students of Rabbi Elazar
+students of Rabbi Shimon ben Yoḥai
+students of Rabbi Yishmael
+students of Rav
+students of Shammai and Hillel
+students of Shammai the Elder
 Sumakhos
 Sumakhus
 Summakhos
@@ -3240,471 +3624,36 @@ Tavyumei
 Teḥina ben Perisha
 that Edomite
 that Galilean
-the <i>tumtum</i> of Biri
-the agent of the Angel of Death
-The amora’im of Neharde’a
-The amora’im of Pumbedita
-the Angel of Death
-The attendant of Rabbi Ḥanina
-The attendant of Rav Ḥilkiya bar Tovi
-the brother of bar Abuveram
-the brother of Rabbi Yehoshua
-the brother of Rabbi Zeira
 the Chaldeans
-The colleagues of Rabbi Abba
-the colleagues of Rabbi Zeira
-the court of priests
-the court of Rabban Gamliel
-the court of Rabbana Ashi
-the court of Rav Huna
-the court of the Exilarch
-the court of the Hasmoneans
-the daughter of Abba of Sura
-The daughter of Aḥer
-the daughter of bar Kalba Savua
-the daughter of King Shapur
-the daughter of King Yannai’s crown weaver
-the daughter of Neḥunya the ditchdigger
-the daughter of Neḥunya the well digger
-the daughter of Rabbi
-the daughter of Rabbi Ḥiyya
-the daughter of Rabbi Yitzḥak Nappaḥa
-the daughter of Rami bar Ḥama
-the daughter of Rav
-the daughter of Rav Ashi
-the daughter of Rav Ḥisda
-The daughter of Rav Pappa’s father-in-law
-The daughter of the emperor
-the daughter-in-law of Nakdimon ben Guryon
-the daughter-in-law of Nun
-the daughter-in-law of Rav Zevid
-the daughter-in-law of Shammai the Elder
-the daughter-in-law of the house of bar Tzitai
-the daughter-in-law of the house of Mari bar Isak
-the daughter-in-law of the house of Rav Pappa bar Abba
-the daughters of Jerusalem
-The daughters of Master Shmuel
-The daughters of Shmuel’s father
-The daughters-in-law of Abdan
-The descendants of Adin ben Yehuda
-the descendants of Adin ben Yehuda
-the descendants of Araḥ ben Yehuda
-the descendants of David ben Yehuda
-the descendants of Hillel
-the descendants of Ishmael
-the descendants of Joab, son of Zeruiah
-the descendants of Jonadab ben Rechab
-the descendants of Keturah
-the descendants of Paḥat Moav ben Yehuda
-the descendants of Pahath Moab ben Yehuda
-The descendants of Pahath Moab ben Yehuda
-the descendants of Parosh
-the descendants of Parosh ben Yehuda
-the descendants of Salmai of Netophat
-the descendants of Sena’a ben Binyamin
-the descendants of those who deceived with a pestle
-the descendants of those who packed dried figs
-the descendants of Zattu ben Yehuda
-the disciples of Rabbi Ḥanina
 the Distinguished 
 the Distinguished One
 The Distinguished One
 the distinguished Rabbi Elazar HaKappar
-the Elders of Beit Hillel
-the elders of Beit Shammai
-The elders of Mata Meḥasya
-The elders of Pumbedita
-the elders of Pumbedita
-The Elders of the court
-the elders of the Jews
-the elders of the Negev
-the Elders of the priesthood
-the elders of the south
-the Elders of the South
-the elders, of the school of Athens
 the emperor
 the emperor Hadrian
 the emperor Vespasian
 the emperor’s daughter
 the entire Jewish Diaspora
 the evil kingdom
-the exacting scribes of the study hall of Rav
 The Exilarch
-the family of Abba of Sura
-the family of Dorketi
-the family of Rabba bar Ulla
-the family of Rav Ḥanina
-the family of Rav Yitzḥak bar Shmuel bar Marta
-the family of the House of Happegarim
-the family of the House of Tzipperaya
-the farmers of Rav Zevid
-the father of bar Abuveram
-the father of Rabbi Aptoriki
-the father of Rabbi Avin
-The father of Rabbi Avin
-the father of Rabbi Tzadok
-the father of Rabbi Yirmeya bar Abba
-the father of Rabbi Yitzḥak
-The father of Rabbi Zeira
-The father of Rav Aḥa, son of Rav Ika
-the father of Rav Mari bar Raḥel
-the father of Rav Oshaya
-the father of Rav Pappa
-The father of Rav Yosef bar Ḥama
-the father of Shmuel
-The father of Shmuel
-the father of Shmuel bar Avin
-the father of Shmuel bar Rav Yitzḥak
-the father of the mother of Rav Aḥai, son of Rabbi Ḥanina
-The female slave in the house of Rabbi
 The governor
-the governor of Meishan
-the governor of Pumbedita
-the grandchildren of Hillel
-The grandfather of Rabbi Perida
-the grandson of Zekharya ben Kevutal
 the Great Assembly
 the Great Court
-the great men of the Galilee
 the Great Sanhedrin
 the Greeks
-The groats makers of Tzippori
 the Hasmonean monarchy
-the Head of the Kenesset of Batzra
-the holy Sages of Eretz Yisrael
-The host of Rava, son of Rav Ḥanan
-the house of Avtinas
-the House of Avtinas
-the house of Baitos
-the house of bar Maryon
-the house of ben Ḥavu
-the house of Binyamin the doctor
-the house of Caesar
-the house of Dushai
-the house of Garmu
-the house of Ḥanin
-the house of Ḥasa
-the house of Hasmonean
-the house of Ḥivvai
-the house of Judea
-the house of Katros
-the house of King Shapur
-the house of Mari bar Isak
-the house of Menashya bar Menaḥem
-the house of Pappa bar Abba
-the house of Parzak
-the house of Parzak, the general
-the house of Pegarim
-the house of R' Yannai
-the house of Rabba
-the house of Rabban Gamliel
-the house of Rabbi
-the house of Rav Neḥemya, the Exilarch
-the house of Rava
-the house of the <i>Nasi</i>
-the house of the Exilarch
-the house of the governor Parzak
-the house of the Hasmonean
-the house of the Hasmonean kings
-the house of the Hasmoneans
-the house of the Nasi
-the house of Tzippara
-the house of Yishmael ben Piakhi
-the household of bar Maryon, son of Ravin
-the household of King Munbaz
-the household of Menaḥem
-the household of Rabban Gamliel
-the household of Rabbi
-the household of Rabbi Ḥiyya
-the household of Rabbi Yosei ben Zimra
-the household of Rav Pappa
-the household of the Memel
-the household of the Nasi
-The hunters of Akko
-The inhabitants of Alexandria
-the inhabitants of Barbarya
-The inhabitants of Bashkar
-the inhabitants of Jerusalem
-the inhabitants of Martini
-the inhabitants of Meḥoza
-The inhabitants of Nineveh
-the inhabitants of Pumbedita
-the inhabitants of Tiberias
-the interpreter of Rav Ḥisda
 The Jewish Sages
-the judges of Caesarea
-The judges of Eretz Yisrael
-the judges of Neharde’a
-The judges of Neharde’a
-The judges of Pumbedita
-The judges of the Diaspora
-the judges of the Diaspora
-the judges of Tzippori
-The landlord of Rami bar Ḥama
-The lord of my place
-the maidservant of a certain violent person in Rimon
-The maidservant of Master Shmuel
-the maidservant of one violent person
-the maidservant of Rabban Gamliel
-The maidservant of Rabbi
-The maidservant of Rabbi Abba bar Zutra
-the martyrs of Lod
-the master of Eretz Yisrael
-the members of the Great Assembly
-the members of the household of Memel
-the members of the households, of Rav Pappa and of Rav Huna, son of Rav Yehoshua
-the men of Vardina
-the merchants of Lod
-The merchants of Tiberias
-the ministering angel of poverty
-the mother of ben Zaza
-the mother of Mar, son of Ravina
-The mother of Rami bar Ḥama
-The mother of Rav Amram the Pious
-The mother of Rav Huna bar Seḥora
-The mother of Rav Shmuel bar Abba from Hagroneya
-The mother of Rav Zutra bar Toviyya
-the mother of the sons of Rokhel
-the mother of Ze’eira the orphan
-the mother-in-law of Rav Ḥiyya Arikha
 the Nasi
-the nephews of Rabban Yoḥanan ben Zakkai
-the noblemen of Rome
-the nobles of Rome
-the offspring of Nahshon
-the people of Afrikiya
-the people of Akistefon
-the people of Alexandria
-the people of Ardeshir
-the people of Babylonia
-the people of Bar Hamdakh
-the people of Beit Haifa
-the people of Beit She’an
-the people of Cappadocia
-the people of Egypt
-The people of Galilee
-the people of Greece
-The people of Jericho
-the people of Jerusalem
-the people of Judea
-the people of Kefar Temarta
-the people of Laodicea
-the people of Mata Meḥasya
-the people of Medea
-the people of Media
-the people of Meḥoza
-the people of Nineveh
-the people of Sekhavta
-the people of the Diaspora in Babylonia
-the people of the Galilee
-The people of the Galilee
-the people of the household of Rav Amram the pious
-the people of the household, of Rabena’a, brother of Rabbi Ḥiyya
-the people of the household, of Rav Amram the pious
-the people of the Lower Galilee
-the people of the South
-the people of the Upper Galilee
-the people of the West
-the people of Tiberias
-The people of Tiberias
-the people of Tivonin
-the people of Tzippori
-the pious men of Babylonia
-the powerful men of Eretz Yisrael
-the prominent men of Rome
-the prominent of Jerusalem
-the prominent of Rome
-The prominent women of Jerusalem
 The rabbis in Yavne
-the rabbis of Caesarea
-the rabbis of the court of Rav Ashi
-the Rabbis of the court of Rav Ashi
-The relative of Rabbi Asi
-The relatives of Rabbi Yoḥanan
-The resident of Pappunya
-The residents of Akhbaria
-The residents of Akra De’Agma
-the residents of Asia
-The residents of Biri
-the residents of Geder
-the residents of Ḥamtan
-The residents of Jericho
-the residents of Jerusalem
-the residents of Judea
-the residents of Mashronya
-The residents of Mata Meḥasya
-the residents of Mata Meḥasya
-the residents of Mavrakhta
-the residents of Meḥoza
-The residents of Pum Nahara
-the residents of the Diaspora
-the residents of the fortress of Shanvata
-the residents of the West
 the righteous Priest
 the Romans
 The Sages in Yavne
-the Sages of Caesarea
-the Sages of Israel
-The Sages of Neharbela
-The Sages of Neharde’a
-the sages of the nations of the world
-the Sages of the school of Rav
-the Sages of the school of Rav Ashi
-the Sages of the study hall of Rav
 the Sages who came from Meḥoza
 the school Mar bar Rav Adda
-the school of Ayo
-The school of Elijah
-The school of Eliyahu
-the school of Ḥizkiya
-the school of Ḥizkiyya
-the school of Karna
-the school of Levi
-the school of Menashe
-the school of Menashiya
-the school of Menashya
-The school of R' Eliezer ben Yaakov
-the school of Rabba bar Avuh
-the school of Rabbi
-the school of Rabbi Aḥa
-the school of Rabbi Akiva
-the school of Rabbi Ami
-the school of Rabbi Elai
-The school of Rabbi Elazar ben Shimon
-the school of Rabbi Eliezer
-the school of Rabbi Eliezer ben Ya’akov
-the school of Rabbi Ḥiyya
-the school of Rabbi Ḥizkiyya
-the school of Rabbi Livai
-The school of Rabbi Natan
-the school of Rabbi Oshaya
-the school of Rabbi Samuel
-The school of Rabbi Sheila
-the school of Rabbi Sheila
-the school of Rabbi Shimon ben Elazar
-the school of Rabbi Shimon ben Yoḥai
-The school of Rabbi Ya’akov
-The school of Rabbi Yannai
-the school of Rabbi Yannai
-the school of Rabbi Yishmael
-The school of Rabbi Yishmael
-the school of Rabbi Yishmael, son of Rabbi Yosei
-the school of Rabbi Yitzḥak bar Marta
-the school of Rabbi Yoḥanan
-the school of Rabbi Yoḥanan ben Zakkai
-the school of Rav
-The school of Rav
-the school of Rav Adda
-the school of Rav Anan
-the school of Rav Ashi
-the school of Rav Hamnuna
-the school of Rav Hinak
-the school of Rav Ḥisda
-the school of Rav Huna
-the school of Rav Kahana
-the school of Rav Pappa
-the school of Rav Pappi
-the school of Rav Sheila
-the school of Rav Yehuda
-the school of Rav Zevid
-the school of Rava
-the school of Shmuel
 the school R' Yishmael
-the seed of Abba bar Abba
-the servant of Rav Yehuda bar Yeḥezkel
-The sharp ones of Pumbedita
 the short one with singed legs
-The sister of Rami bar Ḥama
-The sister of Rami bar Pappa
-The sister of Rav Dimi bar Yosef
-The sister of Rav Tovi bar Rav Mattana
-the slave of Yannai the king
-the son and the daughter of Rabbi Yishmael ben Elisha 
-the son of Ameimar
-the son of Ameimar’s son
-the son of Ḥakhinai
-the son of Hananiah
-the son of Lakish
-the son of Leiva’i
-the son of Levi
-the son of Mar Ukva’s father-in-law
-the son of Marta, daughter of Baitos
-The son of Master Shmuel
-the son of Neḥunya the well digger
-the son of Pandeira
-the son of Rabban Gamliel
-the son of Rabbi Aḥiyya
-the son of Rabbi Elai
-the son of Rabbi Ḥanina ben Antigonus
-the son of Rabbi Ḥiyya
-the son of Rabbi Yehuda bar Ilai
-the son of Rabbi Yirmeya
-The son of Rabbi Yirmeya’s father-in-law
-the son of Rabbi Yosei
-the son of Rami bar Abba
-the son of Rav
-the son of Rav Dimi bar Yosef
-the son of Rav Ḥiyya bar Avin
-the son of Rav Huna bar Avin
-the son of Rav Idi bar Avin
-the son of Rav Yirmeya
-the son of Rav Yirmeya bar Abba
-the son of Rav Yosef bar Ḥama
-the son of Rav Zutra, son of Rav Zeira
-the son of Reish Lakish
-The son of the daughter of Rabbi Yannai the Elder
-the son of Titus' sister
-the son-in-law of Rabbi Yirmeya Bira’a
-the sons of Beteira
-the sons of Hatzleponi
-The sons of High Priests
-the sons of Manyomei the doctor
-the sons of Rabbi Akiva
-the sons of Rabbi Ḥalafta of Huna
-The sons of Rabbi Ḥiyya
-the sons of Rabbi Ḥiyya
-The sons of Rabbi Tarfon’s sister
-the sons of Rabbi Yishmael
-the sons of Rabbi Yosei, son of Rabbi Ḥanina
-The sons of Raḥava
-The sons of Rav Huna bar Avin
-the sons of Rav Ilish
-The sons of Rav Pappa bar Abba
-the sons of Rav Ukva
-the sons of Reish Lakish
-the sons of Rokhel
-The sons of the father-in-law of Mar Ukva
-the sons of the High Priests
-The sons of Yudan the female slave
-The sons of Yudan the maidservant
-The stableman [<i>ahuriyareih</i>] of the house of Rabbi
-The steward [<i>apotropos</i>] of King Agrippas
-the students of Hillel and Shammai
-the students of Rabbi Akiva
-The students of Rabbi Elazar
-The students of Rabbi Shimon ben Yoḥai
-the students of Rabbi Yishmael
-the students of Rav
-the students of Shammai and Hillel
-The students of Shammai the Elder
 The vatikin
 the wicked kingdom
-The wife of Abaye
-the wife of Abba Mari, the Exilarch
-the wife of Rabba bar bar Ḥana
-The wife of Rabbi Bena’a
-the wife of Rabbi Elazar, son of Rabbi Shimon
-the wife of Rabbi Eliezer
-the wife of Rabbi Ḥanina ben Dosa
-the wife of Rabbi Ḥiyya
-The wife of Rav Huna
-the wife of Rav Yosef, son of Rav Menashya of D’vil
-The wife of Rav Yosef, son of Rava
-the wife of Shimon the Priest
-the wife of Turnus Rufus
-the wife of Yosef the Priest
-the women of Bei Meḥoza
-the zealots [biryonei] of Jerusalem
 Theodosius of Rome
 Theodosius the doctor
 these people of the Galilee
@@ -3740,7 +3689,22 @@ Vardimus, son of Rabbi Yosei
 Vatikin
 vatikin
 Vespasian Caesar
+wife of Abaye
+wife of Abba Mari, the Exilarch
+wife of Rabba bar bar Ḥana
+wife of Rabbi Bena’a
+wife of Rabbi Elazar, son of Rabbi Shimon
+wife of Rabbi Eliezer
+wife of Rabbi Ḥanina ben Dosa
+wife of Rabbi Ḥiyya
+wife of Rav Huna
+wife of Rav Yosef, son of Rav Menashya of D’vil
+wife of Rav Yosef, son of Rava
+wife of Shimon the Priest
+wife of Turnus Rufus
+wife of Yosef the Priest
 Wise one
+women of Bei Meḥoza
 Ya’akov from Karḥina
 Ya’akov Korḥa
 Ya’akov of Hadeyyav
@@ -3884,6 +3848,7 @@ Ze’eiri
 Ze’iri
 Ze’iri from Dihavat
 Ze’iri’s wife
+zealots [biryonei] of Jerusalem
 Zefer
 Zefer, the head of Geder
 Zeira
