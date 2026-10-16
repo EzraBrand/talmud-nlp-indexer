@@ -1,5 +1,5 @@
 import argparse, csv, html, json, re, hashlib
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 from pathlib import Path
 from html.parser import HTMLParser
 from collections import defaultdict
@@ -158,7 +158,8 @@ parts=[head, '<p class="meta">'+html.escape(f"{len(names):,} eligible names · {
 for i,n in enumerate(names): parts.append(f'<a data-name="{html.escape(n.casefold(),quote=True)}" href="#n{i}">{html.escape(n)}</a>')
 parts.append('</nav>')
 for i,n in enumerate(names):
-    parts.append(f'<article id="n{i}" data-name="{html.escape(n.casefold(),quote=True)}"><h2>{html.escape(n)}</h2><p class="meta">{counts[i]:,} matching sections · showing {len(hits[i])}</p>')
+    search_url='https://bekiut.com/search?'+urlencode({'q':plain(n),'type':'talmud'})
+    parts.append(f'<article id="n{i}" data-name="{html.escape(n.casefold(),quote=True)}"><h2><a href="{html.escape(search_url,quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(n)}</a></h2><p class="meta">{counts[i]:,} matching sections · showing {len(hits[i])}</p>')
     if not hits[i]: parts.append('<p>No matching section found.</p>')
     for loc,rich in hits[i]:
         parts.append(f'<section class="context"><div class="citation"><a href="{html.escape(bekiut_url(loc),quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(loc)}</a></div><div class="source-html">{rich}</div></section>')

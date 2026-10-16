@@ -1,6 +1,6 @@
 # Talmud names concordance
 
-Open `index.html` in a browser. It is a standalone, searchable HTML concordance, sorted A-Z, with up to three full sections per eligible gazetteer entry. Citations link to Bekiut.
+Open `index.html` in a browser. It is a standalone, searchable HTML concordance, sorted A-Z, with up to three full sections per eligible gazetteer entry. Citations link directly to Bekiut passages; entry headings link to Bekiut Talmud search.
 
 ## Rebuild
 
@@ -30,4 +30,6 @@ Outputs are `index.html` and `summary.json`. The summary records corpus SHA-256 
 
 ## GitHub Pages
 
-This folder stores the reproducible artifact outside the current Pages publishing source (`main/docs`). It does not add a public route automatically. To publish alongside the glossary, place the generated `index.html` at `docs/concordance/index.html`; it will be served at `/talmud-nlp-indexer/concordance/` by the existing Pages site.
+The published page is https://ezrabrand.github.io/talmud-nlp-indexer/concordance/.
+
+After rebuilding, copy `concordances/talmud-names/index.html` to `docs/concordance/index.html` and commit both HTML files with any builder changes. The existing Pages site publishes `main/docs`.
