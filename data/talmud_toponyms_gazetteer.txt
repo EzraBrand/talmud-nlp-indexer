@@ -589,8 +589,6 @@ the bridge over the Euphrates
 the Kidron Valley
 the Negev
 the sea towns
-the spring of Eitam
-the village of Shiḥin
 the West
 Tiberias
 Tiberius
@@ -656,6 +654,7 @@ village of Parshai
 village of Sekhanya
 village of Shaleim
 village of She’arim
+village of Shiḥin
 village of Signa
 village of Siḥin
 village of Sisai
