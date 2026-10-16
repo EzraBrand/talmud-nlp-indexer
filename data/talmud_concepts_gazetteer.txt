@@ -37,6 +37,7 @@ Candelabrum
 capital law
 Celebration of the Place of the Drawing
 Chaldean
+Chamber of Hewn Stone
 communal offering
 consecration
 Creation
@@ -70,6 +71,7 @@ frontplate
 Garden of Eden
 Gehenna
 gematria
+generation of the dispersion
 Generation of the Flood
 gift-offering
 giving of the Torah
@@ -201,6 +203,7 @@ Satan
 Second Temple
 second tithe
 second-tithe
+seed of Aaron
 service vessels
 service vestments
 Seven Noahide Commandments
@@ -220,6 +223,8 @@ sin
 sin offering
 sin-offering
 sky-blue dye
+son of David
+sons of Aaron
 sota
 Sotah
 splitting of the Red Sea
@@ -230,6 +235,7 @@ tefillin
 tekhelet
 Temple
 Ten Lost Tribes
+Tent of Meeting
 tereifa
 teruma
 Teruma
@@ -237,25 +243,18 @@ teruma gedola
 teruma of the tithe
 thanks offering
 thanks-offering
-the Chamber of Hewn Stone
 the Curtain
 the Entrance Hall
 the exile
-the generation of the dispersion
-the generation of the flood
 the Messiah
 the messianic era
 the private domain
 the public domain
 the Sanctuary
 the scapegoat
-the seed of Aaron
-The son of David
-the sons of Aaron
 the Tabernacle
 the Temple
 the Temple Mount
-the Tent of Meeting
 the two loaves
 the wilderness
 this world
