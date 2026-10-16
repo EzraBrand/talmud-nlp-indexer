@@ -1,6 +1,6 @@
-# Concordance of Names and References to Commoners in the Talmud
+# Concordance of Names and References to Commoners and non-Rabbis in the Talmud
 
-Open `index.html` in a browser. It is a standalone, searchable HTML concordance, sorted A-Z, with up to three full sections per eligible gazetteer entry. Citations link directly to Bekiut passages; entry headings link to Bekiut Talmud search.
+Open `index.html` in a browser. It is a standalone, searchable HTML concordance, sorted A-Z (Ḥ alphabetized as H), with up to three full sections per eligible gazetteer entry. Citations link directly to Bekiut passages; entry headings link to Bekiut Talmud search.
 
 ## Rebuild
 
@@ -16,7 +16,7 @@ Outputs are `index.html` and `summary.json`. The summary records corpus SHA-256 
 
 ## Matching and display
 
-- Exclude entries beginning with a complete word (case insensitive): Rabbi, Rav, Mar, Abba, Ravin, Rava, Rabba, Rabban, Abaye, Avimi, Avin, Avuh, Mareimar, Mari.
+- Exclude entries beginning with a complete word (case insensitive): Rabbi, Rav, Mar, Abba, Ravin, Rava, Rabba, Rabban, Abaye, Avimi, Avin, Avuh, Mareimar, Mari, Rami, Ravina, Ravnai, Raḥava, Reḥava, school, elder, elders, students.
 - Match whole token sequences only within bold translation (`b` / `strong`), including nested formatting. Intervening unbolded commentary breaks a phrase.
 - Resolve overlapping occurrences against the **full gazetteer**, longest phrase first. Excluded names block shorter included names inside them. A separate standalone occurrence still counts.
 - Normalize apostrophe variants and token separators for matching. This is lexical matching, not entity disambiguation; homonyms can still produce false positives.
@@ -26,7 +26,7 @@ Outputs are `index.html` and `summary.json`. The summary records corpus SHA-256 
 
 ## Current edition
 
-1,588 eligible names; 1,431 with matches; 157 without matches; 81,793 sections searched; 2,433 displayed sections.
+1,481 eligible names; 1,333 with matches; 148 without matches; 81,793 sections searched; 2,253 displayed sections.
 
 ## GitHub Pages
 

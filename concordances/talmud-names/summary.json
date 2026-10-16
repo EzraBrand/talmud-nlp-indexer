@@ -1,10 +1,10 @@
 {
   "gazetteer_rows": 3867,
-  "excluded_rows": 2258,
-  "eligible_names": 1588,
-  "names_with_matches": 1431,
-  "names_without_matches": 157,
+  "excluded_rows": 2365,
+  "eligible_names": 1481,
+  "names_with_matches": 1333,
+  "names_without_matches": 148,
   "sections_searched": 81793,
-  "sections_displayed": 2433,
+  "sections_displayed": 2253,
   "csv_sha256": "7a7b09db34f981029bb7cee1f151ad5e375e742c3f1849748fba33db39aceffb"
 }
