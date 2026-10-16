@@ -65,6 +65,7 @@ Asahel
 Asaph
 Asher
 Ashhur
+astrologers of Pharaoh
 Avishai ben Tzeruya
 Avshalom
 Azael
@@ -116,6 +117,8 @@ Cyrus
 Daniel
 Darius
 Dathan
+daughter of Nebuchadnezzar
+daughter of Pharaoh
 Daughters of Zelophehad
 daughters of Zelophehad
 David
@@ -170,6 +173,9 @@ Gedaliah ben Ahikam
 Gedaliah, son of Ahikam
 Gehazi
 Geihazi
+generation of the dispersion
+generation of the flood
+generation of the wilderness
 Gideon
 Gog and Magog
 Goliath
@@ -210,6 +216,7 @@ Hoshea, son of Ela
 Hoshea, son of Elah
 Huldah
 Huldah the prophetess
+husband of Delilah
 Hushim, the son of Dan
 Ibzan
 Iddo
@@ -365,6 +372,11 @@ Mordecai and Esther
 Mordekhai
 Moses
 Moses our teacher
+mother of Abraham
+mother of David
+mother of Haman
+mother of Samson
+mother of Sisera
 Na’ama the Ammonite
 Naamah the Ammonite
 Naaman
@@ -502,6 +514,7 @@ Solomon, son of David
 Son of Amoz
 son of Amram
 son of Bithiah
+son of Manoah
 son of Salu
 son of the Canaanite woman
 sons of Aaron
@@ -511,32 +524,17 @@ sons of Samuel
 Talmai
 Tamar
 Teresh
-The astrologers of Pharaoh
-the daughter of Nebuchadnezzar
-the daughter of Pharaoh
-the generation of the dispersion
-the generation of the flood
-the generation of the wilderness
-the husband of Delilah
 the Matriarchs
-The mother of Abraham
-The mother of David
-The mother of Haman
-The mother of Samson
-the mother of Sisera
 the Patriarchs
 the prophet Habakkuk
 the righteous Esther
 the righteous Mordecai
-the son of Bithiah
-the son of Manoah
 the spies
 the wicked Balak
 the wicked Esau
 the wicked Haman
 the wicked Nebuchadnezzar
 the wicked Vashti
-the wife of Korah
 Timna
 Tzelelponit
 Uriah the Hittite
@@ -544,6 +542,7 @@ Uzza
 Uzziah
 Vashti
 wicked Balaam
+wife of Korah
 wife of Potiphar
 Yael
 Yair
