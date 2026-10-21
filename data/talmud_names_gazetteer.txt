@@ -1,4 +1,3 @@
-<i>tumtum</i> of Biri
 A certain apostate
 a certain apostate
 a certain Arab
@@ -417,6 +416,7 @@ Ben Bag Bag
 ben Beivai
 ben Beroka
 ben Beteira
+Ben Beteira
 ben Bukhri
 ben Dama
 Ben Dama, son of Rabbi Yishmael
@@ -454,10 +454,12 @@ ben Reḥumi
 ben Setada
 Ben Shelakot
 Ben Sira
+ben Sira
 ben Stada
 ben Tedal
 ben Teima
 ben Temalyon
+Ben Temalyon
 ben Tzion
 ben Tzitzit HaKesat
 ben Tziyyon
@@ -615,6 +617,7 @@ emperor Hadrian
 exacting scribes of the study hall of Rav
 Exilarch’s household
 family of Abba of Sura
+family of bar Luyyanus
 family of Dorketi
 family of Rabba bar Ulla
 family of Rav Ḥanina
@@ -642,6 +645,7 @@ father of Shmuel bar Rav Yitzḥak
 father of the mother of Rav Aḥai, son of Rabbi Ḥanina
 father, Ḥalafta
 female slave in the house of Rabbi
+female slave of Rabbi
 Foolish Galilean
 Fuga
 Gamliel
@@ -703,6 +707,7 @@ HaModa’i
 Ḥananya of Ono
 Ḥananya, son of Rabbi Yehoshua
 Ḥananya, son of Rabbi Yehoshua’s brother
+Ḥananya, son of the brother of Rabbi Yehoshua
 Ḥananya, son of Yoshiya
 Ḥananya, son of Yoshiya’s brother
 Ḥanin ben Pineḥas
@@ -713,6 +718,7 @@ HaModa’i
 Ḥanina, son of Rabbi Ḥama
 Ḥanina, son of Rabbi Yehoshua
 Ḥanina, son of Rabbi Yehoshua’s brother
+Ḥanina, son of the brother of Rabbi Yehoshua
 Ḥanina’s daughter-in-law
 Ḥaruta
 Ḥasa’s wife
@@ -773,6 +779,7 @@ house of Mari bar Isak
 house of Menashya bar Menaḥem
 house of Pappa bar Abba
 house of Parzak
+house of Parzak the vizier
 house of Parzak, the general
 house of Pegarim
 house of R' Yannai
@@ -837,6 +844,7 @@ inhabitants of Alexandria
 inhabitants of Barbarya
 inhabitants of Bashkar
 inhabitants of Jerusalem
+inhabitants of Martenai
 inhabitants of Martini
 inhabitants of Meḥoza
 inhabitants of Nineveh
@@ -889,6 +897,7 @@ King Munbaz
 King Ptolemy
 King Shapur
 King Yannai
+kings of the Hasmonean monarchy
 Kontrokos the officer
 Laḥman bar Ristak
 Laila
@@ -1090,7 +1099,6 @@ noblemen of Rome
 nobles of Rome
 of Neharbela
 of the South
-of the students of Jesus the Nazarene
 offspring of Nahshon
 Okvan, son of Neḥemya the Exilarch
 one High Priest
@@ -2243,6 +2251,7 @@ Rabbi Zerika
 Rabbi Zilai
 Rabbi Zivai
 Rabbi Zutra bar Toviya
+rabbis in the South
 rabbis of Caesarea
 rabbis of the court of Rav Ashi
 Rabena’a, brother of Rabbi Ḥiyya bar Abba
@@ -3432,6 +3441,7 @@ school of Rav Yehuda
 school of Rav Zevid
 school of Rava
 school of Shmuel
+scrupulous people of Jerusalem
 seed of Abba bar Abba
 Semalyon
 servant of Rav Yehuda bar Yeḥezkel
@@ -3594,6 +3604,7 @@ stableman [<i>ahuriyareih</i>] of the house of Rabbi
 Stada
 steward [<i>apotropos</i>] of King Agrippas
 students of Hillel and Shammai
+students of Jesus the Nazarene
 students of R' Yoḥanan
 students of Rabbi Akiva
 students of Rabbi Elazar
@@ -3625,7 +3636,7 @@ Teḥina ben Perisha
 that Edomite
 that Galilean
 the Chaldeans
-the Distinguished 
+the Distinguished
 the Distinguished One
 The Distinguished One
 the distinguished Rabbi Elazar HaKappar
@@ -3667,6 +3678,7 @@ Todos the doctor
 Toviyya
 Toviyya the doctor
 Trajan
+tumtum of Biri
 Turnus Rufus
 Turnus Rufus the wicked
 Tutai
@@ -3691,6 +3703,7 @@ vatikin
 Vespasian Caesar
 wife of Abaye
 wife of Abba Mari, the Exilarch
+wife of ben Donai
 wife of Rabba bar bar Ḥana
 wife of Rabbi Bena’a
 wife of Rabbi Elazar, son of Rabbi Shimon
